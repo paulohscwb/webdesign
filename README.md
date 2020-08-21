@@ -81,7 +81,7 @@
 			   <input type="radio" id="slide009" name="slide">
 			   <label for="slide009">2</label>
 			   <img src="basico/02_01_02.png" />
-			   <figcaption>Antes de cada parágrafo, devemos colocar a tag <span class="code"><p></span>. Logo após o parágrafo, colocamos a tag de fechamento de parágrafo <span class="code"></p></span>. Faça isso nos 2 parágrafos e visualize a página em um navegador.</figcaption>
+			   <figcaption>Antes de cada parágrafo, devemos colocar a tag <span class="code">&lt;p&gt;</span>. Logo após o parágrafo, colocamos a tag de fechamento de parágrafo <span class="code">&lt;/p&gt;</span>. Faça isso nos 2 parágrafos e visualize a página em um navegador.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/02_01_00.png" class="fundo"/>
