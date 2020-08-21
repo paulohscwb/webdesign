@@ -113,7 +113,7 @@
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide012" name="slide" checked>
-			   <label for="slide007">1</label>
+			   <label for="slide012">1</label>
 			   <img src="basico/03_02_01.png" />
 			   <figcaption>Crie uma pasta dentro da pasta <span class="code">pagina1</span> para colocarmos as imagens. Podemos chamá-la de <span class="code">imagens</span>.</figcaption>
 		   </li>

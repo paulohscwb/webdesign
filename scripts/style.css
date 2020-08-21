@@ -2,12 +2,13 @@
 	font-family:Courier;
 	color: blue;
 	background:rgb(204,235,219);
+	font-size: 15px;
 }
 
 .topo::after {
     content: "";
     display: block;
-    background: url("../vr/topo.png") no-repeat;
+    background: url("../basico/topo.png") no-repeat;
     background-size: contain;
     width: 18px;
     height: 18px;
