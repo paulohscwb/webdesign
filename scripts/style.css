@@ -1,12 +1,8 @@
-.visu::before {
-    content: "";
-    display: block;
-    background: url("../vr/3d.png") no-repeat;
-    background-size: contain;
-    width: 25px;
-    height: 22px;
-    float: left;
-    margin: 0 8px -6px 2px;
+.code {
+	font-family:Courier;
+	color: blue;
+	background:rgb(204,235,219);
+	font-weight:bold;
 }
 
 .topo::after {
