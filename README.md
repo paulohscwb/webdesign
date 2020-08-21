@@ -151,7 +151,42 @@
 		<img src="basico/03_02_00.png" class="fundo"/>
   </details>
   <img src="basico/tags001_0003b.png" />
-  
+  <details class="sub"><summary>&#x1f4c3; Barra separadora e títulos</summary>
+	<p>Podemos separar conteúdos usando uma tag simples de barra horizontal. Além disso, podemos destacar trechos do texto colocando negrito, itálico ou sublinhado. Títulos de seções também podem ser feitos com tags simples mostradas a seguir:</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide016" name="slide" checked>
+			   <label for="slide016">1</label>
+			   <img src="basico/03_03_01.png" />
+			   <figcaption>Usando a tag <span class="code">&lt;hr&gt;</span>, podemos separar conteúdos na página. Essa tag não precisa ser fechada! Você pode configurar a altura, largura e cor. A largura em percentual é muito usada para deixar o site responsivo, ou seja, que abre em qualquer dispositivo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide017" name="slide">
+			   <label for="slide017">2</label>
+			   <img src="basico/03_03_02.png" />
+			   <figcaption>Os títulos de seções podem ser definidos com as tags h1, h2, ..., h6. No exemplo, usamos o título com a tag <span class="code">&lt;h3&gt;</span>. Quanto maior o número, menor o tamanho da fonte desta tag. Experimente mudar essa tag para h1 e h6.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide018" name="slide">
+			   <label for="slide018">3</label>
+			   <img src="basico/03_03_03.png" />
+			   <figcaption>A tag de negrito <span class="code">&lt;b&gt;</span> foi usada neste exemplo para um trecho do texto. Não esqueça de fechá-la para que seu site apareça corretamente. Salve a página renderizada em um navegador.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide019" name="slide">
+			   <label for="slide019">4</label>
+			   <img src="basico/03_03_04.png" />
+			   <figcaption>Neste exemplo, foi usada uma tag por dentro da outra (aninhadas). Um trecho foi destacado em negrito e itálico com as tags <span class="code">&lt;b&gt;&lt;i&gt;</span>. Note que ambas precisam ser fechadas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide020" name="slide">
+			   <label for="slide020">5</label>
+			   <img src="basico/03_03_05.png" />
+			   <figcaption>Se você quiser destacar um trecho do texto deixando-o riscado, basta usar a tag <span class="code">&lt;strike&gt;Sed sit amet pharetra leo.&lt;/strike&gt;</span>. Essa tag é usada em sites para mostrar preços de produtos.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/03_03_00.png" class="fundo"/>
+  </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0004.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
