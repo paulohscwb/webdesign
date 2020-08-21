@@ -69,7 +69,7 @@
 			   <input type="radio" id="slide007" name="slide" checked>
 			   <label for="slide007">1</label>
 			   <img src="basico/02_01_00.png" />
-			   <figcaption>Escolha a opção do Bloco de Notas <span class="code">Salvar como</span>. Salve o arquivo como <span class="code">pagina1.htm</span>.</figcaption>
+			   <figcaption>Escolha a opção do Bloco de Notas <span class="code">Salvar como</span>. Salve o arquivo como <span class="code">pagina1.htm</span>. Uma dica importantíssima é de <b>não usar acentuação para nomear as páginas</b>!!!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide008" name="slide">
@@ -148,7 +148,7 @@
 			   <figcaption>Se você quiser que a página toda tenha uma configuração específica de fonte, basta abrir a tag no começo do corpo da página, e fechá-la antes do fechamento da tag <span class="code">&lt;/body&gt;</span>. No exemplo, foi colocada a fonte <b>Verdana</b> na página toda.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/03_02_00.png" class="fundo"/>
+		<img src="basico/03_02_03.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0003b.png" />
   <details class="sub"><summary>&#x1f4c3; Barra separadora e títulos</summary>
@@ -189,7 +189,7 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0004.png" />
-  <details class="sub"><summary>&#x1f4c3; Barra separadora e títulos</summary>
+  <details class="sub"><summary>&#x1f4c3; Listas</summary>
 	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina, crie a pasta <span class="code">webdesign/pagina2/</span>. Nesta página, vamos criar elementos de listas.</p>
 	  <ul class="slider">
 		  <li>
@@ -222,6 +222,61 @@
   <img src="basico/tags001_0004a.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0005.png" />
+  <details class="sub"><summary>&#x1f4c3; Imagens</summary>
+	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina: crie a pasta <span class="code">webdesign/pagina3/</span>. Nesta página, vamos inserir imagens, por isso, crie uma pasta <span class="code">webdesign/pagina3/imagens</span> para colocarmos todas as imagens do site. Escolha 3 imagens e coloque nesta pasta. As extensões podem ser <b>png</b>, <b>jpg</b> ou <b>jpeg</b>. Preste atenção no atributo <span class="code">src</span>, que contém o caminho da imagem.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide025" name="slide" checked>
+			   <label for="slide025">1</label>
+			   <img src="basico/05_01_01.png" />
+			   <figcaption>A tag de imagem pode ser colocada no meio do texto usando o código <span class="code">&lt;img</span>. Todos os atributos desta tag ficam dentro da <span class="code">&lt;img</span>, não precisando ser fechada. A largura em percentual é importante para deixar o site responsivo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide026" name="slide">
+			   <label for="slide026">2</label>
+			   <img src="basico/05_01_02.png" />
+			   <figcaption>Neste segundo exemplo, a imagem também está misturada com o texto, alinhada no meio do texto. Não recomenda-se o uso das imagens misturadas, pois o layout da página fica prejudicado.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide026a" name="slide">
+			   <label for="slide026a">3</label>
+			   <img src="basico/05_01_02.png" />
+			   <figcaption>Os atributos <span class="code">hspace</span> e <span class="code">vspace</span> criam margens horizontais e verticais em torno da imagem. São ótimas para não deixar outros elementos "grudados" nas imagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide027" name="slide">
+			   <label for="slide027">4</label>
+			   <img src="basico/05_01_03.png" />
+			   <figcaption>De uma forma bem mais organizada, podemos criar a tag-mãe <span class="code">&lt;figure&gt;</span>, que contém a imagem, e logo depois uma tag de legenda <span class="code">&lt;figcaption&gt;</span>. Neste caso, a tag de parágrafo centralizado foi usada para deixar a legenda alinhada com a imagem.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/05_01_00.png" class="fundo"/>
+  </details>
+  <img src="basico/tags001_0005a.png" />
+  <details class="sub"><summary>&#x1f4c3; Links</summary>
+	<p>Usando a mesma página3.html, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide028" name="slide" checked>
+			   <label for="slide028">1</label>
+			   <img src="basico/05_02_01.png" />
+			   <figcaption>A tag de link é <span class="code">&lt;a</span>, e ´precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide029" name="slide">
+			   <label for="slide029">2</label>
+			   <img src="basico/05_02_01.png" />
+			   <figcaption>O atributo <span class="code">href</span> é obrigatório, e indica o endereço da página que será visitada. O atributo <span class="code">target="_blank"</span> indica que a página será aberta em outra aba.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide030" name="slide">
+			   <label for="slide030">3</label>
+			   <img src="basico/05_02_02.png" />
+			   <figcaption>Para inserir um link em uma imagem, basta deixar a tag <span class="code">&lt;a</span> aninhada com a tag <span class="code">&lt;img</span>, como mostra este segundo exemplo. Crie os links, salve a página e teste em um navegador.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/05_02_00.png" class="fundo"/>
+  </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0006.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
