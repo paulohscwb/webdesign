@@ -121,7 +121,7 @@
 			   <input type="radio" id="slide012a" name="slide">
 			   <label for="slide012a">2</label>
 			   <img src="basico/03_02_02.png" />
-			   <figcaption>Podemos escolher uma imagem para colocar no fundo da página (<span class="code">background</span>). Escolha uma com comprimento maior do que 1000px, para cobrir todo o fundo da página, e salve na pasta que criamos <span class="code">/imagens</span>.</figcaption>
+			   <figcaption>Podemos escolher uma imagem para colocar no fundo da página (<span class="code">background</span>). Escolha uma com largura maior do que 1000px, para cobrir todo o fundo da página, e salve na pasta que criamos <span class="code">/imagens</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide013" name="slide">
@@ -189,6 +189,37 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0004.png" />
+  <details class="sub"><summary>&#x1f4c3; Barra separadora e títulos</summary>
+	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina, crie a pasta <span class="code">webdesign/pagina2/</span>. Nesta página, vamos criar elementos de listas.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide021" name="slide" checked>
+			   <label for="slide021">1</label>
+			   <img src="basico/04_01_01.png" />
+			   <figcaption>Dependendo do servidor usado para hospedar sua página, devemos modificar a codificação de caracteres charset de <b>UTF-8</b> para <b>ISO-8859-1</b>. Porém, a maioria dos servidores usa o <b>UTF-8</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide022" name="slide">
+			   <label for="slide022">2</label>
+			   <img src="basico/04_01_02.png" />
+			   <figcaption>Usando a tag <span class="code">&lt;ul&gt;</span>, podemos criar listas na página. Este exemplo mostra os marcadores circulares da lista.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide023" name="slide">
+			   <label for="slide023">3</label>
+			   <img src="basico/04_01_03.png" />
+			   <figcaption>Os itens das listas têm tags <span class="code">&lt;li&gt;</span>. Note que cada tag de item precisa ser fechada, depois que você coloca o conteúdo. Para mudar de cor, coloque a tag de fonte aninhada na tag de item da lista. Mude as cores dos outros itens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide024" name="slide">
+			   <label for="slide024">4</label>
+			   <img src="basico/04_01_04.png" />
+			   <figcaption>As listas ordenadas têm a mesma estrutura da lista norma, com a tag principal <span class="code">&lt;ol&gt;</span>. Estas tags podem ser numéricas ou com letras. Neste exemplo, a lista com letras começa na 4<sup>a</sup> letra, ou seja, a letra <b>D</b>.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/04_01_00.png" class="fundo"/>
+  </details>
+  <img src="basico/tags001_0004a.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0005.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
