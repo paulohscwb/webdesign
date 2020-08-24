@@ -192,6 +192,15 @@ h3::after {
      left: 330px;
  }
 
+.slider {
+	counter-reset: contador;
+}
+
+.slider li label::before {
+	content: counter(contador);
+	counter-increment: contador;
+}
+
  .slider img {
      opacity: 0;
      visibility: hidden;
