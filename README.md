@@ -594,6 +594,26 @@
   <img src="basico/tags001_0008b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0009.png" />
+  <details class="sub"><summary>&#x1f4c3; Tabela de cores</summary>
+	<p>Neste exercício vamos criar uma tabela de cores. O exemplo mostra apenas alguns nomes de cores usados em HTML. Na mesma pasta, crie um arquivo: <span class="code">webdesign/exercicios/cores.htm</span>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide069" name="slide">
+			   <label for="slide069"></label>
+			   <img src="basico/09_01_01.png" />
+			   <figcaption>Temos duas formas de fazer esta tabela. A primeira é usando exatamente o layout mostrado no exercício. Dessa forma, criaremos sempre 1 linha que mostra somente as cores, e a linha de baixo mostra apenas os nomes das cores.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide070" name="slide">
+			   <label for="slide070"></label>
+			   <img src="basico/09_01_02.png" />
+			   <figcaption>Na segunda maneira, podemos criar na mesma célula o nome da cor, com o fundo de mesma cor. Escolha um dos layouts e faça a página completa com a tabela de cores.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/09_01_02.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="basico/tags001_0009a.png" />
+  <img src="basico/tags001_0009b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
