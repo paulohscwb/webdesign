@@ -311,7 +311,7 @@
 			   <input type="radio" id="slide034a" name="slide">
 			   <label for="slide034a"></label>
 			   <img src="basico/06_01_05.png" />
-			   <figcaption>Você pode colocar links para áudios em uma página. Acessando o site<span class="code">open.spotify.com</span>, você pode selecionar as músicas e copiar seus links.</figcaption>
+			   <figcaption>Você pode colocar links para áudios em uma página. Acessando o site <span class="code">open.spotify.com</span>, você pode selecionar as músicas e copiar seus links.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide034b" name="slide">
@@ -320,8 +320,8 @@
 			   <figcaption>Você pode criar também os links para álbuns, da mesma maneira mostrada para músicas. Na página HTML usamos a tag de link <span class="code">&lt;a</span> para os álbuns.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="slide034b" name="slide">
-			   <label for="slide034b"></label>
+			   <input type="radio" id="slide034c" name="slide">
+			   <label for="slide034c"></label>
 			   <img src="basico/06_01_06.png" />
 			   <figcaption>Usando a tag de link <span class="code">&lt;a</span>, você insere os links de músicas em sua página.</figcaption>
 		   </li>
@@ -404,29 +404,29 @@
 		  <li>
 			   <input type="radio" id="slide044" name="slide" checked>
 			   <label for="slide044"></label>
-			   <img src="basico/06_04_00.png" />
+			   <img src="basico/06_04_00.png" width="75%" />
 			   <figcaption>Na parte superior da página, que terá um formato tipo blog, coloque uma imagem como <span class="code">banner</span>, textos de informações e curiosidades sobre a banda ou o cantor escolhido.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide045" name="slide">
 			   <label for="slide045"></label>
-			   <img src="basico/06_04_00.png" />
+			   <img src="basico/06_04_00.png" width="75%" />
 			   <figcaption>Insira imagens, uma imagem de fundo <span class="code">background</span>. Lembre-se de colocar as medidas de altura e largura da imagem na página. Use as tags de linhas horizontais <span class="code">&lt;hr&gt;</span> para separar conteúdos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide046" name="slide">
 			   <label for="slide046"></label>
-			   <img src="basico/06_04_01.png" />
+			   <img src="basico/06_04_01.png" width="75%" />
 			   <figcaption>Na parte inferior da página, crie links para áudios e vídeos da banda ou do cantor escolhido. Use links do Spotify ou Youtube. Lembre-se de usar as medidas para criar os <span class="code">iframes</span> dos vídeos.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="slide043" name="slide">
-			   <label for="slide043"></label>
-			   <img src="basico/06_04_01.png" />
+			   <input type="radio" id="slide047" name="slide">
+			   <label for="slide047"></label>
+			   <img src="basico/06_04_01.png" width="75%" />
 			   <figcaption>No rodapé, você pode colocar informações de copyright com seu nome, usando o código do símbolo &copy;: <span class="code">&amp;copy;</span>.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_04_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="basico/06_04_00.png" width="75%" class="fundo" style="visibility:hidden"/>
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
