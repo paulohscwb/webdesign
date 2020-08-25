@@ -46,7 +46,7 @@
 	<p>Muitas vezes, nosso foco é de testar somente o layout de um site. Podemos preenchê-lo com textos e listas usando o site mostrado nesta página. Clique nos passos abaixo para ver como produzir estes conteúdos.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide005" name="slide" checked>
+			   <input type="radio" id="slide005" name="slide">
 			   <label for="slide005"></label>
 			   <img src="basico/01_02_01.png" />
 			   <figcaption>Acessando o site <span class="code">http://br.lipsum.com/</span>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
@@ -66,7 +66,7 @@
 	<p>Vamos salvar nosso arquivo em uma pasta chamada <span class="code">webdesign</span>.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide007" name="slide" checked>
+			   <input type="radio" id="slide007" name="slide">
 			   <label for="slide007"></label>
 			   <img src="basico/02_01_00.png" />
 			   <figcaption>Escolha a opção do Bloco de Notas <span class="code">Salvar como</span>. Salve o arquivo como <span class="code">pagina1.htm</span>. Uma dica importantíssima é de <b>não usar acentuação para nomear as páginas</b>!!!</figcaption>
@@ -93,7 +93,7 @@
 	<p>O layout básico de uma página HTML tem as seguintes partes: cabeçalho (<span class="code">head</span>) e corpo da página (<span class="code">body</span>). Vamos ver os elementos de cada parte:</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide010" name="slide" checked>
+			   <input type="radio" id="slide010" name="slide">
 			   <label for="slide010"></label>
 			   <img src="basico/03_01_01.png" />
 			   <figcaption>O cabeçalho <span class="code">&lt;head&gt;</span> contém informações autorais, título, codificação de caracteres, palavras-chave, scripts e referências externas. Nem todos os elementos desta tag são visíveis para os visitantes da página.</figcaption>
@@ -112,7 +112,7 @@
 	<p>Vamos deixar todos os arquivos desta disciplina organizados. Podemos criar uma pasta chamada <span class="code">pagina1</span> para colocar todos os arquivos desta primeira página. É importante deixar os arquivos sempre organizados em pastas para usarmos as referências corretas na hora de montar o site.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide012" name="slide" checked>
+			   <input type="radio" id="slide012" name="slide">
 			   <label for="slide012"></label>
 			   <img src="basico/03_02_01.png" />
 			   <figcaption>Crie uma pasta dentro da pasta <span class="code">pagina1</span> para colocarmos as imagens. Podemos chamá-la de <span class="code">imagens</span>.</figcaption>
@@ -155,7 +155,7 @@
 	<p>Podemos separar conteúdos usando uma tag simples de barra horizontal. Além disso, podemos destacar trechos do texto colocando negrito, itálico ou sublinhado. Títulos de seções também podem ser feitos com tags simples mostradas a seguir:</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide016" name="slide" checked>
+			   <input type="radio" id="slide016" name="slide">
 			   <label for="slide016"></label>
 			   <img src="basico/03_03_01.png" />
 			   <figcaption>Usando a tag <span class="code">&lt;hr&gt;</span>, podemos separar conteúdos na página. Essa tag não precisa ser fechada! Você pode configurar a altura, largura e cor. A largura em percentual é muito usada para deixar o site responsivo, ou seja, que abre em qualquer dispositivo.</figcaption>
@@ -193,7 +193,7 @@
 	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina, crie a pasta <span class="code">webdesign/pagina2/</span>. Nesta página, vamos criar elementos de listas.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide021" name="slide" checked>
+			   <input type="radio" id="slide021" name="slide">
 			   <label for="slide021"></label>
 			   <img src="basico/04_01_01.png" />
 			   <figcaption>Dependendo do servidor usado para hospedar sua página, devemos modificar a codificação de caracteres charset de <b>UTF-8</b> para <b>ISO-8859-1</b>. Porém, a maioria dos servidores usa o <b>UTF-8</b>.</figcaption>
@@ -226,7 +226,7 @@
 	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina: crie a pasta <span class="code">webdesign/pagina3/</span>. Nesta página, vamos inserir imagens, por isso, crie uma pasta <span class="code">webdesign/pagina3/imagens</span> para colocarmos todas as imagens do site. Escolha 3 imagens e coloque nesta pasta. As extensões podem ser <b>png</b>, <b>jpg</b> ou <b>jpeg</b>. Preste atenção no atributo <span class="code">src</span>, que contém o caminho da imagem.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide025" name="slide" checked>
+			   <input type="radio" id="slide025" name="slide">
 			   <label for="slide025"></label>
 			   <img src="basico/05_01_01.png" />
 			   <figcaption>A tag de imagem pode ser colocada no meio do texto usando o código <span class="code">&lt;img</span>. Todos os atributos desta tag ficam dentro da <span class="code">&lt;img</span>, não precisando ser fechada. A largura em percentual é importante para deixar o site responsivo.</figcaption>
@@ -257,7 +257,7 @@
 	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide028" name="slide" checked>
+			   <input type="radio" id="slide028" name="slide">
 			   <label for="slide028"></label>
 			   <img src="basico/05_02_01.png" />
 			   <figcaption>A tag de link é <span class="code">&lt;a</span>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
@@ -284,7 +284,7 @@
 	<p align="center"><img src="basico/06_01_04.png" width="40%" /></p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide031" name="slide" checked>
+			   <input type="radio" id="slide031" name="slide">
 			   <label for="slide031"></label>
 			   <img src="basico/06_01_00.png" />
 			   <figcaption>Na mesma pasta da nossa<span class="code">pagina3</span>, podemos criar uma subpasta chamada <span class="code">audios</span>. Assim, a estrutura de arquivos da nossa página fica organizada.</figcaption>
@@ -334,7 +334,7 @@
 	<p align="center"><img src="basico/06_02_05.png" width="60%" /></p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide035" name="slide" checked>
+			   <input type="radio" id="slide035" name="slide">
 			   <label for="slide035"></label>
 			   <img src="basico/06_02_01.png" />
 			   <figcaption>Escolha um arquivo de imagem (pode ser no google) para colocar como um banner da nossa <span class="code">pagina4.htm</span>. Cuidado com a extensão da imagem (jpg, png, jpeg) para indicar o caminho no código HTML.</figcaption>
@@ -371,7 +371,7 @@
 	<p>Para inserir um vídeo do Youtube, usamos a tag <span class="code">iframe</span>. Vamos usar a mesma <span class="code">pagina4.htm</span> para inserir esta tag de vídeo.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide040" name="slide" checked>
+			   <input type="radio" id="slide040" name="slide">
 			   <label for="slide040"></label>
 			   <img src="basico/06_03_00.png" />
 			   <figcaption>Na página do vídeo escolhido, clique em <span class="code">compartilhar</span>, no link que fica logo abaixo da janela do vídeo.</figcaption>
@@ -402,7 +402,7 @@
 	<p>Usando todas as tags que vimos até agora, vamos montar uma página htm com os elementos descritos abaixo. Crie uma pasta chamada <span class="code">webdesign/atividade1</span> para inserir os arquivos desta atividade. O arquivo principal HTML será chamado de <span class="code">index.htm</span>.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide044" name="slide" checked>
+			   <input type="radio" id="slide044" name="slide">
 			   <label for="slide044"></label>
 			   <img src="basico/06_04_00.png" />
 			   <figcaption>Na parte superior da página, que terá um formato tipo blog, coloque uma imagem como <span class="code">banner</span>, textos de informações e curiosidades sobre a banda ou o cantor escolhido.</figcaption>
@@ -434,7 +434,7 @@
 	<p>Crie uma pasta chamada <span class="code">webdesign/pagina5</span> para inserir os arquivos da nossa próxima página, com tabelas. O arquivo principal HTML será chamado de <span class="code">index.htm</span>.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="slide048" name="slide" checked>
+			   <input type="radio" id="slide048" name="slide">
 			   <label for="slide048"></label>
 			   <img src="basico/07_01_00.png" />
 			   <figcaption>Usamos <span class="code">table</span> como a tag-mãe das células da tabela. Logo, vamos "aninhar" as tags das células da tabela dentro da tag <span class="code">table</span>.</figcaption>
