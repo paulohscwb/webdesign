@@ -486,7 +486,7 @@
 			   <input type="radio" id="slide055" name="slide">
 			   <label for="slide055"></label>
 			   <img src="basico/07_02_02.png" />
-			   <figcaption>Agora você pode "aninhar" as tags de imagem <span class="code">&lt;img</span> dentro de tags de link <span class="code">&tl;a</span>, que estará dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+			   <figcaption>Agora você pode "aninhar" as tags de imagem <span class="code">&lt;img</span> dentro de tags de link <span class="code">&lt;a</span>, que estará dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide056" name="slide">
