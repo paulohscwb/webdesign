@@ -47,7 +47,7 @@ details {
   width:100%;
 }
 
-li.img{
+li > img{
 	width:100%;
 }
 

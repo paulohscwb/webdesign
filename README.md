@@ -176,7 +176,7 @@
 			   <input type="radio" id="slide019" name="slide">
 			   <label for="slide019"></label>
 			   <img src="basico/03_03_04.png" />
-			   <figcaption>Neste exemplo, foi usada uma tag por dentro da outra (aninhadas). Um trecho foi destacado em negrito e itálico com as tags <span class="code">&lt;b&gt;&lt;i&gt;</span>. Note que ambas precisam ser fechadas.</figcaption>
+			   <figcaption>Neste exemplo, foi usada uma tag por dentro da outra (aninhada). Um trecho foi destacado em negrito e itálico com as tags <span class="code">&lt;b&gt;&lt;i&gt;</span>. Note que ambas precisam ser fechadas.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide020" name="slide">
@@ -254,13 +254,13 @@
   </details>
   <img src="basico/tags001_0005a.png" />
   <details class="sub"><summary>&#x1f4c3; Links</summary>
-	<p>Usando a mesma página3.html, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
+	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide028" name="slide" checked>
 			   <label for="slide028"></label>
 			   <img src="basico/05_02_01.png" />
-			   <figcaption>A tag de link é <span class="code">&lt;a</span>, e ´precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
+			   <figcaption>A tag de link é <span class="code">&lt;a</span>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide029" name="slide">
@@ -279,6 +279,77 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0006.png" />
+  <details class="sub"><summary>&#x1f4c3; Áudios</summary>
+	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos inserir tags de áudios. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
+	<img src="basico/06_01_04.png" width="65%" />
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide031" name="slide" checked>
+			   <label for="slide031"></label>
+			   <img src="basico/06_01_00.png" />
+			   <figcaption>Na mesma pasta da nossa<span class="code">pagina3</span>, podemos criar uma subpasta chamada <span class="code">audios</span>. Assim, a estrutura de arquivos da nossa página fica organizada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide032" name="slide">
+			   <label for="slide032"></label>
+			   <img src="basico/06_01_01.png" />
+			   <figcaption>Podemos usar a tag <span class="code">audio</span> em uma única linha, com todas as propriedades definidas dentro desta tag. Esta maneira é comum quando apenas um arquivo é inserido. Os navegadores atuais suportam arquivos com extensão <span class="code">mp3</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide033" name="slide">
+			   <label for="slide033"></label>
+			   <img src="basico/06_01_02.png" />
+			   <figcaption>Em navegadores muito antigos, por precaução, podemos definir os formatos <span class="code">mp3</span> e <span class="code">ogg</span>. Esta tag é do tipo aninhada, com os caminhos (src) dos 2 arquivos definidos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide034" name="slide">
+			   <label for="slide034"></label>
+			   <img src="basico/06_01_03.png" />
+			   <figcaption>O atributo <span class="code">controls</span> serve para mostrar os controles para o visitante interagir com o audio. O atributo <span class="code">autoplay</span> define a reprodução automática do arquivo.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/06_01_00.png" class="fundo"/>
+  </details>
+  <img src="basico/tags001_0006a.png" />
+  <details class="sub"><summary>&#x1f4c3; Vídeos</summary>
+	<p>Vamos criar uma nova pasta chamada <span class="code">webdesign/pagina4</span>. Dentro desta pasta, crie as subpastas de <span class="code">imagens</span> e de <span class="code">videos</span>. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
+	<img src="basico/06_02_05.png" width="65%" />  
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide035" name="slide" checked>
+			   <label for="slide035"></label>
+			   <img src="basico/06_02_01.png" />
+			   <figcaption>Escolha um arquivo de imagem (pode ser no google) para colocar como um banner da nossa <span class="code">pagina4.htm</span>. Cuidado com a extensão da imagem (jpg, png, jpeg) para indicar o caminho no código HTML.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide036" name="slide">
+			   <label for="slide036"></label>
+			   <img src="basico/06_02_02.png" />
+			   <figcaption>Podemos usar a tag <span class="code">video</span> em uma única linha, com todas as propriedades definidas dentro desta tag. Esta maneira é comum quando apenas um arquivo é inserido. A maioria dos navegadores atuais suportam arquivos com extensões <span class="code">mp4</span>, <span class="code">webm</span> e <span class="code">ogv</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide037" name="slide">
+			   <label for="slide037"></label>
+			   <img src="basico/06_02_03.png" />
+			   <figcaption>Por precaução, podemos definir os formatos <span class="code">mp4</span>, <span class="code">webm </span>e <span class="code">ogv</span> dentro de uma tag de vídeo. Esta tag é do tipo aninhada, com os caminhos (src) dos 3 arquivos de vídeo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide038" name="slide">
+			   <label for="slide038"></label>
+			   <img src="basico/06_02_04.png" />
+			   <figcaption>O atributo <span class="code">controls</span> serve para mostrar os controles para o visitante interagir com o vídeo. O atributo <span class="code">autoplay</span> define a reprodução automática do vídeo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide039" name="slide">
+			   <label for="slide039"></label>
+			   <img src="basico/06_02_04.png" />
+			   <figcaption>Quando inserimos vídeos em uma página, é importante definirmos a altura <span class="code">height</span> e a largura <span class="code">width</span> do vídeo. Estas medidas podem ser indicadas em % ou pixels.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/06_02_00.png" class="fundo"/>
+  </details>
+  <img src="basico/tags001_0006b.png" />
+  <img src="basico/tags001_0006c.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
