@@ -524,6 +524,51 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0008.png" />
+  <details class="sub"><summary>&#x1f4c3; Tabela de nutrientes</summary>
+	<p>Vamos criar uma pasta para alguns exercícios: <span class="code">webdesign/exercicios</span>. Crie a página do primeiro exercício com o nome <span class="code">webdesign/exercicios/index.htm</span>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide060" name="slide">
+			   <label for="slide060"></label>
+			   <img src="basico/08_01_01.png" />
+			   <figcaption>Cada célula da tabela tem margem iterna <span class="code">cellpadding</span> de <b>15px</b>, borda na cor <b>cinza</b>. O atributo <span class="code">cellspacing</span> está com valor 0 para não deixar espaços entre as células.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide061" name="slide">
+			   <label for="slide061"></label>
+			   <img src="basico/08_01_01.png" />
+			   <figcaption>As tags para criar a primeira linha da tabela usam linha de título <span class="code">&lt;th&gt;</span>, com alinhamento <b>centralizado</b>, fonte com a cor branca e o fundo de cada célula vermelho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide062" name="slide">
+			   <label for="slide062"></label>
+			   <img src="basico/08_01_02.png" />
+			   <figcaption>A segunda linha tem 2 células mescladas na primeira coluna. Para fazer esta operação em HTML usamos o atributo <span class="code">rowspan</span>, indicando quantas linhas serão mescladas. Neste caso, usamos <span class="code">rowspan="2"</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide063" name="slide">
+			   <label for="slide063"></label>
+			   <img src="basico/08_01_02.png" />
+			   <figcaption>Temos as outras 3 células da linha 2 normalmente. Como a primeira célula da terceira linha foi mesclada, precisamos apenas das outras 3 células nesta linha.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide064" name="slide">
+			   <label for="slide064"></label>
+			   <img src="basico/08_01_03.png" />
+			   <figcaption>A linha dos legumes não tem células mescladas, e os elementos são criados com tags <span class="code">&lt;td&gt;</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide065" name="slide">
+			   <label for="slide065"></label>
+			   <img src="basico/08_01_04.png" />
+			   <figcaption>Na linha dos cereais, podemos mesclar as três células da primeira coluna com o atributo <span class="code">rowspan="3"</span>. As outras 2 linhas da tabela tem 3 células com os valores indicados no exemplo. Agora complete esta tabela, que vamos utilizar na próxima Atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/08_01_04.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="basico/tags001_0008a.png" />
+  
+  <img src="basico/tags001_0008b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0009.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
