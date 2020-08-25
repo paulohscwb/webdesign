@@ -281,7 +281,7 @@
   <img src="basico/tags001_0006.png" />
   <details class="sub"><summary>&#x1f4c3; Áudios</summary>
 	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos inserir tags de áudios. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
-	<img src="basico/06_01_04.png" width="65%" />
+	<p align="center"><img src="basico/06_01_04.png" width="45%" /></p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide031" name="slide" checked>
@@ -308,12 +308,12 @@
 			   <figcaption>O atributo <span class="code">controls</span> serve para mostrar os controles para o visitante interagir com o audio. O atributo <span class="code">autoplay</span> define a reprodução automática do arquivo.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_01_00.png" class="fundo"/>
+		<img src="basico/06_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0006a.png" />
   <details class="sub"><summary>&#x1f4c3; Vídeos</summary>
 	<p>Vamos criar uma nova pasta chamada <span class="code">webdesign/pagina4</span>. Dentro desta pasta, crie as subpastas de <span class="code">imagens</span> e de <span class="code">videos</span>. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
-	<img src="basico/06_02_05.png" width="65%" />  
+	<p align="center"><img src="basico/06_02_05.png" width="60%" /></p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide035" name="slide" checked>
@@ -346,7 +346,7 @@
 			   <figcaption>Quando inserimos vídeos em uma página, é importante definirmos a altura <span class="code">height</span> e a largura <span class="code">width</span> do vídeo. Estas medidas podem ser indicadas em % ou pixels.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_02_00.png" class="fundo"/>
+		<img src="basico/06_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0006b.png" />
   <img src="basico/tags001_0006c.png" />
