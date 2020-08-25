@@ -461,7 +461,7 @@
 			   <input type="radio" id="slide052" name="slide">
 			   <label for="slide052"></label>
 			   <img src="basico/07_01_04.png" />
-			   <figcaption>Os atributos <span class="code">cellpadding</span> e <span class="code">cellspacing</span> são as margens interna e externa de cada célula, respectivamente.</figcaption>
+			   <figcaption>Os atributos <span class="code">cellpadding</span> e <span class="code">cellspacing</span> são as margens interna e externa de cada célula, respectivamente. Salve a página e visualize em um navegador.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide053" name="slide">
@@ -473,7 +473,55 @@
 		<img src="basico/07_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0007a.png" />
+  <details class="sub"><summary>&#x1f4c3; Galeria de imagens</summary>
+	<p>Você pode usar a mesma pasta da Atividade 1: <span class="code">webdesign/atividade1</span>. Insira imagens na pasta de <span class="code">webdesign/atividade1/imagens</span>, para criar nossa Galeria.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide054" name="slide">
+			   <label for="slide054"></label>
+			   <img src="basico/07_02_01.png" />
+			   <figcaption>Podemos criar a tabela que ocupe <b>100%</b> da largura da página. Se criarmos uma galeria com 4 imagens, cada célula terá <b>25%</b> da largura da linha da tabela. Estas dimensões só precisam ser colocadas nas células da primeira linha da tabela. As outras linhas herdarão os valores informados na primeira linha.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide055" name="slide">
+			   <label for="slide055"></label>
+			   <img src="basico/07_02_02.png" />
+			   <figcaption>Agora você pode "aninhar" as tags de imagem <span class="code">&lt;img</span> dentro de tags de link <span class="code">&tl;a</span>, que estará dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide056" name="slide">
+			   <label for="slide056"></label>
+			   <img src="basico/07_02_02.png" />
+			   <figcaption>Este é um exemplo de 8 imagens colocadas em uma tabela de 2 linhas e 4 colunas. Experimente outros formatos. Note que não foram usadas as bordas da tabela neste exemplo. Se necessário, ajuste as alturas das imagens, caso fiquem diferentes na galeria. Salve e teste a página em um navegador.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/07_02_00.png" class="fundo"/>
+  </details>
   <img src="basico/tags001_0007b.png" />
+  <details class="sub"><summary>&#x1f4c3; Galeria de vídeos e áudios</summary>
+	<p>Você pode usar a mesma pasta da Atividade 1: <span class="code">webdesign/atividade1</span>. Insira arquivos de áudio na pasta de <span class="code">webdesign/atividade1/audios</span>, para criar nossa Galeria.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide057" name="slide">
+			   <label for="slide057"></label>
+			   <img src="basico/07_03_01.png" />
+			   <figcaption>Podemos criar a tabela que ocupe <b>100%</b> da largura da página. Se criarmos uma galeria com 3 áudios em uma linha e 3 vídeos na outra linha, cada célula terá <b>33%</b> da largura da linha da tabela.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide058" name="slide">
+			   <label for="slide058"></label>
+			   <img src="basico/07_03_02.png" />
+			   <figcaption>Agora você pode "aninhar" as tags <span class="code">&lt;audio</span> dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide059" name="slide">
+			   <label for="slide059"></label>
+			   <img src="basico/07_03_03.png" />
+			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <span class="code">&lt;iframe</span> do Youtube, ou criar tags <span class="code">&lt;video</span>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <span class="code">&lt;td</span>.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/07_03_00.png" class="fundo"/>
+  </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0008.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
