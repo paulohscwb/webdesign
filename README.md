@@ -430,6 +430,50 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
+  <details class="sub"><summary>&#x1f4c3; Tabelas</summary>
+	<p>Crie uma pasta chamada <span class="code">webdesign/pagina5</span> para inserir os arquivos da nossa próxima página, com tabelas. O arquivo principal HTML será chamado de <span class="code">index.htm</span>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide048" name="slide" checked>
+			   <label for="slide048"></label>
+			   <img src="basico/07_01_00.png" />
+			   <figcaption>Usamos <span class="code">table</span> como a tag-mãe das células da tabela. Logo, vamos "aninhar" as tags das células da tabela dentro da tag <span class="code">table</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide049" name="slide">
+			   <label for="slide049"></label>
+			   <img src="basico/07_01_01.png" />
+			   <figcaption>Toda vez que vamos criar uma linha de tabela, usamos a tag <span class="code">&lt;tr&gt;</span>. Esta tag, por sua vez, terá as tags das células das colunas <span class="code">&lt;td&gt;</span> ou <span class="code">&lt;th&gt;</span> "aninhadas". Dentro destas tags colocamos conteúdos de textos ou imagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide050" name="slide">
+			   <label for="slide050"></label>
+			   <img src="basico/07_01_02.png" />
+			   <figcaption>As tags <span class="code">&lt;th&gt;</span> podem ser usadas na primeira linha de uma tabela, como linha de títulos. Os textos, podemos digitar diretamente sem tags, como mostra o exemplo. Para colocar imagens, colocamos a tag <span class="code">&lt;img</span> dentro da tag <span class="code">&lt;td</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide051" name="slide">
+			   <label for="slide051"></label>
+			   <img src="basico/07_01_03.png" />
+			   <figcaption>Os atributos <span class="code">border</span> e <span class="code">bordercolor</span> definem a espessura e a cor da borda de cada célula, respectivamente. O atributo <span class="code">bgcolor</span> pode ser usado para mudar a cor de fundo de uma célula ou de uma linha. No exemplo, o atributo deixa a primeira linha com fundo verde.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide052" name="slide">
+			   <label for="slide052"></label>
+			   <img src="basico/07_01_04.png" />
+			   <figcaption>Os atributos <span class="code">cellpadding</span> e <span class="code">cellspacing</span> são as margens interna e externa de cada célula, respectivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide053" name="slide">
+			   <label for="slide053"></label>
+			   <img src="basico/07_01_05.png" />
+			   <figcaption>Esta é a função da criação de margens em tabelas. Geralmente usamos o padrão do HTML, com <span class="code">cellspacing="0"</span>.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/07_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="basico/tags001_0007a.png" />
+  <img src="basico/tags001_0007b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0008.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
