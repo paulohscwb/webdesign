@@ -567,7 +567,30 @@
 		<img src="basico/08_01_04.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0008a.png" />
-  
+  <details class="sub"><summary>&#x1f4c3; Pesquisa fumantes</summary>
+	<p>Este exercício é parecido com o anterior. Na mesma pasta, crie um arquivo: <span class="code">webdesign/exercicios/fumantes.htm</span>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide066" name="slide">
+			   <label for="slide066"></label>
+			   <img src="basico/08_02_01.png" />
+			   <figcaption>A primeira célula da primeira linha será mesclada com a célula de baixo. Logo, vamos usar o atributo <span class="code">rowspan="2"</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide067" name="slide">
+			   <label for="slide067"></label>
+			   <img src="basico/08_02_02.png" />
+			   <figcaption>A segunda célula da primeira linha será mesclada com a célula do lado. Logo, vamos usar o atributo <span class="code">colspan="2"</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide068" name="slide">
+			   <label for="slide068"></label>
+			   <img src="basico/08_02_03.png" />
+			   <figcaption>O mesmo acontece com a quarta célula da primeira linha: <span class="code">colspan="2"</span>. Agora prossiga para concluir a página HTML com esta tabela.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/08_02_00.png" class="fundo"/>
+  </details>
   <img src="basico/tags001_0008b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0009.png" />
