@@ -307,6 +307,24 @@
 			   <img src="basico/06_01_03.png" />
 			   <figcaption>O atributo <span class="code">controls</span> serve para mostrar os controles para o visitante interagir com o audio. O atributo <span class="code">autoplay</span> define a reprodução automática do arquivo.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="slide034a" name="slide">
+			   <label for="slide034a"></label>
+			   <img src="basico/06_01_05.png" />
+			   <figcaption>Você pode colocar links para áudios em uma página. Acessando o site<span class="code">open.spotify.com</span>, você pode selecionar as músicas e copiar seus links.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide034b" name="slide">
+			   <label for="slide034b"></label>
+			   <img src="basico/06_01_05a.png" />
+			   <figcaption>Você pode criar também os links para álbuns, da mesma maneira mostrada para músicas. Na página HTML usamos a tag de link <span class="code">&lt;a</span> para os álbuns.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide034b" name="slide">
+			   <label for="slide034b"></label>
+			   <img src="basico/06_01_06.png" />
+			   <figcaption>Usando a tag de link <span class="code">&lt;a</span>, você insere os links de músicas em sua página.</figcaption>
+		   </li>
 		</ul>
 		<img src="basico/06_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -349,7 +367,67 @@
 		<img src="basico/06_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0006b.png" />
+  <details class="sub"><summary>&#x1f4c3; Vídeos do Youtube</summary>
+	<p>Para inserir um vídeo do Youtube, usamos a tag <span class="code">iframe</span>. Vamos usar a mesma <span class="code">pagina4.htm</span> para inserir esta tag de vídeo.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide040" name="slide" checked>
+			   <label for="slide040"></label>
+			   <img src="basico/06_03_00.png" />
+			   <figcaption>Na página do vídeo escolhido, clique em <span class="code">compartilhar</span>, no link que fica logo abaixo da janela do vídeo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide041" name="slide">
+			   <label for="slide041"></label>
+			   <img src="basico/06_03_01.png" />
+			   <figcaption>Selecione a opção <span class="code">incorporar</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide042" name="slide">
+			   <label for="slide042"></label>
+			   <img src="basico/06_03_02.png" />
+			   <figcaption>Agora é só copiar a tag <span class="code">iframe</span> criada. Note que aparecem as medidas que já usamos na tag de <span class="code">video</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide043" name="slide">
+			   <label for="slide043"></label>
+			   <img src="basico/06_03_03.png" />
+			   <figcaption>Cole a tag criada na posição da página que você quer mostrar o vídeo. O atributo <span class="code">frameborder</span> tem padrão com valor <b>0</b>. Se você quiser uma borda, basta digitar qualquer valor diferente de <b>0</b> neste atributo.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/06_03_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <img src="basico/tags001_0006c.png" />
+  <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
+	<p>Usando todas as tags que vimos até agora, vamos montar uma página htm com os elementos descritos abaixo. Crie uma pasta chamada <span class="code">webdesign/atividade1</span> para inserir os arquivos desta atividade. O arquivo principal HTML será chamado de <span class="code">index.htm</span>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide044" name="slide" checked>
+			   <label for="slide044"></label>
+			   <img src="basico/06_04_00.png" />
+			   <figcaption>Na parte superior da página, que terá um formato tipo blog, coloque uma imagem como <span class="code">banner</span>, textos de informações e curiosidades sobre a banda ou o cantor escolhido.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide045" name="slide">
+			   <label for="slide045"></label>
+			   <img src="basico/06_04_00.png" />
+			   <figcaption>Insira imagens, uma imagem de fundo <span class="code">background</span>. Lembre-se de colocar as medidas de altura e largura da imagem na página. Use as tags de linhas horizontais <span class="code">&lt;hr&gt;</span> para separar conteúdos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide046" name="slide">
+			   <label for="slide046"></label>
+			   <img src="basico/06_04_01.png" />
+			   <figcaption>Na parte inferior da página, crie links para áudios e vídeos da banda ou do cantor escolhido. Use links do Spotify ou Youtube. Lembre-se de usar as medidas para criar os <span class="code">iframes</span> dos vídeos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide043" name="slide">
+			   <label for="slide043"></label>
+			   <img src="basico/06_04_01.png" />
+			   <figcaption>No rodapé, você pode colocar informações de copyright com seu nome, usando o código do símbolo &copy;: <span class="code">&amp;copy;</span>.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/06_04_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
