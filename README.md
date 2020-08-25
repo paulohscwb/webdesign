@@ -404,29 +404,29 @@
 		  <li>
 			   <input type="radio" id="slide044" name="slide" checked>
 			   <label for="slide044"></label>
-			   <img src="basico/06_04_00.png" width="75%" />
+			   <img src="basico/06_04_00.png" />
 			   <figcaption>Na parte superior da página, que terá um formato tipo blog, coloque uma imagem como <span class="code">banner</span>, textos de informações e curiosidades sobre a banda ou o cantor escolhido.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide045" name="slide">
 			   <label for="slide045"></label>
-			   <img src="basico/06_04_00.png" width="75%" />
+			   <img src="basico/06_04_00.png" />
 			   <figcaption>Insira imagens, uma imagem de fundo <span class="code">background</span>. Lembre-se de colocar as medidas de altura e largura da imagem na página. Use as tags de linhas horizontais <span class="code">&lt;hr&gt;</span> para separar conteúdos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide046" name="slide">
 			   <label for="slide046"></label>
-			   <img src="basico/06_04_01.png" width="75%" />
+			   <img src="basico/06_04_01.png" />
 			   <figcaption>Na parte inferior da página, crie links para áudios e vídeos da banda ou do cantor escolhido. Use links do Spotify ou Youtube. Lembre-se de usar as medidas para criar os <span class="code">iframes</span> dos vídeos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide047" name="slide">
 			   <label for="slide047"></label>
-			   <img src="basico/06_04_01.png" width="75%" />
+			   <img src="basico/06_04_01.png" />
 			   <figcaption>No rodapé, você pode colocar informações de copyright com seu nome, usando o código do símbolo &copy;: <span class="code">&amp;copy;</span>.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_04_00.png" width="75%" class="fundo" style="visibility:hidden"/>
+		<img src="basico/06_04_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
