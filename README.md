@@ -281,7 +281,7 @@
   <img src="basico/tags001_0006.png" />
   <details class="sub"><summary>&#x1f4c3; Áudios</summary>
 	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos inserir tags de áudios. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
-	<p align="center"><img src="basico/06_01_04.png" width="45%" /></p>
+	<p align="center"><img src="basico/06_01_04.png" width="30%" /></p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide031" name="slide" checked>
