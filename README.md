@@ -688,6 +688,31 @@
   <img src="basico/tags001_0009b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png" />
+  <details class="sub"><summary>&#x1f4c3; Seletor de imagens</summary>
+	<p>Neste exemplo, vamos criar uma página com o seletor de imagens mostrado na apostila. Crie um arquivo chamado <span class="code">webdesign/exercicios/seletor.htm</span> na nossa pasta de exercícios. Dentro da pasta de imagens, coloque 4 arquivos. No exemplo, estes arquivos estão com os nomes Foto1.jpg, Foto2.jpg, Foto3.jpg e Foto4.jpg.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide082" name="slide">
+			   <label for="slide082"></label>
+			   <img src="basico/10_01_01.png" />
+			   <figcaption>O rótulo <span class="code">&lt;label</span> foi colocado antes da caixa de seleção.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide083" name="slide">
+			   <label for="slide083"></label>
+			   <img src="basico/10_01_02.png" />
+			   <figcaption>Para que o javascript funcione corretamente, o nome <span class="code">iframe1</span> deve ser o mesmo da tag <span class="code">iframe</span>. Preste atenção nos nomes dos arquivos de imagens e seus caminhos para que a página funcione.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide084" name="slide">
+			   <label for="slide084"></label>
+			   <img src="basico/10_01_03.png" />
+			   <figcaption>A tag do <span class="code">&lt;iframe</span> deve conter informações de largura e altura, como fizemos nas páginas anteriores que usaram este recurso. Na próxima atividade, vamos usar a tag <span class="code">&lt;select</span> para mudar páginas.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/10_01_00.png" class="fundo"/>
+  </details>
+  <img src="basico/tags001_0010a.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 <details><summary>CSS: Cascading Style Sheets</summary>
