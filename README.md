@@ -674,7 +674,7 @@
 			   <input type="radio" id="slide080" name="slide">
 			   <label for="slide080"></label>
 			   <img src="basico/09_02_11.png" />
-			   <figcaption>O layout mostrado neste exemplo fica desta forma. Usando a estrutura mostrada neste exemplo, crie o site de um restaurante.</figcaption>
+			   <figcaption>A tag da última linha da tabela contém o rodapé. Nesta tag <span class="code">&lt;td</span> você pode modificar a cor, alinhamento ou colocar uma imagem de fundo, como foi feito no banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide081" name="slide">
