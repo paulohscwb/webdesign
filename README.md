@@ -713,6 +713,84 @@
 		<img src="basico/10_01_00.png" class="fundo"/>
   </details>
   <img src="basico/tags001_0010a.png" />
+  <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
+	<p>Vamos criar uma pasta <span class="code">webdesign/atividade3</span> para trabalharmos neste projeto. Selecione 5 pontos turísticos, e cada um deles terá uma página, salva na mesma pasta que criamos. Use uma subpasta chamada <span class="code">webdesign/atividade3/imagens</span> para os arquivos das fotos. Neste projeto vamos inserir mapas nos sites.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide085" name="slide">
+			   <label for="slide085"></label>
+			   <img src="basico/10_02_01.png" />
+			   <figcaption>O layout da página do nosso site principal da Atividade 3 será feito usando tabelas. Coloque o nome de <span class="code">index.htm</span> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide086" name="slide">
+			   <label for="slide086"></label>
+			   <img src="basico/10_02_01.png" />
+			   <figcaption>O banner da página fica na primeira linha da tabela. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, que terá um seletor de páginas<span class="code">&lt;select</span> seguido de um <span class="code">&lt;iframe</span>, ideia parecida com a que usamos na página de Galeria de Fotos anterior.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide087" name="slide">
+			   <label for="slide087"></label>
+			   <img src="basico/10_02_10.png" />
+			   <figcaption>No código da página em HTML, a primeira linha da tabela contém a tag do banner. Você pode criar uma imagem de fundo usando o atributo <span class="code">background</span>, como já fizemos em outras páginas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide088" name="slide">
+			   <label for="slide088"></label>
+			   <img src="basico/10_02_11.png" />
+			   <figcaption>A estrutura da tag <span class="code">&lt;select</span> foi usada para as 5 páginas dos pontos turísticos. Crie estas páginas na mesma pasta da página principal, com os nomes dos pontos turísticos. Não use acentuação, e procure criar nomes com poucos caracteres.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide089" name="slide">
+			   <label for="slide089"></label>
+			   <img src="basico/10_02_12.png" />
+			   <figcaption>Para ajustar a altura da tag <span class="code">&lt;iframe</span>, podemos usar um estilo com altura mínima de 150% da altura da tela: <span class="code">min-height:150vh</span>. Mais adiante vamos trabalhar com estas formatações.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide090" name="slide">
+			   <label for="slide090"></label>
+			   <img src="basico/10_02_04.png" />
+			   <figcaption>Agora vamos ver como fica o layout de uma das páginas dos pontos turísticos. Basicamente são 2 colunas: uma com as descrições e fotos, e outra com a localização, e o rodapé. Logo, precisamos de uma tabela com 2 células em uma linha, e duas células mescladas na segunda linha.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide091" name="slide">
+			   <label for="slide091"></label>
+			   <img src="basico/10_02_05.png" />
+			   <figcaption>Podemos usar a célula com conteúdo principal com a largura de <b>65%</b> e a barra lateral com largura de <b>35%</b>. Dentro das tags <span class="code">&lt;td</span> podemos inserir os textos e imagens de cada página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide092" name="slide">
+			   <label for="slide092"></label>
+			   <img src="basico/10_02_06.png" />
+			   <figcaption>É importante separar os parágrafos, e definir larguras de imagens. Neste caso, foi usada a largura de <b>75%</b> para imagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide093a" name="slide">
+			   <label for="slide093a"></label>
+			   <img src="basico/10_02_06a.png" />
+			   <figcaption>A segunda célula com a barra lateral contém o <span class="code">&lt;iframe</span> com a localização do ponto turístico. Vamos ver como conseguir esta tag na próxima imagem</figcaption>
+			</li>
+		   <li>
+			   <input type="radio" id="slide094" name="slide">
+			   <label for="slide094"></label>
+			   <img src="basico/10_02_02.png" />
+			   <figcaption>Acesse o endereço <span class="code">www.google.com.br/maps/</span> e procure o ponto turístico. Depois, basta clicar em <span class="code">compartilhar</span> e a opção de <span class="code">Incorporar um mapa</span>. Copie e cole a tag criada na página do ponto turístico.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide093" name="slide">
+			   <label for="slide093"></label>
+			   <img src="basico/10_02_07.png" />
+			   <figcaption>Voltando ao código da página, a linha de rodapé tem 2 células mescladas, para usar a largura toda da página. Por isso, usamos o atributo <span class="code">colspan="2"</span>. Com a estrutura da página de um ponto turístico pronta, crie as páginas dos outros 4 pontos turísticos.</figcaption>
+			</li>
+		   <li>
+			   <input type="radio" id="slide095" name="slide">
+			   <label for="slide095"></label>
+			   <img src="basico/09_02_12.png" />
+			   <figcaption>O layout mostrado neste exemplo fica desta forma. Lembre-se de cuidar com os nomes das páginas, para ver se são iguais aos nomes colocados na página <span class="code">index.htm</span>.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/10_02_06.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 <details><summary>CSS: Cascading Style Sheets</summary>
