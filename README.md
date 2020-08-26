@@ -661,7 +661,7 @@
 		   <li>
 			   <input type="radio" id="slide078" name="slide">
 			   <label for="slide078"></label>
-			   <img src="basico/09_02_10.png" />
+			   <img src="basico/09_02_09.png" />
 			   <figcaption>Note que o conteúdo da barra lateral geralmente é menor do que o conteúdo principal da página. Por isso, podemos usar o atributo de alinhamento vertical <span class="code">valign="top"</span> para deixar estas partes do site alinhadas. Repare no link para acessar a página de nutrientes.</figcaption>
 		   </li>
 		   <li>
