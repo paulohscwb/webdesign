@@ -768,7 +768,7 @@
 			   <input type="radio" id="slide093a" name="slide">
 			   <label for="slide093a"></label>
 			   <img src="basico/10_02_06a.png" />
-			   <figcaption>A segunda célula com a barra lateral contém o <span class="code">&lt;iframe</span> com a localização do ponto turístico. Vamos ver como conseguir esta tag na próxima imagem</figcaption>
+			   <figcaption>A segunda célula com a barra lateral contém o <span class="code">&lt;iframe</span> com a localização do ponto turístico. Vamos ver como conseguir esta tag na próxima imagem.</figcaption>
 			</li>
 		   <li>
 			   <input type="radio" id="slide094" name="slide">
@@ -785,7 +785,7 @@
 		   <li>
 			   <input type="radio" id="slide095" name="slide">
 			   <label for="slide095"></label>
-			   <img src="basico/09_02_12.png" />
+			   <img src="basico/10_02_13.png" />
 			   <figcaption>O layout mostrado neste exemplo fica desta forma. Lembre-se de cuidar com os nomes das páginas, para ver se são iguais aos nomes colocados na página <span class="code">index.htm</span>.</figcaption>
 		   </li>
 		</ul>
