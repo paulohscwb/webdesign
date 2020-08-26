@@ -613,6 +613,78 @@
 		<img src="basico/09_01_02.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0009a.png" />
+  <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
+	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <span class="code">https://notepad-plus-plus.org/downloads/v7.8.8/</span> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <span class="code">webdesign/atividade2</span> para criar os arquivos da próxima atividade. A página principal será <span class="code">index.htm</span></p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide071" name="slide">
+			   <label for="slide071"></label>
+			   <img src="basico/09_02_01.png" />
+			   <figcaption>O layout da página do nosso site principal da Atividade 2 será feito usando tabelas. A estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide072" name="slide">
+			   <label for="slide072"></label>
+			   <img src="basico/09_02_02.png" />
+			   <figcaption>O banner da página ocupará o espaço de 2 células, e por isso aplicamos o atributo <span class="code">colspan="2"</span>. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, e outra para a barra lateral com as tags <span class="code">&lt;tr</span> e <span class="code">&lt;td</span></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide073" name="slide">
+			   <label for="slide073"></label>
+			   <img src="basico/09_02_02.png" />
+			   <figcaption>Para finalizar, colocamos o rodapé da página. Este item será inserido com as tags <span class="code">&lt;tr</span> e <span class="code">&lt;td</span> usando o atributo de <span class="code">colspan="2"</span> para usar a largura toda da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide074" name="slide">
+			   <label for="slide074"></label>
+			   <img src="basico/09_02_04.png" />
+			   <figcaption>A tag de fonte pode ser usada antes da tabela de layout da página. O <b>Notepad++</b> coloca em destaque quando reconhece tags fechadas, facilitando muito a programação da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide075" name="slide">
+			   <label for="slide075"></label>
+			   <img src="basico/09_02_05.png" />
+			   <figcaption>As propriedades <span class="code">cellspacing</span> e <span class="code">cellpadding</span> são usadas para fazer as margens interna e externa de cada parte do layout da página. A largura da tabela deve ser de <b>100%</b> para distribuir todo o conteúdo na tela do navegador.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide076" name="slide">
+			   <label for="slide076"></label>
+			   <img src="basico/09_02_06.png" />
+			   <figcaption>A primeira linha, indicada com a tag <span class="code">&lt;tr</span> contém o banner, com o atributo <span class="code">colspan="2"</span> dentro da tag da célula <span class="code">&lt;td</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide077" name="slide">
+			   <label for="slide077"></label>
+			   <img src="basico/09_02_08.png" />
+			   <figcaption>A segunda linha da tabela contém a primeira célula do conteúdo principal da página, com a largura de <b>70%</b> e a barra lateral com largura de <b>30%</b>. Dentro das tags <span class="code">&lt;td</span> podemos inserir os textos e imagens da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide078" name="slide">
+			   <label for="slide078"></label>
+			   <img src="basico/09_02_10.png" />
+			   <figcaption>Note que o conteúdo da barra lateral geralmente é menor do que o conteúdo principal da página. Por isso, podemos usar o atributo de alinhamento vertical <span class="code">valign="top"</span> para deixar estas partes do site alinhadas. Repare no link para acessar a página de nutrientes.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide079" name="slide">
+			   <label for="slide079"></label>
+			   <img src="basico/09_02_10.png" />
+			   <figcaption>Usando o layout dessa página, você pode criar a página <span class="code">nutrientes.htm</span> na mesma pasta da página <span class="code">index.htm</span>. Pegue todo o código da tabela que fizemos dos nutrientes e insira na tag principal desta página (a que tem <b>70%</b> de largura).</figcaption>
+			   </li>
+		   <li>
+			   <input type="radio" id="slide080" name="slide">
+			   <label for="slide080"></label>
+			   <img src="basico/09_02_11.png" />
+			   <figcaption>O layout mostrado neste exemplo fica desta forma. Usando a estrutura mostrada neste exemplo, crie o site de um restaurante.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide081" name="slide">
+			   <label for="slide081"></label>
+			   <img src="basico/09_02_12.png" />
+			   <figcaption>O layout mostrado neste exemplo fica desta forma. Usando a estrutura mostrada neste exemplo, crie o site de um restaurante.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/09_02_02.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <img src="basico/tags001_0009b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png" />
