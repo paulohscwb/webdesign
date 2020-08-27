@@ -18,7 +18,7 @@
 			   <input type="radio" id="slide001" name="slide" checked>
 			   <label for="slide001"></label>
 			   <img src="basico/01_01_01.png" />
-			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/"><span class="code">http://html-color-codes.info/Codigos-de-Cores-HTML/</span></a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
+			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/"target="_blank"><span class="code">http://html-color-codes.info/Codigos-de-Cores-HTML/</span></a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide002" name="slide">
@@ -30,13 +30,13 @@
 			   <input type="radio" id="slide003" name="slide">
 			   <label for="slide003"></label>
 			   <img src="basico/01_01_03.png" />
-			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/"><span class="code">https://color.adobe.com/pt/create/color-wheel/</span></a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
+			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/" target="_blank"><span class="code">https://color.adobe.com/pt/create/color-wheel/</span></a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide004" name="slide">
 			   <label for="slide004"></label>
 			   <img src="basico/01_01_04.png" />
-			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb"><span class="code">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</span></a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
+			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank"><span class="code">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</span></a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" />
@@ -49,7 +49,7 @@
 			   <input type="radio" id="slide005" name="slide">
 			   <label for="slide005"></label>
 			   <img src="basico/01_02_01.png" />
-			   <figcaption>Acessando o site <a href="http://br.lipsum.com/"><span class="code">http://br.lipsum.com/</span></a>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
+			   <figcaption>Acessando o site <a href="http://br.lipsum.com/" target="_blank"><span class="code">http://br.lipsum.com/</span></a>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide006" name="slide">
@@ -614,7 +614,7 @@
   </details>
   <img src="basico/tags001_0009a.png" />
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <span class="code">https://notepad-plus-plus.org/downloads/v7.8.8/</span> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <span class="code">webdesign/atividade2</span> para criar os arquivos da próxima atividade. A página principal será <span class="code">index.htm</span></p>
+	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.8.8/" target="_blank"><span class="code">https://notepad-plus-plus.org/downloads/v7.8.8/</span></a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <span class="code">webdesign/atividade2</span> para criar os arquivos da próxima atividade. A página principal será <span class="code">index.htm</span></p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide071" name="slide">
@@ -774,7 +774,7 @@
 			   <input type="radio" id="slide094" name="slide">
 			   <label for="slide094"></label>
 			   <img src="basico/10_02_02.png" />
-			   <figcaption>Acesse o endereço <span class="code">www.google.com.br/maps/</span> e procure o ponto turístico. Depois, basta clicar em <span class="code">compartilhar</span> e a opção de <span class="code">Incorporar um mapa</span>. Copie e cole a tag criada na página do ponto turístico.</figcaption>
+			   <figcaption>Acesse o endereço <a href="https://www.google.com.br/maps/" target="_blank"><span class="code">www.google.com.br/maps/</span></a> e procure o ponto turístico. Depois, basta clicar em <span class="code">compartilhar</span> e a opção de <span class="code">Incorporar um mapa</span>. Copie e cole a tag criada na página do ponto turístico.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide093" name="slide">
