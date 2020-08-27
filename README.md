@@ -41,7 +41,6 @@
 		</ul>
 		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" />
   </details>
-  <hr>
   <img src="basico/tags001_0001a.png" />
    <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
 	<p>Muitas vezes, nosso foco é de testar somente o layout de um site. Podemos preenchê-lo com textos e listas usando o site mostrado nesta página. Clique nos passos abaixo para ver como produzir estes conteúdos.</p>
@@ -61,7 +60,6 @@
 		</ul>
 		<img src="basico/01_02_00.png" class="fundo"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0002.png" />
   <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
@@ -88,7 +86,6 @@
 		</ul>
 		<img src="basico/02_01_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0002a.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0003.png" />
@@ -110,7 +107,6 @@
 		</ul>
 		<img src="basico/03_01_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0003a.png" />
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
 	<p>Vamos deixar todos os arquivos desta disciplina organizados. Podemos criar uma pasta chamada <span class="code">pagina1</span> para colocar todos os arquivos desta primeira página. É importante deixar os arquivos sempre organizados em pastas para usarmos as referências corretas na hora de montar o site.</p>
@@ -154,7 +150,6 @@
 		</ul>
 		<img src="basico/03_02_03.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0003b.png" />
   <details class="sub"><summary>&#x1f4c3; Barra separadora e títulos</summary>
 	<p>Podemos separar conteúdos usando uma tag simples de barra horizontal. Além disso, podemos destacar trechos do texto colocando negrito, itálico ou sublinhado. Títulos de seções também podem ser feitos com tags simples mostradas a seguir:</p>
@@ -192,7 +187,6 @@
 		</ul>
 		<img src="basico/03_03_00.png" class="fundo"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0004.png" />
   <details class="sub"><summary>&#x1f4c3; Listas</summary>
@@ -225,7 +219,6 @@
 		</ul>
 		<img src="basico/04_01_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0004a.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0005.png" />
@@ -259,7 +252,6 @@
 		</ul>
 		<img src="basico/05_01_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0005a.png" />
   <details class="sub"><summary>&#x1f4c3; Links</summary>
 	<p>Usando a mesma <span class="code">pagina3.htm</span>, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
@@ -285,7 +277,6 @@
 		</ul>
 		<img src="basico/05_02_00.png" class="fundo"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0006.png" />
   <details class="sub"><summary>&#x1f4c3; Áudios</summary>
@@ -337,7 +328,6 @@
 		</ul>
 		<img src="basico/06_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0006a.png" />
   <details class="sub"><summary>&#x1f4c3; Vídeos</summary>
 	<p>Vamos criar uma nova pasta chamada <span class="code">webdesign/pagina4</span>. Dentro desta pasta, crie as subpastas de <span class="code">imagens</span> e de <span class="code">videos</span>. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
@@ -376,7 +366,6 @@
 		</ul>
 		<img src="basico/06_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0006b.png" />
   <details class="sub"><summary>&#x1f4c3; Vídeos do Youtube</summary>
 	<p>Para inserir um vídeo do Youtube, usamos a tag <span class="code">iframe</span>. Vamos usar a mesma <span class="code">pagina4.htm</span> para inserir esta tag de vídeo.</p>
@@ -408,7 +397,6 @@
 		</ul>
 		<img src="basico/06_03_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0006c.png" />
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
 	<p>Usando todas as tags que vimos até agora, vamos montar uma página htm com os elementos descritos abaixo. Crie uma pasta chamada <span class="code">webdesign/atividade1</span> para inserir os arquivos desta atividade. O arquivo principal HTML será chamado de <span class="code">index.htm</span>.</p>
@@ -440,7 +428,6 @@
 		</ul>
 		<img src="basico/06_04_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png" />
   <details class="sub"><summary>&#x1f4c3; Tabelas</summary>
@@ -485,7 +472,6 @@
 		</ul>
 		<img src="basico/07_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0007a.png" />
   <details class="sub"><summary>&#x1f4c3; Galeria de imagens</summary>
 	<p>Você pode usar a mesma pasta da Atividade 1: <span class="code">webdesign/atividade1</span>. Insira imagens na pasta de <span class="code">webdesign/atividade1/imagens</span>, para criar nossa Galeria.</p>
@@ -511,7 +497,6 @@
 		</ul>
 		<img src="basico/07_02_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0007b.png" />
   <details class="sub"><summary>&#x1f4c3; Galeria de vídeos e áudios</summary>
 	<p>Você pode usar a mesma pasta da Atividade 1: <span class="code">webdesign/atividade1</span>. Insira arquivos de áudio na pasta de <span class="code">webdesign/atividade1/audios</span>, para criar nossa Galeria.</p>
@@ -537,7 +522,6 @@
 		</ul>
 		<img src="basico/07_03_00.png" class="fundo"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0008.png" />
   <details class="sub"><summary>&#x1f4c3; Tabela de nutrientes</summary>
@@ -582,7 +566,6 @@
 		</ul>
 		<img src="basico/08_01_04.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0008a.png" />
   <details class="sub"><summary>&#x1f4c3; Pesquisa fumantes</summary>
 	<p>Este exercício é parecido com o anterior. Na mesma pasta, crie um arquivo: <span class="code">webdesign/exercicios/fumantes.htm</span>.</p>
@@ -608,7 +591,6 @@
 		</ul>
 		<img src="basico/08_02_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0008b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0009.png" />
@@ -630,7 +612,6 @@
 		</ul>
 		<img src="basico/09_01_02.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0009a.png" />
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
 	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.8.8/" target="_blank"><span class="code">https://notepad-plus-plus.org/downloads/v7.8.8/</span></a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <span class="code">webdesign/atividade2</span> para criar os arquivos da próxima atividade. A página principal será <span class="code">index.htm</span></p>
@@ -704,7 +685,6 @@
 		</ul>
 		<img src="basico/09_02_04.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <img src="basico/tags001_0009b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png" />
@@ -732,7 +712,6 @@
 		</ul>
 		<img src="basico/10_01_00.png" class="fundo"/>
   </details>
-  <hr>
   <img src="basico/tags001_0010a.png" />
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
 	<p>Vamos criar uma pasta <span class="code">webdesign/atividade3</span> para trabalharmos neste projeto. Selecione 5 pontos turísticos, e cada um deles terá uma página, salva na mesma pasta que criamos. Use uma subpasta chamada <span class="code">webdesign/atividade3/imagens</span> para os arquivos das fotos. Neste projeto vamos inserir mapas nos sites.</p>
@@ -812,7 +791,6 @@
 		</ul>
 		<img src="basico/10_02_06.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <hr>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 <details><summary>CSS: Cascading Style Sheets</summary>
