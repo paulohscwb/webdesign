@@ -18,7 +18,7 @@
 			   <input type="radio" id="slide001" name="slide" checked>
 			   <label for="slide001"></label>
 			   <img src="basico/01_01_01.png" />
-			   <figcaption>Acessando o site <span class="code">http://html-color-codes.info/Codigos-de-Cores-HTML/</span>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
+			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/"><span class="code">http://html-color-codes.info/Codigos-de-Cores-HTML/</span></a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide002" name="slide">
@@ -30,13 +30,13 @@
 			   <input type="radio" id="slide003" name="slide">
 			   <label for="slide003"></label>
 			   <img src="basico/01_01_03.png" />
-			   <figcaption>Acessando o site <span class="code">https://color.adobe.com/pt/create/color-wheel/</span>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
+			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/"><span class="code">https://color.adobe.com/pt/create/color-wheel/</span></a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide004" name="slide">
 			   <label for="slide004"></label>
 			   <img src="basico/01_01_04.png" />
-			   <figcaption>Outro site interessante é <span class="code">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</span>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
+			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb"><span class="code">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</span></a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" />
@@ -49,7 +49,7 @@
 			   <input type="radio" id="slide005" name="slide">
 			   <label for="slide005"></label>
 			   <img src="basico/01_02_01.png" />
-			   <figcaption>Acessando o site <span class="code">http://br.lipsum.com/</span>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
+			   <figcaption>Acessando o site <a href="http://br.lipsum.com/"><span class="code">http://br.lipsum.com/</span></a>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide006" name="slide">
@@ -229,7 +229,7 @@
 			   <input type="radio" id="slide025" name="slide">
 			   <label for="slide025"></label>
 			   <img src="basico/05_01_01.png" />
-			   <figcaption>A tag de imagem pode ser colocada no meio do texto usando o código <span class="code">&lt;img</span>. Todos os atributos desta tag ficam dentro da <span class="code">&lt;img</span>, não precisando ser fechada. A largura em percentual é importante para deixar o site responsivo.</figcaption>
+			   <figcaption>A tag de imagem pode ser colocada no meio do texto usando o código <span class="code">&lt;img&gt;</span>. Todos os atributos desta tag ficam dentro da <span class="code">&lt;img&gt;</span>, não precisando ser fechada. A largura em percentual é importante para deixar o site responsivo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide026" name="slide">
@@ -260,7 +260,7 @@
 			   <input type="radio" id="slide028" name="slide">
 			   <label for="slide028"></label>
 			   <img src="basico/05_02_01.png" />
-			   <figcaption>A tag de link é <span class="code">&lt;a</span>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
+			   <figcaption>A tag de link é <span class="code">&lt;a&gt;</span>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide029" name="slide">
@@ -272,7 +272,7 @@
 			   <input type="radio" id="slide030" name="slide">
 			   <label for="slide030"></label>
 			   <img src="basico/05_02_02.png" />
-			   <figcaption>Para inserir um link em uma imagem, basta deixar a tag <span class="code">&lt;a</span> aninhada com a tag <span class="code">&lt;img</span>, como mostra este segundo exemplo. Crie os links, salve a página e teste em um navegador.</figcaption>
+			   <figcaption>Para inserir um link em uma imagem, basta deixar a tag <span class="code">&lt;a&gt;</span> aninhada com a tag <span class="code">&lt;img&gt;</span>, como mostra este segundo exemplo. Crie os links, salve a página e teste em um navegador.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/05_02_00.png" class="fundo"/>
@@ -317,13 +317,13 @@
 			   <input type="radio" id="slide034b" name="slide">
 			   <label for="slide034b"></label>
 			   <img src="basico/06_01_05a.png" />
-			   <figcaption>Você pode criar também os links para álbuns, da mesma maneira mostrada para músicas. Na página HTML usamos a tag de link <span class="code">&lt;a</span> para os álbuns.</figcaption>
+			   <figcaption>Você pode criar também os links para álbuns, da mesma maneira mostrada para músicas. Na página HTML usamos a tag de link <span class="code">&lt;a&gt;</span> para os álbuns.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide034c" name="slide">
 			   <label for="slide034c"></label>
 			   <img src="basico/06_01_06.png" />
-			   <figcaption>Usando a tag de link <span class="code">&lt;a</span>, você insere os links de músicas em sua página.</figcaption>
+			   <figcaption>Usando a tag de link <span class="code">&lt;a&gt;</span>, você insere os links de músicas em sua página.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/06_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -449,7 +449,7 @@
 			   <input type="radio" id="slide050" name="slide">
 			   <label for="slide050"></label>
 			   <img src="basico/07_01_02.png" />
-			   <figcaption>As tags <span class="code">&lt;th&gt;</span> podem ser usadas na primeira linha de uma tabela, como linha de títulos. Os textos, podemos digitar diretamente sem tags, como mostra o exemplo. Para colocar imagens, colocamos a tag <span class="code">&lt;img</span> dentro da tag <span class="code">&lt;td</span>.</figcaption>
+			   <figcaption>As tags <span class="code">&lt;th&gt;</span> podem ser usadas na primeira linha de uma tabela, como linha de títulos. Os textos, podemos digitar diretamente sem tags, como mostra o exemplo. Para colocar imagens, colocamos a tag <span class="code">&lt;img&gt;</span> dentro da tag <span class="code">&lt;td&gt;</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide051" name="slide">
@@ -486,7 +486,7 @@
 			   <input type="radio" id="slide055" name="slide">
 			   <label for="slide055"></label>
 			   <img src="basico/07_02_02.png" />
-			   <figcaption>Agora você pode "aninhar" as tags de imagem <span class="code">&lt;img</span> dentro de tags de link <span class="code">&lt;a</span>, que estará dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+			   <figcaption>Agora você pode "aninhar" as tags de imagem <span class="code">&lt;img&gt;</span> dentro de tags de link <span class="code">&lt;a&gt;</span>, que estará dentro das respectivas tags de célula <span class="code">&lt;td&gt;</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide056" name="slide">
@@ -511,13 +511,13 @@
 			   <input type="radio" id="slide058" name="slide">
 			   <label for="slide058"></label>
 			   <img src="basico/07_03_02.png" />
-			   <figcaption>Agora você pode "aninhar" as tags <span class="code">&lt;audio</span> dentro das respectivas tags de célula <span class="code">&lt;td</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+			   <figcaption>Agora você pode "aninhar" as tags <span class="code">&lt;audio&gt;</span> dentro das respectivas tags de célula <span class="code">&lt;td&gt;</span>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide059" name="slide">
 			   <label for="slide059"></label>
 			   <img src="basico/07_03_03.png" />
-			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <span class="code">&lt;iframe</span> do Youtube, ou criar tags <span class="code">&lt;video</span>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <span class="code">&lt;td</span>.</figcaption>
+			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <span class="code">&lt;iframe&gt;</span> do Youtube, ou criar tags <span class="code">&lt;video&gt;</span>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <span class="code">&lt;td&gt;</span>.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/07_03_00.png" class="fundo"/>
@@ -620,19 +620,19 @@
 			   <input type="radio" id="slide071" name="slide">
 			   <label for="slide071"></label>
 			   <img src="basico/09_02_01.png" />
-			   <figcaption>O layout da página do nosso site principal da Atividade 2 será feito usando tabelas. A estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table</span>.</figcaption>
+			   <figcaption>O layout da página do nosso site principal da Atividade 2 será feito usando tabelas. A estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table&gt;</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide072" name="slide">
 			   <label for="slide072"></label>
 			   <img src="basico/09_02_02.png" />
-			   <figcaption>O banner da página ocupará o espaço de 2 células, e por isso aplicamos o atributo <span class="code">colspan="2"</span>. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, e outra para a barra lateral com as tags <span class="code">&lt;tr</span> e <span class="code">&lt;td</span></figcaption>
+			   <figcaption>O banner da página ocupará o espaço de 2 células, e por isso aplicamos o atributo <span class="code">colspan="2"</span>. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, e outra para a barra lateral com as tags <span class="code">&lt;tr&gt;</span> e <span class="code">&lt;td&gt;</span></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide073" name="slide">
 			   <label for="slide073"></label>
 			   <img src="basico/09_02_02.png" />
-			   <figcaption>Para finalizar, colocamos o rodapé da página. Este item será inserido com as tags <span class="code">&lt;tr</span> e <span class="code">&lt;td</span> usando o atributo de <span class="code">colspan="2"</span> para usar a largura toda da página.</figcaption>
+			   <figcaption>Para finalizar, colocamos o rodapé da página. Este item será inserido com as tags <span class="code">&lt;tr&gt;</span> e <span class="code">&lt;td&gt;</span> usando o atributo de <span class="code">colspan="2"</span> para usar a largura toda da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide074" name="slide">
@@ -650,13 +650,13 @@
 			   <input type="radio" id="slide076" name="slide">
 			   <label for="slide076"></label>
 			   <img src="basico/09_02_06.png" />
-			   <figcaption>A primeira linha, indicada com a tag <span class="code">&lt;tr</span> contém o banner, com o atributo <span class="code">colspan="2"</span> dentro da tag da célula <span class="code">&lt;td</span>.</figcaption>
+			   <figcaption>A primeira linha, indicada com a tag <span class="code">&lt;tr&gt;</span> contém o banner, com o atributo <span class="code">colspan="2"</span> dentro da tag da célula <span class="code">&lt;td&gt;</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide077" name="slide">
 			   <label for="slide077"></label>
 			   <img src="basico/09_02_08.png" />
-			   <figcaption>A segunda linha da tabela contém a primeira célula do conteúdo principal da página, com a largura de <b>70%</b> e a barra lateral com largura de <b>30%</b>. Dentro das tags <span class="code">&lt;td</span> podemos inserir os textos e imagens da página.</figcaption>
+			   <figcaption>A segunda linha da tabela contém a primeira célula do conteúdo principal da página, com a largura de <b>70%</b> e a barra lateral com largura de <b>30%</b>. Dentro das tags <span class="code">&lt;td&gt;</span> podemos inserir os textos e imagens da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide078" name="slide">
@@ -674,7 +674,7 @@
 			   <input type="radio" id="slide080" name="slide">
 			   <label for="slide080"></label>
 			   <img src="basico/09_02_11.png" />
-			   <figcaption>A tag da última linha da tabela contém o rodapé. Nesta tag <span class="code">&lt;td</span> você pode modificar a cor, alinhamento ou colocar uma imagem de fundo, como foi feito no banner.</figcaption>
+			   <figcaption>A tag da última linha da tabela contém o rodapé. Nesta tag <span class="code">&lt;td&gt;</span> você pode modificar a cor, alinhamento ou colocar uma imagem de fundo, como foi feito no banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide081" name="slide">
@@ -695,7 +695,7 @@
 			   <input type="radio" id="slide082" name="slide">
 			   <label for="slide082"></label>
 			   <img src="basico/10_01_01.png" />
-			   <figcaption>O rótulo <span class="code">&lt;label</span> foi colocado antes da caixa de seleção.</figcaption>
+			   <figcaption>O rótulo <span class="code">&lt;label&gt;</span> foi colocado antes da caixa de seleção.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide083" name="slide">
@@ -707,7 +707,7 @@
 			   <input type="radio" id="slide084" name="slide">
 			   <label for="slide084"></label>
 			   <img src="basico/10_01_03.png" />
-			   <figcaption>A tag do <span class="code">&lt;iframe</span> deve conter informações de largura e altura, como fizemos nas páginas anteriores que usaram este recurso. Na próxima atividade, vamos usar a tag <span class="code">&lt;select</span> para mudar páginas.</figcaption>
+			   <figcaption>A tag do <span class="code">&lt;iframe&gt;</span> deve conter informações de largura e altura, como fizemos nas páginas anteriores que usaram este recurso. Na próxima atividade, vamos usar a tag <span class="code">&lt;select&gt;</span> para mudar páginas.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/10_01_00.png" class="fundo"/>
@@ -720,13 +720,13 @@
 			   <input type="radio" id="slide085" name="slide">
 			   <label for="slide085"></label>
 			   <img src="basico/10_02_01.png" />
-			   <figcaption>O layout da página do nosso site principal da Atividade 3 será feito usando tabelas. Coloque o nome de <span class="code">index.htm</span> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table</span>.</figcaption>
+			   <figcaption>O layout da página do nosso site principal da Atividade 3 será feito usando tabelas. Coloque o nome de <span class="code">index.htm</span> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table&gt;</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide086" name="slide">
 			   <label for="slide086"></label>
 			   <img src="basico/10_02_01.png" />
-			   <figcaption>O banner da página fica na primeira linha da tabela. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, que terá um seletor de páginas<span class="code">&lt;select</span> seguido de um <span class="code">&lt;iframe</span>, ideia parecida com a que usamos na página de Galeria de Fotos anterior.</figcaption>
+			   <figcaption>O banner da página fica na primeira linha da tabela. Na segunda linha da tabela, criamos uma célula para o conteúdo principal, que terá um seletor de páginas<span class="code">&lt;select&gt;</span> seguido de um <span class="code">&lt;iframe&gt;</span>, ideia parecida com a que usamos na página de Galeria de Fotos anterior.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide087" name="slide">
@@ -738,13 +738,13 @@
 			   <input type="radio" id="slide088" name="slide">
 			   <label for="slide088"></label>
 			   <img src="basico/10_02_11.png" />
-			   <figcaption>A estrutura da tag <span class="code">&lt;select</span> foi usada para as 5 páginas dos pontos turísticos. Crie estas páginas na mesma pasta da página principal, com os nomes dos pontos turísticos. Não use acentuação, e procure criar nomes com poucos caracteres.</figcaption>
+			   <figcaption>A estrutura da tag <span class="code">&lt;select&gt;</span> foi usada para as 5 páginas dos pontos turísticos. Crie estas páginas na mesma pasta da página principal, com os nomes dos pontos turísticos. Não use acentuação, e procure criar nomes com poucos caracteres.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide089" name="slide">
 			   <label for="slide089"></label>
 			   <img src="basico/10_02_12.png" />
-			   <figcaption>Para ajustar a altura da tag <span class="code">&lt;iframe</span>, podemos usar um estilo com altura mínima de 150% da altura da tela: <span class="code">min-height:150vh</span>. Mais adiante vamos trabalhar com estas formatações.</figcaption>
+			   <figcaption>Para ajustar a altura da tag <span class="code">&lt;iframe&gt;</span>, podemos usar um estilo com altura mínima de 150% da altura da tela: <span class="code">min-height:150vh</span>. Mais adiante vamos trabalhar com estas formatações.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide090" name="slide">
@@ -756,7 +756,7 @@
 			   <input type="radio" id="slide091" name="slide">
 			   <label for="slide091"></label>
 			   <img src="basico/10_02_05.png" />
-			   <figcaption>Podemos usar a célula com conteúdo principal com a largura de <b>65%</b> e a barra lateral com largura de <b>35%</b>. Dentro das tags <span class="code">&lt;td</span> podemos inserir os textos e imagens de cada página.</figcaption>
+			   <figcaption>Podemos usar a célula com conteúdo principal com a largura de <b>65%</b> e a barra lateral com largura de <b>35%</b>. Dentro das tags <span class="code">&lt;td&gt;</span> podemos inserir os textos e imagens de cada página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide092" name="slide">
@@ -768,7 +768,7 @@
 			   <input type="radio" id="slide093a" name="slide">
 			   <label for="slide093a"></label>
 			   <img src="basico/10_02_06a.png" />
-			   <figcaption>A segunda célula com a barra lateral contém o <span class="code">&lt;iframe</span> com a localização do ponto turístico. Vamos ver como conseguir esta tag na próxima imagem.</figcaption>
+			   <figcaption>A segunda célula com a barra lateral contém o <span class="code">&lt;iframe&gt;</span> com a localização do ponto turístico. Vamos ver como conseguir esta tag na próxima imagem.</figcaption>
 			</li>
 		   <li>
 			   <input type="radio" id="slide094" name="slide">
