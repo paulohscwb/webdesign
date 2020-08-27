@@ -683,7 +683,7 @@
 			   <figcaption>O layout mostrado neste exemplo fica desta forma. Usando a estrutura mostrada neste exemplo, crie o site de um restaurante.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/09_02_02.png" class="fundo" style="visibility:hidden"/>
+		<img src="basico/09_02_04.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0009b.png" />
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
