@@ -54,7 +54,6 @@ li > img{
 .sub {
   border: none;
   padding: 3px;
-  float:left;
   position:relative;
 }
 
@@ -90,9 +89,9 @@ h5 {
   font-size: 15px;
 }
 hr {
-  border: 1px solid rgb(21,153,87);
-  width: 98%;
-  margin: 5px 0 5px 0;
+  color: #a2dec0;
+  width: 95%;
+  margin: 5px;
 }
 h3::after {
   content: '';
