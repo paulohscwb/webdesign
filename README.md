@@ -720,7 +720,7 @@
 			   <input type="radio" id="slide085" name="slide">
 			   <label for="slide085"></label>
 			   <img src="basico/10_02_01.png" />
-			   <figcaption>O layout da página do nosso site principal da Atividade 3 será feito usando tabelas. Coloque o nome de <span class="code">index.htm</span> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table&gt;</span>.</figcaption>
+			   <figcaption>O layout da página principal do nosso site da Atividade 3 será feito usando tabelas. Coloque o nome de <span class="code">index.htm</span> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <span class="code">&lt;table&gt;</span>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide086" name="slide">
@@ -793,8 +793,76 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
-<details><summary>CSS: Cascading Style Sheets</summary>
-	<p>página 11...</p>
+<details id="css1"><summary>CSS: Cascading Style Sheets</summary>
+	<img src="css1/tags001_0011.png" />
+	<img src="css1/tags001_0012.png" />
+  <details class="sub"><summary>&#x1f4c3; Primeiro Layout com CSS</summary>
+	<p>Vamos usar a nossa pasta de exercícios para criar a página <span class="code">webdesign/exercicios/layoutCSS.htm</span>. Neste projeto vamos criar um layout em forma de tabela, parecido com as Atividades 2 e 3: serão 2 colunas na parte principal, com banner e um rodapé.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide096" name="slide">
+			   <label for="slide096"></label>
+			   <img src="basico/12_01_01.png" />
+			   <figcaption>O layout da nossa primeira página com CSS será feito usando uma tabela. A primeira linha da tabela contém o banner da página, com o atributo <span class="code">colspan="2"</span> para ocupar toda a largura da página. Insira uma imagem nesta tag.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide097" name="slide">
+			   <label for="slide097"></label>
+			   <img src="basico/12_01_02.png" />
+			   <figcaption>A segunda linha da tabela contém uma barra lateral esquerda e o conteúdo principal com uma imagem inserida. Vamos testar os alinhamentos do texto e da imagem nesta página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide098" name="slide">
+			   <label for="slide098"></label>
+			   <img src="basico/12_01_03.png" />
+			   <figcaption>A terceira linha contém o rodapé, também com o atributo <span class="code">colspan="2"</span> para usar a largura toda da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide099" name="slide">
+			   <label for="slide099"></label>
+			   <img src="basico/12_01_04.png" />
+			   <figcaption>Agora vamos analisar a estrutura do CSS. Nestes primeiros exemplos, vamos usar as folhas de estilos por dentro das páginas, dentro do cabeçalho com a tag <span class="code">&lt;style&gt;</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide100" name="slide">
+			   <label for="slide100"></label>
+			   <img src="basico/12_01_05.png" />
+			   <figcaption>Podemos definir atributos gerais no CSS quando nos referimos ao corpo da página <span class="code">body</span>. Estes atributos podem incluir tamanhos de fontes e cores de fundos. Modifique estes valores para visualizar o layout da sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide101" name="slide">
+			   <label for="slide101"></label>
+			   <img src="basico/12_01_06.png" />
+			   <figcaption>De uma maneira bem mais simples, definimos bordas, cores de fundo das células <span class="code">td</span> com as folhas de estilos. Note que o tamanho da fonte foi colocado com <b>0.8em</b>, ou seja, corresponde a <b>80%</b> do tamanho de fonte da tag mãe <span class="code">body</span>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide102" name="slide">
+			   <label for="slide102"></label>
+			   <img src="basico/12_01_07.png" />
+			   <figcaption>Um atributo importante que usamos no CSS é da altura da página. Neste caso, foi colocado que a altura mede <b>100vh</b>, ou seja, <b>100%</b> da altura do navegador. Podemos usar no lugar do atributo <span class="code">height:100vh;</span> o atributo <span class="code">min-height:100vh;</span>, que deixaria a altura mínima com a altura do navegador. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide103" name="slide">
+			   <label for="slide103"></label>
+			   <img src="basico/12_01_08.png" />
+			   <figcaption>Para imagens não ficarem "grudadas" nos textos, podemos definir as margens com CSS. Os atributos ficam valendo para todas as imagens que você insere na página. Modifique atributos nesta nossa página, para treinar para a próxima Atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="basico/12_01_00.png" class="fundo"/>
+  </details>
+  <img src="css1/tags001_0012a.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
+  <img src="css1/tags001_0013.png" />
+  <img src="css1/tags001_0014.png" />
+  <img src="css1/tags001_0015.png" />
+  <img src="css1/tags001_0016.png" />
+  <img src="css1/tags001_0017.png" />
+  <img src="css1/tags001_0018.png" />
+  <img src="css1/tags001_0019.png" />
+  <img src="css1/tags001_0020.png" />
+</details>
+<details id="css1"><summary>CSS e Animações</summary>
+	<p>página 21...</p>
 </details>
 <br>&#x1f4bb; &#x1f4c2;
 <p><b>site desenvolvido por:</b></p> 
