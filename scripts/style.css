@@ -53,10 +53,11 @@ li > img{
 }
 
 .sub {
+  width: 100%;
   border: none;
   padding: 3px;
   position:relative;
-  margin: 0 -2px 0 -2px;
+  margin: 0 -3px 0 -3px;
 }
 
 .sub summary{
