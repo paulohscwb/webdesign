@@ -793,8 +793,9 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
-<details id="css1"><summary>CSS: Cascading Style Sheets</summary>
+<details id="css1"><summary>CSS - Cascading Style Sheets: pág. 11-20</summary>
 	<img src="css1/tags001_0011.png" />
+	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 	<img src="css1/tags001_0012.png" />
   <details class="sub"><summary>&#x1f4c3; Primeiro Layout com CSS</summary>
 	<p>Vamos usar a nossa pasta de exercícios para criar a página <span class="code">webdesign/exercicios/layoutCSS.htm</span>. Neste projeto vamos criar um layout em forma de tabela, parecido com as Atividades 2 e 3: serão 2 colunas na parte principal, com banner e um rodapé.</p>
@@ -853,13 +854,21 @@
   <img src="css1/tags001_0012a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0013.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0014.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0015.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0016.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0017.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0018.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0019.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0020.png" />
+  <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
 <details id="css1"><summary>CSS e Animações</summary>
 	<p>página 21...</p>
