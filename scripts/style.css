@@ -1,6 +1,6 @@
 code{
 	font-weight:bold;
-	background:rgb(201,232,217);
+	color: rgb(21,153,87);
 }
 
 .topo::after {
@@ -21,7 +21,7 @@ code{
 
 figcaption {
   top: 0px;
-  background: rgb(227,243,235);
+  color: rgb(21,153,87);
   padding: 5px;
   border-radius: 7px;
   font-size: 14px;
