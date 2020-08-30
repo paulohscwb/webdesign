@@ -840,7 +840,7 @@
 			   <input type="radio" id="slide102" name="slide">
 			   <label for="slide102"></label>
 			   <img src="css1/12_01_07.png" />
-			   <figcaption>Um atributo importante que usamos no CSS é da altura da página. Neste caso, foi colocado que a altura mede <b>100vh</b>, ou seja, <b>100%</b> da altura do navegador. Podemos usar no lugar do atributo <span class="code">height:100vh;</span> o atributo <span class="code">min-height:100vh;</span>, que deixaria a altura mínima com a altura do navegador. </figcaption>
+			   <figcaption>Um atributo importante que usamos no CSS é da altura da página. Neste caso, foi colocado que a altura mede <b>100vh</b>, ou seja, <b>100%</b> da altura do navegador. Podemos usar no lugar do atributo <span class="code">height:100vh;</span> o atributo <code>min-height:100vh;</code>, que deixaria a altura mínima com a altura do navegador. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide103" name="slide">
