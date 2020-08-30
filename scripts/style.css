@@ -1,8 +1,5 @@
-.code {
-	font-family:Courier;
-	color: blue;
-	font-size: 16px;
-	font-weight: bold;
+code{
+	font-weight:bold;
 }
 
 .topo::after {
@@ -49,7 +46,7 @@ details {
 }
 
 li > img{
-	width:100%;
+	min-width:100%;
 }
 
 .sub {
