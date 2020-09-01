@@ -856,8 +856,106 @@
   <img src="css1/tags001_0013.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0014.png" />
+  <details class="sub"><summary>&#x1f4c3; Layout da Atividade 4</summary>
+	<p>Vamos criar uma pasta para nosso próximo site chamada <code>webdesign/atividade4</code>. Neste projeto vamos criar um layout em forma de tabela, parecido com as Atividades 2 e 3, com formatação CSS. Como é um site com 3 páginas, vamos precisar de uma pasta de imagens:<code>webdesign/atividade4/imagens</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide104" name="slide">
+			   <label for="slide104"></label>
+			   <img src="css1/14_01_01.png" />
+			   <figcaption>O layout da nossa primeira página com CSS será feito usando uma tabela. A primeira linha da tabela contém uma célula com um ícone (logomarca ou pictograma) e na outra célula o banner da página, com o atributo <code>colspan="2"</code> para ocupar a largura restante da página (retirando a parte do ícone. Você pode inserir imagens nestas tags.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide104a" name="slide">
+			   <label for="slide104a"></label>
+			   <img src="css1/14_01_01.png" />
+			   <figcaption>Note que já vamos criar classes para as partes das nossas páginas: <code>class="icone"</code> e <code>class="banner"</code> para formatação em CSS. Com o tema de Esportes, escolha um título para colocar no Banner da página que terá o nome <code>index.htm</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide105" name="slide">
+			   <label for="slide105"></label>
+			   <img src="css1/14_01_02.png" />
+			   <figcaption>A segunda linha da tabela contém o menu, que ocupará a largura toda da página. Por isso, colocamos o atributo <code>colspan="3"</code> nesta célula, que possui classe definida como <code>class="menu"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide106" name="slide">
+			   <label for="slide106"></label>
+			   <img src="css1/14_01_03.png" />
+			   <figcaption>Na quarta linha, teremos 3 células: <code>class="galeria"</code>, que contém uma espécie de galeria de notícias e imagens; <code>class="principal"</code>, com o contéudo principal da página que ficará centralizado no layout; e <code>class="contato"</code>, com informações de contatos e redes sociais.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide107" name="slide">
+			   <label for="slide107"></label>
+			   <img src="css1/14_01_04.png" />
+			   <figcaption>A última linha contém o rodapé, com atributo <code>colspan="3"</code> para usar a largura toda da página, e com a classe definida: <code>class="rodape"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide108" name="slide">
+			   <label for="slide108"></label>
+			   <img src="css1/14_01_05.png" />
+			   <figcaption>A tag dentro do cabeçalho <code>style</code> contém todos os atributos do CSS que vamos definir nestas páginas. Nesta primeira página <code>index.htm</code> vamos definir todos os estilos antes de criar as outras páginas do nosso site.</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/14_01_00.png" class="fundo"/>
+  </details>
+  <img src="css1/tags001_0014a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0015.png" />
+  <details class="sub"><summary>&#x1f4c3; Banner da Atividade 4</summary>
+	<p>Vamos formatar o banner e o ícone da página <code>index.htm</code> da Atividade 4 com CSS. A estrutura HTML já foi mostrada e comentada em detalhes na página anterior.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide109" name="slide">
+			   <label for="slide109"></label>
+			   <img src="css1/15_01_01.png" />
+			   <figcaption>O corpo da página <code>body</code> foi definido com uma imagem de fundo (background) que mostra uma partida de vôlei. Note que deixamos as imagens na pasta <code>webdesign/atividade4/imagens</code>. Logo, podemos usar o atributo <code>url(imagens/banner.jpg)</code> que mostra o caminho do arquivo da imagem de fundo do site.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide109a" name="slide">
+			   <label for="slide109a"></label>
+			   <img src="css1/15_01_01.png" />
+			   <figcaption>Em CSS podemos definir vários elementos para a tag <code>body</code>, que é a "mãe" de todas as tags. Largura, tamanho de fonte, margem automática (que deixa o conteúdo centralizado), além de <code>background-size</code> e <code>background-attachment</code> que deixam a imagem de fundo fixa e "cobrindo" todo o espaço da tela.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide110" name="slide">
+			   <label for="slide110"></label>
+			   <img src="css1/15_01_02.png" />
+			   <figcaption>A tag de ícone pode conter uma imagem, como uma logomarca, ou podemos usar uma imagem pictográfica. No site <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html">http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html</a> você pode escolher uma imagem pictográfica para ficar nesta tag de ícone desta página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide111" name="slide">
+			   <label for="slide111"></label>
+			   <img src="css1/15_01_03.png" />
+			   <figcaption>Em cada página do nosso site, podemos escolher um destes símbolos pictográficos para inserir na tag de ícone. Visite o site e escolha um símbolo que represente o esporte de cada página. O formato deste tipo de imagem é parecido com o de cores hexadecimais, mas sempre começa com o símbolo <b>&amp;</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide112" name="slide">
+			   <label for="slide112"></label>
+			   <img src="css1/15_01_04.png" />
+			   <figcaption>Na tag do banner, podemos escolher uma imagem de fundo, inserindo-a como fizemos na imagem do fundo do site na tag <code>body</code>. Outra opção é usar efeitos de texto, como cores diferentes no contorno com o atributo <code>stroke-width</code> mostrado neste exemplo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide113" name="slide">
+			   <label for="slide113"></label>
+			   <img src="css1/15_01_05.png" />
+			   <figcaption>As tags <code>td</code> servem de estrutura para o layout do nosso site, e precisam de formatações. Margens internas, cor de fundo e imagem de fundo podem ser definidas no CSS. Note que as tags nativas do HTML não têm o símbolo de ponto . nas atribuições dos estilos. Somente colocamos ponto . nas classes criadas (banner, icone, menu,...).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide114" name="slide">
+			   <label for="slide114"></label>
+			   <img src="css1/15_01_06.png" />
+			   <figcaption>Outra tag importante para definirmos atributos no CSS é a <code>table</code>, que contém os espaçamentos das células para separar os blocos de conteúdos, cor de texto e a largura.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide115" name="slide">
+			   <label for="slide115"></label>
+			   <img src="css1/15_01_07.png" />
+			   <figcaption>Com as propriedades definidas neste exemplo, nossa página fica com a parte superior desta forma. Formate o seu layout com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/15_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="css1/tags001_0015a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0016.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
