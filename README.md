@@ -920,7 +920,7 @@
 			   <input type="radio" id="slide110" name="slide">
 			   <label for="slide110"></label>
 			   <img src="css1/15_01_02.png" />
-			   <figcaption>A tag de ícone pode conter uma imagem, como uma logomarca, ou podemos usar uma imagem pictográfica. No site <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html">http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html</a> você pode escolher uma imagem pictográfica para ficar nesta tag de ícone desta página.</figcaption>
+			   <figcaption>A tag de ícone pode conter uma imagem, como uma logomarca, ou podemos usar uma imagem pictográfica. No site <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html</a> você pode escolher uma imagem pictográfica para ficar nesta tag de ícone desta página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide111" name="slide">
@@ -958,12 +958,170 @@
   <img src="css1/tags001_0015a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0016.png" />
+  <details class="sub"><summary>&#x1f4c3; Menu da Atividade 4</summary>
+	<p>Vamos formatar o menu da página <code>index.htm</code> da Atividade 4 com CSS. A estrutura HTML possui a tag <code>nav</code> descrita a seguir.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide116" name="slide">
+			   <label for="slide116"></label>
+			   <img src="css1/16_01_00.png" />
+			   <figcaption>Dentro da tag <code>&lt;nav class="menu"&gt;</code> podemos criar uma tag de lista <code>&lt;ul&gt;</code>, com cada item <code>&lt;li&gt;</code> representando a página de um esporte desta atividade. Usamos a tag de link <code>&lt;a&gt;</code> para criar a navegação entre os links do menu. A página <code>index.htm</code> tem classe ativa que vamos configurar a seguir.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide117" name="slide">
+			   <label for="slide117"></label>
+			   <img src="css1/16_01_01.png" />
+			   <figcaption>Agora vamos focar no cabeçalho da página para criar as propriedades do menu. Note que as propriedades do banner estão logo acima, dentro da mesma tag <code>&lt;style&gt;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide118" name="slide">
+			   <label for="slide118"></label>
+			   <img src="css1/16_01_02.png" />
+			   <figcaption>A lista dos itens do menu <code>ul</code> tem atributos de margens, estilo sem formato de lista e o <b>display flex</b> que pode ser usado para distribuir os itens dentro da célula da tabela. A direção deste display está em linha (row) pois o menu é horizontal.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide119" name="slide">
+			   <label for="slide119"></label>
+			   <img src="css1/16_01_03.png" />
+			   <figcaption>Para que a lista não fique "grudada" nas outras partes da página, criamos margens top e bottom. Colocamos uma borda azul à direita e comprimento fixo de <b>100px</b>. Se necessário, ajuste este valor na sua página, para que os textos de todos os itens caibam no menu, sem quebras de linha.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide120" name="slide">
+			   <label for="slide120"></label>
+			   <img src="css1/16_01_04.png" />
+			   <figcaption>O último item da lista <code>last-child</code> ficará sem borda, deixando bordas apenas internas entre os itens do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide121" name="slide">
+			   <label for="slide121"></label>
+			   <img src="css1/16_01_05.png" />
+			   <figcaption>Na tag <code>&lt;a&gt;</code> podemos configurar tamanho de fonte e o atributo <code>text-decoration:none;</code> remove aquelas configurações comuns de links (cor azul, sublinhado).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide122" name="slide">
+			   <label for="slide122"></label>
+			   <img src="css1/16_01_06.png" />
+			   <figcaption>Ao passar o cursor do mouse por cima de um item do menu, podemos criar alguns efeitos: mudanças de cor, de fundo, sublinhados ou sombras. Neste caso usamos sombra e mudança de cor da fonta para esse efeito. Escolha um efeito para sua página.<figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide123" name="slide">
+			   <label for="slide123"></label>
+			   <img src="css1/16_01_07.png" />
+			   <figcaption>A página ativa, neste caso <code>index.htm</code>, pode ter alguma apresentação diferente no menu para destacar ao visitante que ele está nesta página. Quando construir as outras páginas, modifique a classe na tag <code>&lt;nav&gt;</code> o item ativo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide124" name="slide">
+			   <label for="slide124"></label>
+			   <img src="css1/16_01_08.png" />
+			   <figcaption>Este é o resultado parcial da página, com estas configurações de menu. Usando os atributos mostrados, modifique valores para a apresentação do seu site.</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/16_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0017.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0018.png" />
+  <details class="sub"><summary>&#x1f4c3; Conteúdo da Atividade 4</summary>
+	<p>Vamos formatar o conteúdo principal e a barra lateral galeria da página <code>index.htm</code> da Atividade 4 com CSS. Antes vamos ver a estrutura HTML destas partes da página.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide125" name="slide">
+			   <label for="slide125"></label>
+			   <img src="css1/18_01_00.png" />
+			   <figcaption>A barra esquerda será a galeria de notícias <code>class="galeria"</code>. Podemos criar um cabeçalho <code>&lt;h3&gt;</code>, um parágrafo <code>&lt;p&gt;</code> com descrição do título da notícia, uma imagem <code>&lt;img&gt;</code> e um link <code>&lt;a&gt;</code>. Nesta barra podemos inserir 2 ou 3 notícias com estes elementos, separadas por uma tag <code>&lt;hr&gt;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide126" name="slide">
+			   <label for="slide126"></label>
+			   <img src="css1/18_01_01.png" />
+			   <figcaption>O conteúdo da página da tag <code>class="principal"</code> contém parágrafos <code>&lt;p&gt;</code> e imagens. Podemos criar uma div <code>class="imagem"</code> para formatar imagens dentro desta parte da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide127" name="slide">
+			   <label for="slide127"></label>
+			   <img src="css1/18_01_02.png" />
+			   <figcaption>Na tag de estilo <code>&lt;style&gt;</code> vamos focar nos atributos das classes galeria e principal.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide128" name="slide">
+			   <label for="slide128"></label>
+			   <img src="css1/18_01_03.png" />
+			   <figcaption>A classe <code>imagem</code> serve para alinhar as fotos com o texto na tag principal. Podemos definir margens para não deixar as fotos "grudadas" nos textos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide129" name="slide">
+			   <label for="slide129"></label>
+			   <img src="css1/18_01_04.png" />
+			   <figcaption>De maneira geral, as imagens das páginas podem ser colocadas com largura máxima de <b>100%</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide130" name="slide">
+			   <label for="slide130"></label>
+			   <img src="css1/18_01_05.png" />
+			   <figcaption>O alinhamento <code>vertical-align:top;</code> faz com que o conteúdo da galeria fique alinhado com os conteúdos das outras barras: principal e contato. Podemos definir a largura da galeria: <b>20%</b>, por exemplo. Faça testes com os conteúdos de sua página para encontrar o melhor valor.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide131" name="slide">
+			   <label for="slide131"></label>
+			   <img src="css1/18_01_06.png" />
+			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir adiante os atributos das outras tags da página.<figcaption>
+		   </li>
+		</ul>
+		<img src="css1/18_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="css1/tags001_0018a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0019.png" />
+  <details class="sub"><summary>&#x1f4c3; Contato e rodapé da Atividade 4</summary>
+	<p>Vamos formatar os conteúdos da barra de contato e do rodapé da página <code>index.htm</code> da Atividade 4 com CSS. Antes vamos ver a estrutura HTML destas partes da página.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide132" name="slide">
+			   <label for="slide132"></label>
+			   <img src="css1/18_02_00.png" />
+			   <figcaption>A barra direita será de contatos de email e de redes sociais <code>class="contato"</code>. Podemos criar links <code>&lt;a&gt;</code> para email e acesso às redes sociais. Insira imagens na pasta <code>webdesign/atividade4/imagens</code> de email, facebook e mais redes sociais para colocar dentro das tags de link as imagens <code>&lt;img&gt;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide133" name="slide">
+			   <label for="slide133"></label>
+			   <img src="css1/18_02_01.png" />
+			   <figcaption>A tag <code>class="rodape"</code> contém as informações que já usamos em outras páginas. Agora vamos ver as propriedades CSS destas partes da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide134" name="slide">
+			   <label for="slide134"></label>
+			   <img src="css1/18_02_03.png" />
+			   <figcaption>A tag de contato tem o alinhamento vertical definido no topo da célula com o atributo <code>vertical-align:top;</code>. Se definirmos a largura desta barra como <b>10%</b>, teremos <b>70%</b> para o conteúdo principal (pois a galeria ficou com <b>20%</b>). Teste diferentes valores para o conteúdo de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide135" name="slide">
+			   <label for="slide135"></label>
+			   <img src="css1/18_02_04.png" />
+			   <figcaption>As imagens dentro desta classe podem ser menores, pois funcionam como ícones de acesso. Logo, usamos o atributo <code>.contato img</code> que significa que as larguras de dentro da classe de contato terão larguras menores. Neste caso, usamos <b>50%</b>. Teste valores diferentes em sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide136" name="slide">
+			   <label for="slide136"></label>
+			   <img src="css1/18_02_05.png" />
+			   <figcaption>A tag de rodapé tem a configuração mais simples. Usamos as mesmas propriedades dos sites anteriores.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide137" name="slide">
+			   <label for="slide137"></label>
+			   <img src="css1/18_02_06.png" />
+			   <figcaption>Com as propriedades definidas, a página <code>index.htm</code> fica com este layout. Teste medidas e cores para sua página. Depois de definir os valores mais adequados, você pode construir as outras 2 páginas: basta copiar e colar este código nos outros arquivos de esportes: no meu caso, <code>basquete.htm</code> e <code>natacao.htm</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide138" name="slide">
+			   <label for="slide138"></label>
+			   <img src="css1/18_02_06.png" />
+			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.<figcaption>
+		   </li>
+		</ul>
+		<img src="css1/18_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <img src="css1/tags001_0019a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0020.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
