@@ -1124,6 +1124,84 @@
   <img src="css1/tags001_0019a.png" />
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0020.png" />
+  <details class="sub"><summary>&#x1f4c3; Formulário de Contato</summary>
+	<p>Crie uma página na nossa pasta de exercícios <code>webdesign/exercicios</code> com nome <code>contato.htm</code>. Outro arquivo que vamos criar nesta pasta chama-se <code>enviar.php</code>, com o código mostrado na apostila. Vamos mostrar a criação e layout de uma página de formulário, sem a configuração de um servidor para receber os dados enviados.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide139" name="slide">
+			   <label for="slide139"></label>
+			   <img src="css1/20_01_00.png" />
+			   <figcaption>Podemos criar uma tag "mãe" do formulário <code>class="formulario"</code> para atribuir as propriedades de seus componentes.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide140" name="slide">
+			   <label for="slide140"></label>
+			   <img src="css1/20_01_01.png" />
+			   <figcaption>Cada entrada terá um rótulo "agredado" <code>&lt;label&gt;</code>. Este rótulo pode ser referenciado com o atributo <code>for</code>, com o nome da respectiva entrada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide141" name="slide">
+			   <label for="slide141"></label>
+			   <img src="css1/20_01_02.png" />
+			   <figcaption>As entradas são colocadas no HTML na sequência de cada um de seus rótulos. Se você quiser fazer o formulário com rótulos ao lado das entradas, pode usar uma tabela para ajudar a organizar os dados da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide141a" name="slide">
+			   <label for="slide141a"></label>
+			   <img src="css1/20_01_03.png" />
+			   <figcaption>No final do formulário, criamos uma caixa de texto <code>&lt;textarea&gt;</code>, que pode ser deixada com mais linhas (neste caso, deixamos com 7 linhas).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide142" name="slide">
+			   <label for="slide142"></label>
+			   <img src="css1/20_01_04.png" />
+			   <figcaption>O botão de enviar tem o atributo <code>type="submit"</code> para caracterizá-lo com a interação com o visitante para enviar os dados.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide143" name="slide">
+			   <label for="slide143"></label>
+			   <img src="css1/20_01_05.png" />
+			   <figcaption>Agora vamos formatar as tags da página com CSS. O corpo da página <code>body</code> tem margem automática e uma largura de <b>85%</b>. Formate os elementos principais da página nesta tag.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide144" name="slide">
+			   <label for="slide144"></label>
+			   <img src="css1/20_01_06.png" />
+			   <figcaption>Os rótulos <code>label</code> têm atributo <code>display: block;</code>, que usa a linha inteira sem precisarmos de tags de parágrafos e de quebras de linhas para inserir as entradas <code>input</code>. Note que colocamos margens para não "grudar" os rótulos com as entradas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide145" name="slide">
+			   <label for="slide145"></label>
+			   <img src="css1/20_01_07.png" />
+			   <figcaption>A classe <code>formulario</code> serve como um "container" do formulário, onde podemos atribuir cor de fundo, margem interna e tipo de fonte.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide146" name="slide">
+			   <label for="slide146"></label>
+			   <img src="css1/20_01_08.png" />
+			   <figcaption>As entradas com tags nativas <code>input</code> e <code>textarea</code> podem ter propriedades de largura, cor de fundo, sombras e margens internas. Neste exemplo, criamos bordas arredondadas com o atributo <code>border-radius</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide147" name="slide">
+			   <label for="slide147"></label>
+			   <img src="css1/20_01_09.png" />
+			   <figcaption>A tag <code>textarea</code> pode ser inserida com largura maior do que as outras entradas. Por tratar-se de uma tag "elástica", que o visitante pode "abrir" com o cursor do mouse, colocamos também o tamanho de largura máxima <code>max-width</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide148" name="slide">
+			   <label for="slide148"></label>
+			   <img src="css1/20_01_10.png" />
+			   <figcaption>Como o botão para enviar os dados tem <code>id="submit"</code> no código HTML, sua formatação usa a hashtag <code>#submit</code> para referência. Este botão pode ter uma opacidade definida (neste exemplo é de <b>85%</b>), que modifica quando o visitante passa o cursor do mouse por cima do botão.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide149" name="slide">
+			   <label for="slide149"></label>
+			   <img src="css1/20_01_11.png" />
+			   <figcaption>A página com contato fica com este layout. Modifique medidas, cores e crie sua página de contato. Vamos utilizá-la em próximas Atividades. </figcaption>
+		   </li>
+		</ul>
+		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
 <details id="css1"><summary>CSS e Animações</summary>
