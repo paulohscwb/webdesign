@@ -1001,7 +1001,7 @@
 			   <input type="radio" id="slide122" name="slide">
 			   <label for="slide122"></label>
 			   <img src="css1/16_01_06.png" />
-			   <figcaption>Ao passar o cursor do mouse por cima de um item do menu, podemos criar alguns efeitos: mudanças de cor, de fundo, sublinhados ou sombras. Neste caso usamos sombra e mudança de cor da fonta para esse efeito. Escolha um efeito para sua página.<figcaption>
+			   <figcaption>Ao passar o cursor do mouse por cima de um item do menu, podemos criar alguns efeitos: mudanças de cor, de fundo, sublinhados ou sombras. Neste caso usamos sombra e mudança de cor da fonta para esse efeito. Escolha um efeito para sua página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide123" name="slide">
