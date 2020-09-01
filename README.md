@@ -1065,7 +1065,7 @@
 			   <input type="radio" id="slide131" name="slide">
 			   <label for="slide131"></label>
 			   <img src="css1/18_01_06.png" />
-			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir adiante os atributos das outras tags da página.<figcaption>
+			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir adiante os atributos das outras tags da página.</figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -1116,7 +1116,7 @@
 			   <input type="radio" id="slide138" name="slide">
 			   <label for="slide138"></label>
 			   <img src="css1/18_02_06.png" />
-			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.<figcaption>
+			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.</figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_02_00.png" class="fundo" style="visibility:hidden"/>
