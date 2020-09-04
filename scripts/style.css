@@ -30,6 +30,7 @@ figcaption {
   height:auto;
   box-shadow: 1px 1px 3px LightGray;
   margin-bottom: 5px;
+  display:block;
 }
 summary {
   font-size: 18px;
@@ -47,7 +48,7 @@ details {
   width:100%;
 }
 
-li > img{
+.slider img{
 	min-width:100%;
 }
 
@@ -123,6 +124,7 @@ h3::after {
  .slider li {
      list-style: none;
      position: absolute;
+	 width: 100%;
  }
  
 .slider input {
