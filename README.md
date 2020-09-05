@@ -1338,7 +1338,7 @@
 			   <input type="radio" id="slide170" name="slide">
 			   <label for="slide170"></label>
 			   <img src="css2/21_02_07.png" />
-			   <figcaption>O conteúdo pode ter propriedades diferentes em cada página do site. Nesta primeira página, estamos colocando os itens com atributos <b>flexbox</b> para os produtos da loja. Margens, cores e configurações de fonte podem ser modificadas nesta tag.</figcaption>
+			   <figcaption>O conteúdo pode ter propriedades diferentes em cada página do site. Nesta primeira página, estamos colocando os itens com atributos <b>flexbox</b> para os produtos da loja. Margens, cores e configurações de fonte podem ser modificadas nesta tag.Para deixar as imagens com mesmo tamanho, foi usada a propriedade de altura no atributo <code>.item img {}</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide171" name="slide">
