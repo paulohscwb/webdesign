@@ -793,6 +793,7 @@
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
+
 <details id="css1"><summary>CSS - Cascading Style Sheets: pág. 11-20</summary>
 	<img src="css1/tags001_0011.png" />
 	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
@@ -1204,9 +1205,113 @@
   </details>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
-<details id="css1"><summary>CSS e Animações</summary>
-	<p>página 21...</p>
+
+<details id="css2"><summary>CSS, Flexbox e Mapeamentos de imagens: pág. 21-27</summary>
+	<img src="css2/tags001_0021.png" />
+	<details class="sub"><summary>&#x1f4c3; FlexBox para itens</summary>
+	<p>Crie uma página na nossa pasta de exercícios <code>webdesign/exercicios</code> com nome <code>itens.htm</code>. Dentro desta pasta, use a pasta de imagens para inserir fotos dos itens que vamos criar com o atributo FlexBox. É o mesmo que já usamos nos itens dos menus.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide150" name="slide">
+			   <label for="slide150"></label>
+			   <img src="css2/21_01_01.png" />
+			   <figcaption>Usando a estrutura em tabela, vamos criar somente uma linha com a tag <code>&lt;tr&gt;</code> com duas barras: <b>lateral</b>, na primeira célula <code>&lt;td&gt;</code> e <b>conteúdo</b>, na segunda célula.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide151" name="slide">
+			   <label for="slide151"></label>
+			   <img src="css2/21_01_02.png" />
+			   <figcaption>As tags podem ser referenciadas com as classes <code>class="barra"</code> e <code>class="conteudo"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide153" name="slide">
+			   <label for="slide153"></label>
+			   <img src="css2/21_01_03.png" />
+			   <figcaption>Dentro da célula de <b>conteúdo</b>, crie uma nova classe para formatarmos no CSS: <code>class="todos"</code>, que será a tag mãe dos itens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide154" name="slide">
+			   <label for="slide154"></label>
+			   <img src="css2/21_01_04.png" />
+			   <figcaption>Dentro desta <b>div</b>, podemos criar as tags filhas, que terão classe <code>class="item"</code>. Em cada uma, coloque um texto e a respectiva imagem que está salva na pasta de imagens. Crie 5 ou mais itens, para testarmos o layout que será usado na próxima Atividade.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide155" name="slide">
+			   <label for="slide155"></label>
+			   <img src="css2/21_01_05.png" />
+			   <figcaption>Agora vamos formatar as tags da página com CSS. Nesta página somente foi atribuído o tamanho da fonte na tag <code>body</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide156" name="slide">
+			   <label for="slide156"></label>
+			   <img src="css2/21_01_06.png" />
+			   <figcaption>Neste exemplo, foi usado <code>font-size:0.8em</code>, ou seja, teremos 80% do tamanho da fonte dentro das células. Atributos de cor de fundo e margens também podem ser colocados nesta tag <code>td</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide157" name="slide">
+			   <label for="slide157"></label>
+			   <img src="css2/21_01_07.png" />
+			   <figcaption>A tag mãe das células, <code>table</code>, pode ser usada para a largura do layout, bordas e alinhamento de texto.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide158" name="slide">
+			   <label for="slide158"></label>
+			   <img src="css2/21_01_08.png" />
+			   <figcaption>Use atributos para formatar a barra lateral. Neste caso, foi usado o alinhamento vertical <code>vertical-align:top</code> para deixá-la na mesma altura do conteúdo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide159" name="slide">
+			   <label for="slide159"></label>
+			   <img src="css2/21_01_09.png" />
+			   <figcaption>A tag de conteúdo pode ter atributo de alinhamento vertical configurado e largura. Se atribuirmos 70% de largura, automaticamente a barra lateral fica com os 30% restantes.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide160" name="slide">
+			   <label for="slide160"></label>
+			   <img src="css2/21_01_10.png" />
+			   <figcaption>A tag com todos os itens ficou com atributo de <code>display:flex;</code>, distribuição em linha <code>flex-direction:row;</code> e o atributo <code>flex-wrap:wrap;</code> para deixar que os itens mudem de linha automaticamente se o navegador não conseguir exibí-los todos na mesma linha.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide161" name="slide">
+			   <label for="slide161"></label>
+			   <img src="css2/21_01_11.png" />
+			   <figcaption>Os itens "herdam" a propriedade flex da tag mãe "todos". Os itens podem ter o atributo de largura mínima <code>min-width:150px;</code>, evitando que o respectivo conteúdo seja "espremido" demais para caber em uma linha só. Cor de fundo, borda e arredondamento de bordas podem ser atribuídos nos itens. Faça testes do layout do flexbox que criamos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide162" name="slide">
+			   <label for="slide162"></label>
+			   <img src="css2/21_01_12.png" />
+			   <figcaption>A página de itens fica com este layout. Modifique medidas, cores e crie sua página de itens, que será utilizada em próximas Atividades. Se as alturas das imagens ficarem muito diferentes, você pode usar altura mínima <code>min-height</code> ou editar as imagens externamente, deixando-as com mesmo tamanho.</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+	<img src="css2/tags001_0021a.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0022.png" />
+	<img src="css2/tags001_0022a.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0023.png" />
+	<img src="css2/tags001_0023a.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0024.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0025.png" />
+	<img src="css2/tags001_0025a.png" />
+	<img src="css2/tags001_0025b.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0026.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
+	<img src="css2/tags001_0027.png" />
+	<img src="css2/tags001_0027a.png" />
+	<img src="css2/tags001_0027b.png" />
+	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
+
+<details id="css3"><summary>CSS e Animações</summary>
+	<p>página 28...</p>
+</details>
+
 <br>&#x1f4bb; &#x1f4c2;
 <p><b>site desenvolvido por:</b></p> 
 <p>Paulo Henrique Siqueira</p>  
