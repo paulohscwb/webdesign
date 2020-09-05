@@ -1284,7 +1284,7 @@
 			   <figcaption>A página de itens fica com este layout. Modifique medidas, cores e crie sua página de itens, que será utilizada em próximas Atividades. Se as alturas das imagens ficarem muito diferentes, você pode usar altura mínima <code>min-height</code> ou editar as imagens externamente, deixando-as com mesmo tamanho.</figcaption>
 		   </li>
 		</ul>
-		<img src="css1/21_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css2/21_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0021a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
@@ -1353,7 +1353,7 @@
 			   <figcaption>Usando os atributos mostrados, a página <code>index.htm</code> fica com este layout. Monte a sua página da Atividade da loja virtual. Agora, vamos ver como criar as "páginas filhas".</figcaption>
 		   </li>
 		</ul>
-		<img src="css1/21_02_14.png" class="fundo" style="visibility:hidden"/>
+		<img src="css2/21_02_14.png" class="fundo" style="visibility:hidden"/>
   </details>
   <details class="sub"><summary>&#x1f4c3; Detalhes das outras páginas</summary>
 	<p>Na pasta chamada <code>webdesign/atividade5</code>, crie as páginas <code>sobrenos.htm</code> e <code>contato.htm</code>. Estas páginas usarão a mesma pasta de imagens criada para a página principal.</p>
