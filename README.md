@@ -1284,11 +1284,121 @@
 			   <figcaption>A página de itens fica com este layout. Modifique medidas, cores e crie sua página de itens, que será utilizada em próximas Atividades. Se as alturas das imagens ficarem muito diferentes, você pode usar altura mínima <code>min-height</code> ou editar as imagens externamente, deixando-as com mesmo tamanho.</figcaption>
 		   </li>
 		</ul>
-		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css1/21_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0021a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0022.png" />
+	<details id="css2"><summary>CSS, Flexbox e Mapeamentos de imagens: pág. 21-27</summary>
+	<img src="css2/tags001_0021.png" />
+	<details class="sub"><summary>&#x1f4c3; Detalhes do site principal</summary>
+	<p>Crie uma pasta chamada <code>webdesign/atividade5</code>, com a página principal com nome <code>index.htm</code>. Dentro desta pasta, crie a pasta de imagens para inserir fotos dos 12 itens que aparecem na página criada. Vamos usar muitos recursos da página que construímos com Flexbox.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide163" name="slide">
+			   <label for="slide163"></label>
+			   <img src="css2/21_02_00.png" />
+			   <figcaption>A estrutura HTML desta Atividade terá 1 linha com o <b>ícone</b> e o <b>banner</b> da loja, uma linha com a <b>barra lateral</b> e o <b>menu</b>, na outra linha aparece o <b>conteúdo</b> com itens da loja e finalizamos com o <b>rodapé</b> na última linha.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="slide164" name="slide">
+			   <label for="slide164"></label>
+			   <img src="css2/21_02_01.png" />
+			   <figcaption>Na <b>barra lateral</b>, podemos usar a mesma estrutura da Atividade 4, com email e links para redes sociais fictícias, da loja virtual que estamos criando.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide165" name="slide">
+			   <label for="slide165"></label>
+			   <img src="css2/21_02_02.png" />
+			   <figcaption>O <b>menu</b> terá estrutura parecida com a que usamos na Atividade 4, inclusive na sua programação CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide166" name="slide">
+			   <label for="slide166"></label>
+			   <img src="css2/21_02_03.png" />
+			   <figcaption>Os itens da loja podem ser colocados dentro da tag <code>class="todos"</code>, que usamos na página anterior. Cada item aparece dentro de uma classe <code>class="item"</code>, one colocamos um título do produto, uma imagem e o preço, com a tag <code>&lt;strike&gt;</code> para os preços antigos de cada um dos 12 produtos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide167" name="slide">
+			   <label for="slide167"></label>
+			   <img src="css2/21_02_04.png" />
+			   <figcaption>A programação da página CSS tem itens que valem para a página principal e para as páginas filhas. A tabela está com fundo branco, com bordas em tom verde claro. O atributo <code>border-spacing</code> separa as partes das páginas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide168" name="slide">
+			   <label for="slide168"></label>
+			   <img src="css2/21_02_05.png" />
+			   <figcaption>O banner está referenciado com a altura da tela do navegador com o atributo <code>height:10vh;</code>, ou seja, <b>10%</b> da altura da tela. Uma imagem de fundo dos produtos e a cor do texto também podem ser configurados no CSS. Escolha um pictograma para colocar na tag de ícone.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide169" name="slide">
+			   <label for="slide169"></label>
+			   <img src="css2/21_02_06.png" />
+			   <figcaption>A barra lateral e o menu também ficarão fixos, valendo para todas as páginas do site desta atividade. Você pode usar os mesmos atributos da Atividade 4, modificando cores e espaçamentos para a loja virtual</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide170" name="slide">
+			   <label for="slide170"></label>
+			   <img src="css2/21_02_07.png" />
+			   <figcaption>O conteúdo pode ter propriedades diferentes em cada página do site. Nesta primeira página, estamos colocando os itens com atributos <b>flexbox</b> para os produtos da loja. Margens, cores e configurações de fonte podem ser modificadas nesta tag.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide171" name="slide">
+			   <label for="slide171"></label>
+			   <img src="css2/21_02_08.png" />
+			   <figcaption>Os cabeçalhos dos produtos e o rodapé podem ser configurados em CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide172" name="slide">
+			   <label for="slide172"></label>
+			   <img src="css2/21_02_09.png" />
+			   <figcaption>Usando os atributos mostrados, a página <code>index.htm</code> fica com este layout. Monte a sua página da Atividade da loja virtual. Agora, vamos ver como criar as "páginas filhas".</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/21_02_14.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <details class="sub"><summary>&#x1f4c3; Detalhes das outras páginas</summary>
+	<p>Na pasta chamada <code>webdesign/atividade5</code>, crie as páginas <code>sobrenos.htm</code> e <code>contato.htm</code>. Estas páginas usarão a mesma pasta de imagens criada para a página principal.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide173" name="slide">
+			   <label for="slide173"></label>
+			   <img src="css2/21_02_10.png" />
+			   <figcaption>A página <code>sobrenos.htm</code> contém informações genéricas da loja virtual. Insira uma imagem e um pouco de texto sobre o atendimento da loja.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="slide174" name="slide">
+			   <label for="slide174"></label>
+			   <img src="css2/21_02_11.png" />
+			   <figcaption>Podemos copiar toda a configuração CSS da página <code>index.htm</code>. A tag de conteúdo pode conter apenas atributos de alinhamento vertical e de largura nesta página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide175" name="slide">
+			   <label for="slide175"></label>
+			   <img src="css2/21_02_12.png" />
+			   <figcaption>O layout da página fica com esta configuração. Note que o ícone, banner, barra lateral, menu e rodapé ficam com mesmo layout da página <code>index.htm</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide176" name="slide">
+			   <label for="slide176"></label>
+			   <img src="css2/21_02_13.png" />
+			   <figcaption>Na página de contato, podemos usar a mesma estrutura HTML usada na Atividade 4. Crie o arquivo <code>enviar.php</code> com mesmo código que usamos nos formulários de contato que já criamos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide177" name="slide">
+			   <label for="slide177"></label>
+			   <img src="css2/21_02_14.png" />
+			   <figcaption>Configure os atributos dos itens do formulário de acordo com as cores usadas no layout do site. Note que o conteúdo desta página de contato também pode ser configurado de forma simplificada, sem os itens dos produtos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide178" name="slide">
+			   <label for="slide178"></label>
+			   <img src="css2/21_02_15.png" />
+			   <figcaption>Com as propriedades e atributos mostrados, a página de contato fica com esse layout. Crie suas páginas de contato e "Sobre nós". A página de promoções é opcional, que pode mostrar alguns produtos em destaque.</figcaption>
+		   </li>
+		</ul>
+		<img src="css1/21_02_14.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css2/tags001_0022a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0023.png" />
