@@ -1395,7 +1395,7 @@
 			   <figcaption>Com as propriedades e atributos mostrados, a página de contato fica com esse layout. Crie suas páginas de contato e "Sobre nós". A página de promoções é opcional, que pode mostrar alguns produtos em destaque.</figcaption>
 		   </li>
 		</ul>
-		<img src="css1/21_02_14.png" class="fundo" style="visibility:hidden"/>
+		<img src="css2/21_02_14.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0022a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
