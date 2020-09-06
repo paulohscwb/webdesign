@@ -1419,7 +1419,7 @@
 			   <input type="radio" id="slide181" name="slide">
 			   <label for="slide181"></label>
 			   <img src="css2/23_01_03.png" />
-			   <figcaption>Neste exemplo, mostraremos o uso dos círculos para mapear. Eles criam uma área invisível para o visitante, mas que ao passar o cursor do mouse por cima da área na imagem, aparece o link. Os círculos possuem as coordenadas do centro <b>X</b> e <b>Y</b> e a medida do <b>RAIO</b>. <code>coords="X,Y,RAIO"</code>.</figcaption>
+			   <figcaption>Neste exemplo, mostraremos o uso dos círculos para mapear. Eles criam uma área invisível para o visitante, mas que ao passar o cursor do mouse por cima da área na imagem, aparece o link. Os círculos possuem as coordenadas do centro <b>X</b> e <b>Y</b> e a medida do <b>RAIO</b>: <code>coords="X,Y,RAIO"</code>. Pegue as coordenadas da imagem de menu que você mapear em um editor de imagens.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide183" name="slide">
