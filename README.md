@@ -1400,6 +1400,36 @@
 	<img src="css2/tags001_0022a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0023.png" />
+	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens</summary>
+	<p>Vamos criar uma pasta chamada <code>webdesign/mapeamento</code>. Nesta pasta, crie um arquivo chamado <code>mapeamento.htm</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide179" name="slide">
+			   <label for="slide179"></label>
+			   <img src="css2/23_01_00.png" />
+			   <figcaption>Um mapeamento de imagens usa a tag <code>&lt;map&gt;</code>, que contém os shapes com links. A primeira tag desta página é a imagem que será mapeada com a tag <code>&lt;img&gt;</code>.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="slide180" name="slide">
+			   <label for="slide180"></label>
+			   <img src="css2/23_01_01.png" />
+			   <figcaption>Como precisamos referenciar qual será a imagem mapeada, usamos os atributos <code>usemap="#Map"</code> na tag <code>&lt;img&gt;</code> e o identificador <code>id="#Map"</code>. Desta forma, os shapes aparecerão por cima da imagem com identificador <code>#Map</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide181" name="slide">
+			   <label for="slide181"></label>
+			   <img src="css2/23_01_03.png" />
+			   <figcaption>Neste exemplo, mostraremos o uso dos círculos para mapear. Eles criam uma área invisível para o visitante, mas que ao passar o cursor do mouse por cima da área na imagem, aparece o link. Os círculos possuem as coordenadas do centro <b>X</b> e <b>Y</b> e a medida do <b>RAIO</b>. <code>coords="X,Y,RAIO"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide183" name="slide">
+			   <label for="slide183"></label>
+			   <img src="css2/23_01_04.png" />
+			   <figcaption>Outras informações que precisamos inserir na tag de cada shape é do link e seu título: <code>href</code> e <code>title</code>. Crie o mapeamento, salve a página e teste o layout. Vamos fazer outros mapeamentos a seguir.</figcaption>
+		   </li>
+		</ul>
+		<img src="css2/23_01_00.png" class="fundo" />
+  </details>
 	<img src="css2/tags001_0023a.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0024.png" />
