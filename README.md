@@ -1401,7 +1401,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0023.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens</summary>
-	<p>Vamos criar uma pasta chamada <code>webdesign/mapeamento</code>. Nesta pasta, crie um arquivo chamado <code>mapeamento.htm</code>.</p>
+	<p>Vamos criar uma pasta chamada <code>webdesign/mapeamento</code>. Nesta pasta, crie um arquivo chamado <code>mapeamento.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide179" name="slide">
@@ -1436,7 +1436,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0025.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens com SVG</summary>
-	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg.htm</code>.</p>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide184" name="slide">
@@ -1466,6 +1466,48 @@
 		<img src="css2/25_01_00.png" class="fundo" />
   </details>
 	<img src="css2/tags001_0025a.png" />
+	<details class="sub"><summary>&#x1f4c3; Mapeamento com SVG e texto</summary>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg-info.htm</code>, que usaremos para criar o mapeamento do menu com informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide188" name="slide">
+			   <label for="slide188"></label>
+			   <img src="css2/25_02_01.png" />
+			   <figcaption>Neste exemplo, o menu branco foi usado. Note que a janela <code>viewBox</code> do SVG foi criada com altura um pouco maior, para que as informações de texto apareçam logo abaixo dos ícones do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide189" name="slide">
+			   <label for="slide189"></label>
+			   <img src="css2/25_02_02.png" />
+			   <figcaption>Dentro da mesma estrutura criada na página anterior, colocamos a tag <code>&lt;text&gt;</code> com respectivos shapes de retângulos. Para alinhar à esquerda o texto com o ícone, as coordenadas <b>x</b> do texto e dos retângulos são as mesmas. As coordenadas <b>y</b> serão iguais a 215px.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide190" name="slide">
+			   <label for="slide190"></label>
+			   <img src="css2/25_02_03.png" />
+			   <figcaption>Definimos como padrão de visualização de retângulos e textos no CSS as opacidades nulas de tags <code>rect</code> e <code>text</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide191" name="slide">
+			   <label for="slide191"></label>
+			   <img src="css2/25_02_04.png" />
+			   <figcaption>Quando o visitante passar o cursos do mouse por cima de uma região com tag mapeada <code>&lt;a&gt;</code>, os respectivos textos e retângulos aparecerão com a definição do atributo de opacidade em <code>a:hover > text</code> e <code>a:hover > rect</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide192" name="slide">
+			   <label for="slide192"></label>
+			   <img src="css2/25_02_05.png" />
+			   <figcaption>Defina os atributos de cores de preenchimento, linhas, tipos de fonte e opacidade nula para os textos. A opacidade só ficará igual a 1 quando o atributo <code>hover</code> ficar ativo. Configure também o atributo <code>transition: 0.5s</code> para fazer uma transição de meio segundo na mudança de opacidade.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide193" name="slide">
+			   <label for="slide193"></label>
+			   <img src="css2/25_02_06.png" />
+			   <figcaption>O layout do menu fica desta maneira. Configure outros valores e faça teste de layout no menu de sua página para usarmos em outras páginas a seguir.</figcaption>
+		   </li>
+		</ul>
+		<img src="css2/25_02_00.png" class="fundo" />
+  </details>
 	<img src="css2/tags001_0025b.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0026.png" />
