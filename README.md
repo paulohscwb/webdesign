@@ -1435,6 +1435,36 @@
 	<img src="css2/tags001_0024.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0025.png" />
+	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens com SVG</summary>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg.htm</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide184" name="slide">
+			   <label for="slide184"></label>
+			   <img src="css2/25_01_01.png" />
+			   <figcaption>Usando SVG, nosso mapeamento ficará responsivo. Com a tag <code>&lt;svg&gt;</code>, crie a janela de visualização <code>viewBox</code> com as mesmas dimensões da imagem que será mapeada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide185a" name="slide">
+			   <label for="slide185a"></label>
+			   <img src="css2/25_01_02.png" />
+			   <figcaption>A estrutura com SVG é basicamente a mesma que usamos com tags HTML, modificando apenas a forma de escrever os comandos. Dentro de uma tag de link <code>&lt;a&gt;</code>, colocamos os shapes. Neste exemplo, são mostrados o círculo, o retângulo e o polígono com SVG.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide186" name="slide">
+			   <label for="slide186"></label>
+			   <img src="css2/25_01_03.png" />
+			   <figcaption>Podemos usar atributos de opacidade nos shapes usando <code>fill-opacity:0;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide187" name="slide">
+			   <label for="slide187"></label>
+			   <img src="css2/25_01_04.png" />
+			   <figcaption>Quando o visitante passar o cursor do mouse sobre os mapeamentos, usamos o atributo <code>hover</code> de cada shape para definir linhas e opacidade diferente de 0. Teste o layout e os mapeamentos. Experimente diminuir o tamanho da tela do navegador para testar se o site fica responsivo.</figcaption>
+		   </li>
+		</ul>
+		<img src="css2/25_01_00.png" class="fundo" />
+  </details>
 	<img src="css2/tags001_0025a.png" />
 	<img src="css2/tags001_0025b.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
