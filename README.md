@@ -1401,7 +1401,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0023.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens</summary>
-	<p>Vamos criar uma pasta chamada <code>webdesign/mapeamento</code>. Nesta pasta, crie um arquivo chamado <code>mapeamento.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	<p>Vamos criar uma pasta chamada <code>webdesign/mapeamento</code>. Nesta pasta, crie um arquivo chamado <code>mapeamento.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.png" download>menu verde</a>, <a href="/css2/menu_horizontal1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide179" name="slide">
@@ -1436,7 +1436,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0025.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento de imagens com SVG</summary>
-	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg.htm</code>. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.png" download>menu verde</a>, <a href="/css2/menu_horizontal1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide184" name="slide">
@@ -1467,7 +1467,7 @@
   </details>
 	<img src="css2/tags001_0025a.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento com SVG e texto</summary>
-	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg-info.htm</code>, que usaremos para criar o mapeamento do menu com informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.jpg" download>menu verde</a>, <a href="/css2/menu_horizontal1.jpg" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-svg-info.htm</code>, que usaremos para criar o mapeamento do menu com informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="/css2/menu_horizontal.png" download>menu verde</a>, <a href="/css2/menu_horizontal1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide188" name="slide">
