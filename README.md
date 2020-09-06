@@ -1463,7 +1463,7 @@
 			   <figcaption>Quando o visitante passar o cursor do mouse sobre os mapeamentos, usamos o atributo <code>hover</code> de cada shape para definir linhas e opacidade diferente de 0. Teste o layout e os mapeamentos. Experimente diminuir o tamanho da tela do navegador para testar se o site fica responsivo.</figcaption>
 		   </li>
 		</ul>
-		<img src="css2/25_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css2/25_01_00.png" class="fundo" />
   </details>
 	<img src="css2/tags001_0025a.png" />
 	<details class="sub"><summary>&#x1f4c3; Mapeamento com SVG e texto</summary>
@@ -1506,7 +1506,7 @@
 			   <figcaption>O layout do menu fica desta maneira. Configure outros valores e faça teste de layout no menu de sua página para usarmos em outras páginas a seguir.</figcaption>
 		   </li>
 		</ul>
-		<img src="css2/25_02_00.png" class="fundo" />
+		<img src="css2/25_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0025b.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
