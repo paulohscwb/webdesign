@@ -1611,6 +1611,90 @@
 		<img src="css2/27_02_07.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0027b.png" />
+	<details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
+	<p>Crie a pasta <code>webdesign/atividade5</code> com o arquivo <code>index.htm</code>. Nesta atividade, podemos usar as estruturas dos exemplos anteriores para fazer o mapeamento de 3 personagens em uma imagem. Crie a pasta das imagens <code>webdesign/atividade5/imagens</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide208" name="slide">
+			   <label for="slide208"></label>
+			   <img src="css2/27_03_01.png" />
+			   <figcaption>Podemos criar a div "mãe" <code>class="Map"</code> que contém a imagem <code>&lt;img&gt;</code> dos personagens e as <code>div</code> de cada personagem que será mapeado. A div <code>class="items"</code> agrupa as div dos personagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide209" name="slide">
+			   <label for="slide209"></label>
+			   <img src="css2/27_03_02.png" />
+			   <figcaption>Usando a programação CSS dos exemplos anteriores, podemos abrir a tag de parágrafo <code>&lt;p&gt;</code> que abriga o nome, uma imagem e uma breve descrição do personagem. A classe desta div será <code>class="i1"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide210" name="slide">
+			   <label for="slide210"></label>
+			   <img src="css2/27_03_03.png" />
+			   <figcaption>Os outros personagens têm a estrutura HTML igual: nome, imagem e descrição.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide211" name="slide">
+			   <label for="slide211"></label>
+			   <img src="css2/27_03_04.png" />
+			   <figcaption>Na programação CSS, definimos os atributos mais gerais, com a classe <code>.Map</code> com imagens de largura 70%, parágrafos sem margens e os itens escondidos, com o atributo <code>visibility:hidden;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide212" name="slide">
+			   <label for="slide212"></label>
+			   <img src="css2/27_03_05.png" />
+			   <figcaption>Ao ativar os itens com o cursor do mouse sobre cada um deles <code>items div:hover</code>, definimos que os itens serão visíveis, com bordas e opacidade de um fundo sobre cada parte do item, e o texto visível com atributo <code>visibility:visible;</code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide213" name="slide">
+			   <label for="slide213"></label>
+			   <img src="css2/27_03_06.png" />
+			   <figcaption>Em um editor de imagens, pegue as coordenadas <b>top</b>, <b>left</b>, <b>width</b> e <b>height</b> do mapeamento de cada personagem. Com estas coordenadas, calculamos as posições dos retângulos com as regras de três mostradas, relativas à largura e à altura da imagem de todos os personagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide213a" name="slide">
+			   <label for="slide213a"></label>
+			   <img src="css2/27_03_06.png" />
+			   <figcaption>Neste exemplo, as medidas para o mapeamento do primeiro personagem são: <b>top=104</b>, <b>left=168</b>, <b>width=59</b>, <b>height=82</b>, e as dimensões da imagem dos personagens é <b>width=800</b> e <b>height=500</b>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide214" name="slide">
+			   <label for="slide214"></label>
+			   <img src="css2/27_03_07.png" />
+			   <figcaption>Se você quiser deixar o texto alinhado à esquerda, basta usar a mesma medida à esquerda do retângulo <code>left:calc(168*100%/800);</code>. O atributo <b>top</b> do texto é definido pelo atributo <b>top</b> do retângulo (104) somado com a altura do retângulo (82). Logo, o cálculo fica: <code>top:calc((104 + 82)*100%/500);</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide215" name="slide">
+			   <label for="slide215"></label>
+			   <img src="css2/27_03_08.png" />
+			   <figcaption>A posição vertical <b>top</b> pode ser calculada da mesma forma para todos os mapeamentos. Neste exemplo, estamos usando a largura dos textos como 20%. Logo, se você quiser deixar o texto centralizado, basta subtrair a metade da largura (10%) e somar com a metade do tamanho do retângulo (no caso do segundo personagem mede 60) proporcional a 50% do retângulo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide215a" name="slide">
+			   <label for="slide215a"></label>
+			   <img src="css2/27_03_08.png" />
+			   <figcaption>Portanto, para ficar centralizado com o retângulo, o texto do segundo personagem usamos <code>left:calc(357*100%/800 - 10% + 60*50%/800);</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide216" name="slide">
+			   <label for="slide216"></label>
+			   <img src="css2/27_03_09.png" />
+			   <figcaption>Como exemplo, se você quiser alinhar o texto à direita, basta subtrair a largura do texto de 20% e somar com o tamanho proporcional da largura do retângulo. Logo, o alinhamento à direita do terceiro personagem fica: <code>left:calc(692*100%/800 - 20% + 80*100%/800);</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide217" name="slide">
+			   <label for="slide217"></label>
+			   <img src="css2/27_03_10.png" />
+			   <figcaption>Para finalizar, os textos aparecem com a largura <code>width:20%;</code>, e devemos deixá-los escondidos com <code>visibility:hidden;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide218" name="slide">
+			   <label for="slide218"></label>
+			   <img src="css2/27_03_11.png" />
+			   <figcaption>O layout desta Atividade, com os atributos mostrados fica desta forma. Modifique atributos e escolha um dos alinhamentos de texto mostrados para fazer sua atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="css2/27_03_08.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
