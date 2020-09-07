@@ -1513,6 +1513,54 @@
 	<img src="css2/tags001_0026.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0027.png" />
+	<details class="sub"><summary>&#x1f4c3; Mapeamento com div e texto</summary>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-div-info.htm</code>, que usaremos para criar o mapeamento do menu com tags <code>div</code> e informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="css2/menu_horizontal.png" download>menu verde</a>, <a href="css2/menu_horizontal1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide194" name="slide">
+			   <label for="slide194"></label>
+			   <img src="css2/27_01_01.png" />
+			   <figcaption>Neste exemplo, foi usado o menu branco. Criamos uma div "mãe" <code>class="Map"</code> que contém a imagem <code>&lt;img&gt;</code> e as <code>div</code> dos itens do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide195" name="slide">
+			   <label for="slide195"></label>
+			   <img src="css2/27_01_02.png" />
+			   <figcaption>A <b>div</b> <code>class="items"</code> agrupa cada item do menu. Definimos uma <b>div</b> de item, com o texto <code>&lt;p&gt;</code> e o link <code>&lt;a&gt;</code> para cada parte do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide196" name="slide">
+			   <label for="slide196"></label>
+			   <img src="css2/27_01_03.png" />
+			   <figcaption>Cada item tem uma posição específica no mapeamento. Logo, criamos as classes <code>class="i1"</code>, <code>class="i2"</code>, ..., <code>class="i6"</code> dos itens do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide197" name="slide">
+			   <label for="slide197"></label>
+			   <img src="css2/27_01_04.png" />
+			   <figcaption>Na programação CSS, definimos os atributos mais gerais, com a classe <code>.Map</code> com imagens de largura 100%, parágrafos sem margens e os itens escondidos, com o atributo <code>visibility:hidden;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide198" name="slide">
+			   <label for="slide198"></label>
+			   <img src="css2/27_01_05.png" />
+			   <figcaption>Ao ativar os itens com o cursor do mouse sobre cada um deles <code>items div:hover</code>, definimos que os itens serão visíveis, com bordas e opacidade de um fundo sobre cada parte do item, e o texto visível com atributo <code>visibility:visible;</code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide199" name="slide">
+			   <label for="slide199"></label>
+			   <img src="css2/27_01_06.png" />
+			   <figcaption>A altura da posição do texto foi fixada em 95%, e os itens foram posicionados levando-se em conta que todos têm mesmo tamanho <code>width:calc(100%/6);</code>. Logo, o primeiro item fica em <code>left:0%;</code>, o segundo em <code>left:calc(100%/6);</code> e assim sucessivamente, até <code>left:calc(5*100%/6);</code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide200" name="slide">
+			   <label for="slide200"></label>
+			   <img src="css2/27_01_07.png" />
+			   <figcaption>Para finalizar, os textos aparecem na posição <code>top:95%;</code>, e devemos deixá-los escondidos com <code>visibility:hidden;</code>. Colocando-se o <code>transition:05s;</code>, ocorre uma suavidade na mudança do estágio invisível para visível.</figcaption>
+		   </li>
+		</ul>
+		<img src="css2/27_01_07.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css2/tags001_0027a.png" />
 	<img src="css2/tags001_0027b.png" />
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
