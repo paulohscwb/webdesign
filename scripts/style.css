@@ -212,15 +212,13 @@ h3::after {
  .slider img {
      opacity: 0;
      visibility: hidden;
-     transition: transform .5s, opacity 1s;
-	 transform: translateX(35%) rotate(7deg);
+     transition: opacity .5s;
 	 overflow:hidden;
  }
 
  .slider li input:checked ~ img {
      opacity: 1;
-	 transform: translateX(0%) rotate(0deg);
-     transition: transform .5s, opacity 1s;
+     transition: opacity .5s;
      visibility: visible;
      z-index: 10;
  }
@@ -228,12 +226,14 @@ h3::after {
  .slider figcaption {
      opacity: 0;
      visibility: hidden;
-     transition: opacity .5s linear;
+     transition: opacity 1s, transform .5s;
+	 transform: translateY(-200px) rotate(-15deg);
  }
 
  .slider li input:checked ~figcaption {
      opacity: 1;
-     transition: opacity .5s linear;
+	 transform: translateY(0) rotate(0deg);
+     transition: transform .5s, opacity 1s;
      visibility: visible;
      z-index: 10;
  }
