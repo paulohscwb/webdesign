@@ -128,9 +128,10 @@ h3::after {
  }
  
 .slider input {
-    display: none;
+   opacity:0;
 }
- .slider label {
+
+.slider label {
      background-color: #DCDCDC;
      top: -30px;
      cursor: pointer;
@@ -227,8 +228,10 @@ h3::after {
      opacity: 0;
      visibility: hidden;
      transition: opacity 1s, transform .5s;
-	 transform: translateY(-200px) rotate(-15deg);
+	 transform: translateY(-200px) rotate(-$randomNumber+deg);
  }
+
+$randomNumber: random(15);
 
  .slider li input:checked ~figcaption {
      opacity: 1;
