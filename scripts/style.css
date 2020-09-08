@@ -224,10 +224,6 @@ h3::after {
      z-index: 10;
  }
 
- .slider li input:checked ~ .fundo img {
-     visibility: hidden;
- }
-
  .slider figcaption {
      opacity: 0;
      visibility: hidden;
