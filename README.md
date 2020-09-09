@@ -1922,8 +1922,8 @@
 			   <figcaption>Podemos colocar as fontes online em nossas páginas. Acesse o site <a href="https://fonts.google.com/" target="_blank">fonts.google.com/</a>, escolha uma fonte e clique em <b>Select this style</b>. Você pode escolher mais de uma fonte. Note que as fontes escolhidas aparecem ao lado, com os links prontos para colocarmos no HTML e no CSS.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="slide249" name="slide">
-			   <label for="slide249"></label>
+			   <input type="radio" id="slide249a" name="slide">
+			   <label for="slide249a"></label>
 			   <img src="css3/34_01_03.png" />
 			   <figcaption>No cabeçalho da página em HTML colocamos o link das fontes escolhidas. Neste caso, eu escolhi a fonte <b>Kufam</b>, que será colocada naquela tag principal do CSS, que usamos com <b>*</b> no começo da Atividade 7.</figcaption>
 		   </li>
@@ -1960,11 +1960,11 @@
 		   <li>
 			   <input type="radio" id="slide255" name="slide">
 			   <label for="slide255"></label>
-			   <img src="css3/34_01_10.png" />
+			   <img src="css3/34_01_10.jpg" />
 			   <figcaption>O layout da página fica com esta visualização usando os atributos definidos até o momento. Configure a sua página com as novas tags de imagens nas galerias criadas.</figcaption>
 		   </li>
 		</ul>
-		<img src="css3/34_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css3/34_01_03a.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0034a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
@@ -1973,6 +1973,54 @@
 	<img src="css3/tags001_0036.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0037.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: detalhes finais e animações</summary>
+	<p>Vamos criar efeitos de galeria na nossa página de filmes. Coloque os nomes dos filmes nos itens do menu.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide256" name="slide">
+			   <label for="slide256"></label>
+			   <img src="css3/37_01_01.png" />
+			   <figcaption>A estrutura final do HTML, com itens anteriores recolhidos, fica desta maneira: dentro de <code>boxSite</code> temos <code>barra2</code>,  <code>barra</code>, <code>banner</code>, <code>barra3</code> e <code>rodape</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide257" name="slide">
+			   <label for="slide257"></label>
+			   <img src="css3/37_01_02.png" />
+			   <figcaption>No CSS, podemos criar efeitos com transformações de escala, cisalhamento, rotação ou translação. Neste exemplo usamos uma escala com sombra nas imagens das tags <code>.box</code> quando passamos o cursor do mouse sobre as respectivas imagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide258" name="slide">
+			   <label for="slide258"></label>
+			   <img src="css3/37_01_03.png" />
+			   <figcaption>Uma animação na logomarca de descrição do site que usa rotação e escalas está atribuída com nome <code>@keyframes AnimaDescr</code>. Dentro da tag <code>.descricao img</code> colocamos a duração de 7 segundo com alternância e duração constante.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide259" name="slide">
+			   <label for="slide259"></label>
+			   <img src="css3/37_01_04.png" />
+			   <figcaption>A logomarca de filme, com formato redondo é ótima para usarmos a rotação de 0 a 360<sup>o</sup>. Na tag <code>.logo img</code> colocamos o nome desta animação <code>AnimaLogo</code> com 7 segundos também. Ajuste valores e efeitos nas imagens de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide260" name="slide">
+			   <label for="slide260"></label>
+			   <img src="css3/37_01_05.png" />
+			   <figcaption>Em telas de larguras menores do que 800px, ajustamos as barras flexbox com visualização em coluna, larguras de 100% e alinhamentos centralizados. As imagens das barras de conteúdo e lateral também podem ser redimensionadas para telas menores. Faça testes ajustanto a tela do seu navegador para escolher os melhores valores para as imagens de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide261" name="slide">
+			   <label for="slide261"></label>
+			   <img src="css3/34_01_06.png" />
+			   <figcaption>Os efeitos de transformação, bordas laterais e a imagem da descrição do site também podem ficar com valores ajustados para telas menores. O tamanho do banner pode ser reduzido, assim como a largura da imagem de descrição da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide262" name="slide">
+			   <label for="slide262"></label>
+			   <img src="css3/34_01_07.jpg" />
+			   <figcaption>Com os valores e atributos mostrados, a página da Atividade 7 fica com este layout. Ajuste os valores, cores e margens para sua página. Coloque os nomes de outros 4 filmes nos itens do menu do site.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/37_01_03.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css3/tags001_0037a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 </details>
