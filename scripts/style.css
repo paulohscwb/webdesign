@@ -108,7 +108,7 @@ h3::after {
 * { margin: 0; padding: 0; }
 
 .fundo {
-   margin: 25px 0 110px 0;
+   margin: 35px 0 110px 0;
    z-index: 0;
    visibility: visible;
    width: 100%;
@@ -214,6 +214,7 @@ h3::after {
 }
 
  .slider img {
+	 margin-top:10px;
      opacity: 0;
      visibility: hidden;
      transition: opacity .5s;
