@@ -2015,6 +2015,12 @@
 		   <li>
 			   <input type="radio" id="slide262" name="slide">
 			   <label for="slide262"></label>
+			   <img src="css3/37_01_08.png" />
+			   <figcaption>Ao passar o cursor do mouse por cima de cada imagem das tags <code>.box</code>, o efeito do layout fica desta maneira.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide262" name="slide">
+			   <label for="slide262"></label>
 			   <img src="css3/37_01_07.jpg" />
 			   <figcaption>Com os valores e atributos mostrados, a página da Atividade 7 fica com este layout. Ajuste os valores, cores e margens para sua página. Coloque os nomes de outros 4 filmes nos itens do menu do site.</figcaption>
 		   </li>
