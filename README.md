@@ -1612,7 +1612,7 @@
   </details>
 	<img src="css2/tags001_0027b.png" />
 	<details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>Crie a pasta <code>webdesign/atividade5</code> com o arquivo <code>index.htm</code>. Nesta atividade, podemos usar as estruturas dos exemplos anteriores para fazer o mapeamento de 3 personagens em uma imagem. Crie a pasta das imagens <code>webdesign/atividade5/imagens</code>.</p>
+	<p>Crie a pasta <code>webdesign/atividade6</code> com o arquivo <code>index.htm</code>. Nesta atividade, podemos usar as estruturas dos exemplos anteriores para fazer o mapeamento de 3 personagens em uma imagem. Crie a pasta das imagens <code>webdesign/atividade6/imagens</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide208" name="slide">
@@ -1704,6 +1704,90 @@
 	<img src="css3/tags001_0029.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0030.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: Menu superior</summary>
+	<p>Crie a pasta <code>webdesign/atividade7</code> com os arquivos <code>index.htm</code> e <code>estilo.css</code>. Nesta atividade, podemos usar a estrutura que usamos nos exemplos anteriores para fazer o menu. Crie a pasta das imagens <code>webdesign/atividade7/imagens</code>. Vamos criar um site com páginas sobre filmes nesta atividade. Escolha arquivos de imagens sobre seu filme favorito. A logomarca terá efeito de animação com rotação, e deve ser uma imagem de fundo transparente e com formato redondo. <a href="css3/icone_filme.png" download>Neste link</a> pode pode baixar a imagem da logomarca usada nesta atividade.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide219" name="slide">
+			   <label for="slide219"></label>
+			   <img src="css3/30_01_01.png" />
+			   <figcaption>No cabeçalho da página, colocamos a referência da folha de estilos com a tag <code>&lt;link&gt;</code>. Se salvarmos o arquivo <code>estilo.css</code> na mesma pasta do <code>index.htm</code>, o caminho fica como <code>href="estilo.css"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide220" name="slide">
+			   <label for="slide220"></label>
+			   <img src="css3/30_01_02.png" />
+			   <figcaption>A tag "mãe" do site é a <code>class="boxSite"</code>, que contém todas as outras <b>div</b>. A primeira div será chamada de <code>class="barra"</code>, que contém a logomarca, o menu e os itens para compartilhar a página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide221" name="slide">
+			   <label for="slide221"></label>
+			   <img src="css3/30_01_03.png" />
+			   <figcaption>Na div <code>class="logo"</code>, podemos colocar uma imagem ou um pictograma.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide222" name="slide">
+			   <label for="slide222"></label>
+			   <img src="css3/30_01_04.png" />
+			   <figcaption>A <code>class="menu"</code> contém uma lista, bem parecida com as que já usamos em outras páginas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide223" name="slide">
+			   <label for="slide223"></label>
+			   <img src="css3/30_01_05.png" />
+			   <figcaption>Como exemplo, vamos criar um menu chamado "dropdown": é aquele que tem subitens. Basta criar uma lista com tag <code>&lt;ul&gt;</code> logo abaixo do item do menu que tem a sublista. Neste exemplo, criamos a lista <code>&lt;ul class="subitens"&gt;</code> logo abaixo do item <code>href="pagina1.htm"</code>. Note que o fechamento deste item é feito depois do fechamento dos subitens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide224" name="slide">
+			   <label for="slide224"></label>
+			   <img src="css3/30_01_06.png" />
+			   <figcaption>Finalizando a nossa barra de menu, colocamos as imagens de compartilhamento. Os links podem ser colocados como fizemos nas Atividades 4 e 5.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide225" name="slide">
+			   <label for="slide225"></label>
+			   <img src="css3/30_01_07.png" />
+			   <figcaption>No arquivo <code>estilo.css</code>, podemos usar o marcador <b>*</b> para definir uma propriedade que vale para todas as tags da página: tipos e tamanhos de fonte, cores e margens. O atributo <code>margin:auto;</code> serve para deixar o conteúdo centralizado nos navegadores.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide226" name="slide">
+			   <label for="slide226"></label>
+			   <img src="css3/30_01_08.png" />
+			   <figcaption>A estrutura CSS do menu é praticamente a mesma que usamos anteriormente. Modifique cores, margens e bordas. Neste exemplo, estamos usando o menu com a borda direita, parecido com aquele que mostramos nas Atividades 4 e 5.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide227" name="slide">
+			   <label for="slide227"></label>
+			   <img src="css3/30_01_09.png" />
+			   <figcaption>Os subitens ficam escondidos <code>opacity:0;</code>, e quando ativados têm a posição absoluta na tela. Colocamos <code>z-index:1;</code> para ter certeza de que aparecerão na frente dos outros elementos da página. O menu dropdown pode ser mostrado em linha ou em coluna. Neste caso, ficará em coluna com o atributo <code>flex-direction:column;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide228" name="slide">
+			   <label for="slide228"></label>
+			   <img src="css3/30_01_10.png" />
+			   <figcaption>Ao passar o cursor do mouse sobre o item do menu que tem subitem, a opacidade da lista dos subitens tem valor modificado para 1 com o atributo <code>.menu li:hover ul {opacity:1;}</code>. Foram colocadas bordas inferiores para separar os subitens. Teste estas propriedades no layout de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide229" name="slide">
+			   <label for="slide229"></label>
+			   <img src="css3/30_01_11.png" />
+			   <figcaption>Foram colocados atributos de fundo gradiente e alinhamento centralizado para os itens das classes <code>.barra</code> e <code>.logo</code>. Teste valores para dimensionar a imagem da logomarca em <code>.logo img</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide230" name="slide">
+			   <label for="slide230"></label>
+			   <img src="css3/30_01_12.png" />
+			   <figcaption>Nos links de compartilhamento, usamos atributos parecidos com os que usamos em páginas anteriores. Teste valores para dimensionar as imagens dos ícones de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide231" name="slide">
+			   <label for="slide231"></label>
+			   <img src="css3/30_01_13.png" />
+			   <figcaption>Usando os atributos mostrados, o layout da barra de menu fica desta maneira. Configure a sua barra testando as melhores medidas e cores.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/30_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css3/tags001_0030a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0031.png" />
