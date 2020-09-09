@@ -1894,6 +1894,78 @@
 	<img src="css3/tags001_0033.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0034.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: conteúdos, fontes e rodapé</summary>
+	<p>Neste ponto, podemos criar conteúdos em duas barras: uma principal e outra lateral. Escolha imagens do filme para ficarem como uma espécie de galeria. Outras imagens podem ser colocadas na barra lateral, com alguns personagens formando outra galeria.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide246" name="slide">
+			   <label for="slide246"></label>
+			   <img src="css3/34_01_01.png" />
+			   <figcaption>A tag <code>class="barra3"</code> pode ser inserida logo após a tag <code>class="banner"</code>. Dentro desta tag, criamos as tags filhas <code>class="conteudo"</code> e <code>class="box"</code> que contém as imagens do filme. Colocamos também uma tag <code>class="titulo"</code> para usar nesta barra.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide247" name="slide">
+			   <label for="slide247"></label>
+			   <img src="css3/34_01_02.png" />
+			   <figcaption>Escolha pelo menos 5 imagens para colocar nas tags <code>class="box"</code> dentro da tag de <code>class="conteudo"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide248" name="slide">
+			   <label for="slide248"></label>
+			   <img src="css3/34_01_03a.png" />
+			   <figcaption>A tag <code>class="lateral"</code> tem mesma estrutura da tag <code>class="conteudo"</code>: título e as tags <code>class="box"</code> com as imagens. Escolha pelo menos 5 personagens para colocar nesta barra lateral.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide249" name="slide">
+			   <label for="slide249"></label>
+			   <img src="css3/34_01_04.png" />
+			   <figcaption>Podemos colocar as fontes online em nossas páginas. Acesse o site <a href="https://fonts.google.com/" target="_blank">fonts.google.com/</a>, escolha uma fonte e clique em <b>Select this style</b>. Você pode escolher mais de uma fonte. Note que as fontes escolhidas aparecem ao lado, com os links prontos para colocarmos no HTML e no CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide249" name="slide">
+			   <label for="slide249"></label>
+			   <img src="css3/34_01_03.png" />
+			   <figcaption>No cabeçalho da página em HTML colocamos o link das fontes escolhidas. Neste caso, eu escolhi a fonte <b>Kufam</b>, que será colocada naquela tag principal do CSS, que usamos com <b>*</b> no começo da Atividade 7.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide250" name="slide">
+			   <label for="slide250"></label>
+			   <img src="css3/34_01_05.png" />
+			   <figcaption>Na continuação do nosso arquivo CSS, colocamos os atributos da classe <code>.barra3</code> com display flexbox e fundo com gradiente. Para alinhar os conteúdos na vertical, usamos o atributo <code>align-content:flex-start</code>, que tem a mesma função do <code>vertical-align</code> das tabelas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide251" name="slide">
+			   <label for="slide251"></label>
+			   <img src="css3/34_01_06.png" />
+			   <figcaption>As caixas com conteúdos <code>.box</code> tem os atributos: bordas arredondadas, margens, fundo gradiente, alinhamento de texto e tamanhos iguais de no mínimo 150px <code>flex:1 150px</code>. As imagens destas caixas têm larguras e alturas ajustadas de acordo com as dimensões do navegador. Ajuste os valores para as imagens de sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide252" name="slide">
+			   <label for="slide252"></label>
+			   <img src="css3/34_01_07.png" />
+			   <figcaption>Nesta página, ao invés de usar a tabela "zebrada", podemos usar os box com este atributo. Os pares (even) ficam com um tipo de fundo gradiente, e os ímpares (odd) ficam com outro tipo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide253" name="slide">
+			   <label for="slide253"></label>
+			   <img src="css3/34_01_08.png" />
+			   <figcaption>Os ajustes da tag <code>.lateral</code> são similares às caixas, com alinhamentos horizontais centralizados e verticais no topo (flex-start). Ajuste os valores das dimensões das imagens de sua página. No caso desta página, as imagens tem largura bem menor do que a altura, pois mostram apenas 1 personagem cada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide254" name="slide">
+			   <label for="slide254"></label>
+			   <img src="css3/34_01_09.png" />
+			   <figcaption>Os atributos dos títulos usam margens, cores e uma sombra de texto. O rodapé está com conteúdo centralizado, margem interna e fundo com gradiente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide255" name="slide">
+			   <label for="slide255"></label>
+			   <img src="css3/34_01_10.png" />
+			   <figcaption>O layout da página fica com esta visualização usando os atributos definidos até o momento. Configure a sua página com as novas tags de imagens nas galerias criadas.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/34_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css3/tags001_0034a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0035.png" />
