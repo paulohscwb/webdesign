@@ -2166,7 +2166,7 @@
 		   <li>
 			   <input type="radio" id="slide284" name="slide">
 			   <label for="slide284"></label>
-			   <img src="css3/37_02_22.png" />
+			   <img src="css3/37_02_22.jpg" />
 			   <figcaption>O layout da página fica desta maneira. Ajuste os valores e atributos para a finalização desta atividade. Coloque nomes nos títulos das 3 páginas para que apareçam no menu.</figcaption>
 		   </li>
 		</ul>
