@@ -2009,13 +2009,13 @@
 		   <li>
 			   <input type="radio" id="slide261" name="slide">
 			   <label for="slide261"></label>
-			   <img src="css3/34_01_06.png" />
+			   <img src="css3/37_01_06.png" />
 			   <figcaption>Os efeitos de transformação, bordas laterais e a imagem da descrição do site também podem ficar com valores ajustados para telas menores. O tamanho do banner pode ser reduzido, assim como a largura da imagem de descrição da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide262" name="slide">
 			   <label for="slide262"></label>
-			   <img src="css3/34_01_07.jpg" />
+			   <img src="css3/37_01_07.jpg" />
 			   <figcaption>Com os valores e atributos mostrados, a página da Atividade 7 fica com este layout. Ajuste os valores, cores e margens para sua página. Coloque os nomes de outros 4 filmes nos itens do menu do site.</figcaption>
 		   </li>
 		</ul>
