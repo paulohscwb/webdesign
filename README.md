@@ -1793,6 +1793,103 @@
 	<img src="css3/tags001_0031.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0032.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: backgrounds e animações</summary>
+	<p>Neste ponto, podemos criar animações nos itens que já estão programados. A imagem com um filme está disponível no link: <a href="css3/filme.png" download>filme</a>; e a imagem de nuvens, mostrada na apostila, está disponível no link: <a href="css3/clouds.png" download>nuvens</a>. Se você quiser encontrar outra imagem para colocar na barra superior da página, lembre-se que deve ser uma imagem bem larga, com altura reduzida.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide232" name="slide">
+			   <label for="slide232"></label>
+			   <img src="css3/32_01_01.png" />
+			   <figcaption>Criando a <code>class="barra2"</code>, podemos definir um fundo desta tag. Ela pode ser colocada antes ou depois da <code>class="barra"</code>. Dentro da <code>class="logo"</code>, podemos inserir uma imagem ou pictograma como logomarca da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide233" name="slide">
+			   <label for="slide233"></label>
+			   <img src="css3/32_01_02.png" />
+			   <figcaption>A estrutura do <b>toggle</b> deve ser colocada englobando a tag de menu. O <b>checkbox</b> fica antes da tag <code>&lt;label&gt;</code>, inserindo o <b>toggle</b> junto com o menu nesta tag de rótulo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide234" name="slide">
+			   <label for="slide234"></label>
+			   <img src="css3/32_01_03.png" />
+			   <figcaption>Na continuação do arquivo CSS, temos os atributos para esconder o <b>checkbox</b> e o <b>toggle</b> do menu. Eles só aparecem em navegadores com largura menor do que 800px. Redimensione o seu navegador para testar estes atributos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide235" name="slide">
+			   <label for="slide235"></label>
+			   <img src="css3/32_01_04.png" />
+			   <figcaption>Usando os atributos de <code>@media screen</code> com largura menor do que 800px, definimos que a tag <code>.barra</code> será mostrada com itens na vertical, e o <b>toggle</b> ficará visível. Neste caso, podemos atribuir propriedades para os itens visíveis (cor, tamanho, margem,...).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide236" name="slide">
+			   <label for="slide236"></label>
+			   <img src="css3/32_01_05.png" />
+			   <figcaption>Neste ponto está definido o critério para o menu e o toggle aparecerem: <code>#checkbox1:checked</code>, ou seja, quando o visitante clicar no menu. Definimos também qual será a altura máxima do menu: <code>max-height:50vh;</code>, ou seja, metade da altura do navegador.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide237" name="slide">
+			   <label for="slide237"></label>
+			   <img src="css3/32_01_06.png" />
+			   <figcaption>No caso do <b>checkbox</b> não estar ativado, o menu terá a altura máxima como 0. Os itens estão com atributos escondidos <code>hidden</code>, em formato vertical (coluna).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide238" name="slide">
+			   <label for="slide238"></label>
+			   <img src="css3/32_01_07.png" />
+			   <figcaption>A classe <code>.barra2</code> está com a imagem de fundo definida, com repetição na horizontal <code>repeat-x</code>, com a altura igual à altura da imagem de 90px. A animação de deslocamento do fundo começa na posição 0% 0% e termina em 100% 0%. Modifique os valores, caso necessário, e escolha uma imagem para ficar no fundo desta tag.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide239" name="slide">
+			   <label for="slide239"></label>
+			   <img src="css3/32_01_08.png" />
+			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/32_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+	<img src="css3/tags001_0032a.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: banner e descrição</summary>
+	<p>Neste ponto, podemos criar o banner e uma logo para colocar flutuando sobre o banner. Escolha uma imagem com boa resolução para ficar no banner, e uma logo do filme.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide240" name="slide">
+			   <label for="slide240"></label>
+			   <img src="css3/32_02_01.png" />
+			   <figcaption>A tag <code>class="banner"</code> pode ser inserida logo após a tag <code>class="barra"</code>. Dentro desta tag, criamos a tag filha <code>class="descricao"</code> para criarmos uma logo flutuante sobre o banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide241" name="slide">
+			   <label for="slide241"></label>
+			   <img src="css3/32_02_02.png" />
+			   <figcaption>Na continuação do arquivo CSS, temos os atributos da classe <code>.banner</code>, com o background que você escolheu (sem repetição), com as propriedades para cobrir a largura da tag. O alinhamento da tag <code>.descricao</code> ficará à esquerda pois <code>flex-direction:flex-start;</code>. Se você quiser colocá-la centralizada no banner, basta mudar para <code>center</code> ou à direita ficaria <code>flex-end</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide242" name="slide">
+			   <label for="slide242"></label>
+			   <img src="css3/32_02_03.png" />
+			   <figcaption>Quando o visitante passar o cursor do mouse sobre o banner, ele sofre um deslocamento na vertical: vai para a coordenada 0% 48%. Note que colocamos o efeito <b>transition</b> nesta tag e na tag do banner sem hover. Assim, o efeito é suavidado tanto no momento de passar o cursor quanto de retirar o cursor de cima do banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide243" name="slide">
+			   <label for="slide243"></label>
+			   <img src="css3/32_02_04.png" />
+			   <figcaption>A tag filha <code>.descricao</code> fica com posição relativa, com fundo com transparência usada na cor RGBA. Defina margem interna para que a imagem não fique "grudada" nos cantos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide244" name="slide">
+			   <label for="slide244"></label>
+			   <img src="css3/32_02_05.png" />
+			   <figcaption>Para dar um efeito de profundidade, podemos colocar uma sombra na tag mãe das páginas usando o atributo <code>box-shadow</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide245" name="slide">
+			   <label for="slide245"></label>
+			   <img src="css3/32_02_06.png" />
+			   <figcaption>Com os valores dos atributos mostrados até agora, o site fica com este layout. Modifique os valores para a página do seu filme.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/32_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0033.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
