@@ -1326,7 +1326,7 @@
 			   <input type="radio" id="slide168" name="slide">
 			   <label for="slide168"></label>
 			   <img src="css2/21_02_05.png" />
-			   <figcaption>O banner está referenciado com a altura da tela do navegador com o atributo <code>height:10vh;</code>, ou seja, <b>10%</b> da altura da tela. Uma imagem de fundo dos produtos e a cor do texto também podem ser configurados no CSS. Escolha um pictograma para colocar na tag de ícone.</figcaption>
+			   <figcaption>O banner está referenciado com a altura da tela do navegador com o atributo <code>height:10vh;</code>, ou seja, <b>10%</b> da altura da tela. Uma imagem de fundo dos produtos e a cor do texto também podem ser configurados no CSS. Escolha um <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a> para colocar na tag de ícone.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide169" name="slide">
@@ -1723,7 +1723,7 @@
 			   <input type="radio" id="slide221" name="slide">
 			   <label for="slide221"></label>
 			   <img src="css3/30_01_03.png" />
-			   <figcaption>Na div <code>class="logo"</code>, podemos colocar uma imagem ou um pictograma.</figcaption>
+			   <figcaption>Na div <code>class="logo"</code>, podemos colocar uma imagem ou um <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide222" name="slide">
@@ -1800,7 +1800,7 @@
 			   <input type="radio" id="slide232" name="slide">
 			   <label for="slide232"></label>
 			   <img src="css3/32_01_01.png" />
-			   <figcaption>Criando a <code>class="barra2"</code>, podemos definir um fundo desta tag. Ela pode ser colocada antes ou depois da <code>class="barra"</code>. Dentro da <code>class="logo"</code>, podemos inserir uma imagem ou pictograma como logomarca da página.</figcaption>
+			   <figcaption>Criando a <code>class="barra2"</code>, podemos definir um fundo desta tag. Ela pode ser colocada antes ou depois da <code>class="barra"</code>. Dentro da <code>class="logo"</code>, podemos inserir uma imagem ou <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a> como logomarca da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide233" name="slide">
@@ -1973,7 +1973,7 @@
 	<img src="css3/tags001_0036.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0037.png" />
-	<details class="sub"><summary>&#x1f4c3; Atividade 7: detalhes finais e animações</summary>
+	<details class="sub"><summary>&#x1f4c3; Detalhes finais e animações</summary>
 	<p>Vamos criar efeitos de galeria na nossa página de filmes. Coloque os nomes dos filmes nos itens do menu.</p>
 	  <ul class="slider">
 		  <li>
@@ -2028,6 +2028,144 @@
 		<img src="css3/37_01_03.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0037a.png" />
+	<details class="sub"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
+	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também da pasta <code>webdesign/atividade8/imagens</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide264" name="slide">
+			   <label for="slide264"></label>
+			   <img src="css3/37_02_01.png" />
+			   <figcaption>A tag "mãe" do site será <code>class="boxSite"</code>, com a barra de menu <code>class="barra"</code>, onde colocaremos uma logo. Vamos fazer uma página de algum lugar com belas paisagens. Escolha um <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a> ou coloque uma imagem na tag <code>class="logo"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide265" name="slide">
+			   <label for="slide265"></label>
+			   <img src="css3/37_02_02.png" />
+			   <figcaption>A estrutura de menu será a mesma que usamos na atividade anterior. Alguns atributos CSS ficarão diferentes, pois da tag <code>&lt;label&gt;</code> está englobando os itens do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide266" name="slide">
+			   <label for="slide266"></label>
+			   <img src="css3/37_02_03.png" />
+			   <figcaption>Depois da tag <code>class="barra"</code>, podemos inserir a <code>class="banner"</code>, que contém a <code>class="descrição"</code>. Neste caso, coloque um texto ou uma imagem para ser o título da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide267" name="slide">
+			   <label for="slide267"></label>
+			   <img src="css3/37_02_04.png" />
+			   <figcaption>A barra <code>class="compartilhar"</code> fica logo abaixo da <code>class="banner"</code>. Insira links para os itens desta barra.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide268" name="slide">
+			   <label for="slide268"></label>
+			   <img src="css3/37_02_05.png" />
+			   <figcaption>Depois da barra <code>class="compartilhar"</code>, podemos criar a barra de contéudo <code>class="barra2"</code>, como se fosse uma galeria de imagens das paisagens que vamos inserir.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide269" name="slide">
+			   <label for="slide269"></label>
+			   <img src="css3/37_02_06.png" />
+			   <figcaption>Insira o texto sobre o local escolhido em uma <code>&lt;div&gt;</code>, pois vamos distribuir os conteúdos usando <code>display:flex;</code> no CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide270" name="slide">
+			   <label for="slide270"></label>
+			   <img src="css3/37_02_07.png" />
+			   <figcaption>Crie títulos para cada imagem colocada em tag <code>class="box"</code>. Este título pode ficar antes ou depois da imagem.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide271" name="slide">
+			   <label for="slide271"></label>
+			   <img src="css3/37_02_08.png" />
+			   <figcaption>Por último, a tag mais simples de nossas páginas: o rodapé.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/37_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <details class="sub"><summary>&#x1f4c3; Detalhes da estrutura em CSS</summary>
+	<p>A estrutura CSS desta página fica um pouco mais simplificada em relação à Atividade 7. Crie o arquivo de folha de estilos na pasta <code>webdesign/atividade8</code> com nome <code>estilo.css</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="slide272" name="slide">
+			   <label for="slide272"></label>
+			   <img src="css3/37_02_10.png" />
+			   <figcaption>Escolha a fonte do site <b>google fonts</b> e defina os elementos genéricos da página com o indicar <b>*</b>. Defina altura mínima do banner, posição, alinhamentos e efeitos com <code>hover</code>. Nesta página, vamos usar o atributo <code>overflow:auto;</code> que permite sobreposições de elementos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide273" name="slide">
+			   <label for="slide273"></label>
+			   <img src="css3/37_02_11.png" />
+			   <figcaption>Defina um valor grande para o <code>z-index</code> para deixar a barra de menu sobre o banner. para deixá-la alinhada na vertical, usamos <code>align-items:flex-start;</code>. A tag <code>label</code> é "mãe" do menu. Logo, definimos margem e tamanho <code>flex:3;</code> nesta tag. Para deixar o menu alinhado à direita, basta usar <code>justify-content:flex-end;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide274" name="slide">
+			   <label for="slide274"></label>
+			   <img src="css3/37_02_12.png" />
+			   <figcaption>Os itens do menu têm estrutura de programação CSS parecida com a que usamos na atividade 7. Escolha cores adequadas para ter um contraste com a imagem de fundo do banner. Neste caso, foi escolhida a cor branca com sombra de texto <code>text-shadow</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide275" name="slide">
+			   <label for="slide275"></label>
+			   <img src="css3/37_02_13.png" />
+			   <figcaption>Para alinhar a <code>.logo</code> à esquerda usamos <code>justify-content:flex-start;</code>. Neste exemplo vamos utilizar um pictograma: logo, definimos <code>font-size</code> com tamanho maior do que o usual. A animação será a mesma da página da atividade anterior. A barra de compartilhamento pode ter os valores ajustados de acordo com as dimensões das imagens.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide276" name="slide">
+			   <label for="slide276"></label>
+			   <img src="css3/37_02_14.png" />
+			   <figcaption>Ajuste os valores de todos os elementos programados para visualizar tanto em um navegador com mais e com menos de 800px de largura. A tag <code>.barra</code> tem o atributo <code>flex-direction:column;</code> em navegadores com larguras reduzidas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide277" name="slide">
+			   <label for="slide277"></label>
+			   <img src="css3/37_02_15.png" />
+			   <figcaption>Tanto o toggle quando o checkbox ficam invisíveis em telas maiores. Note que nas configurações de telas menores, estamos sem os subitens. Nesta página o menu é simplificado, com apenas itens principais.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide278" name="slide">
+			   <label for="slide278"></label>
+			   <img src="css3/37_02_16.png" />
+			   <figcaption>Os atributos da <code>.barra2</code> e dos <code>.box</code> são similares aos que usamos na atividade anterior. Vamos usar a largura da barra menor, com 85%.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide279" name="slide">
+			   <label for="slide279"></label>
+			   <img src="css3/37_02_17.png" />
+			   <figcaption>Atribua as propriedades para visualização dos títulos e do rodapé da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide280" name="slide">
+			   <label for="slide280"></label>
+			   <img src="css3/37_02_18.png" />
+			   <figcaption>O efeito de transformação de imagens que usamos na atividade anterior pode ser usado nos <code>.box</code>. Assim, as imagens são ampliadas com os títulos, como se fossem legendas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide281" name="slide">
+			   <label for="slide281"></label>
+			   <img src="css3/37_02_19.png" />
+			   <figcaption>Defina as propriedades de animação da tag <code>.logo</code>. </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide282" name="slide">
+			   <label for="slide282"></label>
+			   <img src="css3/37_02_20.png" />
+			   <figcaption>Defina os atributos de visualizações das barras e das imagens da <code>.barra2 img</code>. Ajuste as dimensões das imagens em navegador com largura menor do que 800px. A disposição de elementos destas barras deve ser modificada para vertical (coluna).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide283" name="slide">
+			   <label for="slide283"></label>
+			   <img src="css3/37_02_21.png" />
+			   <figcaption>Ajuste também os efeitos de transformação e tamanhos de fontes das tags <code>.logo</code> e <code>.descricao</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="slide284" name="slide">
+			   <label for="slide284"></label>
+			   <img src="css3/37_02_22.png" />
+			   <figcaption>O layout da página fica desta maneira. Ajuste os valores e atributos para a finalização desta atividade. Coloque nomes nos títulos das 3 páginas para que apareçam no menu.</figcaption>
+		   </li>
+		</ul>
+		<img src="css3/37_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 </details>
 
