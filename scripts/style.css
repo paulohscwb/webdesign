@@ -203,6 +203,10 @@ h3::after {
 .slider li:nth-child(13) label {
      left: 360px;
  }
+ 
+ .slider li:nth-child(13) label {
+     left: 390px;
+ }
 
 .slider {
 	counter-reset: contador;
