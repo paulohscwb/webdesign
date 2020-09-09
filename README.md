@@ -1793,6 +1793,12 @@
 	<img src="css3/tags001_0031.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0032.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 7: Menu superior</summary>
+	<p>Nas animações, colocamos em percentuais quais são os estágios dos elementos. Para efeitos que vão e vem, ou mudanças de cores, usamos os vários estágios. Veja o exemplo que aparece na apostila.</p>
+		<img src="css3/32_03_00.png"/>
+		<figcaption>Para efeitos mais simples, podemos definir quais são os estágios inicial (0%) e final (100%). Neste exemplo, o fundo vai de um lado para o outro. Porém, a cor da fonte só é definida nos estágios 0% e 100%, pois deseja-se mudar somente de branco para azul. Se o efeito de mudança de cor envolver mais cores, definimos seus valores em vários estágios.</figcaption>
+	</details>
+	<img src="css3/tags001_0032b.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: backgrounds e animações</summary>
 	<p>Neste ponto, podemos criar animações nos itens que já estão programados. A imagem com um filme está disponível no link: <a href="css3/filme.png" download>filme</a>; e a imagem de nuvens, mostrada na apostila, está disponível no link: <a href="css3/clouds.png" download>nuvens</a>. Se você quiser encontrar outra imagem para colocar na barra superior da página, lembre-se que deve ser uma imagem bem larga, com altura reduzida.</p>
 	  <ul class="slider">
