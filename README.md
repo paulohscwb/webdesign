@@ -1698,8 +1698,34 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css3"><summary>CSS e Animações</summary>
-	<p>página 28...</p>
+<details id="css3"><summary>CSS e Animações: pág. 28-37</summary>
+	<img src="css3/tags001_0028.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0029.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0030.png" />
+	<img src="css3/tags001_0030a.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0031.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0032.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0033.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0034.png" />
+	<img src="css3/tags001_0034a.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0035.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0036.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0037.png" />
+	<img src="css3/tags001_0037a.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+</details>
+
+<details id="css4" style="border-bottom: 1px solid #a2dec0;"><summary>Galerias e Imagens Vetoriais</summary>
+	<p>página 38...</p>
 </details>
 
 <br>&#x1f4bb; &#x1f4c2;
