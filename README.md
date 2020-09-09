@@ -1777,7 +1777,7 @@
 			   <input type="radio" id="slide230" name="slide">
 			   <label for="slide230"></label>
 			   <img src="css3/30_01_12.png" />
-			   <figcaption>Nos links de compartilhamento, usamos atributos parecidos com os que usamos em páginas anteriores. Teste valores para dimensionar as imagens dos ícones de sua página.</figcaption>
+			   <figcaption>Nos links de compartilhamento, usamos atributos parecidos com os que usamos em páginas anteriores. Teste valores para dimensionar as imagens dos ícones de sua página. Em telas menores, a barra terá os itens dispostos em coluna <code>flex-direction:column;</code></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide231" name="slide">
