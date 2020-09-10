@@ -139,9 +139,9 @@ h3::after {
      display: block;
      height: 27px;
      position: absolute;
-     width: 27px;
+     width: min(50px, calc(100%/16));
      z-index: 10;
-     border-radius: 50%;
+     border-radius: 5px;
      text-align:center;
      vertical-align: middle;
      font-size: 14px;
@@ -152,59 +152,59 @@ h3::after {
  }
 
  .slider li:nth-child(1) label {
-     left: 0px;
+     left: 0%;
  }
-
- .slider li:nth-child(2) label {
-     left: 30px;
+ 
+  .slider li:nth-child(2) label {
+     left: calc(100% / 14)
  }
-
+ 
  .slider li:nth-child(3) label {
-     left: 60px;
+     left: calc(2*100% / 14)
  }
  
  .slider li:nth-child(4) label {
-     left: 90px;
+     left: calc(3*100% / 14)
  }
  
 .slider li:nth-child(5) label {
-     left: 120px;
+     left: calc(4*100% / 14)
  }
 
 .slider li:nth-child(6) label {
-     left: 150px;
+     left: calc(5*100% / 14)
  }
 
 .slider li:nth-child(7) label {
-     left: 180px;
+     left: calc(6*100% / 14)
  }
 
 .slider li:nth-child(8) label {
-     left: 210px;
+     left: calc(7*100% / 14)
  }
 
 .slider li:nth-child(9) label {
-     left: 240px;
+     left: calc(8*100% / 14)
  }
 
 .slider li:nth-child(10) label {
-     left: 270px;
+     left: calc(9*100% / 14)
  }
 
 .slider li:nth-child(11) label {
-     left: 300px;
+     left: calc(10*100% / 14)
  }
 
 .slider li:nth-child(12) label {
-     left: 330px;
+     left: calc(11*100% / 14)
  }
  
 .slider li:nth-child(13) label {
-     left: 360px;
+     left: calc(12*100% / 14)
  }
  
  .slider li:nth-child(14) label {
-     left: 390px;
+     left: calc(13*100% / 14)
  }
 
 .slider {
