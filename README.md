@@ -17,19 +17,19 @@
 		  <li>
 			   <input type="radio" id="slide001" name="slide" checked>
 			   <label for="slide001"></label>
-			   <img src="basico/01_01_01.png" />
+			   <img src="basico/01_01_01.png" for="slide001" />
 			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/" target="_blank">http://html-color-codes.info/Codigos-de-Cores-HTML/</a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide002" name="slide">
 			   <label for="slide002"></label>
-			   <img src="basico/01_01_02.png" />
+			   <img src="basico/01_01_02.png" for="slide002"/>
 			   <figcaption>Logo abaixo, você encontra outra maneira de escolher cores neste mesmo site. Basta escolher o tom da cor e clicar sobre a cor escolhida.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide003" name="slide">
 			   <label for="slide003"></label>
-			   <img src="basico/01_01_03.png" />
+			   <img src="basico/01_01_03.png" for="slide003" />
 			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/" target="_blank">https://color.adobe.com/pt/create/color-wheel/</a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
 		   </li>
 		   <li>
@@ -2173,7 +2173,7 @@
 </details>
 
 <details id="css4" style="border-bottom: 1px solid #a2dec0;"><summary>Galerias e Imagens Vetoriais</summary>
-	<p>página 38...</p>
+	<p>página 39...</p>
 </details>
 
 <br>&#x1f4bb; &#x1f4c2;
