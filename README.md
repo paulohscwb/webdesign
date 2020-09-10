@@ -16,26 +16,26 @@
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="slide001" name="slide" checked>
-			   <label for="slide001"></label>
-			   <img src="basico/01_01_01.png" for="slide001" />
+			   <label for="slide001">
+			   <img src="basico/01_01_01.png" /></label>
 			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/" target="_blank">http://html-color-codes.info/Codigos-de-Cores-HTML/</a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide002" name="slide">
-			   <label for="slide002"></label>
-			   <img src="basico/01_01_02.png" for="slide002"/>
+			   <label for="slide002">
+			   <img src="basico/01_01_02.png"/></label>
 			   <figcaption>Logo abaixo, você encontra outra maneira de escolher cores neste mesmo site. Basta escolher o tom da cor e clicar sobre a cor escolhida.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide003" name="slide">
-			   <label for="slide003"></label>
-			   <img src="basico/01_01_03.png" for="slide003" />
+			   <label for="slide003">
+			   <img src="basico/01_01_03.png" /></label>
 			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/" target="_blank">https://color.adobe.com/pt/create/color-wheel/</a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="slide004" name="slide">
-			   <label for="slide004"></label>
-			   <img src="basico/01_01_04.png" />
+			   <label for="slide004">
+			   <img src="basico/01_01_04.png" /></label>
 			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
 		   </li>
 		</ul>
