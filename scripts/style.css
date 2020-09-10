@@ -151,7 +151,7 @@ h3::after {
 	 transition: .5s;
  }
 
-:root {--m: 13.5; --mw: 17;}
+:root {--m: 13.75; --mw: 16.7;}
 
 .slider li:nth-child(1) label {left: 0%;}
 
