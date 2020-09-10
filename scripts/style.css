@@ -231,6 +231,13 @@ h3::after {
      z-index: 10;
  }
 
+ .slider li input:checked ~ label img  {
+	 opacity:1;
+     transition: all .5s;
+     visibility: visible;
+     z-index: 10;
+ }
+
  .slider figcaption {
      opacity: 0;
      visibility: hidden;
