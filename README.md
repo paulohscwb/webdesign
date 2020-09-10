@@ -1704,6 +1704,8 @@
 	<img src="css3/tags001_0029.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0030.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0031.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: Menu superior</summary>
 	<p>Crie a pasta <code>webdesign/atividade7</code> com os arquivos <code>index.htm</code> e <code>estilo.css</code>. Nesta atividade, podemos usar a estrutura que usamos nos exemplos anteriores para fazer o menu. Crie a pasta das imagens <code>webdesign/atividade7/imagens</code>. Vamos criar um site com páginas sobre filmes nesta atividade. Escolha arquivos de imagens sobre seu filme favorito. A logomarca terá efeito de animação com rotação, e deve ser uma imagem de fundo transparente e com formato redondo. <a href="css3/icone_filme.png" download>Neste link</a> pode pode baixar a imagem da logomarca usada nesta atividade.</p>
 	  <ul class="slider">
@@ -1788,17 +1790,12 @@
 		</ul>
 		<img src="css3/30_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<img src="css3/tags001_0030a.png" />
-	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
-	<img src="css3/tags001_0031.png" />
+	<img src="css3/tags001_0031a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0032.png" />
-	<details class="sub"><summary>&#x1f4c3; Animação</summary>
-	<p>Nas animações, colocamos em percentuais quais são os estágios dos elementos. Para efeitos que vão e vem, ou mudanças de cores, usamos os vários estágios. Veja o exemplo que aparece na apostila.</p>
-		<img src="css3/32_03_00.png"/>
-		<figcaption>Para efeitos mais simples, podemos definir quais são os estágios inicial (0%) e final (100%). Neste exemplo, o fundo vai de um lado para o outro. Porém, a cor da fonte só é definida nos estágios 0% e 100%, pois deseja-se mudar somente de branco para azul. Se o efeito de mudança de cor envolver mais cores, definimos seus valores em vários estágios.</figcaption>
-	</details>
-	<img src="css3/tags001_0032b.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0033.png" />
+	<img src="css3/tags001_0033a.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: backgrounds e animações</summary>
 	<p>Neste ponto, podemos criar animações nos itens que já estão programados. A imagem com um filme está disponível no link: <a href="css3/filme.png" download>filme</a>; e a imagem de nuvens, mostrada na apostila, está disponível no link: <a href="css3/clouds.png" download>nuvens</a>. Se você quiser encontrar outra imagem para colocar na barra superior da página, lembre-se que deve ser uma imagem bem larga, com altura reduzida.</p>
 	  <ul class="slider">
@@ -1853,7 +1850,9 @@
 		</ul>
 		<img src="css3/32_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<img src="css3/tags001_0032a.png" />
+	<img src="css3/tags001_0033b.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0034.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: banner e descrição</summary>
 	<p>Neste ponto, podemos criar o banner e uma logo para colocar flutuando sobre o banner. Escolha uma imagem com boa resolução para ficar no banner, e uma logo do filme.</p>
 	  <ul class="slider">
@@ -1896,10 +1895,9 @@
 		</ul>
 		<img src="css3/32_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
+  <img src="css3/tags001_0034a.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
-	<img src="css3/tags001_0033.png" />
-	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
-	<img src="css3/tags001_0034.png" />
+	<img src="css3/tags001_0035.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: conteúdos, fontes e rodapé</summary>
 	<p>Neste ponto, podemos criar conteúdos em duas barras: uma principal e outra lateral. Escolha imagens do filme para ficarem como uma espécie de galeria. Outras imagens podem ser colocadas na barra lateral, com alguns personagens formando outra galeria.</p>
 	  <ul class="slider">
@@ -1972,13 +1970,12 @@
 		</ul>
 		<img src="css3/34_01_03a.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<img src="css3/tags001_0034a.png" />
-	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
-	<img src="css3/tags001_0035.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0036.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0037.png" />
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0038.png" />
 	<details class="sub"><summary>&#x1f4c3; Detalhes finais e animações</summary>
 	<p>Vamos criar efeitos de galeria na nossa página de filmes. Coloque os nomes dos filmes nos itens do menu.</p>
 	  <ul class="slider">
@@ -2033,7 +2030,7 @@
 		</ul>
 		<img src="css3/37_01_03.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<img src="css3/tags001_0037a.png" />
+	<img src="css3/tags001_0038a.png" />
 	<details class="sub"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
 	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também da pasta <code>webdesign/atividade8/imagens</code>.</p>
 	  <ul class="slider">
