@@ -224,15 +224,6 @@ h3::after {
 	 overflow:hidden;
  }
 
-label img {left:0; width:100%; height:auto;}
-
- .slider li input:checked ~ label img  {
-	 opacity:1;
-     transition: all .5s;
-     visibility: visible;
-     z-index: 10;
- }
-
  .slider li input:checked ~ img  {
 	 opacity:1;
      transition: all .5s;
