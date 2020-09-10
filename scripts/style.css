@@ -139,7 +139,7 @@ h3::after {
      display: block;
      height: 27px;
      position: absolute;
-     width: min(50px, calc(100%/16));
+     width: min(50px, calc(100%/var(--mw)));
      z-index: 10;
      border-radius: 5px;
      text-align:center;
@@ -151,61 +151,35 @@ h3::after {
 	 transition: .5s;
  }
 
- .slider li:nth-child(1) label {
-     left: 0%;
- }
+:root {--m: 13.5; --mw: 17;}
+
+.slider li:nth-child(1) label {left: 0%;}
+
+.slider li:nth-child(2) label {left: calc(100% / var(--m));}
  
-  .slider li:nth-child(2) label {
-     left: calc(100% / 14)
- }
+.slider li:nth-child(3) label {left: calc(2*100% / var(--m));}
  
- .slider li:nth-child(3) label {
-     left: calc(2*100% / 14)
- }
+.slider li:nth-child(4) label {left: calc(3*100% / var(--m));}
  
- .slider li:nth-child(4) label {
-     left: calc(3*100% / 14)
- }
+.slider li:nth-child(5) label {left: calc(4*100% / var(--m));}
+
+.slider li:nth-child(6) label {left: calc(5*100% / var(--m));}
+
+.slider li:nth-child(7) label {left: calc(6*100% / var(--m));}
+
+.slider li:nth-child(8) label {left: calc(7*100% / var(--m));}
+
+.slider li:nth-child(9) label {left: calc(8*100% / var(--m));}
+
+.slider li:nth-child(10) label {left: calc(9*100% / var(--m));}
+
+.slider li:nth-child(11) label {left: calc(10*100% / var(--m));}
+
+.slider li:nth-child(12) label {left: calc(11*100% / var(--m));}
  
-.slider li:nth-child(5) label {
-     left: calc(4*100% / 14)
- }
-
-.slider li:nth-child(6) label {
-     left: calc(5*100% / 14)
- }
-
-.slider li:nth-child(7) label {
-     left: calc(6*100% / 14)
- }
-
-.slider li:nth-child(8) label {
-     left: calc(7*100% / 14)
- }
-
-.slider li:nth-child(9) label {
-     left: calc(8*100% / 14)
- }
-
-.slider li:nth-child(10) label {
-     left: calc(9*100% / 14)
- }
-
-.slider li:nth-child(11) label {
-     left: calc(10*100% / 14)
- }
-
-.slider li:nth-child(12) label {
-     left: calc(11*100% / 14)
- }
+.slider li:nth-child(13) label {left: calc(12*100% / var(--m));}
  
-.slider li:nth-child(13) label {
-     left: calc(12*100% / 14)
- }
- 
- .slider li:nth-child(14) label {
-     left: calc(13*100% / 14)
- }
+.slider li:nth-child(14) label {left: calc(13*100% / var(--m));}
 
 .slider {
 	counter-reset: contador;
