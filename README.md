@@ -36,7 +36,15 @@
 			   <input type="radio" id="004" name="sl">
 			   <label for="004"></label>
 			   <img src="basico/01_01_04.png" />
-			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela.</figcaption>
+			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela. 
+			   </figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="004a" name="sl">
+			   <label for="004a"></label>
+			   <img src="basico/01_01_05.png" />
+			   <figcaption>O site <a href="https://html-color.codes" target="_blank">https://html-color.codes</a> também é uma ótima opção para escolhermos cores para nossas páginas. As cores ficam separadas por tonalidades.
+			   </figcaption>
 		   </li>
 		</ul>
 		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" />
