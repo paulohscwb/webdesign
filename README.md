@@ -2309,6 +2309,7 @@
   </details>
 	<img src="css4/tags001_0041a.png" />
 	<img src="css4/tags001_0041b.png" />
+	<img src="css4/tags001_0041c.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0042.png" />
 	<img src="css4/tags001_0042a.png" />
