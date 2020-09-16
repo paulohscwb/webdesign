@@ -2182,11 +2182,131 @@
 
 <details id="css4"><summary>Imagens Vetoriais: pág. 39-54</summary>
 	<img src="css4/tags001_0039.png" />
+	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
+	<p>Vamos criar uma pasta chamada <code>webdesign/atividade9</code>. Nesta pasta, crie os arquivos com nomes <code>index.htm</code> e <code>estilo.css</code>. Além disso, vamos criar uma pasta para inserir as imagens dos banners que vamos criar na Atividade 9, no caminho <code>webdesign/atividade9/imagens</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="285" name="sl">
+			   <label for="285"></label>
+			   <img src="css4/39_01_01.png" />
+			   <figcaption>No cabeçalho da página, insira as referências de fonte externa e do arquivo <code>estilo.css</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="286" name="sl">
+			   <label for="286"></label>
+			   <img src="css4/39_01_02.png" />
+			   <figcaption>A tag mãe do site será <code>class="boxSite"</code>, com as tags que formam um banner dentro da tag <code>class="barra"</code>. Primeiro definimos a <code>class="logo"</code>, onde vamos desenhar algumas logomarcas com SVG.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="287" name="sl">
+			   <label for="287"></label>
+			   <img src="css4/39_01_03.png" />
+			   <figcaption>Na tag <code>class="logo"</code>, criamos a janela de visualização de desenhos SVG. Vamos criar vários banners, então cada svg ficará em um elemento <code>class="boxSite"</code> diferente. Cada janela de tag <code>&lt;svg&gt;</code> será dimensionada de acordo com o tamanho do desenho que criaremos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="288" name="sl">
+			   <label for="288"></label>
+			   <img src="css4/39_01_04.png" />
+			   <figcaption>Logo após a div de logomarca, criamos a <code>class="banner"</code>, que pode ficar apenas com um título que será formatado no arquivo CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="289" name="sl">
+			   <label for="289"></label>
+			   <img src="css4/39_01_05.png" />
+			   <figcaption>Depois do banner, inserimos a estrutura básica de menu que já usamos nas duas últimas atividades. Este menu será usado apenas para visualizarmos os layouts com os desenhos SVG com uma estrutura de menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="290" name="sl">
+			   <label for="290"></label>
+			   <img src="css4/39_01_06.png" />
+			   <figcaption>No arquivo <code>estilo.css</code>, definimos as tags principais, com fonte e margem automática.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="291" name="sl">
+			   <label for="291"></label>
+			   <img src="css4/39_01_07.png" />
+			   <figcaption>Podemos colocar uma sombra na tag principal da página <code>.boxSite</code>. A tag <code>.barra</code> terá display flex, onde definimos o alinhamento, largura e a posição do background.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="292" name="sl">
+			   <label for="292"></label>
+			   <img src="css4/39_01_08.png" />
+			   <figcaption>Como vamos criar várias estruturas <code>class="barra"</code> no arquivo HTML, podemos criar um background para cada "filha", usando o atributo <code>nth-child()</code>. O banner da primeira barra é o arquivo que está na pasta <code>imagens/banner.jpg</code>. Escolha uma imagem de paisagem para este primeiro banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="293" name="sl">
+			   <label for="293"></label>
+			   <img src="css4/39_01_09.png" />
+			   <figcaption>Na tag <code>.logo</code>, podemos definir uma largura padrão usando o atributo <code>flex:1</code> e alinhamento à esquerda com <code>flex-start</code>. As tags svg podem ter largura máxima de 100% e altura máxima definida, que será igual à altura máxima da tag <code>.banner</code>. Assim, o layout não terá uma logomarca com tamanho muito diferente do banner. Defina também a fonte dos textos svg.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="294" name="sl">
+			   <label for="294"></label>
+			   <img src="css4/39_01_10.png" />
+			   <figcaption>Na tag <code>.banner</code>, podemos definir a altura máxima (igual aos desenhos svg), tamanho <code>flex:1</code> e outros atributos de cor de fonte, alinhamento e <code>overflow:auto</code>, que permite a visualização de itens que ultrapassem as medidas do banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="295" name="sl">
+			   <label for="295"></label>
+			   <img src="css4/39_01_11.png" />
+			   <figcaption>A estrutura do menu é a mesma que usamos nas atividades anteriores. Neste caso, o menu terá tamanho <code>flex:1</code> definido na tag <code>&lt;label&gt;</code> e alinhamento à direita. Configure medidas e cores para sua página de Atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/39_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0039a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0040.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0041.png" />
+	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
+	<p>Vamos criar nosso primeiro desenho SVG dentro da classe <code>class="logo"</code>. Este desenho usará apenas as tags <code>circle</code> e <code>line</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="296" name="sl">
+			   <label for="296"></label>
+			   <img src="css4/41_01_01.png" />
+			   <figcaption>Podemos definir a janela de visualização <code>viewBox</code> com tamanho de 200 x 200 pixels. Além disso, vamos usar uma tag de grupo <code>&lt;g&gt;</code> com os atributos comuns definidos nesta tag: cor da linha, espessura da linha e um nome para o grupo: <code>name="sol"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="297" name="sl">
+			   <label for="297"></label>
+			   <img src="css4/41_01_02.png" />
+			   <figcaption>O círculo tem centro no ponto de coordenadas (100,100) e raio 50. Defina também a cor do preenchimento com o atributo <code>fill</code> que pode ser informado com padrão RGB, Hexadecimal ou HTML. A primeira linha de raio de sol foi a que está mais acima do desenho, que começa no ponto (100,10) e termina em (100,40).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="298" name="sl">
+			   <label for="298"></label>
+			   <img src="css4/41_01_03.png" />
+			   <figcaption>Nosso desenho fica desta forma. Agora vamos usar rotações de 30<sup>o</sup> da primeira linha do raio de sol para desenhar os outros raios.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="299" name="sl">
+			   <label for="299"></label>
+			   <img src="css4/41_01_04.png" />
+			   <figcaption>Note que usamos exatamente a mesma tag do primeiro raio, adicionando a rotação de 30<sup>o</sup> em torno do centro (100,100). O comando fica <code>transform="rotate(30,100,100)"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="300" name="sl">
+			   <label for="300"></label>
+			   <img src="css4/41_01_05.png" />
+			   <figcaption>Ótimo! Nosso segundo raio foi desenhado. Já coloquei a imagem de uma paisagem na pasta das imagens com o nome <code>banner.jpg</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="301" name="sl">
+			   <label for="301"></label>
+			   <img src="css4/41_01_06.png" />
+			   <figcaption>Agora copiamos e colamos a tag da primeira rotação, substituindo apenas o valor do ângulo: 60, 90, 120,... até o ângulo de 330. Salve e visualize o banner. Coloque um título no HTML dentro da tag <code>class="banner"</code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="302" name="sl">
+			   <label for="302"></label>
+			   <img src="css4/41_01_07.png" />
+			   <figcaption>Nosso primeiro banner fica desta forma. Modifique cores e formações do layout no CSS para testar se está ficando bom. As próximas barras serão inseridas abaixo desta que acabamos de construir.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/41_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0041a.png" />
 	<img src="css4/tags001_0041b.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
