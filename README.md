@@ -2180,7 +2180,7 @@
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>Imagens Vetoriais: pág. 39-54</summary>
+<details id="css5"><summary>Imagens Vetoriais: pág. 39-54</summary>
 	<img src="css4/tags001_0039.png" />
 	<img src="css4/tags001_0039a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
