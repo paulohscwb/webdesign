@@ -2790,49 +2790,61 @@
 			   <input type="radio" id="369" name="sl">
 			   <label for="369"></label>
 			   <img src="css4/51_01_03.png" />
-			   <figcaption>No grupo <code>id="fumaca"</code>, o efeito de desenhar os elementos necessita de um tracejado menor, de 150px. O mesmo efeito da xícara, de deslocamento do início do tracejado foi aplicado à fumaça e ao texto da logomarca.</figcaption>
+			   <figcaption>Podemos definir os efeitos gradientes do céu <code>id="linear2"</code>, variando de azul claro para branco. O retângulo que define o céu tem mesma dimensão da janela de visualização do svg: 150 x 76 pixels.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="370" name="sl">
 			   <label for="370"></label>
 			   <img src="css4/51_01_04.png" />
-			   <figcaption>Podemos definir efeito de opacidade na fumaça e no texto. Neste caso, foi colocada opacidade inicial de 0.5, com a animação variando entre 0.5 e 1.</figcaption>
+			   <figcaption>Definimos também os efeitos gradientes do perfil arquitetônico e do sol: <code>id="linear3"</code> e <code>id="radial1"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="371" name="sl">
 			   <label for="371"></label>
 			   <img src="css4/51_01_05.png" />
-			   <figcaption>O efeito no início da animação fica assim.</figcaption>
+			   <figcaption>Podemos definir um efeito gradiente para as nuvens <code>id="radial2"</code> e um filtro <code>id="filtro"</code> para desfocar o desenho e as sombras, com desvio padrão 0.1. Ajuste valores e cores para seu desenho de banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="372" name="sl">
 			   <label for="372"></label>
 			   <img src="css4/51_01_06.png" />
-			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+			   <figcaption>Com apenas uma tag de caminho <code>&lt;path&gt;</code> podemos definir o perfil arquitetônico: começando no ponto (5,75), a primeira linha é horizontal <code>h5</code>, que sobe com uma linha vertical <code>v-25</code>, passa por uma linha inclinada <code>l12,-8</code>, desce com a linha vertical <code>v24</code> e passa pela linha horizontal <code>h3</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="372a" name="sl">
+			   <label for="372a"></label>
+			   <img src="css4/51_01_06.png" />
+			   <figcaption>Os arcos que aparecem têm raios iguais a 4 e 2 e são desenhados no sentido horário. Os comandos dos dois primeiros arcos ficam como: <code>a4,4 0 0,1 4,-4</code> e <code>a2,2 0 0,1 4,0</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="373" name="sl">
 			   <label for="373"></label>
 			   <img src="css4/51_01_07.png" />
-			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+			   <figcaption>Usando a animação que faz o efeito de desenhar o perfil, definimos o tracejado com 900px e a variação do ponto de início do tracejado de 900 para 0, voltando depois para 900. Note que precisamos fechar a tag <code>&lt;path&gt;</code>, pois inserimos a animação no caminho do desenho do perfil.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="374" name="sl">
 			   <label for="374"></label>
 			   <img src="css4/51_01_08.png" />
-			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+			   <figcaption>A tag <code>name="nuvem"</code> tem o gradiente indicado por <code>url(#radial2)</code>. O desenho é similar aos de nuvens que já fizemos: os dois primeiros arcos têm raios de 5px, sentido horário, e finalizam nos pontos com coordenadas relativas (7,-7) e (9,0). Os outros arcos são desenhados da mesma forma.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="374a" name="sl">
+			   <label for="374a"></label>
+			   <img src="css4/51_01_08.png" />
+			   <figcaption>Podemos definir o tracejado do desenho da nuvem com 80px, e o efeito de desenhar a nuvem que começa em 80px, vai até 0 e volta para 80px. Esta tag de animação está dentro da tag de caminho da nuvem, que precisa ser fechada: <code>&lt;path/&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="375" name="sl">
 			   <label for="375"></label>
 			   <img src="css4/51_01_09.png" />
-			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+			   <figcaption>No desenho do sol, temos o efeito de gradiente <code>url(#radial1)</code> e o tracejado com tamanho 35px. Em cada <code>&lt;path&gt;</code> de raio, precisamos definir o tamanho do tracejado de 5px. Assim, a animação pode ser usada com valores de 0 a 5. Neste caso, estão com 3px, ou seja, os raios não sumirão. Se colocarmos 5px, os raios somem e voltam. Teste valores para a animação do seu banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="376" name="sl">
 			   <label for="376"></label>
 			   <img src="css4/51_01_10.png" />
-			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+			   <figcaption>Este é o layout do banner com as configurações mostradas. Ajuste cores e valores de atributos para o seu banner.</figcaption>
 		   </li>
 		</ul>
 		<img src="css4/51_01_00.png" class="fundo" style="visibility:hidden"/>
