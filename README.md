@@ -2765,6 +2765,78 @@
 	<img src="css4/tags001_0050.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0051.png" />
+	<details class="sub"><summary>&#x1f4c3; 9<sup>o</sup> banner</summary>
+	<p>Vamos criar o outro banner em uma nova classe: <code>class="banner2"</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="366" name="sl">
+			   <label for="366"></label>
+			   <img src="css4/51_01_00.png" />
+			   <figcaption>Neste banner, vamos criar a paisagem junto com a logomarca e o menu. Ao invés de usar <code>class="barra"</code>, vamos criar a estrutura <code>&lt;svg&gt;</code> dentro da tag <code>class="banner2"</code>.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="367" name="sl">
+			   <label for="367"></label>
+			   <img src="css4/51_01_01.png" />
+			   <figcaption>No arquivo CSS, vamos definir os atributos da classe <code>.banner2</code>. A altura máxima será fixada em 470px, com largura <code>flex:3</code>. O fundo pode ter o mesmo efeito de gradiente usado no desenho SVG.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="368" name="sl">
+			   <label for="368"></label>
+			   <img src="css4/51_01_02.png" />
+			   <figcaption>O menu terá largura <code>flex:1</code> e pode ser configurado na vertical (column) e com alinhamento à direita (flex-end). Veja qual configuração fica melhor no seu layout de banner. Podemos definir o tamanho da fonte da tag <code>textpath</code>, que usaremos adiante.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="369" name="sl">
+			   <label for="369"></label>
+			   <img src="css4/51_01_03.png" />
+			   <figcaption>No grupo <code>id="fumaca"</code>, o efeito de desenhar os elementos necessita de um tracejado menor, de 150px. O mesmo efeito da xícara, de deslocamento do início do tracejado foi aplicado à fumaça e ao texto da logomarca.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="370" name="sl">
+			   <label for="370"></label>
+			   <img src="css4/51_01_04.png" />
+			   <figcaption>Podemos definir efeito de opacidade na fumaça e no texto. Neste caso, foi colocada opacidade inicial de 0.5, com a animação variando entre 0.5 e 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="371" name="sl">
+			   <label for="371"></label>
+			   <img src="css4/51_01_05.png" />
+			   <figcaption>O efeito no início da animação fica assim.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="372" name="sl">
+			   <label for="372"></label>
+			   <img src="css4/51_01_06.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="373" name="sl">
+			   <label for="373"></label>
+			   <img src="css4/51_01_07.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="374" name="sl">
+			   <label for="374"></label>
+			   <img src="css4/51_01_08.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="375" name="sl">
+			   <label for="375"></label>
+			   <img src="css4/51_01_09.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="376" name="sl">
+			   <label for="376"></label>
+			   <img src="css4/51_01_10.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/51_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0051a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0052.png" />
