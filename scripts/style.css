@@ -124,7 +124,7 @@ h3::after {
  .slider li {
      list-style: none;
      position: absolute;
-	 width: 100%;
+	 width: 99%;
  }
  
 .slider input {
