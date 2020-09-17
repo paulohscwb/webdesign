@@ -2378,12 +2378,6 @@
 			   <figcaption>A segunda ponta será construída usando-se a rotação de 72<sup>o</sup> em torno do centro (50,50).</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="314" name="sl">
-			   <label for="314"></label>
-			   <img src="css4/41_02_11.png" />
-			   <figcaption>E assim fica o desenho com a segunda ponta.</figcaption>
-		   </li>
-		   <li>
 			   <input type="radio" id="315" name="sl">
 			   <label for="315"></label>
 			   <img src="css4/41_02_12.png" />
