@@ -2345,7 +2345,7 @@
 			   <input type="radio" id="308" name="sl">
 			   <label for="308"></label>
 			   <img src="css4/41_02_05.png" />
-			   <figcaption>Lembre-se de modificar apenas o ângulo de rotação: de 30 em 30 graus.</figcaption>
+			   <figcaption>Lembre-se de modificar apenas o ângulo de rotação: de 30<sup>o</sup> em 30<sup>o</sup>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="309" name="sl">
@@ -2406,7 +2406,7 @@
 			   <input type="radio" id="318" name="sl">
 			   <label for="318"></label>
 			   <img src="css4/41_03_01.png" />
-			   <figcaption>Como vamos colocar um texto logo abaixo do desenho, fazemos uma translação de 8px para cima. O círculo terá raio 8px, com centro no meio da janela svg, ou seja, no ponto de coordenadas (50,50). Defina a espessura da linha e a cor, sem usar preenchimento. A primeira elipse pode ser desenhada com raios rx=15 e ry=35. Experimente valores diferentes para seu desenho.</figcaption>
+			   <figcaption>Como vamos colocar um texto logo abaixo do desenho, fazemos uma translação de 8px para cima. O círculo terá raio 8px, com centro no meio da janela svg, ou seja, no ponto de coordenadas (50,50). Defina a espessura da linha e a cor, sem usar preenchimento. A primeira elipse pode ser desenhada com raios <code>rx="15"</code> e <code>ry="35"</code>. Experimente valores diferentes para seu desenho.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="318a" name="sl">
@@ -2448,7 +2448,7 @@
 			   <input type="radio" id="323" name="sl">
 			   <label for="323"></label>
 			   <img src="css4/41_03_06.png" />
-			   <figcaption>Ajuste os atributos do texto desta logomarca. As coordenadas sugeridas são x="10" e y="98".</figcaption>
+			   <figcaption>Ajuste os atributos do texto desta logomarca. As coordenadas sugeridas são <code>x="10"</code> e <code>y="98"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="324" name="sl">
@@ -2852,8 +2852,54 @@
 	<img src="css4/tags001_0051a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0052.png" />
+	<details class="sub"><summary>&#x1f4c3; 10<sup>o</sup> banner: animações</summary>
+	<p>Vamos criar o outro banner usando: <code>class="barra"</code>. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner10.jpg</code></p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="377" name="sl">
+			   <label for="377"></label>
+			   <img src="css4/52_01_01.png" />
+			   <figcaption>Dentro da tag <code>class="logo"</code> vamos desenhar um dos retângulos com as medidas indicadas na apostila. Os cantos arredondados podem ser feitos com o atributo <code>rx="1"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="378" name="sl">
+			   <label for="378"></label>
+			   <img src="css4/52_01_02.png" />
+			   <figcaption>O segundo retângulo tem mesma tag do primeiro, sendo rotacionado com ângulo de 36<sup>o</sup> em torno do centro (30,30). Mudamos a opacidade para <code>opacity="0.9"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="379" name="sl">
+			   <label for="379"></label>
+			   <img src="css4/52_01_03.png" />
+			   <figcaption>Os outros retângulos são rotacionados de 36<sup>o</sup> em 36<sup>o</sup>, até chegar em 324<sup>o</sup>. Neste retângulo, colocamos <code>opacity="0.1"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="380" name="sl">
+			   <label for="380"></label>
+			   <img src="css4/52_01_04.png" />
+			   <figcaption>A primeira animação, comum neste tipo de desenho, é de rotação em torno do centro. Para ter o efeito vai e vem, usamos o atributo <code>values="0,30,30;360,30,30;0,30,30"</code>, que indica que a rotação começa no 0, vai até 360 e depois volta ao 0. Logo, o efeito será feito no sentido horário, e depois no sentido anti-horário.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="381" name="sl">
+			   <label for="381"></label>
+			   <img src="css4/52_01_05.png" />
+			   <figcaption>Outros efeitos que podem ser usados são de escala (neste caso diminui de 1 para 0.9) e translação (neste caso, a figura "anda" 15px para a direita e depois retorna à posição original).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="382" name="sl">
+			   <label for="382"></label>
+			   <img src="css4/52_01_06.png" />
+			   <figcaption>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/52_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0053.png" />
+	<details class="sub"><summary>&#x1f4c3; 11<sup>o</sup> banner</summary>
+	<p>Usando as tags mostradas do lápis em uma <code>class="barra"</code>, temos o layout mostrado abaixo. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner11.jpg</code> e coloque as tags do lápis em uma <code>class="logo"</code>.</p>
+	<img src="css4/53_01_00.png"/>
+  </details>
 	<img src="css4/tags001_0053a.png" />
 	<img src="css4/tags001_0053b.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
