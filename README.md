@@ -2596,8 +2596,8 @@
 	<p>Vamos desenhar nuvens com arcos nos dois banners deste exercício. Escolha imagens para colocar nos fundos destas tags: <code>imagens/banner6.jpg</code> e <code>imagens/banner7.jpg</code>.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="342" name="sl">
-			   <label for="342"></label>
+			   <input type="radio" id="342a" name="sl">
+			   <label for="342a"></label>
 			   <img src="css4/46_01_00.png" />
 			   <figcaption>Crie uma tag <code>class="barra"</code> e vamos desenhar a nuvem na tag <code>class="logo"</code>. O desenho da nuvem pode ser feito com apenas um caminho <code>&lt;path&gt;</code>, pois temos os raios e as coordenadas relativas das extremidades de cada arco.</figcaption>
 		   </li>
@@ -2656,6 +2656,60 @@
 	<img src="css4/tags001_0047.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0048.png" />
+	<details class="sub"><summary>&#x1f4c3; 8<sup>o</sup> banner</summary>
+	<p>Vamos desenhar uma xícara neste exercício. Escolha uma imagem de fundo e salve-a em <code>imagens/banner8.jpg</code>. Não esqueça de atualizar o arquivo CSS com o atributo <code>.barra: nth-child(8) {background: url(imagens/banner8.jpg);}</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="351" name="sl">
+			   <label for="351"></label>
+			   <img src="css4/48_01_00.png" />
+			   <figcaption>Crie uma tag <code>class="barra"</code> e vamos desenhar a xícara na tag <code>class="logo"</code>. A janela de visualização pode ficar com tamanho de 200 x 200 pixels.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="352" name="sl">
+			   <label for="352"></label>
+			   <img src="css4/48_01_01.png" />
+			   <figcaption>Podemos criar um efeito gradiente para este desenho. Escolha as cores e crie o efeito. Neste caso, o efeito começa em <code>x1=0%, y1=0%</code> e termina em <code>x2="100%", y2="100%"</code>, ou seja, será feito na diagonal. Vamos criar duas elipses que formam o cabo: a maior com preenchimento igual ao da xícara e a menor com preenchimento branco.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="353" name="sl">
+			   <label for="353"></label>
+			   <img src="css4/48_01_02.png" />
+			   <figcaption>A xícara será um retângulo com as medidas indicadas no desenho da apostila. Podemos colocar cantos arredondados com <code>rx="5"</code>. As elipses formam o cabo da xícara, com as medidas cos centros coincidentes, mudando apenas as medidas dos raios. Ajuste valores e cores no seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="354" name="sl">
+			   <label for="354"></label>
+			   <img src="css4/48_01_03.png" />
+			   <figcaption>No grupo <code>&lt;g id="fumaca"&gt;</code> podemos desenhar os arcos com comandos de curvas Bèzier, com as medidas indicadas na apostila. O primeiro arco tem ponto de controle em (-25,-25) e finaliza em (0,-50). Logo, o comando fica <code>q-25,-25 0,-50</code>. O comando <code>t0,-50</code> faz a parte simétrica da curva.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="355" name="sl">
+			   <label for="355"></label>
+			   <img src="css4/48_01_04.png" />
+			   <figcaption>Os outros dois arcos podem ser feitos com translação à direita e à esquerda com 20px: <code>transform="translate(-20,0)"</code> e <code>transform="translate(20,0)"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="356" name="sl">
+			   <label for="356"></label>
+			   <img src="css4/48_01_05.png" />
+			   <figcaption>Se o fundo do banner for branco, não temos problemas com as elipses. Podemos substituí-las por caminhos de arcos <code>&lt;path&gt;</code> para que tenham o fundo transparente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="357" name="sl">
+			   <label for="357"></label>
+			   <img src="css4/48_01_06.png" />
+			   <figcaption>O caminho com arcos de elipse começa em <code>M160,120</code>, e tem o primeiro arco com raios 30 e 20, finalizando no ponto de coordenadas (0,40): <code>a30,20 0 0,1 0,40</code>. Depois temos uma linha vertical que sobe 10px e o arco menor, com raios 18 e 10, sentido anti-horário, que termina em (0,-20): <code>a18,10 0 0,0 0,-20</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="358" name="sl">
+			   <label for="358"></label>
+			   <img src="css4/48_01_07.png" />
+			   <figcaption>O layout com o caminho de arcos fica assim. Ajuste cores de linhas e de preenchimentos para este banner.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/48_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0048a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0049.png" />
