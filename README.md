@@ -2393,9 +2393,141 @@
 		<img src="css4/41_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0041b.png" />
+	<details class="sub"><summary>&#x1f4c3; 4<sup>o</sup> e 5<sup>o</sup> banners</summary>
+	<p>Vamos criar os outros 2 desenhos SVG dentro de classes <code>class="logo"</code> em novas classes <code>class="barra"</code>, colocadas logo após o fechamento da tag da terceira <code>barra</code> que desenhamos com a estrela.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="317" name="sl">
+			   <label for="317"></label>
+			   <img src="css4/41_03_00.png" />
+			   <figcaption>Podemos definir a janela de visualização <code>viewBox</code> com tamanho de 100 x 100 pixels para o desenho do símbolo de um átomo. Coloque um título na tag <code>class="banner"</code> e escolha uma imagem desta área para inserir como <code>imagens/banner4.jpg</code>. Lembre-se de arrumar o arquivo css com o atributo <code>.barra:nth-child(4) {background: url(imagens/banner4.jpg);}</code></figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="318" name="sl">
+			   <label for="318"></label>
+			   <img src="css4/41_03_01.png" />
+			   <figcaption>Podemos desenhar o círculo de raio 10px, com centro no meio da janela svg, ou seja, no ponto de coordenadas (50,50). Como as elipses terão atributos em comum, podems criar um grupo. Defina a espessura da linha e a cor, sem usar preenchimento. A primeira elipse pode ser desenhada com raios rx=30px e ry=15px. Experimente valores diferentes para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="318a" name="sl">
+			   <label for="318a"></label>
+			   <img src="css4/41_03_01a.png" />
+			   <figcaption>As outras elipses podem ser desenhadas com duas rotações: de 60<sup>o</sup> e de 120<sup>o</sup> em torno do centro (50,50). O outro átomo pode ser feito com rotações de 45<sup>o</sup>, 90<sup>o</sup> e 135<sup>o</sup>. Escolha um dos átomos para este banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="319" name="sl">
+			   <label for="319"></label>
+			   <img src="css4/41_03_02.png" />
+			   <figcaption>Defina os atributos de cor e contorno do texto  desta logomarca. Se necessário, ajuste as coordenadas do texto. O tamanho e a família da fonte podem ser definidos apenas no arquivo CSS, no atributo <code>text {font-family:Calibri; font-size:25px;}</code>. Ajuste o tamanho ideal para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="320" name="sl">
+			   <label for="320"></label>
+			   <img src="css4/41_03_03.png" />
+			   <figcaption>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="321" name="sl">
+			   <label for="321"></label>
+			   <img src="css4/41_03_04.png" />
+			   <figcaption>Vamos desenhar outro símbolo, com retângulos. Logo abaixo do fechamento da barra do átomo, crie uma nova tag de barra. Insira uma imagem para o fundo deste banner em <code>imagens/banner5.jpg</code>. A janela de visualização <code>viewBox</code> pode ser usada com 100 x 100 pixels.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="322" name="sl">
+			   <label for="322"></label>
+			   <img src="css4/41_03_05.png" />
+			   <figcaption>Criamos um grupo com tag <code>&lt;g&gt;</code>, para definir atributos de cores e contornos do desenho. O primeiro retângulo foi desenhado na vertical, com largura 10px e altura 80px. Os cantos arredondados estão com <code>rx="2"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="322a" name="sl">
+			   <label for="322a"></label>
+			   <img src="css4/41_03_05a.png" />
+			   <figcaption>Os outros dois retângulos foram desenhados com rotações de 60<sup>o</sup> e 120<sup>o</sup> em torno do centro (50,50). Para que o desenho fique com o texto logo abaixo, foi feita uma translação de -8 pixels na coordenada y, ou seja, o desenho "subiu" 8px.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="323" name="sl">
+			   <label for="323"></label>
+			   <img src="css4/41_03_06.png" />
+			   <figcaption>Ajuste os atributos do texto desta logomarca. As coordenadas sugeridas são x="10" e y="98".</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="324" name="sl">
+			   <label for="324"></label>
+			   <img src="css4/41_03_07.png" />
+			   <figcaption>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/41_03_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0041c.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0042.png" />
+	<details class="sub"><summary>&#x1f4c3; Gradientes nos banners</summary>
+	<p>Vamos colocar efeitos de gradiente nos preenchimentos e linhas dos desenhos que fizemos dos primeiros 5 banners.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="325" name="sl">
+			   <label for="325"></label>
+			   <img src="css4/42_01_00.png" />
+			   <figcaption>Vamos criar o <code>id="efeito1"</code> como gradiente radial de um tom de laranja mais claro para um pouco mais escuro. O centro deste efeito está no ponto de coordenadas (50%,50%) com raio abrangendo 100% do desenho. Ajuste cores e valores para seu banner. Na tag do círculo, colocamos a referência do efeito no preenchimento: <code>fill="url(#efeito1)"</code>.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="326" name="sl">
+			   <label for="326"></label>
+			   <img src="css4/42_01_01.png" />
+			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="327" name="sl">
+			   <label for="327"></label>
+			   <img src="css4/42_01_02.png" />
+			   <figcaption>Na roda dentada, temos que criar 2 efeitos: um radial, para o círculo e outro linear, para os trapézios. Estes efeitos variam de uma tonalidade <code>darkred</code> para o <code>red</code>. Consulte o site <a href="https://html-color.codes/" target="_blank">https://html-color.codes/</a> para combinar tonalidades. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="328" name="sl">
+			   <label for="328"></label>
+			   <img src="css4/42_01_03.png" />
+			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="329" name="sl">
+			   <label for="329"></label>
+			   <img src="css4/42_01_04.png" />
+			   <figcaption>O efeito gradiente da estrela também pode ser feito com um gradiente radial, para o círculo que desenhamos no meio da estrela, e outro linear para os triângulos. Escolha cores e coloque as referências nos preenchimentos para conseguir o efeito criado. Como estamos variando apenas 2 tons de cores, usamos apenas os atributos <code>&lt;stop offset="0%&gt;</code> e <code>&lt;stop offset="100%&gt;</code> para os tons de azul.O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="330" name="sl">
+			   <label for="330"></label>
+			   <img src="css4/42_01_05.png" />
+			   <figcaption>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="331" name="sl">
+			   <label for="331"></label>
+			   <img src="css4/42_01_06.png" />
+			   <figcaption>No desenho do átomo, criamos um efeito de gradiente linear para as elipses nos contornos <code>stroke</code> e um efeito de gradiente radial no círculo. Podemos usar o efeito de gradiente linear no texto também. Neste caso, são mostradas variações de tons de verde. Escolha cores e ajuste valores para o seu banner. O efeito linear começa de cima e vai para baixo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="332" name="sl">
+			   <label for="332"></label>
+			   <img src="css4/42_01_07.png" />
+			   <figcaption>O desenho com gradiente fica desta forma.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="333" name="sl">
+			   <label for="333"></label>
+			   <img src="css4/42_01_08.png" />
+			   <figcaption>O último banner que desenhamos, do asterisco, pode ter um efeito gradiente linear. Neste caso, usamos tons de verde com transparência RGBA. O texto tem mesmo efeito de gradiente dos retângulos. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="100%, y2="0%</code>, ou seja, vai da esquerda para a direita.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="334" name="sl">
+			   <label for="334"></label>
+			   <img src="css4/42_01_09.png" />
+			   <figcaption>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/42_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0042a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0043.png" />
