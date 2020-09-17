@@ -2713,6 +2713,54 @@
 	<img src="css4/tags001_0048a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0049.png" />
+	<details class="sub"><summary>&#x1f4c3; Animações no 8<sup>o</sup> banner</summary>
+	<p>Vamos colocar efeitos de animações no banner da xícara.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="359" name="sl">
+			   <label for="359"></label>
+			   <img src="css4/49_01_00.png" />
+			   <figcaption>Vamos aumentar a janela de visualização do SVG da xícara para 200 x 220 pixels, inserindo a tag <code>&lt;text&gt;</code> para a logomarca.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="360" name="sl">
+			   <label for="360"></label>
+			   <img src="css4/49_01_01.png" />
+			   <figcaption>No grupo <code>id="xicara"</code>definimos o tracejado com 400 pixels e a animação de vai e vem, que começa o traçejado no ponto 400px, vai até 0px e retorna ao 400px. Assim, a animação é de desenhar o contorno da xícara. Note que o atributo <code>&lt;animate&gt;</code> fica dentro da tag de grupo da xícara.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="361" name="sl">
+			   <label for="361"></label>
+			   <img src="css4/49_01_02.png" />
+			   <figcaption>Outra animação pode ser feita com a opacidade. No grupo <code>id="xicara"</code>, defina a opacidade com 0.8. A tag de animação pode variar a opacidade de 0.8 até 1, retornando a 0.8. O efeito de animação também é de vai e vem.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="362" name="sl">
+			   <label for="362"></label>
+			   <img src="css4/49_01_03.png" />
+			   <figcaption>No grupo <code>id="fumaca"</code>, o efeito de desenhar os elementos necessita de um tracejado menor, de 150px. O mesmo efeito da xícara, de deslocamento do início do tracejado foi aplicado à fumaça e ao texto da logomarca.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="363" name="sl">
+			   <label for="363"></label>
+			   <img src="css4/49_01_04.png" />
+			   <figcaption>Podemos definir efeito de opacidade na fumaça e no texto. Neste caso, foi colocada opacidade inicial de 0.5, com a animação variando entre 0.5 e 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="364" name="sl">
+			   <label for="364"></label>
+			   <img src="css4/49_01_05.png" />
+			   <figcaption>O efeito no início da animação fica assim.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="365" name="sl">
+			   <label for="365"></label>
+			   <img src="css4/49_01_06.png" />
+			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/49_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0050.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
