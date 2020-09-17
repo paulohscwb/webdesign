@@ -2463,7 +2463,7 @@
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0042.png" />
 	<details class="sub"><summary>&#x1f4c3; Gradientes nos banners</summary>
-	<p>Vamos colocar efeitos de gradiente nos preenchimentos e linhas dos desenhos que fizemos dos primeiros 5 banners.</p>
+	<p>Vamos colocar efeitos de gradiente nos preenchimentos e linhas dos desenhos que fizemos dos 5 primeiros banners.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="325" name="sl">
@@ -2531,6 +2531,60 @@
 	<img src="css4/tags001_0042a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0043.png" />
+	<details class="sub"><summary>&#x1f4c3; Filtros nos banners</summary>
+	<p>Vamos colocar efeitos de filtros de sombras nos desenhos que fizemos dos 5 primeiros banners.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="335" name="sl">
+			   <label for="335"></label>
+			   <img src="css4/43_01_00.png" />
+			   <figcaption>Vamos criar o <code>id="efeito10"</code> como filtro de sombra desfocada, com desvio padrão 0.5 e distâncias do gráfico com 1px à direita e abaixo do desenho. Temos que colocar indicação nos gráficos que terão este efeito com o atributo <code>filter="url(#efeito10)"</code>. Neste primeiro exemplo, os desenhos do 5<sup>o</sup> banner estão com o filtro</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="336" name="sl">
+			   <label for="336"></label>
+			   <img src="css4/43_01_01.png" />
+			   <figcaption>O banner fica com esse efeito no SVG. Ajuste os valores do filtro para seu desenho. Vamos usar o mesmo efeito nos próximos desenhos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="337" name="sl">
+			   <label for="337"></label>
+			   <img src="css4/43_01_02.png" />
+			   <figcaption>Para usarmos o mesmo efeito nos outros desenhos, não precisamos inserir a tag <code>&lt;filter&gt;</code> novamente. Basta colocar a indicação deste filtro nos desenhos. O mesmo vale para os gradientes: se você quiser usar um mesmo efeito já definido em outra tag <code>&lt;svg&gt;</code>, basta colocar sua indicação.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="338" name="sl">
+			   <label for="338"></label>
+			   <img src="css4/43_01_03.png" />
+			   <figcaption>O layout com filtro no SVG do banner de átomo fica desta maneira. Se necessário, ajuste valores e cores para o filtro. Caso precise de outro filtro, basta definir suas configurações e colocar outro nome id.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="339" name="sl">
+			   <label for="339"></label>
+			   <img src="css4/43_01_04.png" />
+			   <figcaption>Colocando o filtro no desenho da estrela, basta indicar na tag de grupo <code>&lt;g&gt;</code> o nome do filtro.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="340" name="sl">
+			   <label for="340"></label>
+			   <img src="css4/43_01_05.png" />
+			   <figcaption>O layout com filtro fica desta forma. Ajuste cores e efeitos para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="341" name="sl">
+			   <label for="341"></label>
+			   <img src="css4/43_01_06.png" />
+			   <figcaption>Na roda dentada, temos um problema: se colocarmos o filtro, as sombras dos trapézios ficarão sobre o desenho do círculo. Para corrigir este erro, podemos colocar a tag <code>&lt;circle&gt;</code> depois da tag do grupo dos dentes da roda. Assim, não aplicamos o filtro no círculo, deixando o desenho sobrepondo as sombras dos dentes da roda.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="342" name="sl">
+			   <label for="342"></label>
+			   <img src="css4/43_01_07.png" />
+			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/43_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0043a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0044.png" />
@@ -2538,6 +2592,66 @@
 	<img src="css4/tags001_0045.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0046.png" />
+	<details class="sub"><summary>&#x1f4c3; 6<sup>o</sup> e 7<sup>o</sup> banners</summary>
+	<p>Vamos desenhar nuvens com arcos nos dois banners deste exercício. Escolha imagens para colocar nos fundos destas tags: <code>imagens/banner6.jpg</code> e <code>imagens/banner7.jpg</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="342" name="sl">
+			   <label for="342"></label>
+			   <img src="css4/46_01_00.png" />
+			   <figcaption>Crie uma tag <code>class="barra"</code> e vamos desenhar a nuvem na tag <code>class="logo"</code>. O desenho da nuvem pode ser feito com apenas um caminho <code>&lt;path&gt;</code>, pois temos os raios e as coordenadas relativas das extremidades de cada arco.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="343" name="sl">
+			   <label for="343"></label>
+			   <img src="css4/46_01_01.png" />
+			   <figcaption>O primeiro arco tem raio 11, sentido horário e termina em (20,-5) Logo, o comando fica <code>a11,11 0 0,1 20,-5</code>. Todos os arcos estão sem inclinação, são os menores e estão no sentido horário. Logo, a parte central dos comandos será igual para todos os arcos: <code>0 0,1</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="344" name="sl">
+			   <label for="344"></label>
+			   <img src="css4/46_01_02.png" />
+			   <figcaption>O segundo arco tem raio 14 e termina no ponto de coordenadas relativas (25,5). Seu comando fica <code>a14,14 0 0,1 25,5</code>. Os outros arcos são feitos de maneira análoga.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="345" name="sl">
+			   <label for="345"></label>
+			   <img src="css4/46_01_03.png" />
+			   <figcaption>Podemos criar um efeito gradiente radial para a nuvem, com transparência de cor com o comando RGBA. A linha também pode ter cor com transparência. Ajuste cores e a espessura das linhas para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="346" name="sl">
+			   <label for="346"></label>
+			   <img src="css4/46_01_04.png" />
+			   <figcaption>O banner com desenho da primeira nuvem fica com esse layout.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="347" name="sl">
+			   <label for="347"></label>
+			   <img src="css4/46_01_05.png" />
+			   <figcaption>Crie uma nova tag <code>class="barra"</code> para desenhar a próxima nuvem. O comando do primeiro arco, de raio 2, que termina no ponto de coordenadas relativas (0,-4) fica <code>a2,2 0 0,1 0,-4</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="348" name="sl">
+			   <label for="348"></label>
+			   <img src="css4/46_01_06.png" />
+			   <figcaption>O comando do segundo arco, de raio 2, que termina no ponto de coordenadas relativas (3,-3) fica <code>a2,2 0 0,1 3,-3</code>. Os outros arcos são feitos de maneira análoga. Note que para finalizar a nuvem, com a linha horizontal usamos a letra <b>Z</b> depois das coordenadas do último arco.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="349" name="sl">
+			   <label for="349"></label>
+			   <img src="css4/46_01_07.png" />
+			   <figcaption>Podemos usar o mesmo efeito de preenchimento da outra nuvem. Se necessário, crie outro efeito de gradiente para este desenho. Ajuste cores e espessura das linhas para seu desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="350" name="sl">
+			   <label for="350"></label>
+			   <img src="css4/46_01_08.png" />
+			   <figcaption>O desenho da nuvem no layout de banner fica desta forma.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/46_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0047.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
