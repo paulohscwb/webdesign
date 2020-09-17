@@ -2308,6 +2308,96 @@
 		<img src="css4/41_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0041a.png" />
+	<details class="sub"><summary>&#x1f4c3; 2<sup>o</sup> e 3<sup>o</sup> banners</summary>
+	<p>Vamos criar os outros 2 desenhos SVG dentro de classes <code>class="logo"</code> em novas classes <code>class="barra"</code>, colocadas logo após o fechamento da primeira tag que fizemos de <code>barra</code>.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="303" name="sl">
+			   <label for="303"></label>
+			   <img src="css4/41_02_00.png" />
+			   <figcaption>Podemos definir a janela de visualização <code>viewBox</code> com tamanho de 100 x 100 pixels para o desenho da roda dentada. Coloque um título de Mecânica na tag <code>class="banner"</code> e escolha uma imagem desta área para inserir como <code>imagens/banner2.jpg</code>.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="304" name="sl">
+			   <label for="304"></label>
+			   <img src="css4/41_02_01.png" />
+			   <figcaption>A parte interior do desenho será um círculo com espessura de linha de 5px. Desta forma, ele esconderá os encaixes dos trapézios que vamos desenhar usando o atributo <code>polygon</code>. Podemos digitar a sequência dos vértices adjacentes para o desenho do trapézio: (40,20); (60,20); (55,10) e (45,10).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="305" name="sl">
+			   <label for="305"></label>
+			   <img src="css4/41_02_02.png" />
+			   <figcaption>Neste ponto, o desenho fica desta forma. Note que o círculo cobre o trapézio e podemos continuar para desenhar os outros dentes da roda.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="306" name="sl">
+			   <label for="306"></label>
+			   <img src="css4/41_02_03.png" />
+			   <figcaption>Da mesma maneira que fizemos com os raios do sol, usamos a mesma tag do primeiro dente e rotacionamos este desenho com ângulo de 30<sup>o</sup> com centro de rotação no ponto (50,50): <code>transform="rotate(30,50,50)"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="307" name="sl">
+			   <label for="307"></label>
+			   <img src="css4/41_02_04.png" />
+			   <figcaption>O segundo dente da roda está desenhado. Agora podemos copiar e colar a tag de rotação para finalizar este desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="308" name="sl">
+			   <label for="308"></label>
+			   <img src="css4/41_02_05.png" />
+			   <figcaption>Lembre-se de modificar apenas o ângulo de rotação: de 30 em 30 graus.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="309" name="sl">
+			   <label for="309"></label>
+			   <img src="css4/41_02_06.png" />
+			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="310" name="sl">
+			   <label for="310"></label>
+			   <img src="css4/41_02_07.png" />
+			   <figcaption>Logo após o fechamento da tag de barra da roda dentada, crie a nova tag <code>class="barra"</code> para desenharmos a estrela. Escolha uma imagem para ser o background desta barra em <code>imagens/banner3.jpg</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="311" name="sl">
+			   <label for="311"></label>
+			   <img src="css4/41_02_08.png" />
+			   <figcaption>Podemos definir a janela de visualização <code>viewBox</code> com tamanho de 100 x 100 pixels para o desenho da estrela. O tom de azul <code>skyblue</code> foi definido como preenchimento. Usando mesmo raciocínio da roda dentada, desenhamos um círculo de raio 15 para a parte interior da estrela, e uma das pontas é o triângulo com as coordenadas desenhadas com a ferramenta <code>polygon</code>: (40,40); (50,10); (60,40).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="312" name="sl">
+			   <label for="312"></label>
+			   <img src="css4/41_02_09.png" />
+			   <figcaption>O desenho fica com o círculo e o triângulo encoberto na base. Podemos continuar para desenhar as outras pontas da estrela.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="313" name="sl">
+			   <label for="313"></label>
+			   <img src="css4/41_02_10.png" />
+			   <figcaption>A segunda ponta será construída usando-se a rotação de 72<sup>o</sup> em torno do centro (50,50).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="314" name="sl">
+			   <label for="314"></label>
+			   <img src="css4/41_02_11.png" />
+			   <figcaption>E assim fica o desenho com a segunda ponta.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="315" name="sl">
+			   <label for="315"></label>
+			   <img src="css4/41_02_12.png" />
+			   <figcaption>Agora basta rotacionar os outros triângulos de 72 em 72 graus.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="316" name="sl">
+			   <label for="316"></label>
+			   <img src="css4/41_02_13.png" />
+			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/41_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0041b.png" />
 	<img src="css4/tags001_0041c.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
