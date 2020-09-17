@@ -2832,7 +2832,7 @@
 			   <input type="radio" id="374a" name="sl">
 			   <label for="374a"></label>
 			   <img src="css4/51_01_08.png" />
-			   <figcaption>Podemos definir o tracejado do desenho da nuvem com 80px, e o efeito de desenhar a nuvem que começa em 80px, vai até 0 e volta para 80px. Esta tag de animação está dentro da tag de caminho da nuvem, que precisa ser fechada: <code>&lt;path/&gt;</code>.</figcaption>
+			   <figcaption>Podemos definir o tracejado do desenho da nuvem com 80px, e o efeito de desenhar a nuvem que começa em 80px, vai até 0 e volta para 80px. Esta tag de animação está dentro da tag de caminho da nuvem, que precisa ser fechada: <code>&lt;/path&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="375" name="sl">
