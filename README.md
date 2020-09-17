@@ -222,7 +222,7 @@
 			   <input type="radio" id="024" name="sl">
 			   <label for="024"></label>
 			   <img src="basico/04_01_04.png" />
-			   <figcaption>As listas ordenadas têm a mesma estrutura da lista norma, com a tag principal <code>&lt;ol&gt;</code>. Estas tags podem ser numéricas ou com letras. Neste exemplo, a lista com letras começa na 4<sup>a</sup> letra, ou seja, a letra <b>D</b>.</figcaption>
+			   <figcaption>As listas ordenadas têm a mesma estrutura da lista norma, com a tag principal <code>&lt;ol&gt;</code>. Estas tags podem ser numéricas ou com letras. Neste exemplo, a lista com letras começa na 4&ordf; letra, ou seja, a letra <b>D</b>.</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/04_01_00.png" class="fundo"/>
@@ -2009,7 +2009,7 @@
 			   <input type="radio" id="259" name="sl">
 			   <label for="259"></label>
 			   <img src="css3/37_01_04.png" />
-			   <figcaption>A logomarca de filme, com formato redondo é ótima para usarmos a rotação de 0 a 360<sup>o</sup>. Na tag <code>.logo img</code> colocamos o nome desta animação <code>AnimaLogo</code> com 7 segundos também. Ajuste valores e efeitos nas imagens de sua página.</figcaption>
+			   <figcaption>A logomarca de filme, com formato redondo é ótima para usarmos a rotação de 0 a 360&deg;. Na tag <code>.logo img</code> colocamos o nome desta animação <code>AnimaLogo</code> com 7 segundos também. Ajuste valores e efeitos nas imagens de sua página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="260" name="sl">
@@ -2278,13 +2278,13 @@
 			   <input type="radio" id="298" name="sl">
 			   <label for="298"></label>
 			   <img src="css4/41_01_03.png" />
-			   <figcaption>Nosso desenho fica desta forma. Agora vamos usar rotações de 30<sup>o</sup> da primeira linha do raio de sol para desenhar os outros raios.</figcaption>
+			   <figcaption>Nosso desenho fica desta forma. Agora vamos usar rotações de 30&deg; da primeira linha do raio de sol para desenhar os outros raios.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="299" name="sl">
 			   <label for="299"></label>
 			   <img src="css4/41_01_04.png" />
-			   <figcaption>Note que usamos exatamente a mesma tag do primeiro raio, adicionando a rotação de 30<sup>o</sup> em torno do centro (100,100). O comando fica <code>transform="rotate(30,100,100)"</code>.</figcaption>
+			   <figcaption>Note que usamos exatamente a mesma tag do primeiro raio, adicionando a rotação de 30&deg; em torno do centro (100,100). O comando fica <code>transform="rotate(30,100,100)"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="300" name="sl">
@@ -2308,7 +2308,7 @@
 		<img src="css4/41_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0041a.png" />
-	<details class="sub"><summary>&#x1f4c3; 2<sup>o</sup> e 3<sup>o</sup> banners</summary>
+	<details class="sub"><summary>&#x1f4c3; 2&deg; e 3&deg; banners</summary>
 	<p>Vamos criar os outros 2 desenhos SVG dentro de classes <code>class="logo"</code> em novas classes <code>class="barra"</code>, colocadas logo após o fechamento da primeira tag que fizemos de <code>barra</code>.</p>
 	  <ul class="slider">
 		  <li>
@@ -2333,7 +2333,7 @@
 			   <input type="radio" id="306" name="sl">
 			   <label for="306"></label>
 			   <img src="css4/41_02_03.png" />
-			   <figcaption>Da mesma maneira que fizemos com os raios do sol, usamos a mesma tag do primeiro dente e rotacionamos este desenho com ângulo de 30<sup>o</sup> com centro de rotação no ponto (50,50): <code>transform="rotate(30,50,50)"</code>.</figcaption>
+			   <figcaption>Da mesma maneira que fizemos com os raios do sol, usamos a mesma tag do primeiro dente e rotacionamos este desenho com ângulo de 30&deg; com centro de rotação no ponto (50,50): <code>transform="rotate(30,50,50)"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="307" name="sl">
@@ -2345,7 +2345,7 @@
 			   <input type="radio" id="308" name="sl">
 			   <label for="308"></label>
 			   <img src="css4/41_02_05.png" />
-			   <figcaption>Lembre-se de modificar apenas o ângulo de rotação: de 30<sup>o</sup> em 30<sup>o</sup>.</figcaption>
+			   <figcaption>Lembre-se de modificar apenas o ângulo de rotação: de 30&deg; em 30&deg;.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="309" name="sl">
@@ -2375,7 +2375,7 @@
 			   <input type="radio" id="313" name="sl">
 			   <label for="313"></label>
 			   <img src="css4/41_02_10.png" />
-			   <figcaption>A segunda ponta será construída usando-se a rotação de 72<sup>o</sup> em torno do centro (50,50).</figcaption>
+			   <figcaption>A segunda ponta será construída usando-se a rotação de 72&deg; em torno do centro (50,50).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="315" name="sl">
@@ -2393,7 +2393,7 @@
 		<img src="css4/41_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0041b.png" />
-	<details class="sub"><summary>&#x1f4c3; 4<sup>o</sup> e 5<sup>o</sup> banners</summary>
+	<details class="sub"><summary>&#x1f4c3; 4&deg; e 5&deg; banners</summary>
 	<p>Vamos criar os outros 2 desenhos SVG dentro de classes <code>class="logo"</code> em novas classes <code>class="barra"</code>, colocadas logo após o fechamento da tag da terceira <code>barra</code> que desenhamos com a estrela.</p>
 	  <ul class="slider">
 		  <li>
@@ -2412,7 +2412,7 @@
 			   <input type="radio" id="318a" name="sl">
 			   <label for="318a"></label>
 			   <img src="css4/41_03_01a.png" />
-			   <figcaption>As outras elipses podem ser desenhadas com duas rotações: de 60<sup>o</sup> e de 120<sup>o</sup> em torno do centro (50,50). O outro átomo pode ser feito com rotações de 45<sup>o</sup>, 90<sup>o</sup> e 135<sup>o</sup>. Escolha um dos átomos para o seu banner.</figcaption>
+			   <figcaption>As outras elipses podem ser desenhadas com duas rotações: de 60&deg; e de 120&deg; em torno do centro (50,50). O outro átomo pode ser feito com rotações de 45&deg;, 90&deg; e 135&deg;. Escolha um dos átomos para o seu banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="319" name="sl">
@@ -2442,7 +2442,7 @@
 			   <input type="radio" id="322a" name="sl">
 			   <label for="322a"></label>
 			   <img src="css4/41_03_05a.png" />
-			   <figcaption>Os outros dois retângulos foram desenhados com rotações de 60<sup>o</sup> e 120<sup>o</sup> em torno do centro (50,50). Para que o desenho fique com o texto logo abaixo, foi feita uma translação de -8 pixels na coordenada y, ou seja, o desenho "subiu" 8px.</figcaption>
+			   <figcaption>Os outros dois retângulos foram desenhados com rotações de 60&deg; e 120&deg; em torno do centro (50,50). Para que o desenho fique com o texto logo abaixo, foi feita uma translação de -8 pixels na coordenada y, ou seja, o desenho "subiu" 8px.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="323" name="sl">
@@ -2538,7 +2538,7 @@
 			   <input type="radio" id="335" name="sl">
 			   <label for="335"></label>
 			   <img src="css4/43_01_00.png" />
-			   <figcaption>Vamos criar o <code>id="efeito10"</code> como filtro de sombra desfocada, com desvio padrão 0.5 e distâncias do gráfico com 1px à direita e abaixo do desenho. Temos que colocar indicação nos gráficos que terão este efeito com o atributo <code>filter="url(#efeito10)"</code>. Neste primeiro exemplo, os desenhos do 5<sup>o</sup> banner estão com o filtro</figcaption>
+			   <figcaption>Vamos criar o <code>id="efeito10"</code> como filtro de sombra desfocada, com desvio padrão 0.5 e distâncias do gráfico com 1px à direita e abaixo do desenho. Temos que colocar indicação nos gráficos que terão este efeito com o atributo <code>filter="url(#efeito10)"</code>. Neste primeiro exemplo, os desenhos do 5&deg; banner estão com o filtro</figcaption>
 		   </li>
 		  <li>
 			   <input type="radio" id="336" name="sl">
@@ -2592,7 +2592,7 @@
 	<img src="css4/tags001_0045.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0046.png" />
-	<details class="sub"><summary>&#x1f4c3; 6<sup>o</sup> e 7<sup>o</sup> banners</summary>
+	<details class="sub"><summary>&#x1f4c3; 6&deg; e 7&deg; banners</summary>
 	<p>Vamos desenhar nuvens com arcos nos dois banners deste exercício. Escolha imagens para colocar nos fundos destas tags: <code>imagens/banner6.jpg</code> e <code>imagens/banner7.jpg</code>.</p>
 	  <ul class="slider">
 		  <li>
@@ -2656,7 +2656,7 @@
 	<img src="css4/tags001_0047.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0048.png" />
-	<details class="sub"><summary>&#x1f4c3; 8<sup>o</sup> banner</summary>
+	<details class="sub"><summary>&#x1f4c3; 8&deg; banner</summary>
 	<p>Vamos desenhar uma xícara neste exercício. Escolha uma imagem de fundo e salve-a em <code>imagens/banner8.jpg</code>. Não esqueça de atualizar o arquivo CSS com o atributo <code>.barra: nth-child(8) {background: url(imagens/banner8.jpg);}</code>.</p>
 	  <ul class="slider">
 		  <li>
@@ -2713,7 +2713,7 @@
 	<img src="css4/tags001_0048a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0049.png" />
-	<details class="sub"><summary>&#x1f4c3; Animações no 8<sup>o</sup> banner</summary>
+	<details class="sub"><summary>&#x1f4c3; Animações no 8&deg; banner</summary>
 	<p>Vamos colocar efeitos de animações no banner da xícara.</p>
 	  <ul class="slider">
 		  <li>
@@ -2765,7 +2765,7 @@
 	<img src="css4/tags001_0050.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0051.png" />
-	<details class="sub"><summary>&#x1f4c3; 9<sup>o</sup> banner</summary>
+	<details class="sub"><summary>&#x1f4c3; 9&deg; banner</summary>
 	<p>Vamos criar o outro banner em uma nova classe: <code>class="banner2"</code>.</p>
 	  <ul class="slider">
 		  <li>
@@ -2852,7 +2852,7 @@
 	<img src="css4/tags001_0051a.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0052.png" />
-	<details class="sub"><summary>&#x1f4c3; 10<sup>o</sup> banner: animações</summary>
+	<details class="sub"><summary>&#x1f4c3; 10&deg; banner: animações</summary>
 	<p>Vamos criar o outro banner usando: <code>class="barra"</code>. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner10.jpg</code></p>
 	  <ul class="slider">
 		  <li>
@@ -2865,13 +2865,13 @@
 			   <input type="radio" id="378" name="sl">
 			   <label for="378"></label>
 			   <img src="css4/52_01_02.png" />
-			   <figcaption>O segundo retângulo tem mesma tag do primeiro, sendo rotacionado com ângulo de 36<sup>o</sup> em torno do centro (30,30). Mudamos a opacidade para <code>opacity="0.9"</code>.</figcaption>
+			   <figcaption>O segundo retângulo tem mesma tag do primeiro, sendo rotacionado com ângulo de 36&deg; em torno do centro (30,30). Mudamos a opacidade para <code>opacity="0.9"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="379" name="sl">
 			   <label for="379"></label>
 			   <img src="css4/52_01_03.png" />
-			   <figcaption>Os outros retângulos são rotacionados de 36<sup>o</sup> em 36<sup>o</sup>, até chegar em 324<sup>o</sup>. Neste retângulo, colocamos <code>opacity="0.1"</code>.</figcaption>
+			   <figcaption>Os outros retângulos são rotacionados de 36&deg; em 36&deg;, até chegar em 324&deg;. Neste retângulo, colocamos <code>opacity="0.1"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="380" name="sl">
@@ -2896,7 +2896,7 @@
   </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0053.png" />
-	<details class="sub"><summary>&#x1f4c3; 11<sup>o</sup> banner</summary>
+	<details class="sub"><summary>&#x1f4c3; 11&deg; banner</summary>
 	<p>Usando as tags mostradas do lápis em uma <code>class="barra"</code>, temos o layout mostrado abaixo. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner11.jpg</code> e coloque as tags do lápis em uma <code>class="logo"</code>.</p>
 	<img src="css4/53_01_00.png"/>
   </details>
