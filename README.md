@@ -2406,13 +2406,13 @@
 			   <input type="radio" id="318" name="sl">
 			   <label for="318"></label>
 			   <img src="css4/41_03_01.png" />
-			   <figcaption>Podemos desenhar o círculo de raio 10px, com centro no meio da janela svg, ou seja, no ponto de coordenadas (50,50). Como as elipses terão atributos em comum, podems criar um grupo. Defina a espessura da linha e a cor, sem usar preenchimento. A primeira elipse pode ser desenhada com raios rx=30px e ry=15px. Experimente valores diferentes para seu desenho.</figcaption>
+			   <figcaption>Como vamos colocar um texto logo abaixo do desenho, fazemos uma translação de 8px para cima. O círculo terá raio 8px, com centro no meio da janela svg, ou seja, no ponto de coordenadas (50,50). Defina a espessura da linha e a cor, sem usar preenchimento. A primeira elipse pode ser desenhada com raios rx=15 e ry=35. Experimente valores diferentes para seu desenho.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="318a" name="sl">
 			   <label for="318a"></label>
 			   <img src="css4/41_03_01a.png" />
-			   <figcaption>As outras elipses podem ser desenhadas com duas rotações: de 60<sup>o</sup> e de 120<sup>o</sup> em torno do centro (50,50). O outro átomo pode ser feito com rotações de 45<sup>o</sup>, 90<sup>o</sup> e 135<sup>o</sup>. Escolha um dos átomos para este banner.</figcaption>
+			   <figcaption>As outras elipses podem ser desenhadas com duas rotações: de 60<sup>o</sup> e de 120<sup>o</sup> em torno do centro (50,50). O outro átomo pode ser feito com rotações de 45<sup>o</sup>, 90<sup>o</sup> e 135<sup>o</sup>. Escolha um dos átomos para o seu banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="319" name="sl">
