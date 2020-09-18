@@ -3067,8 +3067,7 @@
 	<p>página 55...</p>
 </details>
 
-<br>&#x1f4bb; &#x1f4c2;
-<p><b>site desenvolvido por:</b></p> 
+<h4>site desenvolvido por:</h4> 
 <p>Paulo Henrique Siqueira</p>  
 <p><b>contato:</b> paulohscwb@gmail.com </p> 
 
