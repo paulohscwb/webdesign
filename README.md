@@ -3072,7 +3072,7 @@
 <p>Paulo Henrique Siqueira</p>  
 <p><b>contato:</b> paulohscwb@gmail.com </p> 
 
-<p><br><b>Referências:</b></p>
+<h4>Referências:</h4>
 <ol>
 	<li>W3Schools. <i>HTML - The language for building web pages:</i> <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
 	<li>Origamid. <i>Flex Container:</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></li>
