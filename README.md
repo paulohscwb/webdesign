@@ -3007,6 +3007,7 @@
 			   <img src="css4/53_04_02.png" />
 			   <figcaption>O layout fica desta forma. Ajuste valores e atributos de animação para seu banner.</figcaption>
 		   </li>
+		</ul>
 		<img src="css4/53_04_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
