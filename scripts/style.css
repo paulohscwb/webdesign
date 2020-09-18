@@ -48,11 +48,6 @@ details {
   width:100%;
 }
 
-.slider img{
-	min-width:100%;
-	image-rendering: pixelated;
-}
-
 .sub {
   border: none;
   padding: 3px;
@@ -197,6 +192,8 @@ h3::after {
      visibility: hidden;
      transition: all .5s;
 	 overflow:hidden;
+	 min-width:100%;
+	 image-rendering: pixelated;
  }
 
  .slider li input:checked ~ img  {
