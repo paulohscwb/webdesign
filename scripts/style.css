@@ -3,6 +3,8 @@ code{
 	color: rgb(21,153,87);
 }
 
+img{image-rendering: pixelated;}
+
 .topo::after {
     content: "";
     display: block;
@@ -193,7 +195,6 @@ h3::after {
      transition: all .5s;
 	 overflow:hidden;
 	 min-width:100%;
-	 image-rendering: pixelated;
  }
 
  .slider li input:checked ~ img  {
