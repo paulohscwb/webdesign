@@ -50,6 +50,7 @@ details {
 
 .slider img{
 	min-width:100%;
+	image-rendering: pixelated;
 }
 
 .sub {
