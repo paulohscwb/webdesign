@@ -2944,7 +2944,7 @@
 		<img src="css4/53_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0053b.png" />
-	<details class="sub"><summary>&#x1f4c3; Animalções no 2&deg; banner</summary>
+	<details class="sub"><summary>&#x1f4c3; Animações no 2&deg; banner</summary>
 	<p>Vamos criar efeitos de animação no 2&deg; banner da nossa página. Podemos desenhar uma segunda roda, com outra cor, um pouco menor (usando scale) e deslocada para a direita (usando translate).</p>
 	  <ul class="slider">
 			<li>
@@ -3012,6 +3012,54 @@
   </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0054.png" />
+	<details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
+	<p>Agora você pode montar o 14&deg; banner. Use um dos logos que você desenhou, o banner e o menu para colocá-los na tag <code>class="banner2"</code>.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="398" name="sl">
+			   <label for="398"></label>
+			   <img src="css4/54_01_00.png" />
+			   <figcaption>Usando a <code>class="banner2"</code>, vamos colocar os elementos na ordem: logo, banner e menu. Tente outras configurações em seu banner da Atividade.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="399" name="sl">
+			   <label for="399"></label>
+			   <img src="css4/54_01_01.png" />
+			   <figcaption>Usando o desenho do lápis, coloque-o em uma tag <code>class="logo"</code> que já configuramos no CSS.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="400" name="sl">
+			   <label for="400"></label>
+			   <img src="css4/54_01_02.png" />
+			   <figcaption>Logo depois, colocamos a tag de <code>&lt;svg&gt;</code> do banner, com as devidas animações já programadas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="401" name="sl">
+			   <label for="401"></label>
+			   <img src="css4/54_01_03.png" />
+			   <figcaption>Depois do banner, antes de fechar a tag <code>&lt;svg&gt;</code>, crie uma curva <code>id="curva"</code>para desenharmos o título do banner alinhado com esta curva. Usando a tag <code>&lt;textpath&gt;</code>, coloque o título na página, com animação to tipo<code>startOffset</code>. Ajuste o valor inicial, pois depende do número de carcteres do título que você escolher.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="402" name="sl">
+			   <label for="402"></label>
+			   <img src="css4/54_01_04.png" />
+			   <figcaption>Para finalizar o banner, insira a estrutura de menu da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="403" name="sl">
+			   <label for="403"></label>
+			   <img src="css4/54_01_05a.png" />
+			   <figcaption>O banner fica com este layout com as animações programadas. Ajuste atributos e cores para o layout do seu banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="404" name="sl">
+			   <label for="404"></label>
+			   <img src="css4/54_01_05.png" />
+			   <figcaption>No final da animação do texto, o banner fica desta forma.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/54_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 </details>
 
