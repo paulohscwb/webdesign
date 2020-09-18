@@ -2901,6 +2901,48 @@
 	<img src="css4/53_01_00.png"/>
   </details>
 	<img src="css4/tags001_0053a.png" />
+	<details class="sub"><summary>&#x1f4c3; 12&deg; banner</summary>
+	<p>Vamos criar o outro banner usando <code>class="barra"</code>. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner12.jpg</code></p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="383" name="sl">
+			   <label for="383"></label>
+			   <img src="css4/53_02_00.png" />
+			   <figcaption>Com as medidas do halteres que vamos desenhar, a janela de visualização <code>viewBox</code> pode ser definida com tamanho de 150 x 120 pixels.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="384" name="sl">
+			   <label for="384"></label>
+			   <img src="css4/53_02_01.png" />
+			   <figcaption>Começando pelos dois retângulos menores, temos as coordenadas do primeiro vértice (5,25), e o segundo ficará na coordenada (135,25): 5px da coordenada do vértice + 10px da largura do primeiro retângulo + 5px da distância até a barra + 15px da largura da parte maior + 80px da largura total da barra + 15px da largura da parte maior à direita + 5px da distância = 135px.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="385" name="sl">
+			   <label for="385"></label>
+			   <img src="css4/53_02_02.png" />
+			   <figcaption>A parte maior da barra pode ser feita com uma tag de caminho <code>&lt;path&gt;</code>: começando no ponto de coordenadas (20,5), usamos uma linha vertical v80, depois a largura com a horizontal h15, uma vertical subindo com v-30, a horizontal da largura da barra h80, seguida de uma vertical v30. Os outros comandos são similares.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="386" name="sl">
+			   <label for="386"></label>
+			   <img src="css4/53_02_03.png" />
+			   <figcaption>Crie duas animações de transformação na barra. Neste exemplo, temos uma animação de rotação de 20&deg; para 0&deg; em torno do ponto de coordenadas (40,40) junto com a escala que começa em 0.7 e vai até 1.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="387" name="sl">
+			   <label for="387"></label>
+			   <img src="css4/53_02_04.png" />
+			   <figcaption>Outra animação colocada dentro da tag de texto faz o desenho do texto e modifica a cor de preenchimento.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="388" name="sl">
+			   <label for="388"></label>
+			   <img src="css4/53_02_05.png" />
+			   <figcaption>Com estas animações, o layout deste banner fica desta forma. Modifique valores de atributos e cores para criar o seu banner.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/53_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css4/tags001_0053b.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0054.png" />
