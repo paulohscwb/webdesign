@@ -3074,11 +3074,11 @@
 
 <p><br><b>Referências:</b></p>
 <ol>
-	<li>W3Schools. HTML - The language for building web pages <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
-	<li>Origamid. <i>Flex Container</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></li>
-	<li>Soueidan, S. <i>A Guide to SVG Animations (SMIL)</i> <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank">https://css-tricks.com/guide-svg-animations-smil/</a></li>
-	<li>Adams, C., Bolton, J., Johnson, D., Smith, S., Snook, J. A arte e a ciência da
-	CSS. Sitepoint, 2009</li>
+	<li>W3Schools. <i>HTML - The language for building web pages:</i> <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
+	<li>Origamid. <i>Flex Container:</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></li>
+	<li>Soueidan, S. <i>A Guide to SVG Animations (SMIL):</i> <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank">https://css-tricks.com/guide-svg-animations-smil/</a></li>
+	<li>Adams, C., Bolton, J., Johnson, D., Smith, S., Snook, J. <i>A arte e a ciência da
+	CSS</i>. Sitepoint, 2009</li>
 	<li>Marcotte, E. <i>Responsive Web Design</i>. A Book Apart. 2011</li>
 	<li>Mazza, L. <i>HTML5 e CSS3: Domine a Web do futuro</i>. Casa do código, 2012</li>
 	<li>Kalbach, J. <i>Design de navegação web: otimizando a experiência do usuário</i>. Porto
