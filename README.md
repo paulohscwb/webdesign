@@ -3073,20 +3073,22 @@
 <p><b>contato:</b> paulohscwb@gmail.com </p> 
 
 <p><br><b>Referências:</b></p>
-<p>W3Schools. HTML - The language for building web pages <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></p>
-<p>Origamid. <i>Flex Container</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></p>
-<p>Soueidan, S. <i>A Guide to SVG Animations (SMIL)</i> <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank">https://css-tricks.com/guide-svg-animations-smil/</a></p>
-<p>ADAMS, C., BOLTON, J., JOHNSON, D., SMITH, S., SNOOK, J. A arte e a ciência da
-CSS. Sitepoint, 2009</p>
-<p>MARCOTTE, E. <i>Responsive Web Design</i>. A Book Apart. 2011</p>
-<p>MAZZA, L. <i>HTML5 e CSS3: Domine a Web do futuro</i>. Casa do código, 2012</p>
-<p>KALBACH, J. <i>Design de navegação web: otimizando a experiência do usuário</i>. Porto
-Alegre, RS: Bookman, 2009</p>
-<p>MATHIS, L. <i>Designed for Use: Usable Interfaces for Applications and the Web</i>. The
-Pragmatic Bookshelf, 2011</p>
-<p>POWERS, D. <i>O guia essencial para dreamweaver CS4 com CSS, ajax e PHP</i>. Ed. Alta
-Books, 2009</p>
-<p>SOUDERS, S. <i>High performance web sites: essential knowledge for frontend
-engineers</i>. Sebastopol; Farnham: O&#39;Reilly, 2007</p>
-<p>ZEMEL, T. <i>Web design responsivo: páginas adaptáveis para todos os
-dispositivos</i>. São Paulo, SP: Casa do Código, 2015</p>
+<ol>
+	<li>W3Schools. HTML - The language for building web pages <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
+	<li>Origamid. <i>Flex Container</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></li>
+	<li>Soueidan, S. <i>A Guide to SVG Animations (SMIL)</i> <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank">https://css-tricks.com/guide-svg-animations-smil/</a></li>
+	<li>Adams, C., Bolton, J., Johnson, D., Smith, S., Snook, J. A arte e a ciência da
+	CSS. Sitepoint, 2009</li>
+	<li>Marcotte, E. <i>Responsive Web Design</i>. A Book Apart. 2011</li>
+	<li>Mazza, L. <i>HTML5 e CSS3: Domine a Web do futuro</i>. Casa do código, 2012</li>
+	<li>Kalbach, J. <i>Design de navegação web: otimizando a experiência do usuário</i>. Porto
+	Alegre, RS: Bookman, 2009</li>
+	<li>Mathis, L. <i>Designed for Use: Usable Interfaces for Applications and the Web</i>. The
+	Pragmatic Bookshelf, 2011</li>
+	<li>Powers, D. <i>O guia essencial para dreamweaver CS4 com CSS, ajax e PHP</i>. Ed. Alta
+	Books, 2009</li>
+	<li>Souders, S. <i>High performance web sites: essential knowledge for frontend
+	engineers</i>. Sebastopol; Farnham: O&#39;Reilly, 2007</li>
+	<li>Zemel, T. <i>Web design responsivo: páginas adaptáveis para todos os
+	dispositivos</i>. São Paulo, SP: Casa do Código, 2015</li>
+<ol>
