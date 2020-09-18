@@ -2944,6 +2944,71 @@
 		<img src="css4/53_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0053b.png" />
+	<details class="sub"><summary>&#x1f4c3; Animalções no 2&deg; banner</summary>
+	<p>Vamos criar efeitos de animação no 2&deg; banner da nossa página. Podemos desenhar uma segunda roda, com outra cor, um pouco menor (usando scale) e deslocada para a direita (usando translate).</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="389" name="sl">
+			   <label for="389"></label>
+			   <img src="css4/53_03_00.png" />
+			   <figcaption>Dentro da tag de grupo da primeira roda <code>&lt;g&gt;</code>, podemos inserir o efeito de animação.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="390" name="sl">
+			   <label for="390"></label>
+			   <img src="css4/53_03_01.png" />
+			   <figcaption>A animação de rotação de 0&deg; a 360&deg; está definida no final da tag de grupo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="391" name="sl">
+			   <label for="391"></label>
+			   <img src="css4/53_03_02.png" />
+			   <figcaption>O desenho da segunda roda, com tons de verde, tem efeitos gradientes definidos com <code>id="efeito2a"</code> e <code>id="efeito3a"</code>. Criamos uma tag nova de grupo chamada <code>&lt;g name="roda2"&gt;</code> para usar os mesmos desenhos da roda original.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="392" name="sl">
+			   <label for="392"></label>
+			   <img src="css4/53_03_03.png" />
+			   <figcaption>Fazendo a translação de 65px à direita e 65px para baixo junto com a escala de 0.8, temos a segunda roda desenhada.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="393" name="sl">
+			   <label for="393"></label>
+			   <img src="css4/53_03_04.png" />
+			   <figcaption>O efeito de animação é o mesmo da primeira roda. Se você quiser inverter o sentido da rotação, basta trocar os limites para <code>from="360,50,50"</code> e <code>to="0,50,50"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="394" name="sl">
+			   <label for="394"></label>
+			   <img src="css4/53_03_05.png" />
+			   <figcaption>O banner fica com este layout com as animações programadas. Ajuste atributos e cores para o seu layout.</figcaption>
+		   </li>
+		</ul>
+		<img src="css4/53_03_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+  <details class="sub"><summary>&#x1f4c3; Animações no 9&deg; banner</summary>
+	<p>Vamos criar animações de transformação no 9&deg; banner.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="395" name="sl">
+			   <label for="395"></label>
+			   <img src="css4/53_04_00.png" />
+			   <figcaption>No desenho da nuvem, podemos criar pequenas translações. Neste exemplo, a nuvem vai de 3px para a direita, depois volta ao ponto inicial; depois disso, vai para 3px à esquerda, retornando ao ponto inicial. A escala também foi usada variando de 0.95 a 1. Ajuste valores para fazer a animação do seu banner.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="396" name="sl">
+			   <label for="396"></label>
+			   <img src="css4/53_04_01.png" />
+			   <figcaption>Podemos inserir uma animação de rotação nos raios do sol. Neste caso, foi colocada uma rotação que varia de 0&deg; a 30&deg; em torno do centro (55,15). Note que as tags de animações estão dentro das respectivas tags de grupos dos desenhos.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="397" name="sl">
+			   <label for="397"></label>
+			   <img src="css4/53_04_02.png" />
+			   <figcaption>O layout fica desta forma. Ajuste valores e atributos de animação para seu banner.</figcaption>
+		   </li>
+		<img src="css4/53_04_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0054.png" />
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
