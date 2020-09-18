@@ -403,7 +403,7 @@
 			   <figcaption>Cole a tag criada na posição da página que você quer mostrar o vídeo. O atributo <code>frameborder</code> tem padrão com valor <b>0</b>. Se você quiser uma borda, basta digitar qualquer valor diferente de <b>0</b> neste atributo.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_03_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="basico/06_03_03.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0006c.png" />
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
