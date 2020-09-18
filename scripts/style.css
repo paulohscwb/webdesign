@@ -3,7 +3,7 @@ code{
 	color: rgb(21,153,87);
 }
 
-img{image-rendering: pixelated;}
+img{image-rendering: crisp-edges;}
 
 .topo::after {
     content: "";
