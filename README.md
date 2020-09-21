@@ -3063,11 +3063,24 @@
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>Galerias de Imagens</summary>
-	<p>página 55...</p>
+<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>Galeria de Imagens: pág. 55-60</summary>
+	<img src="css5/tags001_0055.png" />
+	<img src="css5/tags001_0055a.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
+	<img src="css5/tags001_0056.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
+	<img src="css5/tags001_0057.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
+	<img src="css5/tags001_0058.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
+	<img src="css5/tags001_0059.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
+	<img src="css5/tags001_0060.png" />
+	<img src="css5/tags001_0060a.png" />
+	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 </details>
 
-<h4>site desenvolvido por:</h4> 
+<h4>página desenvolvida por:</h4> 
 <p>Paulo Henrique Siqueira</p>  
 <p><b>contato:</b> paulohscwb@gmail.com </p> 
 
@@ -3076,6 +3089,7 @@
 	<li>W3Schools. <i>HTML - The language for building web pages:</i> <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
 	<li>Origamid. <i>Flex Container:</i> <a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank">https://origamid.com/projetos/flexbox-guia-completo/</a></li>
 	<li>Soueidan, S. <i>A Guide to SVG Animations (SMIL):</i> <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank">https://css-tricks.com/guide-svg-animations-smil/</a></li>
+	<li>Bracey, K. <i>How to Use “animateTransform” for Inline SVG Animation:</i> <a href="https://webdesign.tutsplus.com/tutorials/how-to-use-animatetransform-for-inline-svg-animation--cms-22296" target="_blank">https://webdesign.tutsplus.com/tutorials/how-to-use-animatetransform-for-inline-svg-animation--cms-22296</a></li>
 	<li>Adams, C., Bolton, J., Johnson, D., Smith, S., Snook, J. <i>A arte e a ciência da
 	CSS</i>. Sitepoint, 2009</li>
 	<li>Marcotte, E. <i>Responsive Web Design</i>. A Book Apart. 2011</li>
