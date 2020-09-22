@@ -3194,6 +3194,43 @@
   </details>
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0056.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: galeria</summary>
+	<p>Vamos ver a estrutura HTML para as imagens da galeria. Insira as imagens de projetos feitos em disciplinas que você quer colocar no portfólio que vamos criar nesta atividade. Coloque no mínimo 12 imagens para esta atividade.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="423" name="sl">
+			   <label for="423"></label>
+			   <img src="css5/56_01_00.png" />
+			   <figcaption>Depois do fechamento da tag de menu, crie a tag <code>class="galeria"</code>. Agrupe as miniaturas das imagens. Cada uma deve ter um link <code>href="#img"</code> com o mesmo nome que usaremos nas respectivas imagens ampliadas. Coloque os títulos das imagens no atributo <code>title</code></figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="424" name="sl">
+			   <label for="424"></label>
+			   <img src="css5/56_01_01.png" />
+			   <figcaption>Depois da última miniatura de imagem <code>href="img12"</code>, começamos a inserir as tags das imagens ampliadas. Serão 12 blocos com <code>class="maior"</code> e os <code>ids</code> correspondentes das miniaturas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="425" name="sl">
+			   <label for="425"></label>
+			   <img src="css5/56_01_02.png" />
+			   <figcaption>Colocamos os elementos na ordem: 1&deg; botão de imagem anterior (da primeira imagem, é a imagem 12); 2&deg;bloco de imagem com título usando tags <code>&lt;figure&gt;</code> <code>&lt;figcaption&gt;</code>;</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="426" name="sl">
+			   <label for="426"></label>
+			   <img src="css5/56_01_03.png" />
+			   <figcaption>3&deg; botão de próxima imagem (da primeira imagem, é a imagem 2); 4&deg; botão de fechar. No bloco da imagem 2, a imagem anterior tem a referência para <code>href="img1"</code> e de próxima imagem para <code>href="img3"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="427" name="sl">
+			   <label for="427"></label>
+			   <img src="css5/56_01_04.png" />
+			   <figcaption>A última tag será <code>class="rodape"</code>, colocada depois do fechamento da tag <code>class="galeria"</code> após a imagem ampliada <code>href="img12"</code>.</figcaption>
+		   </li>
+		</ul>
+		<img src="css5/56_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+	<img src="css5/tags001_0056a.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0057.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
