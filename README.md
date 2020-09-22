@@ -3065,7 +3065,133 @@
 
 <details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>Galeria de Imagens: pág. 55-60</summary>
 	<img src="css5/tags001_0055.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML</summary>
+	<p>Na pasta <code>webdesign/atividade10</code>, crie os arquivos <code>index.htm</code>  e <code>estilo.css</code> e a pasta <code>webdesign/atividade10/imagens</code>.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="405" name="sl">
+			   <label for="405"></label>
+			   <img src="css5/55_01_00.png" />
+			   <figcaption>No arquivo <code>index.htm</code>, vamos criar as referências do arquivo CSS e da fonte externa escolhida no Google Fonts.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="406" name="sl">
+			   <label for="406"></label>
+			   <img src="css5/55_01_01.png" />
+			   <figcaption>Com a tag mãe <code>class="boxSite"</code>, vamos criar a primeira tag <code>class="barra"</code> com os desenhos do banner do site em SVG.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="407" name="sl">
+			   <label for="407"></label>
+			   <img src="css5/55_01_02.png" />
+			   <figcaption>A segunda tag <code>class="barra"</code> contém o menu do site.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="408" name="sl">
+			   <label for="408"></label>
+			   <img src="css5/55_01_03.png" />
+			   <figcaption>A terceira tag será chamada de <code>class="galeria"</code>, com as imagens em miniatura e as ampliadas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="409" name="sl">
+			   <label for="409"></label>
+			   <img src="css5/55_01_04.png" />
+			   <figcaption>A última tag será <code>class="rodape"</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="410" name="sl">
+			   <label for="410"></label>
+			   <img src="css5/55_01_05.png" />
+			   <figcaption>A estrutura da tag menu é a mesma que já usamos nas outras atividades. A seguir, vamos ver as demais tags com mais detalhes.</figcaption>
+		   </li>
+		</ul>
+		<img src="css5/55_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css5/tags001_0055a.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: banner</summary>
+	<p>Podemos usar alguns desenhos SVG que criamos na atividade anterior, encaixando com outros para criarmos o banner desta atividade. Algumas sugestões de desenhos que você pode usar e adaptar à sua página são mostrados a seguir. Você pode fazer apenas uma tag SVG, como mostrado, ou uma tag com uma logo e outra com o desenho do banner. Se usar duas tags, lembre-se de deixá-las com mesma medida de altura.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="411" name="sl">
+			   <label for="411"></label>
+			   <img src="css5/55_02_00.png" />
+			   <figcaption>Neste exemplo, usamos a tag única de banner com janela de visulização <code>viewBox</code> com 1200 x 200 pixels. As primeiras tags são dos efeitos gradientes usados nos desenhos em tons de verde, azul, amarelo e um filtro para desfocar os contornos dos desenhos. Cada tag de efeito deve ter um <code>id</code> diferente.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="412" name="sl">
+			   <label for="412"></label>
+			   <img src="css5/55_02_01.png" />
+			   <figcaption>Seguindo com os efeitos, temos <code>id="filtro2"</code> e <code>id="filtro3"</code> com efeitos de sombras com intensidades diferentes. O primeiro desenho é do céu com um retângulo que cobre a janela de visualização SVG. Depois, temos o desenho de duas montanhas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="413" name="sl">
+			   <label for="413"></label>
+			   <img src="css5/55_02_02.png" />
+			   <figcaption>A parte de cima foi desenhada com uma única tag de caminho com as medidas indicadas. Esta tag usa apenas linhas com coordenadas (30,-30) e (30,30) para o triângulo maior, depois com linhas alternando coordenadas relativas (-10,10), (-10,-10), (-10,20) para o efeito vai e vem.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="413a" name="sl">
+			   <label for="413a"></label>
+			   <img src="css5/55_02_02.png" />
+			   <figcaption>A tag da parte de baixo é de um trapézio com coordenada inicial (800,120). A primeira linha vai para as coordenadas relativas (80,-80), depois uma linha horizontal de 60 e outra linha para as coordenadas relativas (80,80).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="414" name="sl">
+			   <label for="414"></label>
+			   <img src="css5/55_02_03.png" />
+			   <figcaption>A segunda montanha foi feita com as mesmas coordenadas da primeira, com translação e escala.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="415" name="sl">
+			   <label for="415"></label>
+			   <img src="css5/55_02_04.png" />
+			   <figcaption>Os desenhos de gramados foram feitos com arcos de raios com raios entre 500px e 1500px. As tags de sol e de nuvens foram feitas parecidas com as que foram mostradas na atividade anterior.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="416" name="sl">
+			   <label for="416"></label>
+			   <img src="css5/55_02_05.png" />
+			   <figcaption>Os desenhos das casas foram feitos usando caminhos, similares aos usados nos desenhos das montanhas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="417" name="sl">
+			   <label for="417"></label>
+			   <img src="css5/55_02_06.png" />
+			   <figcaption>Podemos usar tags de retângulos para as janelas, portas e o tronco da árvore. Neste exemplo, foram usadas tags de caminho <code>&lt;path&gt;</code>. As duas primeiras tags mostram os desenhos dos retângulos da primeira casa e da porta. As duas outras tags são do desenho da árvore.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="418" name="sl">
+			   <label for="418"></label>
+			   <img src="css5/55_02_07.png" />
+			   <figcaption>A segunda árvore foi feita parecida com a primeira, com altura um pouco maior e coordenada inicial modificada para (485,190).</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="419" name="sl">
+			   <label for="419"></label>
+			   <img src="css5/55_02_08.png" />
+			   <figcaption>O desenho do moinho pode ser feito com os elementos mais simples: como janela, porta e telhado. Em uma tag separada, com animação programada, desenhamos as hastes. Precisamos nos preocupar só com o desenho da primeira. As outras foram feitas com rotações de 90&deg;, 180&deg; e 270&deg;.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="420" name="sl">
+			   <label for="420"></label>
+			   <img src="css5/55_02_09.png" />
+			   <figcaption>No detalhe de uma haste, temos as tags do círculo e da linha horizontal de tamanho 70. Na tag seguinte, temos cada trecho da haste: a primeira linha vertical <code>M70,0 v10</code>, a segunda com coordenada x com mais 5px <code>M75,0 v10</code> e assim sucessivamente.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="421" name="sl">
+			   <label for="421"></label>
+			   <img src="css5/55_02_10.png" />
+			   <figcaption>O título do banner pode ser feito com o texto sobre uma curva. Para finalizar, os links de compartilhamento ficam como mapeamentos de imagens dentro da tag SVG, no canto direito inferior da tag.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="422" name="sl">
+			   <label for="422"></label>
+			   <img src="css5/55_02_11.png" />
+			   <figcaption>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.</figcaption>
+		   </li>
+		</ul>
+		<img src="css5/55_02_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0056.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
