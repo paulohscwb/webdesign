@@ -3306,6 +3306,66 @@
 	<img src="css5/tags001_0059.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0060.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: galeria com divisões</summary>
+	<p>Vamos ver a estrutura CSS para a página de galeria com divisões da tag <code>details</code>.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="438" name="sl">
+			   <label for="438"></label>
+			   <img src="css5/59_01_00.png" />
+			   <figcaption>Podemos separar as galerias em sub-galerias. Coloque dentro da tag <code>&lt;details&gt;</code> a tag <code>class="galeria"</code> com as imagens escolhidas da primeira divisão.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="439" name="sl">
+			   <label for="439"></label>
+			   <img src="css5/59_01_01.png" />
+			   <figcaption>Colocamos as miniaturas das imagens escolhidas, seguidas das respectivas imagens ampliadas. Neste caso, escolhi 4 imagens, com as 4 classes de imagens ampliadas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="440a" name="sl">
+			   <label for="440a"></label>
+			   <img src="css5/59_01_02.png" />
+			   <figcaption>Depois do bloco da 4&ordf; imagem, fechamos a tag <code>&lt;/details&gt;</code> para começar a próxima sub-galeria.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="440" name="sl">
+			   <label for="440"></label>
+			   <img src="css5/59_01_03.png" />
+			   <figcaption>Escolha as imagens do próximgo grupo da tag <code>&lt;details&gt;</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="441" name="sl">
+			   <label for="441"></label>
+			   <img src="css5/59_01_04.png" />
+			   <figcaption>Depois da última sub-galeria, não se esqueça de fechar a tag <code>&lt;/details&gt;</code> para iniciar a tag de rodapé.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="442" name="sl">
+			   <label for="442"></label>
+			   <img src="css5/59_01_05.png" />
+			   <figcaption>No CSS, basta inserir propriedades de cores, margens e bordas. Como são tags nativas, não precisam de "ponto" antes de seus nomes.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="443" name="sl">
+			   <label for="443"></label>
+			   <img src="css5/59_01_06.png" />
+			   <figcaption>Este é o resultado com a primeira sub-galeria aberta.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="444" name="sl">
+			   <label for="444"></label>
+			   <img src="css5/59_01_07.png" />
+			   <figcaption>Com as duas primeiras sub-galerias abertas.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="445" name="sl">
+			   <label for="445"></label>
+			   <img src="css5/59_01_08.png" />
+			   <figcaption>E com as 3 sub-galerias abertas. Crie sua página de portfólio com a quantidade necessária de sub-galerias.</figcaption>
+		   </li>
+		</ul>
+		<img src="css5/59_01_07.png" class="fundo" style="visibility:hidden"/>
+  </details>
 	<img src="css5/tags001_0060a.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 </details>
