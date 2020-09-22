@@ -3194,7 +3194,7 @@
   </details>
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0056.png" />
-	<details class="sub"><summary>&#x1f4c3; Atividade 10: galeria</summary>
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML da galeria</summary>
 	<p>Vamos ver a estrutura HTML para as imagens da galeria. Insira as imagens de projetos feitos em disciplinas que você quer colocar no portfólio que vamos criar nesta atividade. Coloque no mínimo 12 imagens para esta atividade.</p>
 	  <ul class="slider">
 			<li>
@@ -3219,7 +3219,7 @@
 			   <input type="radio" id="426" name="sl">
 			   <label for="426"></label>
 			   <img src="css5/56_01_03.png" />
-			   <figcaption>3&deg; botão de próxima imagem (da primeira imagem, é a imagem 2); 4&deg; botão de fechar. No bloco da imagem 2, a imagem anterior tem a referência para <code>href="img1"</code> e de próxima imagem para <code>href="img3"</code>.</figcaption>
+			   <figcaption>3&deg; botão de próxima imagem (da primeira imagem, é a imagem 2); 4&deg; botão de fechar com <code>href="#_"</code>. No bloco da imagem 2, a imagem anterior tem a referência para <code>href="img1"</code> e de próxima imagem para <code>href="img3"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="427" name="sl">
@@ -3228,13 +3228,80 @@
 			   <figcaption>A última tag será <code>class="rodape"</code>, colocada depois do fechamento da tag <code>class="galeria"</code> após a imagem ampliada <code>href="img12"</code>.</figcaption>
 		   </li>
 		</ul>
-		<img src="css5/56_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css5/56_01_01.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css5/tags001_0056a.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0057.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0058.png" />
+	<details class="sub"><summary>&#x1f4c3; Atividade 10: CSS da galeria</summary>
+	<p>Vamos ver a estrutura CSS para a página de galeria.</p>
+	  <ul class="slider">
+			<li>
+			   <input type="radio" id="428" name="sl">
+			   <label for="428"></label>
+			   <img src="css5/56_01_05.png" />
+			   <figcaption>Após os atributos gerais da página, colocamos as propriedades dos blocos: <code>boxSite</code>, <code>barra</code>, <code>logo</code>, <code>rodape</code> e <code>galeria</code>. Defina os alinhamentos, cores e margens destes blocos.</figcaption>
+		   </li>
+		  <li>
+			   <input type="radio" id="429" name="sl">
+			   <label for="429"></label>
+			   <img src="css5/56_01_06.png" />
+			   <figcaption>A classe <code>.maior</code> fica escondida, e só pode ser ativada quando a miniatura apontar para o <code>id</code> desta classe. Isso acontece quando a classe estiver no alvo: <code>.maior:target</code>. Defina margens e alinhamentos dos elementos desta classe.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="430" name="sl">
+			   <label for="430"></label>
+			   <img src="css5/56_01_07.png" />
+			   <figcaption>A classe <code>.bloco</code> tem display flexbox para alinharmos os itens como já fizemos em outras atividades. Coloque efeitos na imagem ampliada e nos botões de imagem anterior e próxima imagem.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="431" name="sl">
+			   <label for="431"></label>
+			   <img src="css5/56_01_08.png" />
+			   <figcaption>Podemos usar efeitos de opacidade, escala, rotação, translação ou cisalhamento, como já vimos em atividades anteriores. Escolha os efeitos e ajuste os valores para sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="432" name="sl">
+			   <label for="432"></label>
+			   <img src="css5/56_01_09.png" />
+			   <figcaption>Defina os atributos de cores e margens dos botões. Podemos usar cores com transparência RGBA.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="433" name="sl">
+			   <label for="433"></label>
+			   <img src="css5/56_01_10.png" />
+			   <figcaption>Defina as margens, cores e efeitos das imagens em miniatura.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="434" name="sl">
+			   <label for="434"></label>
+			   <img src="css5/56_01_11.png" />
+			   <figcaption>O efeito "desarrumado", com rotações está programado para parecer de 5 em 5 imagens. Ajuste valores para as imagens de sua página. Os atributos de menu são os mesmos que já usamos nas atividades anteriores.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="435" name="sl">
+			   <label for="435"></label>
+			   <img src="css5/56_01_12.png" />
+			   <figcaption>As configurações para visualização da página em telas menores são as mesmas que já usamos em itens já conhecidos. As posições de botões de imagens ampliadas podem ser ajustadas para aparecerem abaixo das imagens, com <code>flex-direction:column</code> na classe <code>.bloco</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="436" name="sl">
+			   <label for="436"></label>
+			   <img src="css5/56_01_13.png" />
+			   <figcaption>Esta é a visualização da página com os atributos mostrados. Ajuste sua página de portfólio desta atividade. Ao clicar na imagem miniatura 9...</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="437" name="sl">
+			   <label for="437"></label>
+			   <img src="css5/56_01_14.png" />
+			   <figcaption>... este é o resultado da ampliação da imagem do projeto 9.</figcaption>
+		   </li>
+		</ul>
+		<img src="css5/56_01_07.png" class="fundo" style="visibility:hidden"/>
+  </details>
+	<img src="css5/tags001_0058a.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
 	<img src="css5/tags001_0059.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
