@@ -3364,7 +3364,7 @@
 			   <figcaption>E com as 3 sub-galerias abertas. Crie sua página de portfólio com a quantidade necessária de sub-galerias.</figcaption>
 		   </li>
 		</ul>
-		<img src="css5/59_01_07.png" class="fundo" style="visibility:hidden"/>
+		<img src="css5/59_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css5/tags001_0060a.png" />
 	<p class="topop"><a href="#css5" class="topo">voltar ao topo</a></p>
