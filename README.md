@@ -2038,25 +2038,25 @@
 		   <li>
 			   <input type="radio" id="263a" name="sl">
 			   <label for="263a"></label>
-			   <img src="css3/37_01_09.jpg" />
+			   <img src="css3/37_01_09.png" />
 			   <figcaption>Podemos modificar o efeito ao passar o cursor do mouse sobre cada imagem da galeria. Um efeito interessante é o que muda de imagem ao passar o cursor sobre a foto.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263d" name="sl">
 			   <label for="263d"></label>
-			   <img src="css3/37_01_12.jpg" />
+			   <img src="css3/37_01_12.png" />
 			   <figcaption>Para isso acontecer, no HTML você modifica cada tag <code>class="box"</code> inserindo 2 imagens: a primeira aparece automaticamente, e a segunda apenas quando o visitante passar o cursos do mouse sobre a <code>class="box"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263b" name="sl">
 			   <label for="263b"></label>
-			   <img src="css3/37_01_10.jpg" />
+			   <img src="css3/37_01_10.png" />
 			   <figcaption>No arquivo CSS, você precisa substituir os atributos de <code>.box img:hover</code> pelas regras: <code>.box img:nth-child(1)</code> que mostra a primeira imagem da tag <code>class="box"</code>, e <code>.box img:nth-child(2)</code> que esconde a segunda imagem da tag <code>class="box"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263c" name="sl">
 			   <label for="263c"></label>
-			   <img src="css3/37_01_11.jpg" />
+			   <img src="css3/37_01_11.png" />
 			   <figcaption>Outras regras que criamos são as seguintes: <code>.box:hover img:nth-child(1)</code> que esconde a primeira imagem da tag <code>class="box"</code> quando passamos o cursor do mouse sobre a imagem, e <code>.box:hover img:nth-child(2)</code> que mostra a segunda imagem da <code>class="box"</code> quando passamos o cursor do mouse sobre a imagem da <code>class="box"</code>.</figcaption>
 		   </li>
 		</ul>
