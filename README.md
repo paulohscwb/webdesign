@@ -1,6 +1,4 @@
-<head>
 <link rel="stylesheet" href="scripts/style.css">
-</head>
 
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
