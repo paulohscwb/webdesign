@@ -6,8 +6,8 @@
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2014/09/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
-<details>
-  <summary id="basico">Estruturas básicas: pág. 1-10</summary>
+<details id="basico">
+  <summary>1. Estruturas básicas: pág. 1-10</summary>
    <img src="basico/tags001_0001.png" />
    <details class="sub"><summary>&#x1f4c3; Escolha de cores</summary>
 	<p>Existem vários sites que mostram as escolhas de cores para usar em HTML. Vamos começar usando as cores com códigos HTML ou hexadecimais. Clique nos passos abaixo para ver como podemos escolher cores em 2 sites.</p>
@@ -800,7 +800,7 @@
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css1"><summary>CSS - Cascading Style Sheets: pág. 11-20</summary>
+<details id="css1"><summary>2. CSS - Cascading Style Sheets: pág. 11-20</summary>
 	<img src="css1/tags001_0011.png" />
 	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 	<img src="css1/tags001_0012.png" />
@@ -1212,7 +1212,7 @@
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css2"><summary>CSS, Flexbox e Mapeamentos de imagens: pág. 21-27</summary>
+<details id="css2"><summary>3. CSS, Flexbox e Mapeamentos de imagens: pág. 21-27</summary>
 	<img src="css2/tags001_0021.png" />
 	<details class="sub"><summary>&#x1f4c3; FlexBox para itens</summary>
 	<p>Crie uma página na nossa pasta de exercícios <code>webdesign/exercicios</code> com nome <code>itens.htm</code>. Dentro desta pasta, use a pasta de imagens para inserir fotos dos itens que vamos criar com o atributo FlexBox. É o mesmo que já usamos nos itens dos menus.</p>
@@ -1704,7 +1704,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css3"><summary>CSS e Animações: pág. 28-38</summary>
+<details id="css3"><summary>4. CSS e Animações: pág. 28-38</summary>
 	<img src="css3/tags001_0028.png" />
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0029.png" />
@@ -2202,7 +2202,7 @@
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css4"><summary>Imagens Vetoriais: pág. 39-54</summary>
+<details id="css4"><summary>5. Imagens Vetoriais: pág. 39-54</summary>
 	<img src="css4/tags001_0039.png" />
 	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
 	<p>Vamos criar uma pasta chamada <code>webdesign/atividade9</code>. Nesta pasta, crie os arquivos com nomes <code>index.htm</code> e <code>estilo.css</code>. Além disso, vamos criar uma pasta para inserir as imagens dos banners que vamos criar na Atividade 9, no caminho <code>webdesign/atividade9/imagens</code>.</p>
@@ -3085,7 +3085,7 @@
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>Galeria de Imagens: pág. 55-60</summary>
+<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>6. Galeria de Imagens: pág. 55-60</summary>
 	<img src="css5/tags001_0055.png" />
 	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML</summary>
 	<p>Na pasta <code>webdesign/atividade10</code>, crie os arquivos <code>index.htm</code>  e <code>estilo.css</code> e a pasta <code>webdesign/atividade10/imagens</code>.</p>
