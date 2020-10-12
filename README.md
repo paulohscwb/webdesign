@@ -1545,12 +1545,6 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Este é o resultado parcial da página, com estas configurações de menu. Usando os atributos mostrados, modifique valores para a apresentação do seu site.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="124" name="sl">
-			   <label for="124"></label>
-			   <img src="css1/16_01_08.png"/>
-			   <figcaption>Este é o resultado parcial da página, com estas configurações de menu. Usando os atributos mostrados, modifique valores para a apresentação do seu site.</figcaption>
-		   </li>
-		   <li>
 			   <input type="radio" id="124a" name="sl">
 			   <label for="124a"></label>
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
