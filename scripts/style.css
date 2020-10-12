@@ -159,7 +159,7 @@ h3::after {
 	 transition: .5s;
  }
 
-:root {--m: 13.25; --mw: 16.7;}
+:root {--m: 15.25; --mw: 14.7;}
 
 .slider li:nth-child(1) label {left: 0%;}
 
@@ -188,6 +188,10 @@ h3::after {
 .slider li:nth-child(13) label {left: calc(12*100% / var(--m));}
  
 .slider li:nth-child(14) label {left: calc(13*100% / var(--m));}
+
+.slider li:nth-child(15) label {left: calc(14*100% / var(--m));}
+
+.slider li:nth-child(16) label {left: calc(15*100% / var(--m));}
 
 .slider {
 	counter-reset: contador;
