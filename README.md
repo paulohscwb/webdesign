@@ -1278,6 +1278,46 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="css1/12_01_08.png"/>
 			   <figcaption>Para imagens não ficarem "grudadas" nos textos, podemos definir as margens com CSS. Os atributos ficam valendo para todas as imagens que você insere na página. Modifique atributos nesta nossa página, para treinar para a próxima Atividade.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="103a" name="sl">
+			   <label for="103a"></label>
+			   <img src="css1/12_01_08.png"/>
+			   <figcaption>Trecho do código HTML da página capadocia.htm:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;CSS&lt;/title&gt;
+  &lt;meta name="author" content="Paulo Henrique"&gt;
+  &lt;meta name="keywords" content="HTML, TABELAS, CSS"&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;style type="text/css"&gt;
+	body{font-size:25px;}
+	td {background-color:#ccffcc; color:blue; font-size:0.8em; padding:10px; 
+	border:5px solid white;}
+	table {width:100%; height:100vh; font-family:Tahoma; font-style:italic; 
+	border: 4px solid blue; text-align: center;}
+	img{margin:30px;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;table&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;Banner&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Barra lateral&lt;/td&gt;
+			&lt;td&gt;Conteúdo principal
+			&lt;br&gt;&lt;img src="imagens/foto1.jpg"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;Rodapé&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   </li>
+		   
 		</ul>
 		<img src="css1/12_01_00.png" class="fundo"/>
   </details>
