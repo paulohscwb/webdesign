@@ -682,9 +682,6 @@ Código estrutural da página HTML com tabelas:
 &lt;/html&gt;</code></pre>
 </figcaption>
 		   </li>
-		   
-		 <table border="2"bordercolor="red"cellpadding="10"cellspacing="5"> 
-		 <tr bgcolor="green"> <th>Título 1</th> <th>Título 2</th> <th>Título 3</th> <th>Título 4</th> </tr> <tr> <td>Linha 2, Coluna1</td> <td>Linha 2, Coluna2</td> <td>Linha 2, Coluna3</td> <td>Linha 2, Coluna3</td> </tr> <tr> <td>Linha 3, Coluna1</td> <td>Linha 3, Coluna2</td> <td>Linha 3, Coluna3</td> <td>Linha 3, Coluna3</td> </tr> </table> </body> </html>
 		</ul>
 		<img src="basico/07_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
