@@ -1984,8 +1984,12 @@ Estrutura PHP do formulário:
 			&lt;/div&gt;
 		&lt;/td&gt;
 	&lt;/tr&gt;
-&lt;/table&gt;</pre></code>
-Estrutura CSS:
+&lt;/table&gt;</pre></code></figcaption>
+		   </li>
+			<li>
+			   <input type="radio" id="162b" name="sl">
+			   <label for="162b"></label>
+			   <figcaption>Estrutura CSS:
 <code><pre>&lt;style&gt;
 	body{font-size:25px;}
 	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
@@ -1995,8 +1999,7 @@ Estrutura CSS:
 	.conteudo {vertical-align:center; width:70%;}
 	.todos {width:100%; background:#ccffcc; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
 	.item {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;  border:1px solid grey; border-radius:7px;}
-&lt;/style&gt;</pre></code>
-	</figcaption>
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/21_01_00.png" class="fundo" style="visibility:hidden"/>
