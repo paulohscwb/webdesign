@@ -1950,6 +1950,54 @@ Estrutura PHP do formulário:
 			   <img src="css2/21_01_12.png"/>
 			   <figcaption>A página de itens fica com este layout. Modifique medidas, cores e crie sua página de itens, que será utilizada em próximas Atividades. Se as alturas das imagens ficarem muito diferentes, você pode usar altura mínima <code>min-height</code> ou editar as imagens externamente, deixando-as com mesmo tamanho.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="162a" name="sl">
+			   <label for="162a"></label>
+			   <figcaption>Trecho da estrutura HTML:
+<code><pre>&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="barra"&gt;
+			Barra lateral
+		&lt;/td&gt;
+		&lt;td class="conteudo"&gt;Conteúdo principal
+			&lt;div class="todos"&gt;
+				&lt;div class="item"&gt;
+					ITEM 1
+					&lt;br&gt;&lt;img src="imagens/prod1.jpg"&gt;
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					ITEM 2
+					&lt;br&gt;&lt;img src="imagens/prod2.jpg"&gt;
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					ITEM 3
+					&lt;br&gt;&lt;img src="imagens/prod3.jpg"&gt;
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					ITEM 4
+					&lt;br&gt;&lt;img src="imagens/prod4.jpg"&gt;
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					ITEM 5
+					&lt;br&gt;&lt;img src="imagens/prod5.jpg"&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</pre></code>
+Estrutura CSS:
+<code><pre>&lt;style&gt;
+	body{font-size:25px;}
+	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
+	border:5px solid white;}
+	table {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
+	.barra {vertical-align:top;}
+	.conteudo {vertical-align:center; width:70%;}
+	.todos {width:100%; background:#ccffcc; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
+	.item {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;  border:1px solid grey; border-radius:7px;}
+&lt;/style&gt;</pre></code>
+	</figcaption>
+		   </li>
 		</ul>
 		<img src="css2/21_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
