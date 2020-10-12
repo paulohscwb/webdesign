@@ -118,23 +118,20 @@ Código estrutural de uma página HTML:
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
-    &lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
+	&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
 	&lt;meta name="author"content="AUTOR DA PÁGINA"&gt;
 	&lt;meta name="keywords"content="HTML, PÁGINA"&gt;
 	&lt;meta name="description"content="Minha primeira página"&gt;
 	&lt;meta charset="UTF-8"&gt;
 &lt;/head&gt; 
 &lt;body bgcolor="blue"&gt;
-    CONTEÚDO DA PÁGINA 
+	CONTEÚDO DA PÁGINA 
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
 </figcaption>
 		   </li>
 		</ul>
 		<img src="basico/03_01_00.png" class="fundo"/>
-  </details>
-  <details class="sub"><summary>&lt;Código&gt;</summary>
-
   </details>
   <img src="basico/tags001_0003a.png"/>
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
@@ -245,6 +242,37 @@ Código estrutural de uma página HTML:
 			   <img src="basico/04_01_04.png"/>
 			   <figcaption>As listas ordenadas têm a mesma estrutura da lista norma, com a tag principal <code>&lt;ol&gt;</code>. Estas tags podem ser numéricas ou com letras. Neste exemplo, a lista com letras começa na 4&ordf; letra, ou seja, a letra <b>D</b>.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="024a" name="sl">
+			   <label for="024a"></label>
+			   <figcaption>
+Código estrutural da página HTML com listas:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;LISTAS&lt;/title&gt;
+	&lt;meta name="author"content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords"content="HTML, LISTAS"&gt;
+	&lt;meta name="description"content="Minha primeira página"&gt;
+	&lt;meta charset="UTF-8"&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;h3&gt;Minha página de listas&lt;h3&gt;
+	&lt;ul&gt;    
+		&lt;li&gt;Item amarelo&lt;/li&gt;     
+		&lt;li&gt;Item azul&lt;/li&gt;     
+		&lt;li&gt;Item verde&lt;/li&gt; 
+	&lt;/ul&gt;
+	&lt;ol&gt;     
+		&lt;li&gt;Item cinza&lt;/li&gt;
+		&lt;li&gt;Item branco&lt;/li&gt;     
+		&lt;li&gt;Item preto&lt;/li&gt;     
+		&lt;li&gt;Item vermelho&lt;/li&gt; 
+	&lt;/ol&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   </li>		   
 		</ul>
 		<img src="basico/04_01_00.png" class="fundo"/>
   </details>
