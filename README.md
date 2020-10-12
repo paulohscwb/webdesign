@@ -1702,6 +1702,22 @@ Estrutura HTML do menu da Atividade 4:
 			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="138b" name="sl">
+			   <label for="138b"></label>
+			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
+<code><pre>&lt;td class="contato"&gt;
+		&lt;h3&gt;Contatos&lt;/h3&gt;
+		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
+		&lt;a href="https://www.facebook.com/supervolley20/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
+		&lt;a href="https://twitter.com/fivbvolleyball?lang=pt"&gt;&lt;img src="imagens/twitter.png" alt="Twitter" &gt;&lt;/a&gt;
+		&lt;a href="https://www.instagram.com/volleyballworld/?hl=pt-br"&gt;&lt;img src="imagens/instagram.png" alt="Instagram" &gt;&lt;/a&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td class="rodape" colspan="3"&gt;&copy; Copyright 2020&lt;/td&gt;
+&lt;/tr&gt;</pre></code></figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="138a" name="sl">
 			   <label for="138a"></label>
 			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
@@ -2077,7 +2093,7 @@ Estrutura PHP do formulário:
 			   <figcaption>Trecho da estrutura HTML:
 <code><pre>&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td class="icone"&gt;&#x1f34f;&lt;/td&gt;
+		&lt;td class="icone"&gt;&amp;#x1f34f;&lt;/td&gt;
 		&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
@@ -2115,12 +2131,6 @@ Estrutura PHP do formulário:
 					&lt;br&gt;&lt;img src="imagens/prod2.jpg"&gt;
 					De &lt;strike&gt;R$6,90&lt;/strike&gt;
 					&lt;br&gt;Por R$5,70
-				&lt;/div&gt;
-				&lt;div class="item"&gt;
-					&lt;h4&gt;Alfazema&lt;/h4&gt;
-					&lt;br&gt;&lt;img src="imagens/prod3.jpg"&gt;
-					De &lt;strike&gt;R$21,10&lt;/strike&gt;
-					&lt;br&gt;Por R$17,50
 				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/td&gt;
