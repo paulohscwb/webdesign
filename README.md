@@ -1184,7 +1184,12 @@ Trecho do código HTML com galeria em formato de tabela:
 	&lt;/table&gt;
 	&lt;/font&gt;
 &lt;/body&gt;</code></pre>
-Trecho do código HTML da página capadocia.htm:
+</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="095b" name="sl">
+			   <label for="095b"></label>
+			   <figcaption>Trecho do código HTML da página capadocia.htm:
 <pre><code>&lt;body align="center"&gt;
 	&lt;font face="Calibri"&gt;
 	&lt;table width="100%" cellpadding="15" cellspacing="10"&gt;
