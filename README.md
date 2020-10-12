@@ -371,7 +371,7 @@ Código estrutural da página HTML com links e imagens:
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
 	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords" content="HTML, IMAGENS"&gt;
+	&lt;meta name="keywords" content="HTML, IMAGENS, LINKS"&gt;
 	&lt;meta name="description" content="Minha primeira página"&gt;
 	&lt;meta charset="UTF-8"&gt;
 &lt;/head&gt; 
@@ -478,6 +478,46 @@ Código estrutural da página HTML com links e imagens:
 			   <img src="basico/06_02_04.png"/>
 			   <figcaption>Quando inserimos vídeos em uma página, é importante definirmos a altura <code>height</code> e a largura <code>width</code> do vídeo. Estas medidas podem ser indicadas em % ou pixels.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="039a" name="sl">
+			   <label for="039a"></label>
+			   <img src="basico/06_02_04.png"/>
+			   <figcaption>Quando inserimos vídeos em uma página, é importante definirmos a altura <code>height</code> e a largura <code>width</code> do vídeo. Estas medidas podem ser indicadas em % ou pixels.</figcaption>
+		   </li>
+		   <figcaption>
+Código estrutural da página HTML com links e imagens:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;IMAGENS&lt;/title&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, VÍDEOS, LINKS"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
+	&lt;meta charset="UTF-8"&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;h3&gt;Minha página com vídeos&lt;/h3&gt;
+	
+	&lt;figure align="center"&gt;     
+		&lt;img src="imagens/banner.png" width="90%"&gt;
+	&lt;/figure&gt;
+	&lt;hr&gt;
+	&lt;video width="100%" height="100%" controls autoplay&gt;
+		&lt;source src="videos/video1.mp4"type="video/mp4"&gt; 
+		&lt;source src="videos/video1.ogv"type="video/ogv"&gt; 
+		&lt;source src="videos/video1.webm"type="video/webm"&gt; 
+	&lt;/video&gt;
+
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   
+		   <figure align="center">
+    <img src="imagens/banner.png" width="90%">
+  </figure>
+  <hr>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uKEhiXcrW9A" frameborder="1" color="yellow" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		   
 		</ul>
 		<img src="basico/06_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
