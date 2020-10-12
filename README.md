@@ -361,6 +361,34 @@ Código estrutural da página HTML com listas:
 			   <img src="basico/05_02_02.png"/>
 			   <figcaption>Para inserir um link em uma imagem, basta deixar a tag <code>&lt;a&gt;</code> aninhada com a tag <code>&lt;img&gt;</code>, como mostra este segundo exemplo. Crie os links, salve a página e teste em um navegador.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="030a" name="sl">
+			   <label for="030a"></label>
+			   <figcaption>
+Código estrutural da página HTML com links e imagens:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;IMAGENS&lt;/title&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, IMAGENS"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
+	&lt;meta charset="UTF-8"&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
+	&lt;a&gt;href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;
+	
+	&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
+
+	&lt;figure align="center"&gt;     
+		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
+		&lt;figcaption&gt;Esta é a legenda da imagem&lt;/figcaption&gt; 
+	&lt;/figure&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   </li>
 		</ul>
 		<img src="basico/05_02_00.png" class="fundo"/>
   </details>
