@@ -1544,6 +1544,41 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="css1/16_01_08.png"/>
 			   <figcaption>Este é o resultado parcial da página, com estas configurações de menu. Usando os atributos mostrados, modifique valores para a apresentação do seu site.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="124" name="sl">
+			   <label for="124"></label>
+			   <img src="css1/16_01_08.png"/>
+			   <figcaption>Este é o resultado parcial da página, com estas configurações de menu. Usando os atributos mostrados, modifique valores para a apresentação do seu site.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="124a" name="sl">
+			   <label for="124a"></label>
+			   <figcaption>Estrutura CSS do menu da Atividade 4:
+<code><pre>
+  &lt;style type="text/css"&gt;
+	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	td {background-color: rgba(204,255,204,0.9); padding:10px; }
+	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
+	.icone {font-size:70px; }
+	
+	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
+	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
+	.menu li:last-child {border-right:none;}
+	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
+	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
+	.active {text-shadow:1px 1px 1px green;}
+  &lt;/style&gt;</pre></code>
+Estrutura HTML do menu da Atividade 4:
+<code><pre>
+	<nav class="menu">
+		<ul>
+			<li class="active"><a href="index.htm">Vôlei</a></li>
+			<li><a href="natacao.htm">Natação</a></li>
+			<li><a href="basquete.htm">Basquete</a></li>
+		</ul>
+	</nav></pre></code></figcaption>
+			</li>
 		</ul>
 		<img src="css1/16_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
