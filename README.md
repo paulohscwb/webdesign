@@ -1824,6 +1824,30 @@ Estrutura HTML do menu da Atividade 4:
 	#submit {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
   &lt;/style&gt;</pre></code>
+Estrutura PHP do formulário:
+<code><pre>
+	&lt;?php  
+		$name = $_POST['name'];  
+		$email = $_POST['email'];  
+		$message = $_POST['message']; 
+		$fone = $_POST['fone'];  
+		$from = 'De: Meu site';  
+		$to = 'paulohs@ufpr.br';  
+		$subject = 'Dúvida';  
+		$body = "De: $name\n E-Mail: $email\n Mensagem:\n $message";  
+		if ($_POST['submit'])  { if ($name != '' && $email != '') 
+			{ if (mail ($to, $subject, $body, $from))  
+				{ echo 'Sua mensagem foi enviada!';} 
+			else {echo 'Algo deu errado, volte e tente novamente!';} 
+			} 
+		else {echo 'Você precisa responder todas as questões!!';} 
+		} 
+	?&gt;</pre></code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="149a" name="sl">
+			   <label for="149a"></label>
+			   <figcaption>Estrutura CSS do formulário:
 Estrutura HTML do formulário:
 <code><pre>
 	&lt;div class="formulario"&gt;
