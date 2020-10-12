@@ -2027,7 +2027,7 @@ Estrutura PHP do formulário:
 	<img src="css2/tags001_0021a.png"/>
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0022.png"/>
-	<details class="sub"><summary style="box-shadow:none;">&#x1f4c3; Detalhes da página principal</summary>
+	<details class="sub"><summary style="box-shadow: none;">&#x1f4c3; Detalhes da página principal</summary>
 	<p>Crie uma pasta chamada <code>webdesign/atividade5</code>, com a página principal com nome <code>index.htm</code>. Dentro desta pasta, crie a pasta de imagens para inserir fotos dos 12 itens que aparecem na página criada. Vamos usar muitos recursos da página que construímos com Flexbox.</p>
 	  <ul class="slider">
 		  <li>
