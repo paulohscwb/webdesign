@@ -1631,6 +1631,31 @@ Estrutura HTML do menu da Atividade 4:
 			   <img src="css1/18_01_06.png"/>
 			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir adiante os atributos das outras tags da página.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="131a" name="sl">
+			   <label for="131a"></label>
+			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
+<code><pre>
+  &lt;style type="text/css"&gt;
+	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	td {background-color: rgba(204,255,204,0.9); padding:10px; }
+	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
+	.icone {font-size:70px; }
+	
+	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
+	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
+	.menu li:last-child {border-right:none;}
+	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
+	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
+	.active {text-shadow:1px 1px 1px green;}
+	
+	.imagem {text-align:center; margin-top:20px; margin-bottom:20px;}
+	img {max-width:100%;}
+	.galeria {width:20%; vertical-align:top;}
+	.principal {text-align:left;}
+  &lt;/style&gt;</pre></code></figcaption>
+		   </li>
 		</ul>
 		<img src="css1/18_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -1682,8 +1707,36 @@ Estrutura HTML do menu da Atividade 4:
 			   <img src="css1/18_02_06.png"/>
 			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="138a" name="sl">
+			   <label for="138a"></label>
+			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
+<code><pre>
+  &lt;style type="text/css"&gt;
+	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	td {background-color: rgba(204,255,204,0.9); padding:10px; }
+	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
+	.icone {font-size:70px; }
+	
+	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
+	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
+	.menu li:last-child {border-right:none;}
+	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
+	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
+	.active {text-shadow:1px 1px 1px green;}
+	
+	.imagem {text-align:center; margin-top:20px; margin-bottom:20px;}
+	img {max-width:100%;}
+	.galeria {width:20%; vertical-align:top;}
+	.principal {text-align:left;}
+	.contato {width:10%; vertical-align:top;}
+	.contato img {width:50%; margin:20px;}
+	.rodape {color: #606060;}
+  &lt;/style&gt;</pre></code></figcaption>
+		   </li>
 		</ul>
-		<img src="css1/18_02_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css1/18_02_06.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="css1/tags001_0019a.png"/>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
