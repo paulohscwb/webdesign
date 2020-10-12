@@ -642,6 +642,49 @@ Código estrutural da página HTML com imagens e vídeos:
 			   <img src="basico/07_01_05.png"/>
 			   <figcaption>Esta é a função da criação de margens em tabelas. Geralmente usamos o padrão do HTML, com <code>cellspacing="0"</code>.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="053a" name="sl">
+			   <label for="053a"></label>
+			   <figcaption>
+Código estrutural da página HTML com tabelas:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;IMAGENS&lt;/title&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, TABELAS"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
+	&lt;meta charset="ISO8859-1"&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;h3&gt;Minha página com tabelas&lt;/h3&gt;
+	&lt;table border="2" bordercolor="red" cellpadding="10" cellspacing="5"&gt;     
+		&lt;tr bgcolor="green"&gt; 
+			&lt;th&gt;Título 1&lt;/th&gt; 
+			&lt;th&gt;Título 2&lt;/th&gt; 
+			&lt;th&gt;Título 3&lt;/th&gt; 
+			&lt;th&gt;Título 4&lt;/th&gt; 
+		&lt;/tr&gt; 
+		&lt;tr&gt;
+			&lt;td&gt;Linha 2, Coluna1&lt;/td&gt;
+			&lt;td&gt;Linha 2, Coluna2&lt;/td&gt;
+			&lt;td&gt;Linha 2, Coluna3&lt;/td&gt;
+			&lt;td&gt;Linha 2, Coluna3&lt;/td&gt;
+		&lt;/tr&gt; 
+		&lt;tr&gt;
+			&lt;td&gt;Linha 3, Coluna1&lt;/td&gt;
+			&lt;td&gt;Linha 3, Coluna2&lt;/td&gt;
+			&lt;td&gt;Linha 3, Coluna3&lt;/td&gt;
+			&lt;td&gt;Linha 3, Coluna3&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   </li>
+		   
+		 <table border="2"bordercolor="red"cellpadding="10"cellspacing="5"> 
+		 <tr bgcolor="green"> <th>Título 1</th> <th>Título 2</th> <th>Título 3</th> <th>Título 4</th> </tr> <tr> <td>Linha 2, Coluna1</td> <td>Linha 2, Coluna2</td> <td>Linha 2, Coluna3</td> <td>Linha 2, Coluna3</td> </tr> <tr> <td>Linha 3, Coluna1</td> <td>Linha 3, Coluna2</td> <td>Linha 3, Coluna3</td> <td>Linha 3, Coluna3</td> </tr> </table> </body> </html>
 		</ul>
 		<img src="basico/07_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
