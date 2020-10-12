@@ -1705,7 +1705,8 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="138b" name="sl">
 			   <label for="138b"></label>
 			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
-<code><pre>&lt;td class="contato"&gt;
+<code><pre>
+	&lt;td class="contato"&gt;
 		&lt;h3&gt;Contatos&lt;/h3&gt;
 		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
 		&lt;a href="https://www.facebook.com/supervolley20/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
@@ -1714,7 +1715,7 @@ Estrutura HTML do menu da Atividade 4:
 	&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-	&lt;td class="rodape" colspan="3"&gt;&copy; Copyright 2020&lt;/td&gt;
+	&lt;td class="rodape" colspan="3"&gt;&amp;copy; Copyright 2020&lt;/td&gt;
 &lt;/tr&gt;</pre></code></figcaption>
 		   </li>
 		   <li>
@@ -2089,7 +2090,6 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="172a" name="sl">
 			   <label for="172a"></label>
-			   <img src="css2/21_02_09.png"/>
 			   <figcaption>Trecho da estrutura HTML:
 <code><pre>&lt;table&gt;
 	&lt;tr&gt;
@@ -2136,7 +2136,7 @@ Estrutura PHP do formulário:
 		&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td colspan="2" class="rodape"&gt;Copyright &copy;2020&lt;/td&gt;
+		&lt;td colspan="2" class="rodape"&gt;Copyright &amp;copy;2020&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;</pre></code></figcaption>
 		   </li>
