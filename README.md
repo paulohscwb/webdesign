@@ -2007,7 +2007,7 @@ Estrutura PHP do formulário:
 	<img src="css2/tags001_0021a.png"/>
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 	<img src="css2/tags001_0022.png"/>
-	<details class="sub"><summary>&#x1f4c3; Detalhes do site principal</summary>
+	<details class="sub"><summary>&#x1f4c3; Detalhes da página principal</summary>
 	<p>Crie uma pasta chamada <code>webdesign/atividade5</code>, com a página principal com nome <code>index.htm</code>. Dentro desta pasta, crie a pasta de imagens para inserir fotos dos 12 itens que aparecem na página criada. Vamos usar muitos recursos da página que construímos com Flexbox.</p>
 	  <ul class="slider">
 		  <li>
@@ -2069,6 +2069,98 @@ Estrutura PHP do formulário:
 			   <label for="172"></label>
 			   <img src="css2/21_02_09.png"/>
 			   <figcaption>Usando os atributos mostrados, a página <code>index.htm</code> fica com este layout. Monte a sua página da Atividade da loja virtual. Agora, vamos ver como criar as "páginas filhas".</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="172a" name="sl">
+			   <label for="172a"></label>
+			   <img src="css2/21_02_09.png"/>
+			   <figcaption>Trecho da estrutura HTML:
+<code><pre>&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="icone"&gt;&#x1f34f;&lt;/td&gt;
+		&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="barra" rowspan="2"&gt;
+			&lt;h4&gt;Contatos&lt;/h4&gt;
+			&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
+			&lt;a href="https://www.facebook.com/naturezaProdutosC/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
+			&lt;a href="https://twitter.com/naturezaProdutos?lang=pt"&gt;&lt;img src="imagens/twitter.png" alt="Twitter" &gt;&lt;/a&gt;
+			&lt;a href="https://www.instagram.com/Naturezaprodt/?hl=pt-br"&gt;&lt;img src="imagens/instagram.png" alt="Instagram" &gt;&lt;/a&gt;
+		&lt;/td&gt;
+		&lt;td class="menu"&gt;
+			&lt;nav&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="index.htm"&gt;Produtos&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="contato.htm"&gt;Fale conosco&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="promocoes.htm"&gt;Promoções&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="sobrenos.htm"&gt;Sobre nós&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/nav&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="conteudo"&gt;
+			&lt;h4&gt;Produtos&lt;/h4&gt;
+			&lt;p&gt;Confira os preços dos nossos produtos (cada 100g).&lt;/p&gt;
+			&lt;div class="todos"&gt;
+				&lt;div class="item"&gt;
+					&lt;h4&gt;Açafrão em pó&lt;/h4&gt;
+					&lt;br&gt;&lt;img src="imagens/prod1.jpg"&gt;
+					De &lt;strike&gt;R$4,50&lt;/strike&gt;
+					&lt;br&gt;Por R$3,50
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					&lt;h4&gt;Alecrim&lt;/h4&gt;
+					&lt;br&gt;&lt;img src="imagens/prod2.jpg"&gt;
+					De &lt;strike&gt;R$6,90&lt;/strike&gt;
+					&lt;br&gt;Por R$5,70
+				&lt;/div&gt;
+				&lt;div class="item"&gt;
+					&lt;h4&gt;Alfazema&lt;/h4&gt;
+					&lt;br&gt;&lt;img src="imagens/prod3.jpg"&gt;
+					De &lt;strike&gt;R$21,10&lt;/strike&gt;
+					&lt;br&gt;Por R$17,50
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="rodape"&gt;Copyright &copy;2020&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</pre></code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="172b" name="sl">
+			   <label for="172b"></label>
+			   <figcaption>Estrutura CSS:
+<code><pre>&lt;style&gt;
+	body{font-size:25px; margin: auto; width:85%;}
+	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; padding:5px; 
+	border:none;}
+	table {width: 85%; font-family: Tahoma; border: 1px solid rgba(0,130,0,0.3); text-align: center; border-spacing: 8px;}
+	
+	.banner {height:10vh; background: url(imagens/banner.jpg); font-size: 2em; font-weight: bold; color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0,130,0);}
+	.icone {font-size: 5em; border-bottom: 1px solid rgba(0,130,0,0.3);}
+	
+	.barra {vertical-align:top; border-right: 1px solid rgba(0,130,0,0.3)}
+	.barra img {width:40%; margin:20px;}
+
+	.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; flex-direction:row; border-bottom: 1px solid rgba(0,130,0,0.3)}
+	.menu li {padding: 0px; border-right: 1px solid rgba(0,130,0,0.3); width: 150px; text-align:center;}
+	.menu li:last-child {border-right:none;}
+	.menu li a {color: rgba(0,130,0,0.7); text-decoration:none; font-weight: bold;}
+	.menu li a:hover {color:rgba(0,130,0,1); text-shadow:1px 1px 1px LightSilver;}
+	
+	.conteudo {vertical-align:top; width:88%;}
+	.todos {width:100%; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
+	.item {padding:15px; margin:10px; min-width:170px;  border:1px solid rgba(0,130,0,0.3); border-radius:7px; width:18%; font-size:0.8em;}
+	.item img{width:100%; height:10vh;}
+	.item:hover {opacity:0.8;}
+	
+	h4 {margin:0; color: rgba(0,130,0,0.7);}
+	.rodape {border-top: 1px solid rgba(0,130,0,0.3); color: rgba(0,130,0,0.7); paddding: 5px;}
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/21_02_14.png" class="fundo" style="visibility:hidden"/>
