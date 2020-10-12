@@ -1472,13 +1472,13 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="115a"></label>
 			   <figcaption>Estrutura CSS do banner da Atividade 4:
 <code><pre>
-  &lt;style type="text/css"&gt;
+&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	.icone {font-size:70px; }
-  &lt;/style&gt;</pre></code>
+&lt;/style&gt;</pre></code>
 </figcaption>
 		   </li>
 		</ul>
@@ -1549,7 +1549,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="124a"></label>
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
 <code><pre>
-  &lt;style type="text/css"&gt;
+&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1562,16 +1562,16 @@ Trecho do código HTML com galeria em formato de tabela:
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
 	.active {text-shadow:1px 1px 1px green;}
-  &lt;/style&gt;</pre></code>
+&lt;/style&gt;</pre></code>
 Estrutura HTML do menu da Atividade 4:
 <code><pre>
-	&lt;nav class="menu"&gt;
-		&lt;ul&gt;
-			&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/nav&gt;</pre></code></figcaption>
+&lt;nav class="menu"&gt;
+	&lt;ul&gt;
+		&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;</pre></code></figcaption>
 			</li>
 		</ul>
 		<img src="css1/16_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -1630,7 +1630,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <label for="131a"></label>
 			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
 <code><pre>
-  &lt;style type="text/css"&gt;
+&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1648,7 +1648,7 @@ Estrutura HTML do menu da Atividade 4:
 	img {max-width:100%;}
 	.galeria {width:20%; vertical-align:top;}
 	.principal {text-align:left;}
-  &lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -1706,7 +1706,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <label for="138a"></label>
 			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
 <code><pre>
-  &lt;style type="text/css"&gt;
+&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1727,7 +1727,7 @@ Estrutura HTML do menu da Atividade 4:
 	.contato {width:10%; vertical-align:top;}
 	.contato img {width:50%; margin:20px;}
 	.rodape {color: #606060;}
-  &lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_02_06.png" class="fundo" style="visibility:hidden"/>
@@ -1826,47 +1826,46 @@ Estrutura HTML do menu da Atividade 4:
   &lt;/style&gt;</pre></code>
 Estrutura PHP do formulário:
 <code><pre>
-	&lt;?php  
-		$name = $_POST['name'];  
-		$email = $_POST['email'];  
-		$message = $_POST['message']; 
-		$fone = $_POST['fone'];  
-		$from = 'De: Meu site';  
-		$to = 'paulohs@ufpr.br';  
-		$subject = 'Dúvida';  
-		$body = "De: $name\n E-Mail: $email\n Mensagem:\n $message";  
-		if ($_POST['submit'])  { if ($name != '' && $email != '') 
-			{ if (mail ($to, $subject, $body, $from))  
-				{ echo 'Sua mensagem foi enviada!';} 
-			else {echo 'Algo deu errado, volte e tente novamente!';} 
-			} 
-		else {echo 'Você precisa responder todas as questões!!';} 
+&lt;?php  
+	$name = $_POST['name'];  
+	$email = $_POST['email'];  
+	$message = $_POST['message']; 
+	$fone = $_POST['fone'];  
+	$from = 'De: Meu site';  
+	$to = 'paulohs@ufpr.br';  
+	$subject = 'Dúvida';  
+	$body = "De: $name\n E-Mail: $email\n Mensagem:\n $message";  
+	if ($_POST['submit'])  { if ($name != '' && $email != '') 
+		{ if (mail ($to, $subject, $body, $from))  
+			{ echo 'Sua mensagem foi enviada!';} 
+		else {echo 'Algo deu errado, volte e tente novamente!';} 
 		} 
-	?&gt;</pre></code></figcaption>
+	else {echo 'Você precisa responder todas as questões!!';} 
+	} 
+?&gt;</pre></code></figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="149a" name="sl">
-			   <label for="149a"></label>
-			   <figcaption>Estrutura CSS do formulário:
-Estrutura HTML do formulário:
+			   <input type="radio" id="149b" name="sl">
+			   <label for="149b"></label>
+			   <figcaption>Estrutura HTML do formulário:
 <code><pre>
-	&lt;div class="formulario"&gt;
-		&lt;form method="post" action="enviar.php"&gt;
-			&lt;h2&gt;Contato&lt;/h2&gt;
-			&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
-			&lt;hr&gt;
-			&lt;label for="nome"&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/label&gt;
-			&lt;input placeholder="Seu nome" name="nome" id="nome" required&gt;
-			&lt;label for="email"&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/label&gt;
-			&lt;input placeholder="Seu email" name="email" id="email" required&gt;
-			&lt;label for="fone"&gt;&lt;b&gt;Telefone&lt;/b&gt;&lt;/label&gt;
-			&lt;input type="tel" name="fone" id="fone" maxlength="9" required&gt;
-			&lt;label for="duvida"&gt;&lt;b&gt;Qual é sua dúvida?&lt;/b&gt;&lt;/label&gt;
-			&lt;textarea rows="7" name="duvida" id="duvida" placeholder="Qual é sua dúvida?"&gt;&lt;/textarea&gt;
-			&lt;hr&gt;
-			&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;
-		&lt;/form&gt;
-	&lt;/div&gt;</pre></code></figcaption>
+&lt;div class="formulario"&gt;
+	&lt;form method="post" action="enviar.php"&gt;
+		&lt;h2&gt;Contato&lt;/h2&gt;
+		&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
+		&lt;hr&gt;
+		&lt;label for="nome"&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/label&gt;
+		&lt;input placeholder="Seu nome" name="nome" id="nome" required&gt;
+		&lt;label for="email"&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/label&gt;
+		&lt;input placeholder="Seu email" name="email" id="email" required&gt;
+		&lt;label for="fone"&gt;&lt;b&gt;Telefone&lt;/b&gt;&lt;/label&gt;
+		&lt;input type="tel" name="fone" id="fone" maxlength="9" required&gt;
+		&lt;label for="duvida"&gt;&lt;b&gt;Qual é sua dúvida?&lt;/b&gt;&lt;/label&gt;
+		&lt;textarea rows="7" name="duvida" id="duvida" placeholder="Qual é sua dúvida?"&gt;&lt;/textarea&gt;
+		&lt;hr&gt;
+		&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
