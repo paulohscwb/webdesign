@@ -647,16 +647,7 @@ Código estrutural da página HTML com imagens e vídeos:
 			   <label for="053a"></label>
 			   <figcaption>
 Código estrutural da página HTML com tabelas:
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt; 
-	&lt;title&gt;IMAGENS&lt;/title&gt;
-	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords" content="HTML, TABELAS"&gt;
-	&lt;meta name="description" content="Minha primeira página"&gt;
-	&lt;meta charset="ISO8859-1"&gt;
-&lt;/head&gt; 
-&lt;body&gt;
+<pre><code>&lt;body&gt;
 	&lt;h3&gt;Minha página com tabelas&lt;/h3&gt;
 	&lt;table border="2" bordercolor="red" cellpadding="10" cellspacing="5"&gt;     
 		&lt;tr bgcolor="green"&gt; 
@@ -707,6 +698,31 @@ Código estrutural da página HTML com tabelas:
 			   <img src="basico/07_02_02.png"/>
 			   <figcaption>Este é um exemplo de 8 imagens colocadas em uma tabela de 2 linhas e 4 colunas. Experimente outros formatos. Note que não foram usadas as bordas da tabela neste exemplo. Se necessário, ajuste as alturas das imagens, caso fiquem diferentes na galeria. Salve e teste a página em um navegador.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="056a" name="sl">
+			   <label for="056a"></label>
+			   <figcaption>
+Trecho do código HTML com galeria em formato de tabela:
+<pre><code>&lt;body&gt;
+	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
+	&lt;table width="100%" cellpadding="10"&gt;     
+		&lt;tr&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt; 
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem6.png"&gt;&lt;img src="imagens/imagem6.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem7.png"&gt;&lt;img src="imagens/imagem7.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem8.png"&gt;&lt;img src="imagens/imagem8.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   </li>
 		</ul>
 		<img src="basico/07_02_00.png" class="fundo"/>
   </details>
@@ -732,6 +748,33 @@ Código estrutural da página HTML com tabelas:
 			   <img src="basico/07_03_03.png"/>
 			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <code>&lt;iframe&gt;</code> do Youtube, ou criar tags <code>&lt;video&gt;</code>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <code>&lt;td&gt;</code>.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="059a" name="sl">
+			   <label for="059a"></label>
+			   <img src="basico/07_03_03.png"/>
+			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <code>&lt;iframe&gt;</code> do Youtube, ou criar tags <code>&lt;video&gt;</code>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <code>&lt;td&gt;</code>.</figcaption>
+		   </li>
+		   
+		   <figcaption>
+Trecho do código HTML com galeria em formato de tabela:
+<pre><code>&lt;body&gt;
+	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
+	&lt;table width="100%" cellpadding="10"&gt;     
+		&lt;tr&gt;
+			&lt;td width="33%"&gt;&lt;audio src="audios/musica1.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
+			&lt;td width="33%"&gt;&lt;audio src="audios/musica2.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
+			&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
+		&lt;/tr&gt; 
+		&lt;tr&gt;
+			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/E4povfmX144" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
+		   
 		</ul>
 		<img src="basico/07_03_00.png" class="fundo"/>
   </details>
