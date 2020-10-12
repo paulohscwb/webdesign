@@ -1571,13 +1571,13 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;/style&gt;</pre></code>
 Estrutura HTML do menu da Atividade 4:
 <code><pre>
-	&lt;nav class="menu"&lt;
-		&lt;ul&lt;
-			&lt;li class="active"&lt;&lt;a href="index.htm"&lt;Vôlei&lt;/a&lt;&lt;/li&lt;
-			&lt;li&lt;&lt;a href="natacao.htm"&lt;Natação&lt;/a&lt;&lt;/li&lt;
-			&lt;li&lt;&lt;a href="basquete.htm"&lt;Basquete&lt;/a&lt;&lt;/li&lt;
-		&lt;/ul&lt;
-	&lt;/nav&lt;</pre></code></figcaption>
+	&lt;nav class="menu"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;</pre></code></figcaption>
 			</li>
 		</ul>
 		<img src="css1/16_01_00.png" class="fundo" style="visibility:hidden"/>
