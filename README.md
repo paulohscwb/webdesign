@@ -827,7 +827,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			&lt;th&gt;&lt;font color="white"&gt;MEDIDA&lt;/font&gt;&lt;/th&gt;
 			&lt;th&gt;&lt;font color="white"&gt;QUANTIDADE&lt;/font&gt;&lt;/th&gt;
 		&lt;/tr&gt; 
-		&lt;tr&gt; align="center"&gt;
+		&lt;tr align="center"&gt;
 			&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;&lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
 			&lt;td&gt;Hortaliça crua&lt;/td&gt;
 			&lt;td&gt;180g&lt;/td&gt;
@@ -867,6 +867,36 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="068"></label>
 			   <img src="basico/08_02_03.png"/>
 			   <figcaption>O mesmo acontece com a quarta célula da primeira linha: <code>colspan="2"</code>. Agora prossiga para concluir a página HTML com esta tabela.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="068a" name="sl">
+			   <label for="068a"></label>
+			   <figcaption>Trecho do código HTML com a tabela de pesquisa com fumantes:
+<pre><code>&lt;body&gt;
+	&lt;h3&gt;Pesquisa com fumantes e ex-fumantes&lt;/h3&gt;
+	&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;     
+		&lt;tr bgcolor="#ccffcc" align="center"&gt;
+			&lt;th rowspan="2"&gt;Região;&lt;/th&gt;
+			&lt;th colspan="2"&gt;Porcentagem de pessoas que &lt;br&gt;fumam diariamente&lt;/th&gt;
+			&lt;th colspan="2"&gt;Porcentagem de ex-fumantes &lt;br&gt;que fumavam diariamente&lt;/th&gt;
+		&lt;/tr&gt; 
+		&lt;tr bgcolor="#ffcccc" align="center"&gt;
+			&lt;th&gt;Homens&lt;/th&gt;
+			&lt;th&gt;Mulheres&lt;/th&gt;
+			&lt;th&gt;Homens&lt;/th&gt;
+			&lt;th&gt;Mulheres&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr align="center"&gt;
+			&lt;td&gt;Brasil&lt;/td&gt;
+			&lt;td&gt;18,9&lt;/td&gt;
+			&lt;td&gt;11,6&lt;/td&gt;
+			&lt;td&gt;16,1&lt;/td&gt;
+			&lt;td&gt;10,7&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/08_02_00.png" class="fundo"/>
