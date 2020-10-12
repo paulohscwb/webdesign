@@ -2308,7 +2308,7 @@ Estrutura PHP do formulário:
 	circle, rect, polyline {fill-opacity: 0;}
 	rect:hover, circle:hover, polyline:hover {fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.2}
 &lt;/style&gt;</pre></code>
-Estrutura HTML do mapeamento:
+Trecho da estrutura HTML do mapeamento:
 <code><pre>&lt;svg viewBox="0,0, 1334,282"&gt;
 	&lt;image href="imagens/menu_horizontal.png" x="0" y="0" height="282" width="1334"/&gt;
 	&lt;a xlink:href="home.html"&gt;	
@@ -2377,7 +2377,7 @@ Estrutura HTML do mapeamento:
 	a:hover > text, a:hover > rect {opacity: 1; transition: 0.5s;}
 	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; stroke-width: 1; font-size: 22px; opacity: 0;}
 &lt;/style&gt;</pre></code>
-Estrutura HTML do mapeamento:
+Trecho da estrutura HTML do mapeamento:
 <code><pre>&lt;svg viewBox="0,0, 1287,220"&gt;
 	&lt;image href="imagens/menu_horizontal1.png" x="0" y="0" height="203px" width="1287px"/&gt;
 		&lt;a xlink:href="home.html"&gt;
@@ -2668,6 +2668,33 @@ Estrutura HTML do mapeamento:
 			   <label for="218"></label>
 			   <img src="css2/27_03_11.png"/>
 			   <figcaption>O layout desta Atividade, com os atributos mostrados fica desta forma. Modifique atributos e escolha um dos alinhamentos de texto mostrados para fazer sua atividade.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="218a" name="sl">
+			   <label for="218a"></label>
+			   <figcaption>Estrutura CSS da Atividade 6:
+<code><pre>&lt;style type="text/css"&gt;
+	* {font-family: Calibri; font-size:18px;}
+	.Map {width:70%; position:relative;}
+	.Map img {width:100%;}
+	p {margin:0;padding:0;}
+	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden; text-align:center;}
+	.items img {width:80%;}
+
+	.items div:hover > p {visibility:visible; transition: 0.5s;}
+	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
+	.Map:hover .items {visibility:visible; transition: 0.5s;}
+	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:10px;}
+
+	a.i1 {left:calc(168*100%/800); top:calc(104*100%/500); width:calc(59*100%/800); height:calc(82*100%/500);}
+	a.i2 {left:calc(357*100%/800); top:calc(192*100%/500); width:calc(60*100%/800); height:calc(84*100%/500);}
+	a.i3 {left:calc(692*100%/800); top:calc(222*100%/500); width:calc(80*100%/800); height:calc(111*100%/500);}
+
+	a.i1 + p {top:calc((104 + 82)*100%/500); left:calc(168*100%/800);}
+	a.i2 + p {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
+	a.i3 + p {top:calc((222 + 111)*100%/500);left:calc(692*100%/800 - 20% + 80*100%/800);}
+	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; text-shadow: 1px 1px 2px black; visibility:hidden; transition: 0.5s; background: rgba(100,120,250,0.3);}
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/27_03_08.png" class="fundo" style="visibility:hidden"/>
