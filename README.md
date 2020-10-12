@@ -751,8 +751,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="059a" name="sl">
 			   <label for="059a"></label>
-			   <figcaption>
-Trecho do código HTML com galeria em formato de tabela:
+			   <figcaption>Trecho do código HTML com galeria em formato de tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
 	&lt;table width="100%" cellpadding="10"&gt;     
@@ -814,6 +813,35 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="065"></label>
 			   <img src="basico/08_01_04.png"/>
 			   <figcaption>Na linha dos cereais, podemos mesclar as três células da primeira coluna com o atributo <code>rowspan="3"</code>. As outras 2 linhas da tabela tem 3 células com os valores indicados no exemplo. Agora complete esta tabela, que vamos utilizar na próxima Atividade.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="065a" name="sl">
+			   <label for="065a"></label>
+			   <figcaption>Trecho do código HTML com a tabela de nutrientes:
+<pre><code>&lt;body&gt;
+	&lt;h3&gt;Tabela de nutrientes&lt;/h3&gt;
+	&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;     
+		&lt;tr bgcolor="red" align="center"&gt;
+			&lt;th&gt;&lt;font color="white"&gt;GRUPO&lt;/font&gt;&lt;/th&gt;
+			&lt;th&gt;&lt;font color="white"&gt;ALIMENTO&lt;/font&gt;&lt;/th&gt;
+			&lt;th&gt;&lt;font color="white"&gt;MEDIDA&lt;/font&gt;&lt;/th&gt;
+			&lt;th&gt;&lt;font color="white"&gt;QUANTIDADE&lt;/font&gt;&lt;/th&gt;
+		&lt;/tr&gt; 
+		&lt;tr&gt; align="center"&gt;
+			&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;&lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+			&lt;td&gt;Hortaliça crua&lt;/td&gt;
+			&lt;td&gt;180g&lt;/td&gt;
+			&lt;td&gt;1 pires cheio&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr align="center"&gt;
+			&lt;td&gt;Hortaliça cozida&lt;/td&gt; 
+			&lt;td&gt;140g&lt;/td&gt;
+			&lt;td&gt;1 pires cheio&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/08_01_04.png" class="fundo" style="visibility:hidden"/>
