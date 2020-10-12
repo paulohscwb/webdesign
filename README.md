@@ -1281,8 +1281,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="103a" name="sl">
 			   <label for="103a"></label>
-			   <img src="css1/12_01_08.png"/>
-			   <figcaption>Trecho do código HTML da página capadocia.htm:
+			   <figcaption>Trecho do código HTML com CSS interno:
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1317,7 +1316,6 @@ Trecho do código HTML com galeria em formato de tabela:
 &lt;/html&gt;</code></pre>
 </figcaption>
 		   </li>
-		   
 		</ul>
 		<img src="css1/12_01_00.png" class="fundo"/>
   </details>
@@ -1364,6 +1362,54 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="108"></label>
 			   <img src="css1/14_01_05.png"/>
 			   <figcaption>A tag dentro do cabeçalho <code>style</code> contém todos os atributos do CSS que vamos definir nestas páginas. Nesta primeira página <code>index.htm</code> vamos definir todos os estilos antes de criar as outras páginas do nosso site.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="108a" name="sl">
+			   <label for="108a"></label>
+			   <img src="css1/14_01_05.png"/>
+			   <figcaption>Estrutura em HTML com CSS interno da Atividade 4:
+<code><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Atividade 4&lt;/title&gt;
+  &lt;meta name="author" content="Paulo Henrique"&gt;
+  &lt;meta name="keywords" content="HTML, TABELAS, CSS"&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;style type="text/css"&gt;
+	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;table&gt;
+		&lt;tr&gt;
+			&lt;td class="icone"&gt;&#x1f3d0;&lt;/td&gt;
+			&lt;td colspan="2" class="banner"&gt;Notícias do Vôlei&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="3"&gt;
+				&lt;nav class="menu"&gt;
+					MENU
+				&lt;/nav&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;	
+		&lt;tr&gt;
+			&lt;td class="galeria"&gt;
+				GALERIA LATERAL
+			&lt;/td&gt;
+			&lt;td class="principal"&gt;
+				CONTEÚDO PRINCIPAL
+			&lt;/td&gt;
+			&lt;td class="contato"&gt;
+				CONTATO
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="rodape" colspan="3"&gt;&copy; Copyright 2020&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</figcaption>
 		   </li>
 		</ul>
 		<img src="css1/14_01_00.png" class="fundo"/>
