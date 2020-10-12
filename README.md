@@ -2711,7 +2711,7 @@ Trecho da estrutura HTML do mapeamento:
 	<img src="css3/tags001_0030.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0031.png"/>
-	<details class="sub"><summary>&#x1f4c3; Atividade 7: Menu superior</summary>
+	<details class="sub" style="box-shadow: none;"><summary>&#x1f4c3; Atividade 7: HTML do menu superior</summary>
 	<p>Crie a pasta <code>webdesign/atividade7</code> com os arquivos <code>index.htm</code> e <code>estilo.css</code>. Nesta atividade, podemos usar a estrutura que usamos nos exemplos anteriores para fazer o menu. Crie a pasta das imagens <code>webdesign/atividade7/imagens</code>. Vamos criar um site com páginas sobre filmes nesta atividade. Escolha arquivos de imagens sobre seu filme favorito. A logomarca terá efeito de animação com rotação, e deve ser uma imagem de fundo transparente e com formato redondo. <a href="css3/icone_filme.png" download>Neste link</a> pode pode baixar a imagem da logomarca usada nesta atividade.</p>
 	  <ul class="slider">
 		  <li>
@@ -2750,6 +2750,45 @@ Trecho da estrutura HTML do mapeamento:
 			   <img src="css3/30_01_06.png"/>
 			   <figcaption>Finalizando a nossa barra de menu, colocamos as imagens de compartilhamento. Os links podem ser colocados como fizemos nas Atividades 4 e 5.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="224a" name="sl">
+			   <label for="224a"></label>
+			   <figcaption>Trecho da estrutura HTML da página index.htm da Atividade 7:
+<pre><code>&lt;div class="boxSite"&gt;
+	&lt;div class="barra"&gt;
+		&lt;div class="logo"&gt;
+			&lt;img src="imagens/icone_filme.png"&gt;
+		&lt;/div&gt;
+		&lt;nav class="menu"&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="index.htm"&gt;Home&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 1&lt;/a&gt;
+				   &lt;ul class="subitens"&gt;
+					  &lt;li&gt;&lt;a href="#"&gt;Sub página 1&lt;/a&gt;&lt;/li&gt;
+					  &lt;li&gt;&lt;a href="#"&gt;Sub página 2&lt;/a&gt;&lt;/li&gt;
+					  &lt;li&gt;&lt;a href="#"&gt;Sub página 3&lt;/a&gt;&lt;/li&gt;
+					  &lt;li&gt;&lt;a href="#"&gt;Sub página 4&lt;/a&gt;&lt;/li&gt;
+				   &lt;/ul&gt;
+				&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina3.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina4.htm"&gt;Página 4&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;div class="compartilhar"&gt;
+			&lt;img src="imagens/facebook.png"&gt;
+			&lt;img src="imagens/whatsapp.png"&gt;
+			&lt;img src="imagens/twitter.png"&gt; 
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre></figcaption>
+		   </li>
+		</ul>
+		<img src="css3/30_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>		   
+  <details class="sub"><summary>&#x1f4c3; Atividade 7: HTML do menu superior</summary>
+	<p>Agora vamos ver a programação do menu superior em CSS.</p>
+	  <ul class="slider">		   
 		   <li>
 			   <input type="radio" id="225" name="sl">
 			   <label for="225"></label>
@@ -2792,8 +2831,40 @@ Trecho da estrutura HTML do mapeamento:
 			   <img src="css3/30_01_13.png"/>
 			   <figcaption>Usando os atributos mostrados, o layout da barra de menu fica desta maneira. Configure a sua barra testando as melhores medidas e cores.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="231a" name="sl">
+			   <label for="231a"></label>
+			   <figcaption>Estrutura CSS do menu superior da Atividade 7:
+<pre><code>* {font-family:Calibri; font-size:20px;}
+body {width:85%; margin:auto;}
+
+.menu {flex:3;}
+.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; flex-direction:row; flex-wrap:wrap;}
+.menu li {padding: 0; border-right: 1px solid rgba(0,0,130,0.3); min-width: 150px; text-align:center;}
+.menu li:last-child {border-right:none;}
+.menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; font-weight: bold; transition: 0.5s;}
+.menu li a:hover {color:rgba(0,0,130,0.5); text-shadow:1px 1px 1px LightSilver; transition:0.5s;}
+
+.subitens {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; 
+transition:0.3s;}
+.menu .subitens {margin-top:10px; flex-direction:column;}
+.subitens li {padding:10px; border-bottom:1px solid rgba(0,0,130,0.3); border-right:none;}
+.menu li:hover ul {opacity:1;}
+
+.barra {background:rgb(240,240,255); min-height:120px; display:flex; align-items:center;}
+
+.logo {flex:1; display:flex; align-items:center; justify-content:center; }
+.logo img {width:20%; min-width:50px;}
+
+.compartilhar {flex:1; display:flex; align-items:center; justify-content:center;}
+.compartilhar img {width:10%; margin:15px; min-width:30px;}
+
+@media screen and (max-width:800px) {
+	.barra {flex-direction:column; align-items:stretch;}
+}</code></pre></figcaption>
+		   </li>
 		</ul>
-		<img src="css3/30_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css3/30_01_07.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0031a.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
