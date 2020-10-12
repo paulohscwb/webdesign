@@ -2923,6 +2923,54 @@ transition:0.3s;}
 			   <img src="css3/32_01_08.png"/>
 			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="239a" name="sl">
+			   <label for="239a"></label>
+			   <figcaption>Trecho HTML com menu modificado para modo responsivo:
+<pre><code>&lt;input type="checkbox" id="checkbox1"&gt;
+&lt;label for="checkbox1"&gt;
+&lt;nav class="menu"&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="index.htm"&gt;Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 1&lt;/a&gt;
+		   &lt;ul class="subitens"&gt;
+			  &lt;li&gt;&lt;a href="#"&gt;Sub página 1&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href="#"&gt;Sub página 2&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href="#"&gt;Sub página 3&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href="#"&gt;Sub página 4&lt;/a&gt;&lt;/li&gt;
+		   &lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="pagina3.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="pagina4.htm"&gt;Página 4&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
+&lt;/label&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="239b" name="sl">
+			   <label for="239b"></label>
+			   <figcaption>Trecho CSS com menu modificado e animações:
+<pre><code>@media screen and (max-width:800px) {
+	.barra {flex-direction:column; align-items:stretch;}
+	.toggle {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; 
+	color:#595959; background:linear-gradient(white,rgb(240,240,255));}
+	#checkbox1:checked + label .menu li {visibility:visible;}
+	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
+	.menu ul{display:flex; flex-direction:column;}
+	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
+	.menu li {visibility:hidden; border-right:none; padding:10px;}
+	.menu li:hover .subitens {position:relative; display:flex;}
+}
+
+.barra2 {background: url(imagens/filme.png) repeat-x; height:90px; animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
+
+@keyframes AnimaBarra { 
+	0% {background-position:0% 0%;}
+	100% {background-position:100% 0%;}
+}</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css3/32_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
