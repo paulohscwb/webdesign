@@ -1366,7 +1366,6 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="108a" name="sl">
 			   <label for="108a"></label>
-			   <img src="css1/14_01_05.png"/>
 			   <figcaption>Estrutura em HTML com CSS interno da Atividade 4:
 <code><pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -1382,7 +1381,7 @@ Trecho do código HTML com galeria em formato de tabela:
 &lt;body&gt;
 	&lt;table&gt;
 		&lt;tr&gt;
-			&lt;td class="icone"&gt;&#x1f3d0;&lt;/td&gt;
+			&lt;td class="icone"&gt;&amp;#x1f3d0;&lt;/td&gt;
 			&lt;td colspan="2" class="banner"&gt;Notícias do Vôlei&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
@@ -1404,11 +1403,11 @@ Trecho do código HTML com galeria em formato de tabela:
 			&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td class="rodape" colspan="3"&gt;&copy; Copyright 2020&lt;/td&gt;
+			&lt;td class="rodape" colspan="3"&gt;&amp;copy; Copyright 2020&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</pre></code>
 </figcaption>
 		   </li>
 		</ul>
