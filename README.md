@@ -1810,6 +1810,40 @@ Estrutura HTML do menu da Atividade 4:
 			   <img src="css1/20_01_11.png"/>
 			   <figcaption>A página com contato fica com este layout. Modifique medidas, cores e crie sua página de contato. Vamos utilizá-la em próximas Atividades. </figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="149a" name="sl">
+			   <label for="149a"></label>
+			   <figcaption>Estrutura CSS do formulário:
+<code><pre>
+  &lt;style type="text/css"&gt;
+	body{width:85%; text-align:left; margin:auto; font-size:18px;}
+	label {display: block; margin-bottom: 8px; margin-top: 8px;}
+	.formulario {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
+	input, textarea {background-color: #ddd; border: none; padding: 8px; border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
+	textarea {width: 97%; max-width: 97%;}
+	#submit {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
+	#submit:hover {opacity: 1;}
+  &lt;/style&gt;</pre></code>
+Estrutura HTML do formulário:
+<code><pre>
+	&lt;div class="formulario"&gt;
+		&lt;form method="post" action="enviar.php"&gt;
+			&lt;h2&gt;Contato&lt;/h2&gt;
+			&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
+			&lt;hr&gt;
+			&lt;label for="nome"&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/label&gt;
+			&lt;input placeholder="Seu nome" name="nome" id="nome" required&gt;
+			&lt;label for="email"&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/label&gt;
+			&lt;input placeholder="Seu email" name="email" id="email" required&gt;
+			&lt;label for="fone"&gt;&lt;b&gt;Telefone&lt;/b&gt;&lt;/label&gt;
+			&lt;input type="tel" name="fone" id="fone" maxlength="9" required&gt;
+			&lt;label for="duvida"&gt;&lt;b&gt;Qual é sua dúvida?&lt;/b&gt;&lt;/label&gt;
+			&lt;textarea rows="7" name="duvida" id="duvida" placeholder="Qual é sua dúvida?"&gt;&lt;/textarea&gt;
+			&lt;hr&gt;
+			&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;
+		&lt;/form&gt;
+	&lt;/div&gt;</pre></code></figcaption>
+		   </li>
 		</ul>
 		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
