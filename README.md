@@ -119,9 +119,9 @@ Código estrutural de uma página HTML:
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
-	&lt;meta name="author"content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords"content="HTML, PÁGINA"&gt;
-	&lt;meta name="description"content="Minha primeira página"&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, PÁGINA"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
 	&lt;meta charset="UTF-8"&gt;
 &lt;/head&gt; 
 &lt;body bgcolor="blue"&gt;
@@ -251,9 +251,9 @@ Código estrutural da página HTML com listas:
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;LISTAS&lt;/title&gt;
-	&lt;meta name="author"content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords"content="HTML, LISTAS"&gt;
-	&lt;meta name="description"content="Minha primeira página"&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, LISTAS"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
 	&lt;meta charset="UTF-8"&gt;
 &lt;/head&gt; 
 &lt;body&gt;
@@ -315,18 +315,18 @@ Código estrutural da página HTML com listas:
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
-	&lt;meta name="author"content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords"content="HTML, IMAGENS"&gt;
-	&lt;meta name="description"content="Minha primeira página"&gt;
+	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
+	&lt;meta name="keywords" content="HTML, IMAGENS"&gt;
+	&lt;meta name="description" content="Minha primeira página"&gt;
 	&lt;meta charset="ISO-8859-1"&gt;
 &lt;/head&gt; 
 &lt;body&gt;
 	&lt;h3&gt;Minha página com imagens&lt;/h3&gt;
 	&lt;p&gt;Vamos testar se a imagem está alinhada com o texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem &lt;img src="imagens/figura1.jpg"width="30%"align="left"&gt; está alinhada à esquerda do texto.&lt;/p&gt;
+	&lt;p&gt;Esta imagem &lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt; está alinhada à esquerda do texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem &lt;img src="imagens/figura2.jpg"width="80%"align="middle"hspace="30"vspace="60"&gt; está alinhada no meio do texto.&lt;/p&gt; 
+	&lt;p&gt;Esta imagem &lt;img src="imagens/figura2.jpg" width="80%" align="middle" hspace="30" vspace="60"&gt; está alinhada no meio do texto.&lt;/p&gt; 
 	
 	&lt;figure align="center"&gt;     
 		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
@@ -335,13 +335,6 @@ Código estrutural da página HTML com listas:
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
 </figcaption>
-
-<!DOCTYPE html> <html> <head> <title>IMAGENS</title> <meta name="author"content="AUTOR DA PÁGINA"> <meta name="keywords"content="HTML, IMAGENS"> <meta name="description"content="Minha primeira página"> <meta charset="ISO-8859-1"> </head> <body> <h3>Minha página com imagens</h3> <p>Vamos testar se a imagem está alinhada com o texto.</p> 
-
-<p>Esta imagem <img src="imagens/figura1.jpg"width="30%"align="left"> está alinhada à esquerda do texto.</p> 
-<p>Esta imagem <img src="imagens/figura2.jpg"width="80%"align="middle"hspace="30"vspace="60"> está alinhada no meio do texto.</p> 
-
-<figure align="center">     <img src="imagens/figura3.jpg" width="100%">     <figcaption>Esta é a legenda da imagem</figcaption> </figure> </body> </html>
 		   </li>
 		</ul>
 		<img src="basico/05_01_00.png" class="fundo"/>
