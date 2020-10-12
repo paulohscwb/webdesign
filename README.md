@@ -756,9 +756,9 @@ Trecho do código HTML com galeria em formato de tabela:
 	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
 	&lt;table width="100%" cellpadding="10"&gt;     
 		&lt;tr&gt;
-			&lt;td width="33%"&gt;&lt;audio src="audios/musica1.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
-			&lt;td width="33%"&gt;&lt;audio src="audios/musica2.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
-			&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio &gt;&lt;/td&gt;
+			&lt;td width="33%"&gt;&lt;audio src="audios/musica1.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
+			&lt;td width="33%"&gt;&lt;audio src="audios/musica2.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
+			&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
 		&lt;tr&gt;
 			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/E4povfmX144" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
@@ -1170,7 +1170,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		&lt;tr align="center"&gt;
 			&lt;td&gt;
 				&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;
-				&lt;select  id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;
+				&lt;select id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;
 					&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;
 					&lt;option value="kremlin.htm"&gt;Kremlin de Moscou&lt;/option&gt;
 					&lt;option value="tajmahal.htm"&gt;Taj Mahal&lt;/option&gt;
