@@ -2786,7 +2786,7 @@ Trecho da estrutura HTML do mapeamento:
 		</ul>
 		<img src="css3/30_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>		   
-  <details class="sub"><summary>&#x1f4c3; Atividade 7: HTML do menu superior</summary>
+  <details class="sub"><summary>&#x1f4c3; CSS do menu superior</summary>
 	<p>Agora vamos ver a programação do menu superior em CSS.</p>
 	  <ul class="slider">		   
 		   <li>
