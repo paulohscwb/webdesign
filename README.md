@@ -99,6 +99,22 @@
 	<p>O layout básico de uma página HTML tem as seguintes partes: cabeçalho (<code>head</code>) e corpo da página (<code>body</code>). Vamos ver os elementos de cada parte:</p>
 	  <ul class="slider">
 		  <li>
+			   <input type="radio" id="010a" name="sl">
+			   <label for="010a"></label>
+			   <figcaption>
+			   Código estrutural de uma página HTML:
+			   <code>&lt;!DOCTYPE html&gt; 
+			   &lt;html&gt; 
+			   &lt;head&gt; 
+			   &nbsp;&nbsp;&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
+			   &lt;/head&gt; 
+			   &lt;body&gt;
+			   &nbsp;&nbsp;CONTEÚDO DA PÁGINA 
+			   &lt;/body&gt; 
+			   &lt;/html&gt;</code>
+			   </figcaption>
+		   </li>
+		  <li>
 			   <input type="radio" id="010" name="sl">
 			   <label for="010"></label>
 			   <img src="basico/03_01_01.png"/>
