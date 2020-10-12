@@ -751,11 +751,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="059a" name="sl">
 			   <label for="059a"></label>
-			   <img src="basico/07_03_03.png"/>
-			   <figcaption>Na linha de vídeos, você pode pegar as estruturas das tags <code>&lt;iframe&gt;</code> do Youtube, ou criar tags <code>&lt;video&gt;</code>. Estas tags devem estar "aninhadas" nas respectivas tags de célula <code>&lt;td&gt;</code>.</figcaption>
-		   </li>
-		   
-		   <figcaption>
+			   <figcaption>
 Trecho do código HTML com galeria em formato de tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
@@ -774,7 +770,7 @@ Trecho do código HTML com galeria em formato de tabela:
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
 </figcaption>
-		   
+		   </li> 
 		</ul>
 		<img src="basico/07_03_00.png" class="fundo"/>
   </details>
