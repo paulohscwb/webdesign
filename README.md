@@ -99,22 +99,6 @@
 	<p>O layout básico de uma página HTML tem as seguintes partes: cabeçalho (<code>head</code>) e corpo da página (<code>body</code>). Vamos ver os elementos de cada parte:</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="010a" name="sl">
-			   <label for="010a"></label>
-			   <figcaption>
-			   Código estrutural de uma página HTML:
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt; 
-  &lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
-&lt;/head&gt; 
-&lt;body&gt;
-  CONTEÚDO DA PÁGINA 
-&lt;/body&gt; 
-&lt;/html&gt;</code></pre>
-			   </figcaption>
-		   </li>
-		  <li>
 			   <input type="radio" id="010" name="sl">
 			   <label for="010"></label>
 			   <img src="basico/03_01_01.png"/>
@@ -128,6 +112,20 @@
 		   </li>
 		</ul>
 		<img src="basico/03_01_00.png" class="fundo"/>
+  </details>
+  <details class="sub"><summary>&lt;Código&gt;</summary>
+<figcaption>
+Código estrutural de uma página HTML:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+  &lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+  CONTEÚDO DA PÁGINA 
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
+</figcaption>
   </details>
   <img src="basico/tags001_0003a.png"/>
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
