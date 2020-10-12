@@ -1018,13 +1018,6 @@ Trecho do código HTML com galeria em formato de tabela:
 				&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center"&gt;
-			&lt;td&gt;Brasil&lt;/td&gt;
-			&lt;td&gt;18,9&lt;/td&gt;
-			&lt;td&gt;11,6&lt;/td&gt;
-			&lt;td&gt;16,1&lt;/td&gt;
-			&lt;td&gt;10,7&lt;/td&gt;
-		&lt;/tr&gt;
 	&lt;/table&gt;
 	&lt;/font&gt;
 &lt;/body&gt;</code></pre>
