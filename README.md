@@ -1050,6 +1050,27 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="basico/10_01_03.png"/>
 			   <figcaption>A tag do <code>&lt;iframe&gt;</code> deve conter informações de largura e altura, como fizemos nas páginas anteriores que usaram este recurso. Na próxima atividade, vamos usar a tag <code>&lt;select&gt;</code> para mudar páginas.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="084" name="sl">
+			   <label for="084"></label>
+			   <figcaption>Trecho do código HTML da galeria de imagens com Select:
+<pre><code>&lt;body align="center"&gt;
+	&lt;font face="Verdana"&gt;
+	&lt;h3&gt;Galeria de imagens com Select&lt;/h3&gt;
+		&lt;label for="imagens"&gt;Escolha uma imagem da galeria:&lt;/label&gt;
+		&lt;br&gt;
+		&lt;select id="fotos" class="midia" name="imagens" onchange="javascript:iframe1.location=this.value"&gt;
+			&lt;option value="imagens/foto1.jpg"&gt;Foto 1&lt;/option&gt;
+			&lt;option value="imagens/foto2.jpg"&gt;Foto 2&lt;/option&gt;
+			&lt;option value="imagens/foto3.jpg"&gt;Foto 3&lt;/option&gt;
+			&lt;option value="imagens/foto4.jpg"&gt;Foto 4&lt;/option&gt;
+		&lt;/select&gt;
+		&lt;br&gt;
+		&lt;iframe src="imagens/foto1.jpg" name="iframe1" width="70%" height="400px"&gt;&lt;/iframe&gt;
+	&lt;/font&gt;
+&lt;/body&gt;</code></pre>
+</figcaption>
+		   </li>
 		</ul>
 		<img src="basico/10_01_00.png" class="fundo"/>
   </details>
