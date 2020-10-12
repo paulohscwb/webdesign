@@ -228,7 +228,7 @@ h3::after {
  .slider li input:checked ~figcaption {
      opacity: 1;
 	 transform: translateY(0);
-     transition: all 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+     transition: all 1s ;
      visibility: visible;
      z-index: 10;
  }
