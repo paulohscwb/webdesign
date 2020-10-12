@@ -1467,6 +1467,20 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="css1/15_01_07.png"/>
 			   <figcaption>Com as propriedades definidas neste exemplo, nossa página fica com a parte superior desta forma. Formate o seu layout com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="115a" name="sl">
+			   <label for="115a"></label>
+			   <figcaption>Estrutura CSS do banner da Atividade 4:
+<code><pre>
+  &lt;style type="text/css"&gt;
+	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	td {background-color: rgba(204,255,204,0.9); padding:10px; }
+	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
+	.icone {font-size:70px; }
+  &lt;/style&gt;</pre></code>
+</figcaption>
+		   </li>
 		</ul>
 		<img src="css1/15_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
