@@ -992,6 +992,44 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="basico/09_02_12.png"/>
 			   <figcaption>O layout mostrado neste exemplo fica desta forma. Usando a estrutura mostrada neste exemplo, crie o site de um restaurante.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="081a" name="sl">
+			   <label for="081a"></label>
+			   <figcaption>Trecho do código HTML da estrutura da Atividade 2:
+<pre><code>&lt;body align="center"&gt;
+	&lt;font face="Calibri" size="4"&gt;
+	&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;     
+		&lt;tr&gt;
+			&lt;td width="100%" height="170" background="imagens/banner.jpg" colspan="2"&gt;
+				&lt;h1&gt;&lt;font size="7"&gt;Meu Restaurante&lt;/font&gt;&lt;/h1&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt; 
+		&lt;tr align="center" bgcolor="#fff3e6"&gt;
+			&lt;td width="70%"&gt;
+				&lt;p&gt;Aproveite a comodidade de fazer o seu pedido através do nosso site!&lt;/p&gt;
+				&lt;p&gt;É fácil e rápido. Os melhores pratos para você desfrutar no conforto de sua casa!&lt;/p&gt;
+				&lt;p align="center"&gt;&lt;img src="imagens/principal.jpg" width="70%"&gt;&lt;/p&gt;
+				&lt;p&gt;Usamos ingredientes selecionados. Há mais de 40 anos oferecemos opções de qualidade.&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="30%" valign="top"&gt;
+				&lt;h4&gt;Conheça nossas promoções&lt;/h4&gt;
+				&lt;p align="center"&gt;&lt;img src="imagens/promocao.jpg" width="100%"&gt;&lt;/p&gt;
+				&lt;h4&gt;Tabela de Nutrientes&lt;/h4&gt;
+				&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr align="center"&gt;
+			&lt;td&gt;Brasil&lt;/td&gt;
+			&lt;td&gt;18,9&lt;/td&gt;
+			&lt;td&gt;11,6&lt;/td&gt;
+			&lt;td&gt;16,1&lt;/td&gt;
+			&lt;td&gt;10,7&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;/font&gt;
+&lt;/body&gt;</code></pre>
+</figcaption>
+		   </li>	   
 		</ul>
 		<img src="basico/09_02_04.png" class="fundo" style="visibility:hidden"/>
   </details>
