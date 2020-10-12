@@ -1018,6 +1018,11 @@ Trecho do código HTML com galeria em formato de tabela:
 				&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
+		&lt;tr align="center" bgcolor="#fff3e6"&gt;
+			&lt;td colspan="2"&gt;
+				&lt;p align="center"&gt;Rodapé&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt; 
 	&lt;/table&gt;
 	&lt;/font&gt;
 &lt;/body&gt;</code></pre>
@@ -1051,8 +1056,8 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>A tag do <code>&lt;iframe&gt;</code> deve conter informações de largura e altura, como fizemos nas páginas anteriores que usaram este recurso. Na próxima atividade, vamos usar a tag <code>&lt;select&gt;</code> para mudar páginas.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="084" name="sl">
-			   <label for="084"></label>
+			   <input type="radio" id="084a" name="sl">
+			   <label for="084a"></label>
 			   <figcaption>Trecho do código HTML da galeria de imagens com Select:
 <pre><code>&lt;body align="center"&gt;
 	&lt;font face="Verdana"&gt;
@@ -1149,6 +1154,63 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="095"></label>
 			   <img src="basico/10_02_13.png"/>
 			   <figcaption>O layout mostrado neste exemplo fica desta forma. Lembre-se de cuidar com os nomes das páginas, para ver se são iguais aos nomes colocados na página <code>index.htm</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="095a" name="sl">
+			   <label for="095a"></label>
+			   <figcaption>Trecho do código HTML da página index.htm:
+<pre><code>&lt;body align="center"&gt;
+	&lt;font face="Calibri"&gt;
+	&lt;table width="100%"&gt;
+		&lt;tr bgcolor="#e2efec"&gt;
+			&lt;td width="100%"&gt;
+				&lt;h1 align="center"&gt;Meus pontos turísticos favoritos&lt;/h1&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr align="center"&gt;
+			&lt;td&gt;
+				&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;
+				&lt;select  id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;
+					&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;
+					&lt;option value="kremlin.htm"&gt;Kremlin de Moscou&lt;/option&gt;
+					&lt;option value="tajmahal.htm"&gt;Taj Mahal&lt;/option&gt;
+					&lt;option value="egito.htm"&gt;Egito&lt;/option&gt;
+					&lt;option value="colosseum.htm"&gt;Colosseum&lt;/option&gt;
+				&lt;/select&gt;
+				&lt;/font&gt;
+				&lt;iframe src="capadocia.htm" name="iframe1" width="100%" style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;/font&gt;
+&lt;/body&gt;</code></pre>
+Trecho do código HTML da página capadocia.htm:
+<pre><code>&lt;body align="center"&gt;
+	&lt;font face="Calibri"&gt;
+	&lt;table width="100%" cellpadding="15" cellspacing="10"&gt;
+		&lt;tr bgcolor="#eff6f4"&gt;
+			&lt;td width="65%"&gt;
+				&lt;h3&gt;Capadócia&lt;/h3&gt;
+				&lt;p&gt;&lt;b&gt;A Capadócia&lt;/b&gt; é uma região histórica e turística da Anatólia central...&lt;/p&gt;
+				&lt;p align="center"&gt;&lt;img src="imagens/capadocia.jpg" width="75%"&gt;&lt;/p&gt;
+				&lt;h3&gt;Geografia e Geologia&lt;/h3&gt;
+				&lt;p&gt;Toda a região se encontra num planalto com aproximadamente 1.000 m...&lt;/p&gt;
+				&lt;p&gt;A paisagem única da região é o resultado da...&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="35%" valign="top"&gt;
+				&lt;h3&gt;Localização&lt;/h3&gt;
+				&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr align="center" bgcolor="#eff6f4"&gt;
+			&lt;td colspan="2"&gt;
+				Rodapé
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;/font&gt;
+&lt;/body&gt;</code></pre>
+</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/10_02_06.png" class="fundo" style="visibility:hidden"/>
