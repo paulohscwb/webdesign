@@ -2249,6 +2249,20 @@ Estrutura PHP do formulário:
 			   <img src="css2/23_01_04.png"/>
 			   <figcaption>Outras informações que precisamos inserir na tag de cada shape é do link e seu título: <code>href</code> e <code>title</code>. Crie o mapeamento, salve a página e teste o layout. Vamos fazer outros mapeamentos a seguir.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="183a" name="sl">
+			   <label for="183a"></label>
+			   <figcaption>Estrutura HTML do mapeamento:
+<code><pre>&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;
+&lt;map name="Map" id="Map"&gt;
+	&lt;area shape="circle" coords="104,104, 104" href="home.html" title="HOME" /&gt;
+	&lt;area shape="circle" coords="326,104, 104" href="dicas.html" title="DICAS" /&gt;
+	&lt;area shape="circle" coords="550,104, 104" href="hospedagem.html" title="HOSPEDAGEM" /&gt;
+	&lt;area shape="circle" coords="777,104, 104" href="galeria.html" title="GALERIA" /&gt;
+	&lt;area shape="circle" coords="1003,104, 104" href="mapas.html" title="MAPAS" /&gt;
+	&lt;area shape="circle" coords="1226,104, 104" href="contao.html" title="CONTATO" /&gt;
+&lt;/map&gt;</pre></code></figcaption>
+		   </li>
 		</ul>
 		<img src="css2/23_01_00.png" class="fundo"/>
   </details>
@@ -2283,6 +2297,30 @@ Estrutura PHP do formulário:
 			   <label for="187"></label>
 			   <img src="css2/25_01_04.png"/>
 			   <figcaption>Quando o visitante passar o cursor do mouse sobre os mapeamentos, usamos o atributo <code>hover</code> de cada shape para definir linhas e opacidade diferente de 0. Teste o layout e os mapeamentos. Experimente diminuir o tamanho da tela do navegador para testar se o site fica responsivo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="187a" name="sl">
+			   <label for="187a"></label>
+			   <figcaption>Estrutura CSS do mapeamento:
+<code><pre>&lt;style type="text/css"&gt;
+	body {background:rgba(255,255,255); width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
+	svg {width:100%;}
+	circle, rect, polyline {fill-opacity: 0;}
+	rect:hover, circle:hover, polyline:hover {fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.2}
+&lt;/style&gt;</pre></code>
+Estrutura HTML do mapeamento:
+<code><pre>&lt;svg viewBox="0,0, 1334,282"&gt;
+	&lt;image href="imagens/menu_horizontal.png" x="0" y="0" height="282" width="1334"/&gt;
+	&lt;a xlink:href="home.html"&gt;	
+		&lt;circle cx="104" cy="104" r="104"/&gt;
+	&lt;/a&gt;
+	&lt;a xlink:href="dicas.html"&gt;	
+		&lt;rect x="230" y="0" width="208" height="208"/&gt;
+	&lt;/a&gt;
+	&lt;a xlink:href="dicas.html"&gt;	
+		&lt;polyline points="506,20, 456,108, 506,195, 605,195, 654,108, 605,20"/&gt;
+	&lt;/a&gt;
+&lt;/svg&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/25_01_00.png" class="fundo"/>
@@ -2326,6 +2364,35 @@ Estrutura PHP do formulário:
 			   <label for="193"></label>
 			   <img src="css2/25_02_06.png"/>
 			   <figcaption>O layout do menu fica desta maneira. Configure outros valores e faça teste de layout no menu de sua página para usarmos em outras páginas a seguir.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="193a" name="sl">
+			   <label for="193a"></label>
+			   <figcaption>Estrutura CSS do mapeamento:
+<code><pre>&lt;style type="text/css"&gt;
+	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
+	svg {width:100%;}
+	rect {width: 193px; height: 190px; rx:40px; fill: blue; stroke: pink; stroke-width: 5; fill-opacity: 0.1; stroke-opacity: 0.2;}
+	rect, text {opacity:0;}
+	a:hover > text, a:hover > rect {opacity: 1; transition: 0.5s;}
+	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; stroke-width: 1; font-size: 22px; opacity: 0;}
+&lt;/style&gt;</pre></code>
+Estrutura HTML do mapeamento:
+<code><pre>&lt;svg viewBox="0,0, 1287,220"&gt;
+	&lt;image href="imagens/menu_horizontal1.png" x="0" y="0" height="203px" width="1287px"/&gt;
+		&lt;a xlink:href="home.html"&gt;
+			&lt;text x="8" y="215"&gt;HOME&lt;/text&gt;
+			&lt;rect x="8" y="0"/&gt;
+		&lt;/a&gt;
+		&lt;a xlink:href="dicas.html"&gt;	
+			&lt;text x="223" y="215"&gt;DICAS&lt;/text&gt;
+			&lt;rect x="223" y="0"/&gt;
+		&lt;/a&gt;
+		&lt;a xlink:href="hospedagem.html"&gt;	
+			&lt;text x="440" y="215"&gt;HOSPEDAGEM&lt;/text&gt;
+			&lt;rect x="440" y="0"/&gt;
+		&lt;/a&gt;
+&lt;/svg&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/25_02_00.png" class="fundo" style="visibility:hidden"/>
@@ -2380,6 +2447,48 @@ Estrutura PHP do formulário:
 			   <img src="css2/27_01_07.png"/>
 			   <figcaption>Para finalizar, os textos aparecem na posição <code>top:95%;</code>, e devemos deixá-los escondidos com <code>visibility:hidden;</code>. Colocando-se o <code>transition:05s;</code>, ocorre uma suavidade na mudança do estágio invisível para visível.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="200a" name="sl">
+			   <label for="200a"></label>
+			   <figcaption>Estrutura HTML do mapeamento:
+<code><pre>&lt;div class="Map"&gt;
+	&lt;img src="imagens/menu_horizontal1.png"&gt;
+	&lt;div class="items"&gt;
+		&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="DICAS"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;DICAS&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="HOSPEDAGEM"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;HOSPEDAGEM&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="GALERIA"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;GALERIA&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="MAPAS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;MAPAS&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="CONTATO"&gt;&lt;a href="contato.html" class="i6"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre></code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="200b" name="sl">
+			   <label for="200b"></label>
+			   <figcaption>Estrutura CSS do mapeamento:
+<code><pre>&lt;style type="text/css"&gt;
+	* {font-family: Calibri; font-size:14pt;}
+	.Map {width:100%; position:relative;}
+	.Map img {width:100%;}
+	p {margin:0; padding:0;}
+	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
+
+	.items div:hover > p {visibility:visible; transition: 0.5s;}
+	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
+	.Map:hover .items {visibility:visible; transition: 0.5s;}
+	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:10px;}
+
+	.Map a {width:calc(100%/6); height:95%; top:0%;}
+	a.i1, a.i1 + p {left:0%;}
+	a.i2, a.i2 + p {left:calc(100%/6);}
+	a.i3, a.i3 + p {left:calc(2*100%/6);}
+	a.i4, a.i4 + p {left:calc(3*100%/6);}
+	a.i5, a.i5 + p {left:calc(4*100%/6);}
+	a.i6, a.i6 + p {left:calc(5*100%/6);}
+	.Map a + p {position:absolute; top:95%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
+&lt;/style&gt;</pre></code></figcaption>
+		   </li>
 		</ul>
 		<img src="css2/27_01_07.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -2428,6 +2537,52 @@ Estrutura PHP do formulário:
 			   <label for="207"></label>
 			   <img src="css2/27_02_07.png"/>
 			   <figcaption>Para finalizar, os textos aparecem na posição <code>left:6%;</code>, e devemos deixá-los escondidos com <code>visibility:hidden;</code>. A posição do primeiro item deste menu fica em <code>top:calc(80%/5);</code>, o segundo em <code>top:calc(180%/5);</code> e assim sucessivamente. Estas medidas seriam relativas a 100% do primeiro item se não existissem espaçamentos entre os itens do menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="207a" name="sl">
+			   <label for="207a"></label>
+			   <figcaption>Estrutura HTML do mapeamento:
+<code><pre>&lt;div class="Map"&gt;
+	&lt;img src="imagens/menu_lateral.png"&gt;
+		&lt;div class="items"&gt;
+			&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
+			&lt;div title="TWITTER"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;TWITTER&lt;/p&gt;&lt;/div&gt;
+			&lt;div title="LINKEDIN"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;LINKEDIN&lt;/p&gt;&lt;/div&gt;
+			&lt;div title="CONTATO"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
+			&lt;div title="PEDIDOS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;PEDIDOS&lt;/p&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;&lt;</pre></code></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="207b" name="sl">
+			   <label for="207b"></label>
+			   <figcaption>Estrutura CSS do mapeamento:
+<code><pre>&lt;style type="text/css"&gt;
+	* {font-family: Calibri; font-size:14pt;}
+	.Map {width:8%; position:relative;}
+	.Map img {width:100%;}
+	p {margin:0;padding:0;}
+	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
+
+	.items div:hover > p {visibility:visible; transition: 0.5s;}
+	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
+	.Map:hover .items {visibility:visible; transition: 0.5s;}
+	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:50%;}
+
+	.Map a {width:85%; height:calc(80%/5); left:6%;}
+	a.i1 {top:0%;}
+	a.i2 {top:calc(99%/5);}
+	a.i3 {top:calc(2*99%/5);}
+	a.i4 {top:calc(3*99%/5);}
+	a.i5 {top:calc(4*99%/5);}
+
+	a.i1 + p {top:calc(80%/5);}
+	a.i2 + p {top:calc(180%/5);}
+	a.i3 + p {top:calc(280%/5);}
+	a.i4 + p {top:calc(380%/5);}
+	a.i5 + p {top:calc(480%/5);}
+	.Map a + p {position:absolute; left:6%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
+&lt;/style&gt;</pre></code></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/27_02_07.png" class="fundo" style="visibility:hidden"/>
