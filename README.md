@@ -103,15 +103,15 @@
 			   <label for="010a"></label>
 			   <figcaption>
 			   Código estrutural de uma página HTML:
-			   <pre><code>&lt;!DOCTYPE html&gt; 
-			   &lt;html&gt; 
-			   &lt;head&gt; 
-			      &lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
-			   &lt;/head&gt; 
-			   &lt;body&gt;
-			      CONTEÚDO DA PÁGINA 
-			   &lt;/body&gt; 
-			   &lt;/html&gt;</code></pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt; 
+  &lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+  CONTEÚDO DA PÁGINA 
+&lt;/body&gt; 
+&lt;/html&gt;</code></pre>
 			   </figcaption>
 		   </li>
 		  <li>
