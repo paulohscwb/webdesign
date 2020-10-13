@@ -311,7 +311,7 @@ Código estrutural da página HTML com listas:
 			   <input type="radio" id="027a" name="sl">
 			   <label for="027a"></label>
 			   <figcaption>
-Código estrutural da página HTML com listas:
+Código estrutural da página HTML com imagens:
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
@@ -1573,7 +1573,8 @@ Estrutura HTML do menu da Atividade 4:
 		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
-&lt;/nav&gt;</pre></code></figcaption>
+&lt;/nav&gt;</pre></code>
+</figcaption>
 			</li>
 		</ul>
 		<img src="css1/16_01_00.png" class="fundo" style="visibility:hidden"/>
