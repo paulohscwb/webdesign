@@ -3635,7 +3635,6 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 		   <li>
 			   <input type="radio" id="295b" name="sl">
 			   <label for="295b"></label>
-			   <img src="css4/39_01_11.png"/>
 			   <figcaption>Estrutura CSS da Atividade 9:
 <pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
 body {width:100%; margin:auto;}
