@@ -4148,8 +4148,8 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 	<p>Vamos desenhar nuvens com arcos nos dois banners deste exercício. Escolha imagens para colocar nos fundos destas tags: <code>imagens/banner6.jpg</code> e <code>imagens/banner7.jpg</code>.</p>
 	  <ul class="slider">
 		  <li>
-			   <input type="radio" id="342a" name="sl">
-			   <label for="342a"></label>
+			   <input type="radio" id="342b" name="sl">
+			   <label for="342b"></label>
 			   <img src="css4/46_01_00.png"/>
 			   <figcaption>Crie uma tag <code>class="barra"</code> e vamos desenhar a nuvem na tag <code>class="logo"</code>. O desenho da nuvem pode ser feito com apenas um caminho <code>&lt;path&gt;</code>, pois temos os raios e as coordenadas relativas das extremidades de cada arco.</figcaption>
 		   </li>
