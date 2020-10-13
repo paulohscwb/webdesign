@@ -3474,11 +3474,10 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 <pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
 body {width:100%; margin:auto;}
 .boxSite {box-shadow:0 0 8px black;}
-.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
-background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s; justify-content:center; top:0; left:0; overflow:auto;}
+.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s; justify-content:center; top:0; left:0; overflow:auto;}
 .banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
 .descricao {font-size:60px; color:white; text-shadow:1px 1px 3px black;}
-.barra {display:flex; align-items:center; position:absolute; top:0; width:100%; z-index:10; align-items:flex-start; }
+.barra {display:flex; align-items:center; position:absolute; top:0; width:100%; z-index:10; align-items:flex-start; } 
 label {padding:15px; flex:3;}
 .menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
@@ -3494,8 +3493,7 @@ label {padding:15px; flex:3;}
 #checkbox1, .toggle {display:none;}
 @media screen and (max-width:800px) {
 	.barra {flex-direction:column; align-items:stretch;}
-	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; 
-	color:yellow;}
+	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:yellow;}
 	#checkbox1:checked + label .menu li {visibility:visible;}
 	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
 	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
