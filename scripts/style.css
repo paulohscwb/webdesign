@@ -4,7 +4,7 @@ code{
 	background: honeydew; 
 }
 
-img{image-rendering: auto;}
+img{image-rendering: crisp-edges;}
 
 .topo::after {
     content: "";
