@@ -4178,6 +4178,23 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <figcaption>O banner com desenho da primeira nuvem fica com esse layout.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="346a" name="sl">
+			   <label for="346a"></label>
+			   <figcaption>Estrutura SVG do 6&ordm; banner:
+<pre><code>&lt;div class="logo"&gt;
+	&lt;svg viewBox="0 0 80 80" id="nuvem1"&gt;
+		&lt;radialGradient id="efeito12" cx="50%" cy="50%" r="100%"&gt;
+			&lt;stop offset="0%" stop-color="rgba(256,256,256,0.4)"/&gt;
+			&lt;stop offset="100%" stop-color="rgba(256,256,256,0.9)""/&gt;
+		&lt;/radialGradient&gt;
+		&lt;path d="M10,15 a11,11 0 0,1 20,-5 a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 a9,9 0 0,1 -15,10 a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" stroke="rgba(200,200,200,0.7)" stroke-width="0.5" fill="url(#efeito12)"/&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="banner"&gt;
+	Aleatório
+&lt;/div&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="347" name="sl">
 			   <label for="347"></label>
 			   <img src="css4/46_01_05.png"/>
@@ -4200,6 +4217,19 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <label for="350"></label>
 			   <img src="css4/46_01_08.png"/>
 			   <figcaption>O desenho da nuvem no layout de banner fica desta forma.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="350a" name="sl">
+			   <label for="350a"></label>
+			   <figcaption>Estrutura SVG do 7&ordm; banner:
+<pre><code>&lt;div class="logo"&gt;
+	&lt;svg viewBox="0 0 25 20" id="nuvem2"&gt;
+		&lt;path d="M3,15 a2,2 0 0,1 0,-4 a2,2 0 0,1 3,-3 a4,4 0 0,1 10,-1 a3,3 0 0,1 4,4 a2,2 0 0,1 0,4z" stroke="rgba(200,200,200,0.7)" stroke-width="0.1" fill="url(#efeito12)"/&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="banner"&gt;
+	Aleatório
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/46_01_00.png" class="fundo" style="visibility:hidden"/>
