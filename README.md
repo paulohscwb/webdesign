@@ -3225,6 +3225,40 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 		   <li>
 			   <input type="radio" id="263a" name="sl">
 			   <label for="263a"></label>
+			   <figcaption>Trecho CSS com atributos de animações:
+<pre><code>.box img:hover {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow: 0 0 15px white;}
+
+.descricao img {animation:AnimaDescr 7s linear infinite alternate;}
+
+@keyframes AnimaDescr { 
+   0% {opacity:0.25; transform:rotate(-30deg);}
+   25% {opacity:0.5; transform:scale(0.92);}
+   50% {opacity:0.7; transform:scale(0.95);}
+   75% {opacity:0.9; transform:scale(1.1);}
+   100% {opacity:1; transform:scale(-1,1);}
+}
+
+@keyframes AnimaLogo { 
+   0% {transform:rotate(0deg);}
+   100% {transform:rotate(360deg);}
+}
+
+@media screen and (max-width:800px) {
+	.barra, .barra3 {flex-direction:column; align-items:stretch; text-align:center;}
+	.lateral {flex-direction:row; width:100%;}
+	.conteudo {flex-direction:row; width:100%;}
+	.lateral img {width:15vw; height:30vh;}
+	.conteudo img {width:40vw; height:25vh;}
+	.box img:hover {transform:scale(1.2);}
+	.lateral {border-left: none;}
+	.descricao img {width:50%;}
+	.banner {min-height:300px;}
+	body {width:95%;}
+}</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="263a" name="sl">
+			   <label for="263a"></label>
 			   <img src="css3/37_01_09.png"/>
 			   <figcaption>Podemos modificar o efeito ao passar o cursor do mouse sobre cada imagem da galeria. Um efeito interessante é o que muda de imagem ao passar o cursor sobre a foto.</figcaption>
 		   </li>
