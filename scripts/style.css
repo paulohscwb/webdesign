@@ -2,7 +2,7 @@ code{
 	font-weight: bold;
 }
 
-pre code{font-weight: normal; font-size: 105%; color: rgb(0,112,255); background-color: #F0FFF0;}
+pre{font-weight: normal; font-family: Consolas, Courier; color: rgb(0,112,255); background-color: #F0FFF0;}
 
 /*img{image-rendering: crisp-edges;}*/
 

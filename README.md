@@ -116,7 +116,7 @@
 			   <label for="011a"></label>
 <figcaption>
 Código estrutural de uma página HTML:
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
@@ -128,7 +128,7 @@ Código estrutural de uma página HTML:
 &lt;body bgcolor="blue"&gt;
 	CONTEÚDO DA PÁGINA 
 &lt;/body&gt; 
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</pre>
 </figcaption>
 		   </li>
 		</ul>
