@@ -1369,7 +1369,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="108a" name="sl">
 			   <label for="108a"></label>
 			   <figcaption>Estrutura em HTML com CSS interno da Atividade 4:
-<code><pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;Atividade 4&lt;/title&gt;
@@ -1409,7 +1409,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre></code>
+&lt;/html&gt;</code></pre>
 </figcaption>
 		   </li>
 		</ul>
@@ -1473,14 +1473,14 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="115a" name="sl">
 			   <label for="115a"></label>
 			   <figcaption>Estrutura CSS do banner da Atividade 4:
-<code><pre>
+<pre><code>
 &lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	.icone {font-size:70px; }
-&lt;/style&gt;</pre></code>
+&lt;/style&gt;</code></pre>
 </figcaption>
 		   </li>
 		</ul>
@@ -1550,7 +1550,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="124a" name="sl">
 			   <label for="124a"></label>
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
-<code><pre>
+<pre><code>
 &lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1564,16 +1564,16 @@ Trecho do código HTML com galeria em formato de tabela:
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
 	.active {text-shadow:1px 1px 1px green;}
-&lt;/style&gt;</pre></code>
+&lt;/style&gt;</code></pre>
 Estrutura HTML do menu da Atividade 4:
-<code><pre>
+<pre><code>
 &lt;nav class="menu"&gt;
 	&lt;ul&gt;
 		&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
-&lt;/nav&gt;</pre></code>
+&lt;/nav&gt;</code></pre>
 </figcaption>
 			</li>
 		</ul>
@@ -1632,7 +1632,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="131a" name="sl">
 			   <label for="131a"></label>
 			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
-<code><pre>
+<pre><code>
 &lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1651,7 +1651,7 @@ Estrutura HTML do menu da Atividade 4:
 	img {max-width:100%;}
 	.galeria {width:20%; vertical-align:top;}
 	.principal {text-align:left;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -1708,7 +1708,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="138b" name="sl">
 			   <label for="138b"></label>
 			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
-<code><pre>
+<pre><code>
 	&lt;td class="contato"&gt;
 		&lt;h3&gt;Contatos&lt;/h3&gt;
 		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
@@ -1719,13 +1719,13 @@ Estrutura HTML do menu da Atividade 4:
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td class="rodape" colspan="3"&gt;&amp;copy; Copyright 2020&lt;/td&gt;
-&lt;/tr&gt;</pre></code></figcaption>
+&lt;/tr&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="138a" name="sl">
 			   <label for="138a"></label>
 			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
-<code><pre>
+<pre><code>
 &lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1747,7 +1747,7 @@ Estrutura HTML do menu da Atividade 4:
 	.contato {width:10%; vertical-align:top;}
 	.contato img {width:50%; margin:20px;}
 	.rodape {color: #606060;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/18_02_06.png" class="fundo" style="visibility:hidden"/>
@@ -1834,7 +1834,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="149a" name="sl">
 			   <label for="149a"></label>
 			   <figcaption>Estrutura CSS do formulário:
-<code><pre>
+<pre><code>
   &lt;style type="text/css"&gt;
 	body{width:85%; text-align:left; margin:auto; font-size:18px;}
 	label {display: block; margin-bottom: 8px; margin-top: 8px;}
@@ -1843,9 +1843,9 @@ Estrutura HTML do menu da Atividade 4:
 	textarea {width: 97%; max-width: 97%;}
 	#submit {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
-  &lt;/style&gt;</pre></code>
+  &lt;/style&gt;</code></pre>
 Estrutura PHP do formulário:
-<code><pre>
+<pre><code>
 &lt;?php  
 	$name = $_POST['name'];  
 	$email = $_POST['email'];  
@@ -1862,13 +1862,13 @@ Estrutura PHP do formulário:
 		} 
 	else {echo 'Você precisa responder todas as questões!!';} 
 	} 
-?&gt;</pre></code></figcaption>
+?&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="149b" name="sl">
 			   <label for="149b"></label>
 			   <figcaption>Estrutura HTML do formulário:
-<code><pre>
+<pre><code>
 &lt;div class="formulario"&gt;
 	&lt;form method="post" action="enviar.php"&gt;
 		&lt;h2&gt;Contato&lt;/h2&gt;
@@ -1885,7 +1885,7 @@ Estrutura PHP do formulário:
 		&lt;hr&gt;
 		&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;
 	&lt;/form&gt;
-&lt;/div&gt;</pre></code></figcaption>
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css1/20_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -1975,7 +1975,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="162a" name="sl">
 			   <label for="162a"></label>
 			   <figcaption>Trecho da estrutura HTML:
-<code><pre>&lt;table&gt;
+<pre><code>&lt;table&gt;
 	&lt;tr&gt;
 		&lt;td class="barra"&gt;
 			Barra lateral
@@ -2005,13 +2005,13 @@ Estrutura PHP do formulário:
 			&lt;/div&gt;
 		&lt;/td&gt;
 	&lt;/tr&gt;
-&lt;/table&gt;</pre></code></figcaption>
+&lt;/table&gt;</code></pre></figcaption>
 		   </li>
 			<li>
 			   <input type="radio" id="162b" name="sl">
 			   <label for="162b"></label>
 			   <figcaption>Estrutura CSS:
-<code><pre>&lt;style&gt;
+<pre><code>&lt;style&gt;
 	body{font-size:25px;}
 	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; border:5px solid white;}
 	table {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
@@ -2019,7 +2019,7 @@ Estrutura PHP do formulário:
 	.conteudo {vertical-align:center; width:70%;}
 	.todos {width:100%; background:#ccffcc; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
 	.item {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;  border:1px solid grey; border-radius:7px;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/21_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -2094,7 +2094,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="172a" name="sl">
 			   <label for="172a"></label>
 			   <figcaption>Trecho da estrutura HTML:
-<code><pre>&lt;table&gt;
+<pre><code>&lt;table&gt;
 	&lt;tr&gt;
 		&lt;td class="icone"&gt;&amp;#x1f34f;&lt;/td&gt;
 		&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;
@@ -2141,13 +2141,13 @@ Estrutura PHP do formulário:
 	&lt;tr&gt;
 		&lt;td colspan="2" class="rodape"&gt;Copyright &amp;copy;2020&lt;/td&gt;
 	&lt;/tr&gt;
-&lt;/table&gt;</pre></code></figcaption>
+&lt;/table&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="172b" name="sl">
 			   <label for="172b"></label>
 			   <figcaption>Estrutura CSS:
-<code><pre>&lt;style&gt;
+<pre><code>&lt;style&gt;
 	body{font-size:25px; margin: auto; width:85%;}
 	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; padding:5px; border:none;}
 	table {width: 85%; font-family: Tahoma; border: 1px solid rgba(0,130,0,0.3); text-align: center; border-spacing: 8px;}
@@ -2172,7 +2172,7 @@ Estrutura PHP do formulário:
 	
 	h4 {margin:0; color: rgba(0,130,0,0.7);}
 	.rodape {border-top: 1px solid rgba(0,130,0,0.3); color: rgba(0,130,0,0.7); paddding: 5px;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/21_02_14.png" class="fundo" style="visibility:hidden"/>
@@ -2253,7 +2253,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="183a" name="sl">
 			   <label for="183a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
-<code><pre>&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;
+<pre><code>&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;
 &lt;map name="Map" id="Map"&gt;
 	&lt;area shape="circle" coords="104,104, 104" href="home.html" title="HOME" /&gt;
 	&lt;area shape="circle" coords="326,104, 104" href="dicas.html" title="DICAS" /&gt;
@@ -2261,7 +2261,7 @@ Estrutura PHP do formulário:
 	&lt;area shape="circle" coords="777,104, 104" href="galeria.html" title="GALERIA" /&gt;
 	&lt;area shape="circle" coords="1003,104, 104" href="mapas.html" title="MAPAS" /&gt;
 	&lt;area shape="circle" coords="1226,104, 104" href="contao.html" title="CONTATO" /&gt;
-&lt;/map&gt;</pre></code></figcaption>
+&lt;/map&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/23_01_00.png" class="fundo"/>
@@ -2302,14 +2302,14 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="187a" name="sl">
 			   <label for="187a"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
-<code><pre>&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {background:rgba(255,255,255); width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
 	circle, rect, polyline {fill-opacity: 0;}
 	rect:hover, circle:hover, polyline:hover {fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.2}
-&lt;/style&gt;</pre></code>
+&lt;/style&gt;</code></pre>
 Trecho da estrutura HTML do mapeamento:
-<code><pre>&lt;svg viewBox="0,0, 1334,282"&gt;
+<pre><code>&lt;svg viewBox="0,0, 1334,282"&gt;
 	&lt;image href="imagens/menu_horizontal.png" x="0" y="0" height="282" width="1334"/&gt;
 	&lt;a xlink:href="home.html"&gt;	
 		&lt;circle cx="104" cy="104" r="104"/&gt;
@@ -2320,7 +2320,7 @@ Trecho da estrutura HTML do mapeamento:
 	&lt;a xlink:href="dicas.html"&gt;	
 		&lt;polyline points="506,20, 456,108, 506,195, 605,195, 654,108, 605,20"/&gt;
 	&lt;/a&gt;
-&lt;/svg&gt;</pre></code></figcaption>
+&lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/25_01_00.png" class="fundo"/>
@@ -2369,16 +2369,16 @@ Trecho da estrutura HTML do mapeamento:
 			   <input type="radio" id="193a" name="sl">
 			   <label for="193a"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
-<code><pre>&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
 	rect {width: 193px; height: 190px; rx:40px; fill: blue; stroke: pink; stroke-width: 5; fill-opacity: 0.1; stroke-opacity: 0.2;}
 	rect, text {opacity:0;}
 	a:hover > text, a:hover > rect {opacity: 1; transition: 0.5s;}
 	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; stroke-width: 1; font-size: 22px; opacity: 0;}
-&lt;/style&gt;</pre></code>
+&lt;/style&gt;</code></pre>
 Trecho da estrutura HTML do mapeamento:
-<code><pre>&lt;svg viewBox="0,0, 1287,220"&gt;
+<pre><code>&lt;svg viewBox="0,0, 1287,220"&gt;
 	&lt;image href="imagens/menu_horizontal1.png" x="0" y="0" height="203px" width="1287px"/&gt;
 		&lt;a xlink:href="home.html"&gt;
 			&lt;text x="8" y="215"&gt;HOME&lt;/text&gt;
@@ -2392,7 +2392,7 @@ Trecho da estrutura HTML do mapeamento:
 			&lt;text x="440" y="215"&gt;HOSPEDAGEM&lt;/text&gt;
 			&lt;rect x="440" y="0"/&gt;
 		&lt;/a&gt;
-&lt;/svg&gt;</pre></code></figcaption>
+&lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/25_02_00.png" class="fundo" style="visibility:hidden"/>
@@ -2451,7 +2451,7 @@ Trecho da estrutura HTML do mapeamento:
 			   <input type="radio" id="200a" name="sl">
 			   <label for="200a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
-<code><pre>&lt;div class="Map"&gt;
+<pre><code>&lt;div class="Map"&gt;
 	&lt;img src="imagens/menu_horizontal1.png"&gt;
 	&lt;div class="items"&gt;
 		&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
@@ -2461,13 +2461,13 @@ Trecho da estrutura HTML do mapeamento:
 		&lt;div title="MAPAS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;MAPAS&lt;/p&gt;&lt;/div&gt;
 		&lt;div title="CONTATO"&gt;&lt;a href="contato.html" class="i6"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</pre></code></figcaption>
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="200b" name="sl">
 			   <label for="200b"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
-<code><pre>&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	* {font-family: Calibri; font-size:14pt;}
 	.Map {width:100%; position:relative;}
 	.Map img {width:100%;}
@@ -2487,7 +2487,7 @@ Trecho da estrutura HTML do mapeamento:
 	a.i5, a.i5 + p {left:calc(4*100%/6);}
 	a.i6, a.i6 + p {left:calc(5*100%/6);}
 	.Map a + p {position:absolute; top:95%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/27_01_07.png" class="fundo" style="visibility:hidden"/>
@@ -2542,7 +2542,7 @@ Trecho da estrutura HTML do mapeamento:
 			   <input type="radio" id="207a" name="sl">
 			   <label for="207a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
-<code><pre>&lt;div class="Map"&gt;
+<pre><code>&lt;div class="Map"&gt;
 	&lt;img src="imagens/menu_lateral.png"&gt;
 		&lt;div class="items"&gt;
 			&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
@@ -2551,13 +2551,13 @@ Trecho da estrutura HTML do mapeamento:
 			&lt;div title="CONTATO"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
 			&lt;div title="PEDIDOS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;PEDIDOS&lt;/p&gt;&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;&lt;</pre></code></figcaption>
+&lt;/div&gt;&lt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="207b" name="sl">
 			   <label for="207b"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
-<code><pre>&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	* {font-family: Calibri; font-size:14pt;}
 	.Map {width:8%; position:relative;}
 	.Map img {width:100%;}
@@ -2582,7 +2582,7 @@ Trecho da estrutura HTML do mapeamento:
 	a.i4 + p {top:calc(380%/5);}
 	a.i5 + p {top:calc(480%/5);}
 	.Map a + p {position:absolute; left:6%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/27_02_07.png" class="fundo" style="visibility:hidden"/>
@@ -2673,7 +2673,7 @@ Trecho da estrutura HTML do mapeamento:
 			   <input type="radio" id="218a" name="sl">
 			   <label for="218a"></label>
 			   <figcaption>Estrutura CSS da Atividade 6:
-<code><pre>&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	* {font-family: Calibri; font-size:18px;}
 	.Map {width:70%; position:relative;}
 	.Map img {width:100%;}
@@ -2694,7 +2694,7 @@ Trecho da estrutura HTML do mapeamento:
 	a.i2 + p {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
 	a.i3 + p {top:calc((222 + 111)*100%/500);left:calc(692*100%/800 - 20% + 80*100%/800);}
 	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; text-shadow: 1px 1px 2px black; visibility:hidden; transition: 0.5s; background: rgba(100,120,250,0.3);}
-&lt;/style&gt;</pre></code></figcaption>
+&lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css2/27_03_08.png" class="fundo" style="visibility:hidden"/>
