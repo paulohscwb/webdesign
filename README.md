@@ -3110,6 +3110,58 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <img src="css3/34_01_10.jpg"/>
 			   <figcaption>O layout da página fica com esta visualização usando os atributos definidos até o momento. Configure a sua página com as novas tags de imagens nas galerias criadas.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="255a" name="sl">
+			   <label for="255a"></label>
+			   <figcaption>Trecho HTML do conteúdo e da barra lateral:
+<pre><code>&lt;div class="barra3"&gt;
+		&lt;div class="conteudo"&gt;
+			&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;img src="imagens/img1.jpg"&gt;
+			&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;img src="imagens/img2.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="lateral"&gt;
+			&lt;div class="titulo"&gt;Personagens&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;div class="titulo"&gt;Miguel Rivera&lt;/div&gt;
+				&lt;img src="imagens/miguel.png"&gt;
+			&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;div class="titulo"&gt;Ernesto de la Cruz&lt;/div&gt;
+				&lt;img src="imagens/ernesto.png"&gt;
+			&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;div class="titulo"&gt;Mamá Imelda Rivera&lt;/div&gt;
+				&lt;img src="imagens/imelda.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="255b" name="sl">
+			   <label for="255b"></label>
+			   Trecho CSS do conteúdo e da barra lateral:
+<pre><code>.barra3 {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
+
+.conteudo {display:flex; width:60%; flex-wrap:wrap; justify-content:center; align-content:flex-start;}
+
+.box {border-radius:10px; color:#171e42; padding:10px; margin:10px; background:linear-gradient(white, rgba(0,0,180,0.1)); text-align:center; flex:1 150px;}
+.box img {width:16vw; height:15vh; transition:transform 0.5s linear; }
+
+.box:nth-child(even) {background:linear-gradient(0deg, rgba(0,0,150,0.1),white);}
+.box:nth-child(odd) {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
+
+.lateral {display:flex; width:40%; flex-wrap:wrap; border-left: 1px solid grey; justify-content:center; align-content:flex-start;}
+.lateral img {width:5vw; height:15vh;}
+
+.titulo {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
+
+.rodape {background: linear-gradient(white, rgb(240,240,255)); display:flex; justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css3/34_01_03a.png" class="fundo" style="visibility:hidden"/>
   </details>
