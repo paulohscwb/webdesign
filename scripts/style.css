@@ -1,6 +1,7 @@
 code{
 	font-weight:bold;
-	color: rgb(21,153,87);
+	color: #0070ff;
+	background: #f0fff0;
 }
 
 img{image-rendering: auto;}
