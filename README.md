@@ -3115,31 +3115,31 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <label for="255a"></label>
 			   <figcaption>Trecho HTML do conteúdo e da barra lateral:
 <pre><code>&lt;div class="barra3"&gt;
-		&lt;div class="conteudo"&gt;
-			&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
-			&lt;div class="box"&gt;
-				&lt;img src="imagens/img1.jpg"&gt;
-			&lt;/div&gt;
-			&lt;div class="box"&gt;
-				&lt;img src="imagens/img2.png"&gt;
-			&lt;/div&gt;
+	&lt;div class="conteudo"&gt;
+		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;img src="imagens/img1.jpg"&gt;
 		&lt;/div&gt;
-		&lt;div class="lateral"&gt;
-			&lt;div class="titulo"&gt;Personagens&lt;/div&gt;
-			&lt;div class="box"&gt;
-				&lt;div class="titulo"&gt;Miguel Rivera&lt;/div&gt;
-				&lt;img src="imagens/miguel.png"&gt;
-			&lt;/div&gt;
-			&lt;div class="box"&gt;
-				&lt;div class="titulo"&gt;Ernesto de la Cruz&lt;/div&gt;
-				&lt;img src="imagens/ernesto.png"&gt;
-			&lt;/div&gt;
-			&lt;div class="box"&gt;
-				&lt;div class="titulo"&gt;Mamá Imelda Rivera&lt;/div&gt;
-				&lt;img src="imagens/imelda.png"&gt;
-			&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;img src="imagens/img2.png"&gt;
 		&lt;/div&gt;
-	&lt;/div&gt;</code></pre></figcaption>
+	&lt;/div&gt;
+	&lt;div class="lateral"&gt;
+		&lt;div class="titulo"&gt;Personagens&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;div class="titulo"&gt;Miguel Rivera&lt;/div&gt;
+			&lt;img src="imagens/miguel.png"&gt;
+		&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;div class="titulo"&gt;Ernesto de la Cruz&lt;/div&gt;
+			&lt;img src="imagens/ernesto.png"&gt;
+		&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;div class="titulo"&gt;Mamá Imelda Rivera&lt;/div&gt;
+			&lt;img src="imagens/imelda.png"&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="255b" name="sl">
