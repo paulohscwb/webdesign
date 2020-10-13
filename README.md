@@ -3016,6 +3016,25 @@ transition:0.3s;}
 			   <img src="css3/32_02_06.png"/>
 			   <figcaption>Com os valores dos atributos mostrados até agora, o site fica com este layout. Modifique os valores para a página do seu filme.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="245a" name="sl">
+			   <label for="245a"></label>
+			   <figcaption>Trecho HTML da barra banner com a descrição:
+<pre><code>&lt;div class="banner"&gt;
+	&lt;div class="descricao"&gt;
+		&lt;img src="imagens/ico.png"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+Trecho CSS da barra banner com a descrição:
+<pre><code>.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
+background-size:100%; background-position: 0% 40%; align-items:center; justify-content:flex-start; transition:0.5s;}
+
+.banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
+
+.descricao {padding:10px; position:relative; background:rgba(0,0,0,0.3); transition:0.5s;}
+
+.boxSite {box-shadow:0 0 8px black;}</code></pre></figcaption>
+	   </li>
 		</ul>
 		<img src="css3/32_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
