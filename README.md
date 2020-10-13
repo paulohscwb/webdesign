@@ -3223,8 +3223,8 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <figcaption>Com os valores e atributos mostrados, a página da Atividade 7 fica com este layout. Ajuste os valores, cores e margens para sua página. Coloque os nomes de outros 4 filmes nos itens do menu do site.</figcaption>
 		   </li>
 		   <li>
-			   <input type="radio" id="263a" name="sl">
-			   <label for="263a"></label>
+			   <input type="radio" id="263e" name="sl">
+			   <label for="263e"></label>
 			   <figcaption>Trecho CSS com atributos de animações:
 <pre><code>.box img:hover {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow: 0 0 15px white;}
 
@@ -3284,7 +3284,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 		<img src="css3/37_01_03.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0038a.png"/>
-	<details class="sub"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
+	<details class="sub" style="box-shadow:none;"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
 	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também da pasta <code>webdesign/atividade8/imagens</code>.</p>
 	  <ul class="slider">
 		  <li>
@@ -3334,6 +3334,54 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <label for="271"></label>
 			   <img src="css3/37_02_08.png"/>
 			   <figcaption>Por último, a tag mais simples de nossas páginas: o rodapé.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="271a" name="sl">
+			   <label for="271a"></label>
+			   <figcaption>Trecho da estrutura HTML da Atividade 8:
+<pre><code>&lt;div class="boxSite"&gt;
+	&lt;div class="barra"&gt;
+		&lt;div class="logo"&gt;
+			&amp;#x1f304;
+		&lt;/div&gt;
+		&lt;input type="checkbox" id="checkbox1"&gt;
+		&lt;label for="checkbox1"&gt;
+		&lt;nav class="menu"&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+		&lt;/label&gt;	
+	&lt;/div&gt;
+	&lt;div class="banner"&gt;
+		&lt;div class="descricao"&gt;
+			Paisagens do Canadá
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="compartilhar"&gt;
+		&lt;img src="imagens/facebook.png"&gt;
+		&lt;img src="imagens/whatsapp.png"&gt;
+		&lt;img src="imagens/twitter.png"&gt; 
+	&lt;/div&gt;
+	&lt;div class="barra2"&gt;
+		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
+		&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá, e claro, a maioria dos lugares escolhidos tinha alguma beleza natural na paisagem, deixando o cenário digno de estar entre os lugares mais lindos do país. Gostamos da ideia e decidimos compartilhar algumas paisagens com vocês. Conheçam algumas dessas belas paisagens:&lt;hr&gt;&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;div class="titulo"&gt;Lake Louise&lt;/div&gt;
+			&lt;img src="imagens/foto1.jpg"&gt;
+		&lt;/div&gt;
+		&lt;div class="box"&gt;
+			&lt;div class="titulo"&gt;Whistler&lt;/div&gt;
+			&lt;img src="imagens/foto6.jpg"&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="rodape"&gt;
+		Copyright &copy; 2020
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/37_02_00.png" class="fundo" style="visibility:hidden"/>
@@ -3418,6 +3466,66 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <label for="284"></label>
 			   <img src="css3/37_02_22.jpg"/>
 			   <figcaption>O layout da página fica desta maneira. Ajuste os valores e atributos para a finalização desta atividade. Coloque nomes nos títulos das 3 páginas para que apareçam no menu.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="284a" name="sl">
+			   <label for="284a"></label>
+			   <figcaption>Trecho da estrutura CSS da Atividade 8:
+<pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
+body {width:100%; margin:auto;}
+.boxSite {box-shadow:0 0 8px black;}
+.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
+background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s; justify-content:center; top:0; left:0; overflow:auto;}
+.banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
+.descricao {font-size:60px; color:white; text-shadow:1px 1px 3px black;}
+.barra {display:flex; align-items:center; position:absolute; top:0; width:100%; z-index:10; align-items:flex-start; }
+label {padding:15px; flex:3;}
+.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
+.menu li {padding: 0; min-width: 100px; text-align:center;}
+.menu li:last-child {border-right:none;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+.logo {display:flex; justify-content:flex-start; font-size:120px; animation: AnimaLogo 7s linear infinite alternate;}
+.compartilhar {display:flex; justify-content:flex-end;}
+.compartilhar img {width:3%; margin:20px; min-width:30px;}
+@media screen and (max-width:800px) {
+	.barra {flex-direction:column; align-items:stretch;}
+}
+#checkbox1, .toggle {display:none;}
+@media screen and (max-width:800px) {
+	.barra {flex-direction:column; align-items:stretch;}
+	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; 
+	color:yellow;}
+	#checkbox1:checked + label .menu li {visibility:visible;}
+	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
+	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
+	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
+	.menu li {visibility:hidden; border-right:none; padding:10px;}
+}
+.barra2 {display:flex; width:85%; justify-content:center; margin:auto; flex-wrap:wrap; text-align:center;}
+.box {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.5)); text-align:center;}
+.box img {width:20vw; height:20vh; transition:transform 0.5s linear; }
+.titulo {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
+.rodape {background: linear-gradient(white, rgb(180,180,195)); display:flex; justify-content:center; padding:20px; color:black;}
+.box:hover {transform:scale(2); box-shadow: 0 0 15px white;transition: 0.5s;}
+hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
+@keyframes AnimaLogo { 
+   0% {opacity:0.25; transform:rotate(-30deg);}
+   25% {opacity:0.5; transform:scale(0.92);}
+   50% {opacity:0.7; transform:scale(0.95);}
+   75% {opacity:0.9; transform:scale(1.1);}
+   100% {opacity:1; transform:scale(-1,1);}
+}
+@media screen and (max-width:800px) {
+	.barra, .barra2 {flex-direction:column; align-items:stretch; text-align:center;}
+	.barra2 {flex-direction:row; width:100%;}
+	.barra2 img {width:40vw; height:15vh;}
+	.box:hover {transform:scale(1.5);}
+	.banner {min-height:300px;}
+	body {width:95%;}
+	.logo {font-size:60px;}
+	.descricao {font-size:40px;}
+}</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/37_02_00.png" class="fundo" style="visibility:hidden"/>
