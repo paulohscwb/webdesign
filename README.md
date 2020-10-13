@@ -3379,7 +3379,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="rodape"&gt;
-		Copyright &copy; 2020
+		Copyright &amp;copy; 2020
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre></figcaption>
 		   </li>
