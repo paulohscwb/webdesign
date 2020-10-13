@@ -2,9 +2,8 @@ code{
 	font-weight: bold;
 	color: rgb(0,112,255);
 	background-color: #F0FFF0; 
+	padding:3px;
 }
-
-.highlight {padding: 3px; background-color: #F0FFF0; }
 
 /*img{image-rendering: crisp-edges;}*/
 
