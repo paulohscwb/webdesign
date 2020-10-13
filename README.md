@@ -1564,8 +1564,7 @@ Trecho do código HTML com galeria em formato de tabela:
 	.active {text-shadow:1px 1px 1px green;}
 &lt;/style&gt;</code></pre>
 Estrutura HTML do menu da Atividade 4:
-<pre><code>
-&lt;nav class="menu"&gt;
+<pre><code>&lt;nav class="menu"&gt;
 	&lt;ul&gt;
 		&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
@@ -1839,8 +1838,7 @@ Estrutura HTML do menu da Atividade 4:
 	#submit:hover {opacity: 1;}
 &lt;/style&gt;</code></pre>
 Estrutura PHP do formulário:
-<pre><code>
-&lt;?php  
+<pre><code>&lt;?php  
 	$name = $_POST['name'];  
 	$email = $_POST['email'];  
 	$message = $_POST['message']; 
