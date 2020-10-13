@@ -1473,8 +1473,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="115a" name="sl">
 			   <label for="115a"></label>
 			   <figcaption>Estrutura CSS do banner da Atividade 4:
-<pre><code>
-&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1550,8 +1549,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="124a" name="sl">
 			   <label for="124a"></label>
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
-<pre><code>
-&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1632,8 +1630,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="131a" name="sl">
 			   <label for="131a"></label>
 			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
-<pre><code>
-&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1708,8 +1705,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="138b" name="sl">
 			   <label for="138b"></label>
 			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
-<pre><code>
-	&lt;td class="contato"&gt;
+<pre><code>	&lt;td class="contato"&gt;
 		&lt;h3&gt;Contatos&lt;/h3&gt;
 		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
 		&lt;a href="https://www.facebook.com/supervolley20/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
@@ -1725,8 +1721,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="138a" name="sl">
 			   <label for="138a"></label>
 			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
-<pre><code>
-&lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
@@ -1834,8 +1829,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="149a" name="sl">
 			   <label for="149a"></label>
 			   <figcaption>Estrutura CSS do formulário:
-<pre><code>
-  &lt;style type="text/css"&gt;
+<pre><code>&lt;style type="text/css"&gt;
 	body{width:85%; text-align:left; margin:auto; font-size:18px;}
 	label {display: block; margin-bottom: 8px; margin-top: 8px;}
 	.formulario {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
@@ -1843,7 +1837,7 @@ Estrutura HTML do menu da Atividade 4:
 	textarea {width: 97%; max-width: 97%;}
 	#submit {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
-  &lt;/style&gt;</code></pre>
+&lt;/style&gt;</code></pre>
 Estrutura PHP do formulário:
 <pre><code>
 &lt;?php  
@@ -1868,8 +1862,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="149b" name="sl">
 			   <label for="149b"></label>
 			   <figcaption>Estrutura HTML do formulário:
-<pre><code>
-&lt;div class="formulario"&gt;
+<pre><code>&lt;div class="formulario"&gt;
 	&lt;form method="post" action="enviar.php"&gt;
 		&lt;h2&gt;Contato&lt;/h2&gt;
 		&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
