@@ -5,7 +5,20 @@
 <p>Este site contém os procedimentos para construirmos sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2014/09/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
+<pre><code>&lt;div class="banner"&gt;
+	&lt;div class="descricao"&gt;
+		&lt;img src="imagens/ico.png"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+Trecho CSS da barra banner com a descrição:
+<pre><code>.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
+background-size:100%; background-position: 0% 40%; align-items:center; justify-content:flex-start; transition:0.5s;}
 
+.banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
+
+.descricao {padding:10px; position:relative; background:rgba(0,0,0,0.3); transition:0.5s;}
+
+.boxSite {box-shadow:0 0 8px black;}</code></pre>
 <details id="basico">
   <summary>1. Estruturas básicas</summary>
 	<p>Material da pág. 1 até a pág. 10</p>
