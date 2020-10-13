@@ -4289,6 +4289,27 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <img src="css4/48_01_07.png"/>
 			   <figcaption>O layout com o caminho de arcos fica assim. Ajuste cores de linhas e de preenchimentos para este banner.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="358a" name="sl">
+			   <label for="358a"></label>
+			   <figcaption>Estrutura SVG do 8&ordm; banner:
+<pre><code>&lt;svg viewBox="0 0 200 200"&gt;
+	&lt;linearGradient id="efeito13" x1="0%" y1="0%" x2="100%" y2="100%"&gt;
+		&lt;stop offset="0%" stop-color="orange"/&gt;
+		&lt;stop offset="100%" stop-color="#C36900"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;g id="xicara" fill="url(#efeito13)" stroke="grey"&gt;
+		&lt;ellipse cx="160" cy="140" rx="30" ry="20" fill="url(#efeito13)" stroke="grey"/&gt;
+		&lt;ellipse cx="160" cy="140" rx="18" ry="10" pathLength="2" fill="white" stroke="grey"/&gt;
+		&lt;path d="M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z"/&gt;
+	&lt;/g&gt;
+	&lt;g id="fumaca" fill="none" stroke="grey" stroke-width="2"&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50"  /&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(-20,0)"/&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(20,0)"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css4/48_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
