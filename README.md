@@ -3986,6 +3986,23 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="328a" name="sl">
+			   <label for="328a"></label>
+			   <figcaption>Estrutura SVG dos efeitos 1, 2 e 3 de gradiente:
+<pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
+	&lt;stop offset="0%" stop-color="orange"/&gt;
+	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
+&lt;/radialGradient&gt;
+&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
+	&lt;stop offset="0%" stop-color="darkred "/&gt;
+	&lt;stop offset="100%" stop-color="red"/&gt;
+&lt;/radialGradient&gt;
+&lt;linearGradient id="efeito3" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+	&lt;stop offset="0%" stop-color="red"/&gt;
+	&lt;stop offset="100%" stop-color="darkred"/&gt;
+&lt;/linearGradient&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="329" name="sl">
 			   <label for="329"></label>
 			   <img src="css4/42_01_04.png"/>
@@ -4020,6 +4037,31 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <label for="334"></label>
 			   <img src="css4/42_01_09.png"/>
 			   <figcaption>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="334a" name="sl">
+			   <label for="334a"></label>
+			   <figcaption>Estrutura SVG dos efeitos 4, 5, 6, 7 e 8 de gradiente:
+<pre><code>&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
+	&lt;stop offset="0%" stop-color="lightskyblue"/&gt;
+	&lt;stop offset="100%" stop-color="skyblue"/&gt;
+&lt;/radialGradient&gt;
+&lt;linearGradient id="efeito5" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+	&lt;stop offset="0%" stop-color="steelblue"/&gt;
+	&lt;stop offset="100%" stop-color="skyblue"/&gt;
+&lt;/linearGradient&gt;
+&lt;radialGradient id="efeito6" cx="50%" cy="50%" r="70%"&gt;
+	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
+	&lt;stop offset="100%" stop-color="limegreen"/&gt;
+&lt;/radialGradient&gt;
+&lt;linearGradient id="efeito7" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
+	&lt;stop offset="100%" stop-color="seagreen"/&gt;
+&lt;/linearGradient&gt;
+&lt;linearGradient id="efeito8" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
+	&lt;stop offset="0%" stop-color="rgba(50,205,50,0.9)"/&gt;
+	&lt;stop offset="100%" stop-color="rgba(50,205,50,0.6"/&gt;
+&lt;/linearGradient&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/42_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -4077,6 +4119,20 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png"/>
 			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="342a" name="sl">
+			   <label for="342a"></label>
+			   <figcaption>Estrutura SVG do efeitos de filtro 10:
+<pre><code>&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
+	&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.5" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
+	&lt;feOffset in="desfocado" dx="1" dy="1" result="sombra"&gt;&lt;/feOffset&gt;
+	&lt;feMerge&gt;
+		&lt;feMergeNode in="sombra"/&gt;
+		&lt;feMergeNode in="desfocado"/&gt;
+		&lt;feMergeNode in="SourceGraphic"/&gt;
+	&lt;/feMerge&gt;
+&lt;/filter&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/43_01_00.png" class="fundo" style="visibility:hidden"/>
