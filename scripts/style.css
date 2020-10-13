@@ -2,7 +2,8 @@ code{
 	font-weight: bold;
 	color: rgb(0,112,255);
 	background-color: #F0FFF0; 
-	padding:3px;
+	padding:5px;
+	font-size: 115%;
 }
 
 /*img{image-rendering: crisp-edges;}*/
