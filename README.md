@@ -3592,6 +3592,75 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <img src="css4/39_01_11.png"/>
 			   <figcaption>A estrutura do menu é a mesma que usamos nas atividades anteriores. Neste caso, o menu terá tamanho <code>flex:1</code> definido na tag <code>&lt;label&gt;</code> e alinhamento à direita. Configure medidas e cores para sua página de Atividade.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="295a" name="sl">
+			   <label for="295a"></label>
+			   <figcaption>Estrutura HTML da Atividade 9:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Atividade 9&lt;/title&gt;
+&lt;meta name="author" content="Paulo Henrique"&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;link href="estilo.css" rel="stylesheet" type="text/css"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet"&gt; 
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="boxSite"&gt;
+	&lt;div class="barra"&gt;
+		&lt;div class="logo"&gt;
+        	&lt;svg viewBox="0 0 200 200"&gt;
+				DESENHOS SVG
+			&lt;/svg&gt;
+        &lt;/div&gt;
+		&lt;div class="banner"&gt;
+			Vip Turismo
+		&lt;/div&gt;
+		&lt;input type="checkbox" id="checkbox1"&gt;
+		&lt;label for="checkbox1"&gt;
+			&lt;nav class="menu"&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/nav&gt;
+			&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
+		&lt;/label&gt;	
+	&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="295b" name="sl">
+			   <label for="295b"></label>
+			   <img src="css4/39_01_11.png"/>
+			   <figcaption>Estrutura CSS da Atividade 9:
+<pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
+body {width:100%; margin:auto;}
+
+.boxSite {box-shadow:0 0 8px black;}
+
+.barra {display:flex; align-items:flex-start; width:100%; z-index:10; background-position: 0% 80%;}
+
+.barra:nth-child(1){background:url(imagens/banner.jpg);background-size:cover;}
+.barra:nth-child(2){background:url(imagens/banner2.jpg);background-size:cover;}
+.barra:nth-child(3){background:url(imagens/banner3.jpg);background-size:cover;}
+
+.logo {display:flex; flex:1; justify-content:flex-start;}
+svg {max-width:100%; max-height:250px;}
+text {font-family: Calibri; }
+
+.banner {display:flex; flex:1; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
+
+label {padding:15px; flex:1; width:100%;}
+.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
+.menu li {padding: 0; min-width: 100px; text-align:center;}
+.menu li:last-child {border-right:none;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}</code></pre></figcaption>   
+		   </li>
 		</ul>
 		<img src="css4/39_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -3644,6 +3713,33 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <label for="302"></label>
 			   <img src="css4/41_01_07.png"/>
 			   <figcaption>Nosso primeiro banner fica desta forma. Modifique cores e formações do layout no CSS para testar se está ficando bom. As próximas barras serão inseridas abaixo desta que acabamos de construir.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="302a" name="sl">
+			   <label for="302a"></label>
+			   <figcaption>Estrutura HTML do primeiro desenho de banner da Atividade 9:
+<pre><code>&lt;div class="logo"&gt;
+	&lt;svg viewBox="0 0 200 200"&gt;
+		&lt;g stroke="orange" stroke-width="1" name="sol"&gt;
+			&lt;circle r="50" cx="100" cy="100" fill="rgb(100%, 90%, 0%)" /&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(30,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(60,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(90,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(120,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(150,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(180,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(210,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(240,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(270,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(300,100,100)"/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(330,100,100)"/&gt;
+		&lt;/g&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="banner"&gt;
+	Vip Turismo
+&lt;/div&gt;</code></pre></figcaption>   
 		   </li>
 		</ul>
 		<img src="css4/41_01_00.png" class="fundo" style="visibility:hidden"/>
@@ -3730,6 +3826,39 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <img src="css4/41_02_13.png"/>
 			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="316a" name="sl">
+			   <label for="316a"></label>
+			   <figcaption>Estrutura SVG do 2&ordm; desenho de banner da Atividade 9:
+<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
+	&lt;g stroke-width="0" fill="red" name="roda"&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(150,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(180,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(210,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(240,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(270,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre>
+Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
+<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+	&lt;g stroke-width="0" fill="skyblue" name="estrela"&gt;
+		&lt;circle r="15" cx="50" cy="50"/&gt;
+		&lt;polygon points="40,40 50,10 60,40"/&gt;
+		&lt;polygon points="40,40 50,10 60,40" transform="rotate(72,50,50)"/&gt;
+		&lt;polygon points="40,40 50,10 60,40" transform="rotate(144,50,50)"/&gt;
+		&lt;polygon points="40,40 50,10 60,40" transform="rotate(216,50,50)"/&gt;
+		&lt;polygon points="40,40 50,10 60,40" transform="rotate(288,50,50)"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css4/41_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -3768,6 +3897,20 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <figcaption>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho.</figcaption>
 		   </li>
 		   <li>
+			   <input type="radio" id="320a" name="sl">
+			   <label for="320a"></label>
+			   <figcaption>Estrutura SVG do 4&ordm; desenho de banner da Atividade 9:
+<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+	&lt;g fill="none" stroke-width="2" stroke="green" id="atomos" transform="translate(0,-8)"&gt;
+		&lt;circle r="8" cx="50" cy="50" fill="green"/&gt;
+		&lt;ellipse cx="50" cy="50" rx="15" ry="35"/&gt;
+		&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(60,50,50)"/&gt;
+		&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(120,50,50)"/&gt;
+	&lt;/g&gt;
+	&lt;text x="20" y="95" font-weight="bold" font-size="20pt" fill="aqua" stroke="green" stroke-width="1"&gt;Átomos&lt;/text&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
 			   <input type="radio" id="321" name="sl">
 			   <label for="321"></label>
 			   <img src="css4/41_03_04.png"/>
@@ -3796,6 +3939,19 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <label for="324"></label>
 			   <img src="css4/41_03_07.png"/>
 			   <figcaption>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="324a" name="sl">
+			   <label for="324a"></label>
+			   <figcaption>Estrutura SVG do 5&ordm; desenho de banner da Atividade 9:
+<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+	&lt;g fill="green" stroke-opacity="0.3" stroke-width="0.5" stroke="black" transform="translate(0,-8)" id="icone"&gt;
+		&lt;rect x="45" y="10" width="10" rx="2" height="80"/&gt;
+		&lt;rect x="45" y="10" width="10" rx="2" height="80" transform="rotate(60,50,50)"/&gt;
+		&lt;rect x="45" y="10" width="10" rx="2" height="80" transform="rotate(120,50,50)"/&gt;
+	&lt;/g&gt;
+	&lt;text x="10" y="98" fill="aqua" stroke="green" stroke-width="1"&gt;Meu Ícone&lt;/text&gt;
+&lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/41_03_00.png" class="fundo" style="visibility:hidden"/>
