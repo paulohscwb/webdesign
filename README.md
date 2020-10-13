@@ -2012,8 +2012,7 @@ Estrutura PHP do formulário:
 			   <figcaption>Estrutura CSS:
 <code><pre>&lt;style&gt;
 	body{font-size:25px;}
-	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
-	border:5px solid white;}
+	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; border:5px solid white;}
 	table {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
 	.barra {vertical-align:top;}
 	.conteudo {vertical-align:center; width:70%;}
@@ -2845,8 +2844,7 @@ body {width:85%; margin:auto;}
 .menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; font-weight: bold; transition: 0.5s;}
 .menu li a:hover {color:rgba(0,0,130,0.5); text-shadow:1px 1px 1px LightSilver; transition:0.5s;}
 
-.subitens {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; 
-transition:0.3s;}
+.subitens {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; transition:0.3s;}
 .menu .subitens {margin-top:10px; flex-direction:column;}
 .subitens li {padding:10px; border-bottom:1px solid rgba(0,0,130,0.3); border-right:none;}
 .menu li:hover ul {opacity:1;}
@@ -2954,8 +2952,7 @@ transition:0.3s;}
 			   <figcaption>Trecho CSS com menu modificado e animações:
 <pre><code>@media screen and (max-width:800px) {
 	.barra {flex-direction:column; align-items:stretch;}
-	.toggle {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; 
-	color:#595959; background:linear-gradient(white,rgb(240,240,255));}
+	.toggle {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; color:#595959; background:linear-gradient(white,rgb(240,240,255));}
 	#checkbox1:checked + label .menu li {visibility:visible;}
 	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
 	.menu ul{display:flex; flex-direction:column;}
