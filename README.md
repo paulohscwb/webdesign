@@ -3144,7 +3144,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 		   <li>
 			   <input type="radio" id="255b" name="sl">
 			   <label for="255b"></label>
-			   Trecho CSS do conteúdo e da barra lateral:
+			   <figcaption>Trecho CSS do conteúdo e da barra lateral:
 <pre><code>.barra3 {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
 
 .conteudo {display:flex; width:60%; flex-wrap:wrap; justify-content:center; align-content:flex-start;}
