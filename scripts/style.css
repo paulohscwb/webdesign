@@ -1,7 +1,7 @@
-code{
+pre, code{
 	font-weight:bold;
 	color: rgb(0,112,255);
-	background-color: honeydew; 
+	background-color: #F0FFF0; 
 }
 
 /*img{image-rendering: crisp-edges;}*/
