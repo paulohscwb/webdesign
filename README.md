@@ -5546,6 +5546,26 @@ label {padding:0px; flex:1; width:100%;}
 			   <img src="css5/59_01_08.png"/>
 			   <figcaption>E com as 3 sub-galerias abertas. Crie sua página de portfólio com a quantidade necessária de sub-galerias.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="445a" name="sl">
+			   <label for="445a"></label>
+			   <figcaption>Trecho da estrutura CSS da galeria da Atividade 10 com divisões:
+<pre><code>summary {font-size:1.3em; color:#004953; font-weight:bold; cursor:pointer; margin-bottom:12px; text-shadow:1px 1px 1px skyblue; text-align:center;}
+details {border:1px solid skyblue; border-bottom:none; padding:3px; border-radius:10px; }</code></pre>
+Trecho da estrutura HTML da galeria da Atividade 10 com divisões:
+<pre><code>&lt;details open&gt;&lt;summary&gt;Disciplina 1&lt;/summary&gt;
+&lt;div class="galeria"&gt;
+	MINIATURAS DAS IMAGENS DA DISCIPLINA 1
+	IMAGENS AMPLIADAS DA DISCIPLINA 1
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;details open&gt;&lt;summary&gt;Disciplina 2&lt;/summary&gt;
+&lt;div class="galeria"&gt;
+	MINIATURAS DAS IMAGENS DA DISCIPLINA 2
+	IMAGENS AMPLIADAS DA DISCIPLINA 2
+&lt;/div&gt;
+&lt;/details&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css5/59_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
