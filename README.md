@@ -5077,12 +5077,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="422" name="sl">
 			   <label for="422"></label>
 			   <img src="css5/55_02_11.png"/>
-			   <figcaption>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="422a" name="sl">
-			   <label for="422a"></label>
-			   <figcaption>Estrutura SVG do banner da Atividade 10:
+			   <figcaption>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.
+			   <br>1&ordf; parte da estrutura SVG do banner da Atividade 10:
 <pre><code>&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
 	&lt;defs&gt;
 		&lt;linearGradient id="azul" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
@@ -5134,8 +5130,13 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 				&lt;feMergeNode in="SourceGraphic" /&gt;
 			&lt;/feMerge&gt;
 		&lt;/filter&gt; 
-	&lt;/defs&gt;
-	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" fill="url(#azul)" /&gt;
+	&lt;/defs&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="422a" name="sl">
+			   <label for="422a"></label><pre><code>
+			   <figcaption>2&ordf; parte da estrutura SVG do banner da Atividade 10:
+<pre><code>	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" fill="url(#azul)" /&gt;
 	&lt;g id="montanha1" filter="url(#filtro2)" stroke-linecap="round"&gt;
 		&lt;path d="M800,120 l80,-80 h60 l80,80z" fill="url(#verde)" /&gt;
 		&lt;path d="M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 l-10,10 l-10,-10z" fill="white"/&gt;
