@@ -5301,9 +5301,6 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	&lt;a href="#img2" class="mini" title="Meu projeto 2"&gt;
 		&lt;img src="imagens/projeto2.png"&gt;
 	&lt;/a&gt;		
-	&lt;a href="#img3" class="mini" title="Meu projeto 3"&gt;
-		&lt;img src="imagens/projeto3.jpg"&gt;
-	&lt;/a&gt;		
 	&lt;!-- fotos ampliadas, escondidas pelo CSS --&gt;
 	&lt;div class="maior" id="img1"&gt;
 		&lt;div class="bloco"&gt;
@@ -5324,17 +5321,6 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 				&lt;figcaption&gt;Meu projeto 2&lt;/figcaption&gt;
 			&lt;/figure&gt;
 			&lt;a href="#img3" class="botao proxima"&gt;&gt;&lt;/a&gt;
-			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class="maior" id="img3"&gt;
-		&lt;div class="bloco"&gt;
-			&lt;a href="#img2" class="botao anterior"&gt;&lt;&lt;/a&gt;
-			&lt;figure&gt;	
-				&lt;img src="imagens/projeto3.jpg"&gt;
-				&lt;figcaption&gt;Meu projeto 3&lt;/figcaption&gt;
-			&lt;/figure&gt;
-			&lt;a href="#img4" class="botao proxima"&gt;&gt;&lt;/a&gt;
 			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
@@ -5410,6 +5396,90 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <label for="437"></label>
 			   <img src="css5/56_01_14.png"/>
 			   <figcaption>... este é o resultado da ampliação da imagem do projeto 9.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="437a" name="sl">
+			   <label for="437a"></label>
+			   <figcaption>1&ordf; parte da estrutura CSS da galeria da Atividade 10:
+<pre><code>* {font-family: 'Hind', sans-serif;}
+text {font-family: 'Hind'; font-size:2em;}
+body {width: 95%; margin:auto;}
+html,body {height:100%;}
+
+.boxSite {box-shadow: 0 0 5px grey; margin-top:10px;}
+.barra {display:flex; background: linear-gradient(to bottom, lightblue, white); font-size:15pt;}
+.logo {flex:1;}
+.rodape {display:flex; background: linear-gradient(to bottom, white,lightblue); padding:15px; justify-content:center;}
+svg {width:100%;}
+.galeria {display:flex; flex-wrap:wrap; padding:10px; justify-content:center;}
+
+.maior {display:none; opacity:0; z-index:2; width:100vw; height:100vh; text-align:center; color:white; text-decoration:none; position: fixed; top:0; left:0; background:rgba(50,50,70,0.7);} 
+.maior img {max-width:75vw; max-height:75vh; min-width:50vw; min-height:50vh; border-radius:10px;} 
+.maior:target {outline:none; display:block; opacity:1;}
+.bloco {height:100vh; display:flex; align-items:center; justify-content:center;}
+.maior img {animation:Efeito1 1.2s;}
+.anterior {animation:Efeito2 1.2s;}
+.proxima {animation:Efeito3 1.2s;}
+figcaption {text-align: left;}
+
+@keyframes Efeito1 {
+  0% {transform:scale(0.5); opacity:0;}
+  100% {transform:scale(1); opacity:1;}
+}
+@keyframes Efeito2 {
+  0% {transform:translate(500px,0); opacity:0;}
+  100% {transform:translate(0,0); opacity:1;}
+}
+@keyframes Efeito3 {
+  0% {transform:translate(-500px,0); opacity:0;}
+  100% {transform:translate(0,0); opacity:1;}
+}
+
+.botao {color:#fafafa; font-size:2.5em; background-color:rgba(50,50,50,0.4); padding:5px 20px 0 20px; border-radius:4px; text-decoration:none; cursor:pointer; z-index:3;}
+.botao:hover {background-color:rgba(50,50,50,0.6);}
+.fechar {position:absolute; right:2%; top:2%;}
+.fechar:hover {background-color:rgba(50,50,50,0.6);}</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="437b" name="sl">
+			   <label for="437b"></label>
+			   <figcaption>2&ordf; parte da estrutura CSS da galeria da Atividade 10:
+<pre><code>.mini {margin:20px 10px; padding:7px; text-align:center; text-decoration:none; background:linear-gradient(-45deg,#FFF,#CCC); border-radius:5px; border: 0.1px solid #999;}
+.mini img {width:150px; height:100px; margin:10px 10px -5px 10px; transition:0.4s; z-index:1;}
+.mini img:hover {transform:scale(1.1);}
+.mini:after {content:attr(title); display:block; font-size:1.1em;}
+
+.mini:nth-child(5n+1){color:blue; transform:rotate(0deg);}
+.mini:nth-child(5n+2){color:black; transform:rotate(5deg);}
+.mini:nth-child(5n+3){color:orange; transform:rotate(-5deg);}
+.mini:nth-child(5n+4){color:red; transform:rotate(5deg);}
+.mini:nth-child(5n+5){color:green; transform:rotate(-10deg);}
+
+label {padding:0px; flex:1; width:100%;}
+.menu ul {margin:10px 0 10px 0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:center;}
+.menu li {padding: 0; min-width: 100px; text-align:center;}
+.menu li:last-child {border-right:none;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left: 15px; color: white; text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+
+#checkbox1, .toggle {display:none;}
+
+@media screen and (max-width: 800px) {
+	body {width:100%;}
+	.barra {flex-direction:column; align-items:stretch;}
+	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; 
+	color:yellow;}
+	#checkbox1:checked + label .menu li {visibility:visible;}
+	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
+	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
+	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
+	.menu li {visibility:hidden; border-right:none; padding:10px;}
+	.maior img {width:95vw;}
+	.anterior {position: absolute; left: 5%; bottom: 2%;}
+	.proxima {position: absolute; right: 5%; bottom: 2%;}
+	.botao {font-size:2em;}
+	.bloco {flex-direction:column;}
+}</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css5/56_01_07.png" class="fundo" style="visibility:hidden"/>
