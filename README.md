@@ -4687,11 +4687,34 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <img src="css4/53_02_05.png"/>
 			   <figcaption>Com estas animações, o layout deste banner fica desta forma. Modifique valores de atributos e cores para criar o seu banner.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="388a" name="sl">
+			   <label for="388a"></label>
+			   <figcaption>Estrutura SVG do 12&ordm; banner:
+<pre><code>&lt;div class="logo"&gt;
+	&lt;svg viewBox="0 0 150 120"&gt;
+		&lt;g id="halteres" stroke-width="1" stroke="grey" fill="yellow" filter="url(#filtro)"&gt;
+			&lt;rect x="5" y="25" width="10" height="40"/&gt;
+			&lt;rect x="135" y="25" width="10" height="40"/&gt;
+			&lt;path d="M20,5 v80 h15 v-30 h80 v30 h15 v-80 h-15 v30 h-80 v-30z"/&gt;
+			&lt;animateTransform attributeName="transform" attributeType="xml" type="rotate" from="20,40,40" to="0,40,40" begin="2s" dur="5s" /&gt;
+			&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" from="0.7" to="1" begin="2s" dur="5s" additive="sum" /&gt;
+		&lt;/g&gt;
+		&lt;text class="texto" x="25" y="110" fill="none" stroke="rgb(210,210,70)" stroke-width="1" stroke-dasharray="200"&gt;Academia
+			&lt;animate attributeName="stroke-dashoffset" from="200" to="0" dur="5s" begin="2s" fill="freeze" /&gt;
+			&lt;animate attributeName="fill" from="rgba(250,250,0,0.1)" to="rgba(250,250,0,0.7)" dur="5s" begin="2s" fill="freeze" /&gt;
+		&lt;/text&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="banner"&gt;
+	Perfect Fit
+&lt;/div&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css4/53_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0053b.png"/>
-	<details class="sub"><summary>&#x1f4c3; Animações no 2&deg; banner</summary>
+	<details class="sub" style="box-shadow:none;"><summary>&#x1f4c3; Animações no 2&deg; banner</summary>
 	<p>Vamos criar efeitos de animação no 2&deg; banner da nossa página. Podemos desenhar uma segunda roda, com outra cor, um pouco menor (usando scale) e deslocada para a direita (usando translate).</p>
 	  <ul class="slider">
 			<li>
@@ -4730,6 +4753,63 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <img src="css4/53_03_05.png"/>
 			   <figcaption>O banner fica com este layout com as animações programadas. Ajuste atributos e cores para o seu layout.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="394a" name="sl">
+			   <label for="394a"></label>
+			   <figcaption>Estrutura SVG do 2&ordm; banner com animações:
+<pre><code>&lt;svg viewBox="0 0 140 140"&gt;
+	&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
+		&lt;stop offset="0%" stop-color="darkred "/&gt;
+		&lt;stop offset="100%" stop-color="red"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;linearGradient id="efeito3" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+		&lt;stop offset="0%" stop-color="red"/&gt;
+		&lt;stop offset="100%" stop-color="darkred"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;g stroke-width="0" fill="url(#efeito3)" id="roda" filter="url(#efeito10)"&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(150,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(180,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(210,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(240,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(270,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,50,50" to="360,50,50" dur="10s" begin="1s" fill="freeze"/&gt;
+	&lt;/g&gt;
+	&lt;circle r="30" cx="50" cy="50" stroke="url(#efeito2)" stroke-width="5" fill="none"/&gt;
+	&lt;radialGradient id="efeito2a" cx="50%" cy="50%" r="300%"&gt;
+		&lt;stop offset="0%" stop-color="limegreen"/&gt;
+		&lt;stop offset="100%" stop-color="lightgreen"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;linearGradient id="efeito3a" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+		&lt;stop offset="0%" stop-color="lightgreen"/&gt;
+		&lt;stop offset="100%" stop-color="limegreen"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;g name="roda2" transform="translate(65,65) scale(0.8)" &gt;
+		&lt;g stroke-width="0" fill="url(#efeito3a)" id="roda" filter="url(#efeito10)"&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(150,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(180,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(210,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(240,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(270,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
+			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,50,50" to="360,50,50" dur="10s" begin="1s" fill="freeze"/&gt;
+		&lt;/g&gt;
+		&lt;circle r="30" cx="50" cy="50" stroke="url(#efeito2a)" stroke-width="5" fill="none"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css4/53_03_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -4753,6 +4833,26 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <label for="397"></label>
 			   <img src="css4/53_04_02.png"/>
 			   <figcaption>O layout fica desta forma. Ajuste valores e atributos de animação para seu banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="397a" name="sl">
+			   <label for="397a"></label>
+			   <figcaption>Trecho da estrutura SVG do 9&ordm; banner com animações:
+<pre><code>&lt;g name="ceu"&gt;
+	&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
+&lt;/g&gt;
+&lt;g name="perfil" filter="url(#filtro)"&gt;
+	&lt;path d="M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" stroke-width="0.5" stroke-dasharray="900"&gt;
+		&lt;animate attributeName="stroke-dashoffset" values="900;0;900" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+	&lt;/path&gt;
+&lt;/g&gt;
+&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
+	&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
+		&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="translate" values="0,0;3,0;0,0;-3,0;0,0" begin="0s" dur="5s" repeatCount="indefinite" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" values="1;0.95;1" begin="0s" dur="5s" additive="sum" repeatCount="indefinite" /&gt;
+	&lt;/path&gt;
+&lt;/g&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/53_04_00.png" class="fundo" style="visibility:hidden"/>
