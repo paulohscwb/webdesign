@@ -5167,12 +5167,12 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	&lt;/g&gt;
 	&lt;g id="nuvem1" transform="scale(0.4) translate(1700,0)" filter="url(#filtro3)"&gt;
 		&lt;path d="M30,150 a20,20 0 0,1 0,-40 a20,20 0 0,1 30,-30 a40,40 0 0,1 100,-10 a30,30 0 0,1 40,40 a20,20 0 0,1 0,40z" fill="white" stroke="none" &gt;
-		&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values=" 0 0; 50 0; 0 0" begin="0s" dur="4s" repeatCount="indefinite"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values=" 0 0; 50 0; 0 0" begin="0s" dur="4s" repeatCount="indefinite"/&gt;
 		&lt;/path&gt;
 	&lt;/g&gt;
 	&lt;g id="nuvem2" transform="scale(1.5) translate(200,0)" filter="url(#filtro1)"&gt;
 		&lt;path  d="M10,15 a11,11 0 0,1 20,-5 a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 a9,9 0 0,1 -15,10 a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" stroke="none" fill="white"&gt;
-		&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values="0,0;-15,0;0,0" begin="0s" dur="7s" repeatCount="indefinite"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values="0,0;-15,0;0,0" begin="0s" dur="7s" repeatCount="indefinite"/&gt;
 		&lt;/path&gt;
 	&lt;/g&gt;		
 	&lt;g id="casa" transform="scale(0.5) translate(260,60)" filter="url(#filtro3)"&gt;
@@ -5234,19 +5234,19 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		&lt;animate attributeName="fill" from="rgba(180,45,10,0.2)" to="rgba(180,45,100,1)" dur="5s" begin="0s" fill="freeze" /&gt;
 	&lt;/text&gt;
 	&lt;a href="http://www.facebook.com/pages/UFPR"&gt;
-	&lt;image xlink:href="imagens/facebook.png" x="860" y="140" height="50px" width="50px" filter="url(#filtro2)"/&gt;
+		&lt;image xlink:href="imagens/facebook.png" x="860" y="140" height="50px" width="50px" filter="url(#filtro2)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="http://www.twitter.com/ufpr"&gt;
-	&lt;image xlink:href="imagens/twitter.png" x="930" y="140" height="50px" width="50px" filter="url(#filtro3)"/&gt;
+		&lt;image xlink:href="imagens/twitter.png" x="930" y="140" height="50px" width="50px" filter="url(#filtro3)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="https://www.instagram.com/ufpr_oficial/"&gt;
-	&lt;image xlink:href="imagens/instagram.png" x="1000" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/instagram.png" x="1000" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="whatsapp://send?text=Meu portfolio - http://www.degraf.ufpr.br/docentes/paulo/webdesign/"&gt;
-	&lt;image xlink:href="imagens/whatsapp.png" x="1070" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/whatsapp.png" x="1070" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="mailto:seuemail@provedor.com.br"&gt;
-	&lt;image xlink:href="imagens/email.png" x="1130" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/email.png" x="1130" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;	
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
