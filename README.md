@@ -4471,7 +4471,6 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 		   <li>
 			   <input type="radio" id="376a" name="sl">
 			   <label for="376a"></label>
-			   <img src="css4/51_01_10.png"/>
 			   <figcaption>Trecho da estrutura CSS do 9&ordm; banner, configurando o novo banner:
 <pre><code>.banner2 svg{width:100%; max-height:470px; flex:3;}
 .banner2 {display:flex; justify-content:flex-end; align-items:center; background:linear-gradient(to bottom, skyblue, white);}
