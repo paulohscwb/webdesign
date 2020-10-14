@@ -4599,6 +4599,28 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <img src="css4/52_01_06.png"/>
 			   <figcaption>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="382a" name="sl">
+			   <label for="382a"></label>
+			   <figcaption>Estrutura SVG do 10&ordm; banner:
+<pre><code>&lt;svg viewBox="0 0 60 60"&gt;
+	&lt;g stroke-width="0" fill="red" id="simbolo"&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(36,30,30)" opacity="0.9"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(72,30,30)" opacity="0.8"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(108,30,30)" opacity="0.7"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(144,30,30)" opacity="0.6"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(180,30,30)" opacity="0.5"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(216,30,30)" opacity="0.4"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(252,30,30)" opacity="0.3"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(288,30,30)" opacity="0.2"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(324,30,30)" opacity="0.1"/&gt;
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0,30,30;360,30,30;0,30,30" dur="15s" begin="1s" fill="freeze" /&gt;
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="scale" values="1;0.9;1" dur="15s" begin="1s" fill="freeze" additive="sum"/&gt;
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" values="0,0;15,0;0,0" dur="15s" begin="1s" fill="freeze" additive="sum"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li>		   
 		</ul>
 		<img src="css4/52_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
@@ -4607,6 +4629,25 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	<details class="sub"><summary>&#x1f4c3; 11&deg; banner</summary>
 	<p>Usando as tags mostradas do lápis em uma <code>class="barra"</code>, temos o layout mostrado abaixo. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner11.jpg</code> e coloque as tags do lápis em uma <code>class="logo"</code>.</p>
 	<img src="css4/53_01_00.png"/>
+<figcaption>Estrutura SVG do 11&ordm; banner:
+<pre><code>&lt;svg viewBox="0 0 200 200"&gt;
+	&lt;g id="lapis" stroke-width="1" stroke="black"&gt;
+		&lt;rect x="30" y="10" width="56" height="5" fill="white"/&gt;
+		&lt;rect x="30" y="15" width="14" height="100" fill="rgba(0,0,255,1)"/&gt;
+		&lt;rect x="44" y="15" width="28" height="100" fill="rgba(0,0,255,0.6)"/&gt;
+		&lt;rect x="72" y="15" width="14" height="100" fill="rgba(0,0,255,1)"/&gt;
+		&lt;path d="M30,115 l14,24 h28 l14,-24z" fill="brown"/&gt;
+		&lt;path d="M30,115 l14,24 h28 l14,-24z" fill="rgb(200,200,100)"/&gt;
+		&lt;path d="M44,139 l14,24 l14,-24z" fill="blue"/&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="rotate" from="20,30,30"
+				to="0,30,30" begin="2s" dur="5s" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" from="0.7" to="1" begin="2s" dur="5s" additive="sum" /&gt;
+	&lt;/g&gt;
+	&lt;text class="texto" x="100" y="150" fill="none" stroke="rgba(100,85,190,1)" stroke-width="1" stroke-dasharray="200"&gt;SVG
+		&lt;animate attributeName="stroke-dashoffset" from="200" to="0" dur="5s" begin="2s" fill="freeze" /&gt;
+		&lt;animate attributeName="fill" from="rgba(0,0,0,0.1)" to="rgba(100,85,190,0.6)" dur="5s" begin="2s" fill="freeze" /&gt;
+	&lt;/text&gt;
+&lt;/svg&gt;</code></pre></figcaption>
   </details>
 	<img src="css4/tags001_0053a.png"/>
 	<details class="sub"><summary>&#x1f4c3; 12&deg; banner</summary>
