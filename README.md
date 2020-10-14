@@ -4524,8 +4524,6 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
 			&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
 				&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-				&lt;animateTransform attributeName="transform" attributeType="xml" type="translate" values="0,0;3,0;0,0;-3,0;0,0" begin="0s" dur="5s" repeatCount="indefinite" /&gt;
-				&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" values="1;0.95;1" begin="0s" dur="5s" additive="sum" repeatCount="indefinite" /&gt;
 			&lt;/path&gt;
 		&lt;/g&gt;
 		&lt;circle r="5" cx="55" cy="15" fill="url(#radial1)" filter="url(#filtro)" /&gt;
