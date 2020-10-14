@@ -5289,6 +5289,57 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <img src="css5/56_01_04.png"/>
 			   <figcaption>A última tag será <code>class="rodape"</code>, colocada depois do fechamento da tag <code>class="galeria"</code> após a imagem ampliada <code>href="img12"</code>.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="427a" name="sl">
+			   <label for="427a"></label>
+			   <figcaption>Trecho da estrutura HTML da galeria da Atividade 10:
+<pre><code>&lt;div class="galeria"&gt;
+	&lt;!-- miniaturas das fotos --&gt;
+	&lt;a href="#img1" class="mini" title="Meu projeto 1"&gt;
+		&lt;img src="imagens/projeto1.jpg"&gt;
+	&lt;/a&gt;		
+	&lt;a href="#img2" class="mini" title="Meu projeto 2"&gt;
+		&lt;img src="imagens/projeto2.png"&gt;
+	&lt;/a&gt;		
+	&lt;a href="#img3" class="mini" title="Meu projeto 3"&gt;
+		&lt;img src="imagens/projeto3.jpg"&gt;
+	&lt;/a&gt;		
+	&lt;!-- fotos ampliadas, escondidas pelo CSS --&gt;
+	&lt;div class="maior" id="img1"&gt;
+		&lt;div class="bloco"&gt;
+			&lt;a href="#img12" class="botao anterior"&gt;&lt;&lt;/a&gt;
+			&lt;figure&gt;
+				&lt;img src="imagens/projeto1.jpg"&gt;
+				&lt;figcaption&gt;Meu projeto 1&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;a href="#img2" class="botao proxima"&gt;&gt;&lt;/a&gt;
+			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="maior" id="img2"&gt;
+		&lt;div class="bloco"&gt;
+			&lt;a href="#img1" class="botao anterior"&gt;&lt;&lt;/a&gt;
+			&lt;figure&gt;
+				&lt;img src="imagens/projeto2.png"&gt;
+				&lt;figcaption&gt;Meu projeto 2&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;a href="#img3" class="botao proxima"&gt;&gt;&lt;/a&gt;
+			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="maior" id="img3"&gt;
+		&lt;div class="bloco"&gt;
+			&lt;a href="#img2" class="botao anterior"&gt;&lt;&lt;/a&gt;
+			&lt;figure&gt;	
+				&lt;img src="imagens/projeto3.jpg"&gt;
+				&lt;figcaption&gt;Meu projeto 3&lt;/figcaption&gt;
+			&lt;/figure&gt;
+			&lt;a href="#img4" class="botao proxima"&gt;&gt;&lt;/a&gt;
+			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre></figcaption>
+		   </li>
 		</ul>
 		<img src="css5/56_01_01.png" class="fundo" style="visibility:hidden"/>
   </details>
