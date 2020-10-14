@@ -4454,13 +4454,7 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <input type="radio" id="374" name="sl">
 			   <label for="374"></label>
 			   <img src="css4/51_01_08.png"/>
-			   <figcaption>A tag <code>name="nuvem"</code> tem o gradiente indicado por <code>url(#radial2)</code>. O desenho é similar aos de nuvens que já fizemos: os dois primeiros arcos têm raios de 5px, sentido horário, e finalizam nos pontos com coordenadas relativas (7,-7) e (9,0). Os outros arcos são desenhados da mesma forma.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="374a" name="sl">
-			   <label for="374a"></label>
-			   <img src="css4/51_01_08.png"/>
-			   <figcaption>Podemos definir o tracejado do desenho da nuvem com 80px, e o efeito de desenhar a nuvem que começa em 80px, vai até 0 e volta para 80px. Esta tag de animação está dentro da tag de caminho da nuvem, que precisa ser fechada: <code>&lt;/path&gt;</code>.</figcaption>
+			   <figcaption>A tag <code>name="nuvem"</code> tem o gradiente indicado por <code>url(#radial2)</code>. O desenho é similar aos de nuvens que já fizemos: os dois primeiros arcos têm raios de 5px, sentido horário, e finalizam nos pontos com coordenadas relativas (7,-7) e (9,0). Os outros arcos são desenhados da mesma forma. Podemos definir o tracejado do desenho da nuvem com 80px, e o efeito de desenhar a nuvem que começa em 80px, vai até 0 e volta para 80px. Esta tag de animação está dentro da tag de caminho da nuvem, que precisa ser fechada: <code>&lt;/path&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="375" name="sl">
@@ -4473,6 +4467,93 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <label for="376"></label>
 			   <img src="css4/51_01_10.png"/>
 			   <figcaption>Este é o layout do banner com as configurações mostradas. Ajuste cores e valores de atributos para o seu banner.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="376a" name="sl">
+			   <label for="376a"></label>
+			   <img src="css4/51_01_10.png"/>
+			   <figcaption>Trecho da estrutura CSS do 9&ordm; banner, configurando o novo banner:
+<pre><code>.banner2 svg{width:100%; max-height:470px; flex:3;}
+.banner2 {display:flex; justify-content:flex-end; align-items:center; background:linear-gradient(to bottom, skyblue, white);}
+.banner2 label .menu ul{flex:1; flex-direction:column; align-content:flex-end;}
+.banner2 label .menu li{margin-bottom:15px;}
+
+textpath {font-family:Calibri; font-size:30pt; text-shadow:1px 1px 3px yellow;}
+
+label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura HTML do 9&ordm; banner:
+<pre><code>&lt;div class="banner2"&gt;
+	&lt;svg viewBox="0 0 150 76" &gt;
+		&lt;defs&gt;
+			&lt;linearGradient id="linear2" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+				&lt;stop offset="0%" stop-color="skyblue"/&gt;
+				&lt;stop offset="100%" stop-color="white"/&gt;
+			&lt;/linearGradient&gt;
+			&lt;linearGradient id="linear3" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+				&lt;stop offset="0%" stop-color="grey"/&gt;
+				&lt;stop offset="100%" stop-color="white"/&gt;
+			&lt;/linearGradient&gt;
+			&lt;radialGradient id="radial1" cx="50%" cy="50%" r="50%"&gt;
+				&lt;stop offset="0%" stop-color="#FFC966"/&gt;
+				&lt;stop offset="100%" stop-color="orange"/&gt;
+			&lt;/radialGradient&gt;
+			&lt;radialGradient id="radial2" cx="50%" cy="50%" r="50%"&gt;
+				&lt;stop offset="0%" stop-color="white"/&gt;
+				&lt;stop offset="100%" stop-color="rgb(240,240,240)"/&gt;
+			&lt;/radialGradient&gt;
+			&lt;filter id="filtro" x="-20" y="-20" height="50" width="50"&gt;
+				&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.1" result="sombra"&gt;&lt;/feGaussianBlur&gt;
+				&lt;feGaussianBlur in="SourceGraphic" stdDeviation="0.1" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
+				&lt;feMerge&gt;
+					&lt;feMergeNode in="sombra"/&gt;
+					&lt;feMergeNode in="desfocado"/&gt;
+				&lt;/feMerge&gt;
+			&lt;/filter&gt;
+		&lt;/defs&gt;
+		&lt;g name="ceu"&gt;
+			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
+		&lt;/g&gt;</code></pre></figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="376b" name="sl">
+			   <label for="376b"></label>
+			   <figcaption>2&ordf; parte da estrutura SVG do 9&ordm; banner:
+<pre><code>		&lt;g name="perfil" filter="url(#filtro)"&gt;
+			&lt;path d="M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" stroke-width="0.5" stroke-dasharray="900"&gt;
+				&lt;animate attributeName="stroke-dashoffset" values="900;0;900" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			&lt;/path&gt;
+		&lt;/g&gt;
+		&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
+			&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
+				&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+				&lt;animateTransform attributeName="transform" attributeType="xml" type="translate" values="0,0;3,0;0,0;-3,0;0,0" begin="0s" dur="5s" repeatCount="indefinite" /&gt;
+				&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" values="1;0.95;1" begin="0s" dur="5s" additive="sum" repeatCount="indefinite" /&gt;
+			&lt;/path&gt;
+		&lt;/g&gt;
+		&lt;circle r="5" cx="55" cy="15" fill="url(#radial1)" filter="url(#filtro)" /&gt;
+		&lt;g stroke-dasharray="35" stroke="orange" stroke-width="0.3" filter="url(#filtro)" name="sol" &gt;
+			&lt;path d="M55,4 v5" stroke-dasharray="5" /&gt;
+			&lt;path d="M55,4 v5" transform="rotate(45,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(90,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(135,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(180,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(-45,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(-90,55,15)" stroke-dasharray="5"/&gt;
+			&lt;path d="M55,4 v5" transform="rotate(-135,55,15)" stroke-dasharray="5"/&gt;
+			&lt;animate attributeName="stroke-dashoffset" values="3;0;3" dur="10s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;/g&gt;
+	&lt;/svg&gt;
+	&lt;input type="checkbox" id="checkbox1"&gt;
+	&lt;label for="checkbox1"&gt;
+	&lt;nav class="menu"&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+	&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+	&lt;/label&gt;
+&lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/51_01_00.png" class="fundo" style="visibility:hidden"/>
