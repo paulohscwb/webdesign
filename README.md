@@ -4912,8 +4912,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 &lt;text&gt;
   &lt;textpath fill="rgb(50,150,50)" stroke="none" xlink:href="#curva"&gt;Meu portfólio
 &lt;animate attributeName="startOffset" from="-150" to="5" dur="5s" begin="0s" fill="freeze" /&gt;
-  &lt;/textpath&gt;</code></pre></figcaption>
-</text>
+  &lt;/textpath&gt;
+&lt;/text&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/54_01_00.png" class="fundo" style="visibility:hidden"/>
