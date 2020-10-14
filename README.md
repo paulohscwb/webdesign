@@ -5078,7 +5078,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <label for="422"></label>
 			   <img src="css5/55_02_11.png"/>
 			   <figcaption>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.
-			   <br>1&ordf; parte da estrutura SVG do banner da Atividade 10:
+			   1&ordf; parte da estrutura SVG do banner da Atividade 10:
 <pre><code>&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
 	&lt;defs&gt;
 		&lt;linearGradient id="azul" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
