@@ -4361,6 +4361,31 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <img src="css4/49_01_06.png"/>
 			   <figcaption>E no final, com opacidade e os desenhos dos contornos completos, fica dessa forma. Ajuste os valores para animação no seu banner da xícara.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="365a" name="sl">
+			   <label for="365a"></label>
+			   <figcaption>Estrutura SVG das animações do 8&ordm; banner:
+<pre><code>&lt;svg viewBox="0 0 200 220" &gt;
+	&lt;linearGradient id="efeito13" x1="0%" y1="0%" x2="100%" y2="100%"&gt;
+		&lt;stop offset="0%" stop-color="orange"/&gt;
+		&lt;stop offset="100%" stop-color="#C36900"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;g id="xicara" fill="url(#efeito13)" stroke="grey" opacity="0.8" stroke-dasharray="400" filter="url(#filtro)"&gt;
+		&lt;path d="M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z" /&gt;
+		&lt;rect x="40" y="120" rx="5" width="120" height="70" /&gt;
+		&lt;animate attributeName="stroke-dashoffset" values="400;0;400" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;animate attributeName="opacity" values="0.8;1;0.8" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+	&lt;/g&gt;
+	&lt;g id="fumaca" fill="none" stroke="grey" stroke-width="2" stroke-dasharray="150" opacity="0.5" filter="url(#filtro)"&gt; 
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50"  /&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(-20,0)"/&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(20,0)"/&gt;
+		&lt;text x="50" y="215" font-weight="bold" fill="url(#efeito13)" stroke="brown" stroke-width="1"&gt;Meu Café&lt;/text&gt;
+		&lt;animate attributeName="stroke-dashoffset" values="150;0;150" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;animate attributeName="opacity" values="0.5;1;0.5" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
+		   </li> 
 		</ul>
 		<img src="css4/49_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
