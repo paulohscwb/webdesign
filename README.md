@@ -4507,16 +4507,16 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 					&lt;feMergeNode in="desfocado"/&gt;
 				&lt;/feMerge&gt;
 			&lt;/filter&gt;
-		&lt;/defs&gt;
-		&lt;g name="ceu"&gt;
-			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
-		&lt;/g&gt;</code></pre></figcaption>
+		&lt;/defs&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="376b" name="sl">
 			   <label for="376b"></label>
 			   <figcaption>2&ordf; parte da estrutura SVG do 9&ordm; banner:
-<pre><code>		&lt;g name="perfil" filter="url(#filtro)"&gt;
+<pre><code>		&lt;g name="ceu"&gt;
+			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
+		&lt;/g&gt;
+		&lt;g name="perfil" filter="url(#filtro)"&gt;
 			&lt;path d="M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" stroke-width="0.5" stroke-dasharray="900"&gt;
 				&lt;animate attributeName="stroke-dashoffset" values="900;0;900" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 			&lt;/path&gt;
@@ -4550,7 +4550,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 	&lt;/nav&gt;
-	&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+	&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
 	&lt;/label&gt;
 &lt;/div&gt;</code></pre></figcaption>
 		   </li>
