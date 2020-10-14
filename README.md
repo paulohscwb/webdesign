@@ -4904,6 +4904,17 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <img src="css4/54_01_05.png"/>
 			   <figcaption>No final da animação do texto, o banner fica desta forma.</figcaption>
 		   </li>
+		   <li>
+			   <input type="radio" id="404a" name="sl">
+			   <label for="404a"></label>
+			   <figcaption>Trecho da estrutura SVG com animação do texto em curva:
+<pre><code>&lt;path id="curva" fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
+&lt;text&gt;
+  &lt;textpath fill="rgb(50,150,50)" stroke="none" xlink:href="#curva"&gt;Meu portfólio
+&lt;animate attributeName="startOffset" from="-150" to="5" dur="5s" begin="0s" fill="freeze" /&gt;
+  &lt;/textpath&gt;</code></pre></figcaption>
+</text>
+		   </li>
 		</ul>
 		<img src="css4/54_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
