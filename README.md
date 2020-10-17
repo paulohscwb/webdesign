@@ -1224,7 +1224,7 @@ Trecho do código HTML com galeria em formato de tabela:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css1" open><summary>2. CSS - Cascading Style Sheets</summary>
+<details id="css1"><summary>2. CSS - Cascading Style Sheets</summary>
 	<p>Material da pág. 11 até a pág. 20</p>
 	<img src="css1/tags001_0011.png"/>
 	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
@@ -1884,7 +1884,7 @@ Estrutura PHP do formulário:
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css2" open><summary>3. CSS, Flexbox e Mapeamentos de imagens</summary>
+<details id="css2"><summary>3. CSS, Flexbox e Mapeamentos de imagens</summary>
 	<p>Material da pág. 21 até a pág. 27</p>
 	<img src="css2/tags001_0021.png"/>
 	<details class="sub"><summary>&#x1f4c3; FlexBox para itens</summary>
