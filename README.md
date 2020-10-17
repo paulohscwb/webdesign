@@ -6,7 +6,7 @@
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2019/05/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
-<details id="basico">
+<details id="basico" open>
   <summary>1. Estruturas básicas</summary>
 	<p>Material da pág. 1 até a pág. 10</p>
    <img src="basico/tags001_0001.png"/>
@@ -602,7 +602,7 @@ Código estrutural da página HTML com imagens e vídeos:
 		</ul>
 		<img src="basico/06_04_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
+  <p class="topop" id="atv2"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0007.png"/>
   <details class="sub"><summary>&#x1f4c3; Tabelas</summary>
 	<p>Crie uma pasta chamada <code>webdesign/pagina5</code> para inserir os arquivos da nossa próxima página, com tabelas. O arquivo principal HTML será chamado de <code>index.htm</code>.</p>
@@ -1032,7 +1032,7 @@ Trecho do código HTML com galeria em formato de tabela:
 		</ul>
 		<img src="basico/09_02_04.png" class="fundo" style="visibility:hidden"/>
   </details>
-  <img src="basico/tags001_0009b.png"/>
+  <img id="atv3" src="basico/tags001_0009b.png"/>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png"/>
   <details class="sub"><summary>&#x1f4c3; Seletor de imagens</summary>
@@ -1224,7 +1224,7 @@ Trecho do código HTML com galeria em formato de tabela:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css1"><summary>2. CSS - Cascading Style Sheets</summary>
+<details id="css1" open><summary>2. CSS - Cascading Style Sheets</summary>
 	<p>Material da pág. 11 até a pág. 20</p>
 	<img src="css1/tags001_0011.png"/>
 	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
@@ -1325,7 +1325,7 @@ Trecho do código HTML com galeria em formato de tabela:
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0013.png"/>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
-  <img src="css1/tags001_0014.png"/>
+  <img src="css1/tags001_0014.png" id="atv4a"/>
   <details class="sub"><summary>&#x1f4c3; Layout da Atividade 4</summary>
 	<p>Vamos criar uma pasta para nosso próximo site chamada <code>webdesign/atividade4</code>. Neste projeto vamos criar um layout em forma de tabela, parecido com as Atividades 2 e 3, com formatação CSS. Como é um site com 3 páginas, vamos precisar de uma pasta de imagens:<code>webdesign/atividade4/imagens</code>.</p>
 	  <ul class="slider">
@@ -1579,7 +1579,7 @@ Estrutura HTML do menu da Atividade 4:
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0017.png"/>
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
-  <img src="css1/tags001_0018.png"/>
+  <img src="css1/tags001_0018.png" id="atv4b"/>
   <details class="sub"><summary>&#x1f4c3; Conteúdo da Atividade 4</summary>
 	<p>Vamos formatar o conteúdo principal e a barra lateral galeria da página <code>index.htm</code> da Atividade 4 com CSS. Antes vamos ver a estrutura HTML destas partes da página.</p>
 	  <ul class="slider">
@@ -1884,7 +1884,7 @@ Estrutura PHP do formulário:
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css2"><summary>3. CSS, Flexbox e Mapeamentos de imagens</summary>
+<details id="css2" open><summary>3. CSS, Flexbox e Mapeamentos de imagens</summary>
 	<p>Material da pág. 21 até a pág. 27</p>
 	<img src="css2/tags001_0021.png"/>
 	<details class="sub"><summary>&#x1f4c3; FlexBox para itens</summary>
@@ -2017,7 +2017,7 @@ Estrutura PHP do formulário:
   </details>
 	<img src="css2/tags001_0021a.png"/>
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
-	<img src="css2/tags001_0022.png"/>
+	<img src="css2/tags001_0022.png" id="atv5"/>
 	<details class="sub" style="box-shadow: none;"><summary>&#x1f4c3; Detalhes da página principal</summary>
 	<p>Crie uma pasta chamada <code>webdesign/atividade5</code>, com a página principal com nome <code>index.htm</code>. Dentro desta pasta, crie a pasta de imagens para inserir fotos dos 12 itens que aparecem na página criada. Vamos usar muitos recursos da página que construímos com Flexbox.</p>
 	  <ul class="slider">
