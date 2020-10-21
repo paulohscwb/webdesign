@@ -2700,7 +2700,7 @@ Trecho da estrutura HTML do mapeamento:
 	<img src="css3/tags001_0029.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0030.png"/>
-	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<p class="topop" id ="atv7a"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0031.png"/>
 	<details class="sub" style="box-shadow: none;"><summary>&#x1f4c3; Atividade 7: HTML do menu superior</summary>
 	<p>Crie a pasta <code>webdesign/atividade7</code> com os arquivos <code>index.htm</code> e <code>estilo.css</code>. Nesta atividade, podemos usar a estrutura que usamos nos exemplos anteriores para fazer o menu. Crie a pasta das imagens <code>webdesign/atividade7/imagens</code>. Vamos criar um site com páginas sobre filmes nesta atividade. Escolha arquivos de imagens sobre seu filme favorito. A logomarca terá efeito de animação com rotação, e deve ser uma imagem de fundo transparente e com formato redondo. <a href="css3/icone_filme.png" download>Neste link</a> pode pode baixar a imagem da logomarca usada nesta atividade.</p>
@@ -2964,7 +2964,7 @@ body {width:85%; margin:auto;}
 		<img src="css3/32_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0033b.png"/>
-	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<p class="topop" id="atv7b"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0034.png"/>
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: banner e descrição</summary>
 	<p>Neste ponto, podemos criar o banner e uma logo para colocar flutuando sobre o banner. Escolha uma imagem com boa resolução para ficar no banner, e uma logo do filme.</p>
@@ -3159,7 +3159,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0037.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
-	<img src="css3/tags001_0038.png"/>
+	<img id="atv7c" src="css3/tags001_0038.png"/>
 	<details class="sub"><summary>&#x1f4c3; Detalhes finais e animações</summary>
 	<p>Vamos criar efeitos de galeria na nossa página de filmes. Coloque os nomes dos filmes nos itens do menu.</p>
 	  <ul class="slider">
@@ -3862,7 +3862,7 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 		<img src="css4/41_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0041b.png"/>
-	<details class="sub"><summary>&#x1f4c3; 4&deg; e 5&deg; banners</summary>
+	<details id="atv8a" class="sub"><summary>&#x1f4c3; 4&deg; e 5&deg; banners</summary>
 	<p>Vamos criar os outros 2 desenhos SVG dentro de classes <code>class="logo"</code> em novas classes <code>class="barra"</code>, colocadas logo após o fechamento da tag da terceira <code>barra</code> que desenhamos com a estrela.</p>
 	  <ul class="slider">
 		  <li>
@@ -4234,7 +4234,7 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 		</ul>
 		<img src="css4/46_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
+	<p class="topop" id="atv8b"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0047.png"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0048.png"/>
