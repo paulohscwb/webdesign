@@ -1906,7 +1906,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="154" name="sl">
 			   <label for="154"></label>
 			   <img src="css2/21_01_04.png"/>
-			   <figcaption>Dentro desta <b>div</b>, podemos criar as tags filhas, que terão classe <code>class="item"</code>. Em cada uma, coloque um texto e a respectiva imagem que está salva na pasta de imagens. Crie 5 ou mais itens, para testarmos o layout que será usado na próxima Atividade.</figcaption>
+			   <figcaption>Dentro desta <b>div</b>, podemos criar as tags filhas, que terão nomes <code>class="item"</code>. Em cada uma, coloque um texto e a respectiva imagem que está salva na pasta de imagens. Crie 5 ou mais itens, para testarmos o layout que será usado na próxima Atividade.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="155" name="sl">
@@ -1936,7 +1936,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="159" name="sl">
 			   <label for="159"></label>
 			   <img src="css2/21_01_09.png"/>
-			   <figcaption>A tag de conteúdo pode ter atributo de alinhamento vertical configurado e largura. Se atribuirmos 70% de largura, automaticamente a barra lateral fica com os 30% restantes.</figcaption>
+			   <figcaption>A tag de conteúdo pode ter atributos configurados de alinhamento vertical e largura. Se atribuirmos 70% de largura, automaticamente a barra lateral fica com os 30% restantes.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="160" name="sl">
@@ -1948,7 +1948,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="161" name="sl">
 			   <label for="161"></label>
 			   <img src="css2/21_01_11.png"/>
-			   <figcaption>Os itens "herdam" a propriedade flex da tag mãe "todos". Os itens podem ter o atributo de largura mínima <code>min-width:150px;</code>, evitando que o respectivo conteúdo seja "espremido" demais para caber em uma linha só. Cor de fundo, borda e arredondamento de bordas podem ser atribuídos nos itens. Faça testes do layout do flexbox que criamos.</figcaption>
+			   <figcaption>Os itens herdam a propriedade flex da tag mãe "todos". Os itens podem ter o atributo de largura mínima <code>min-width:150px;</code>, evitando que o respectivo conteúdo seja "espremido" demais para caber em uma linha só. Cor de fundo, borda e arredondamento de bordas podem ser atribuídos nos itens. Faça testes do layout do flexbox que criamos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="162" name="sl">
@@ -2037,7 +2037,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="166" name="sl">
 			   <label for="166"></label>
 			   <img src="css2/21_02_03.png"/>
-			   <figcaption>Os itens da loja podem ser colocados dentro da tag <code>class="todos"</code>, que usamos na página anterior. Cada item aparece dentro de uma classe <code>class="item"</code>, one colocamos um título do produto, uma imagem e o preço, com a tag <code>&lt;strike&gt;</code> para os preços antigos de cada um dos 12 produtos.</figcaption>
+			   <figcaption>Os itens da loja podem ser colocados dentro da tag <code>class="todos"</code>, que usamos na página anterior. Cada item aparece dentro de uma classe <code>class="item"</code>, onde colocamos um título do produto, uma imagem e o preço, com a tag <code>&lt;strike&gt;</code> para os preços antigos de cada um dos 12 produtos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="167" name="sl">
