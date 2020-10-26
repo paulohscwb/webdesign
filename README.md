@@ -2226,7 +2226,7 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="181" name="sl">
 			   <label for="181"></label>
 			   <img src="css2/23_01_03.png"/>
-			   <figcaption>Neste exemplo, mostraremos o uso dos círculos para mapear. Eles criam uma área invisível para o visitante, mas que ao passar o cursor do mouse por cima da área na imagem, aparece o link. Os círculos possuem as coordenadas do centro <b>X</b> e <b>Y</b> e a medida do <b>RAIO</b>: <code>coords="X,Y,RAIO"</code>. Pegue as coordenadas da imagem de menu que você mapear em um editor de imagens.</figcaption>
+			   <figcaption>Neste exemplo, mostraremos o uso dos círculos para mapear. Eles criam uma área invisível para o visitante, mas que ao passar o cursor do mouse por cima da área na imagem, aparece o link. Os círculos possuem as coordenadas do centro <b>X</b> e <b>Y</b> e a medida do <b>RAIO</b>: <code>coords="X,Y,RAIO"</code>. As coordenadas da imagem de menu que você mapear podem ser obtidas em um editor de imagens.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="183" name="sl">
@@ -2336,7 +2336,7 @@ Trecho da estrutura HTML do mapeamento:
 			   <input type="radio" id="191" name="sl">
 			   <label for="191"></label>
 			   <img src="css2/25_02_04.png"/>
-			   <figcaption>Quando o visitante passar o cursos do mouse por cima de uma região com tag mapeada <code>&lt;a&gt;</code>, os respectivos textos e retângulos aparecerão com a definição do atributo de opacidade em <code>a:hover > text</code> e <code>a:hover > rect</code>.</figcaption>
+			   <figcaption>Quando o visitante passar o cursor do mouse por cima de uma região com tag mapeada <code>&lt;a&gt;</code>, os respectivos textos e retângulos aparecerão com a definição do atributo de opacidade em <code>a:hover > text</code> e <code>a:hover > rect</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="192" name="sl">
