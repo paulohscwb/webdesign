@@ -1254,7 +1254,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="099" name="sl">
 			   <label for="099"></label>
 			   <img src="css1/12_01_04.png"/>
-			   <figcaption>Agora vamos analisar a estrutura do CSS. Nestes primeiros exemplos, vamos usar as folhas de estilos por dentro das páginas, dentro do cabeçalho com a tag <code>&lt;style&gt;</code>.</figcaption>
+			   <figcaption>Agora vamos analisar a estrutura do CSS. Nestes primeiros exemplos, vamos usar as folhas de estilos dentro das páginas, nos cabeçalhos com a tag <code>&lt;style&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="100" name="sl">
@@ -1345,7 +1345,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="105" name="sl">
 			   <label for="105"></label>
 			   <img src="css1/14_01_02.png"/>
-			   <figcaption>A segunda linha da tabela contém o menu, que ocupará a largura toda da página. Por isso, colocamos o atributo <code>colspan="3"</code> nesta célula, que possui classe definida como <code>class="menu"</code>.</figcaption>
+			   <figcaption>A segunda linha da tabela contém o menu, que ocupará a largura toda da página. Por isso, colocamos o atributo <code>colspan="3"</code> nesta célula, que possui classe com o nome <code>class="menu"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="106" name="sl">
@@ -1357,7 +1357,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="107" name="sl">
 			   <label for="107"></label>
 			   <img src="css1/14_01_04.png"/>
-			   <figcaption>A última linha contém o rodapé, com atributo <code>colspan="3"</code> para usar a largura toda da página, e com a classe definida: <code>class="rodape"</code>.</figcaption>
+			   <figcaption>A última linha contém o rodapé, com atributo <code>colspan="3"</code> para usar a largura toda da página, definida como <code>class="rodape"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="108" name="sl">
@@ -1467,7 +1467,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="115" name="sl">
 			   <label for="115"></label>
 			   <img src="css1/15_01_07.png"/>
-			   <figcaption>Com as propriedades definidas neste exemplo, nossa página fica com a parte superior desta forma. Formate o seu layout com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade.</figcaption>
+			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="115a" name="sl">
@@ -1525,13 +1525,13 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="121" name="sl">
 			   <label for="121"></label>
 			   <img src="css1/16_01_05.png"/>
-			   <figcaption>Na tag <code>&lt;a&gt;</code> podemos configurar tamanho de fonte e o atributo <code>text-decoration:none;</code> remove aquelas configurações comuns de links (cor azul, sublinhado).</figcaption>
+			   <figcaption>Na tag <code>&lt;a&gt;</code> podemos configurar tamanho de fonte e o atributo <code>text-decoration:none;</code> que remove aquelas configurações comuns de links (cor azul, sublinhado).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="122" name="sl">
 			   <label for="122"></label>
 			   <img src="css1/16_01_06.png"/>
-			   <figcaption>Ao passar o cursor do mouse por cima de um item do menu, podemos criar alguns efeitos: mudanças de cor, de fundo, sublinhados ou sombras. Neste caso usamos sombra e mudança de cor da fonta para esse efeito. Escolha um efeito para sua página.</figcaption>
+			   <figcaption>Ao passar o cursor do mouse por cima de um item do menu, podemos criar alguns efeitos: mudanças de cor, de fundo, sublinhados ou sombras. Neste caso usamos sombra e mudança de cor da fonte para esse efeito. Escolha um efeito para sua página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="123" name="sl">
@@ -1581,7 +1581,7 @@ Estrutura HTML do menu da Atividade 4:
   <p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
   <img src="css1/tags001_0018.png" id="atv4b"/>
   <details class="sub"><summary>&#x1f4c3; Conteúdo da Atividade 4</summary>
-	<p>Vamos formatar o conteúdo principal e a barra lateral galeria da página <code>index.htm</code> da Atividade 4 com CSS. Antes vamos ver a estrutura HTML destas partes da página.</p>
+	<p>Vamos formatar o conteúdo principal e a barra lateral de galeria da página <code>index.htm</code> da Atividade 4 com CSS. Antes vamos ver a estrutura HTML destas partes da página.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="125" name="sl">
@@ -1599,7 +1599,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="127" name="sl">
 			   <label for="127"></label>
 			   <img src="css1/18_01_02.png"/>
-			   <figcaption>Na tag de estilo <code>&lt;style&gt;</code> vamos focar nos atributos das classes galeria e principal.</figcaption>
+			   <figcaption>Na tag de estilo <code>&lt;style&gt;</code> vamos focar nos atributos das classes <b>galeria</b> e <b>principal</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="128" name="sl">
@@ -1623,7 +1623,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="131" name="sl">
 			   <label for="131"></label>
 			   <img src="css1/18_01_06.png"/>
-			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir adiante os atributos das outras tags da página.</figcaption>
+			   <figcaption>Defina o alinhamento do texto da tag principal da página. Você pode definir também cor de texto e mais efeitos no CSS. Vamos definir mais adiante os atributos das outras tags da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="131a" name="sl">
