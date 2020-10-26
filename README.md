@@ -2,7 +2,7 @@
 
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
-<p>Este site contém os procedimentos para construirmos sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
+<p>Este site contém os procedimentos e dicas para construção de páginas em HTML, foco da disciplina Fundamentos do Webdesign</p>
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2019/05/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
@@ -11,13 +11,13 @@
 	<p>Material da pág. 1 até a pág. 10</p>
    <img src="basico/tags001_0001.png"/>
    <details class="sub"><summary>&#x1f4c3; Escolha de cores</summary>
-	<p>Existem vários sites que mostram as escolhas de cores para usar em HTML. Vamos começar usando as cores com códigos HTML ou hexadecimais. Clique nos passos abaixo para ver como podemos escolher cores em 2 sites.</p>
+	<p>Existem vários sites que mostram as escolhas de cores para usar em HTML. Vamos começar usando as cores com códigos HTML ou hexadecimais. Clique nos passos abaixo para ver como podemos escolher as cores.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="001" name="sl" checked>
 			   <label for="001"></label>
 			   <img src="basico/01_01_01.png"/>
-			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/" target="_blank">http://html-color-codes.info/Codigos-de-Cores-HTML/</a>, você pode clicar em cores pré-definidas pelo site. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
+			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/" target="_blank">http://html-color-codes.info/Codigos-de-Cores-HTML/</a>, você pode clicar em cores pré-definidas. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="002" name="sl">
@@ -50,7 +50,7 @@
   </details>
   <img src="basico/tags001_0001a.png"/>
    <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
-	<p>Muitas vezes, nosso foco é de testar somente o layout de um site. Podemos preenchê-lo com textos e listas usando o site mostrado nesta página. Clique nos passos abaixo para ver como produzir estes conteúdos.</p>
+	<p>Muitas vezes, nosso foco é de testar somente o layout de uma página. Podemos preenchê-la com textos e listas usando o site mostrado a seguir. Clique nos passos abaixo para ver como produzir estes conteúdos.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="005" name="sl">
@@ -136,7 +136,7 @@ Código estrutural de uma página HTML:
   </details>
   <img src="basico/tags001_0003a.png"/>
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
-	<p>Vamos deixar todos os arquivos desta disciplina organizados. Podemos criar uma pasta chamada <code>pagina1</code> para colocar todos os arquivos desta primeira página. É importante deixar os arquivos sempre organizados em pastas para usarmos as referências corretas na hora de montar o site.</p>
+	<p>Vamos deixar todos os arquivos desta disciplina organizados. Podemos criar uma pasta chamada <code>pagina1</code> para colocar todos os arquivos desta primeira página. É importante deixar os arquivos sempre organizados em pastas para usarmos as referências corretas na hora de construir sites.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="012" name="sl">
@@ -148,7 +148,7 @@ Código estrutural de uma página HTML:
 			   <input type="radio" id="012a" name="sl">
 			   <label for="012a"></label>
 			   <img src="basico/03_02_02.png"/>
-			   <figcaption>Podemos escolher uma imagem para colocar no fundo da página (<code>background</code>). Escolha uma com largura maior do que 1000px, para cobrir todo o fundo da página, e salve na pasta que criamos <code>/imagens</code>.</figcaption>
+			   <figcaption>Podemos escolher uma imagem para colocar no fundo da página (<code>background</code>). Escolha uma imagem com largura maior do que 1000px, para cobrir todo o fundo da página, e salve na pasta que criamos <code>/imagens</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="013" name="sl">
@@ -185,7 +185,7 @@ Código estrutural de uma página HTML:
 			   <input type="radio" id="016" name="sl">
 			   <label for="016"></label>
 			   <img src="basico/03_03_01.png"/>
-			   <figcaption>Usando a tag <code>&lt;hr&gt;</code>, podemos separar conteúdos na página. Essa tag não precisa ser fechada! Você pode configurar a altura, largura e cor. A largura em percentual é muito usada para deixar o site responsivo, ou seja, que abre em qualquer dispositivo.</figcaption>
+			   <figcaption>Usando a tag <code>&lt;hr&gt;</code>, podemos separar conteúdos na página. Essa tag não precisa ser fechada! Você pode configurar a altura, largura e cor. A largura em percentual é muito usada para deixar o site responsivo, ou seja, que abre em qualquer dispositivo com poucas distorções de tamanhos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="017" name="sl">
@@ -197,7 +197,7 @@ Código estrutural de uma página HTML:
 			   <input type="radio" id="018" name="sl">
 			   <label for="018"></label>
 			   <img src="basico/03_03_03.png"/>
-			   <figcaption>A tag de negrito <code>&lt;b&gt;</code> foi usada neste exemplo para um trecho do texto. Não esqueça de fechá-la para que seu site apareça corretamente. Salve a página renderizada em um navegador.</figcaption>
+			   <figcaption>A tag de negrito <code>&lt;b&gt;</code> foi usada neste exemplo para um trecho do texto. Não esqueça de fechá-la para que os conteúdos de sua página HTML apareçam corretamente. Salve a página renderizada em um navegador.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="019" name="sl">
@@ -229,7 +229,7 @@ Código estrutural de uma página HTML:
 			   <input type="radio" id="022" name="sl">
 			   <label for="022"></label>
 			   <img src="basico/04_01_02.png"/>
-			   <figcaption>Usando a tag <code>&lt;ul&gt;</code>, podemos criar listas na página. Este exemplo mostra os marcadores circulares da lista.</figcaption>
+			   <figcaption>Usando a tag <code>&lt;ul&gt;</code>, podemos criar listas na página. Este exemplo mostra os marcadores da lista com formato de círculos.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="023" name="sl">
@@ -241,7 +241,7 @@ Código estrutural de uma página HTML:
 			   <input type="radio" id="024" name="sl">
 			   <label for="024"></label>
 			   <img src="basico/04_01_04.png"/>
-			   <figcaption>As listas ordenadas têm a mesma estrutura da lista norma, com a tag principal <code>&lt;ol&gt;</code>. Estas tags podem ser numéricas ou com letras. Neste exemplo, a lista com letras começa na 4&ordf; letra, ou seja, a letra <b>D</b>.</figcaption>
+			   <figcaption>As listas ordenadas têm a mesma estrutura da lista normal, com a tag principal <code>&lt;ol&gt;</code>. Estas tags podem ser numéricas <code>type="1"</code>, literais <code>type="A"</code> ou com números romanos <code>type="I"</code>. Neste exemplo, a lista com letras começa na 4&ordf; letra, ou seja, a letra <b>D</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="024a" name="sl">
@@ -281,7 +281,7 @@ Código estrutural da página HTML com listas:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0005.png"/>
   <details class="sub"><summary>&#x1f4c3; Imagens</summary>
-	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina: crie a pasta <code>webdesign/pagina3/</code>. Nesta página, vamos inserir imagens, por isso, crie uma pasta <code>webdesign/pagina3/imagens</code> para colocarmos todas as imagens do site. Escolha 3 imagens e coloque nesta pasta. As extensões podem ser <b>png</b>, <b>jpg</b> ou <b>jpeg</b>. Preste atenção no atributo <code>src</code>, que contém o caminho da imagem.</p>
+	<p>Agora vamos criar uma outra página, dentro da pasta da disciplina: crie a pasta <code>webdesign/pagina3/</code>. Nesta página, vamos inserir imagens, por isso, crie uma pasta <code>webdesign/pagina3/imagens</code> para colocarmos todas as imagens da página. Escolha 3 imagens e coloque nesta pasta. As extensões podem ser <b>png</b>, <b>jpg</b> ou <b>jpeg</b>. Preste atenção no atributo <code>src</code>, que contém o caminho da imagem.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="025" name="sl">
@@ -342,19 +342,19 @@ Código estrutural da página HTML com imagens:
   </details>
   <img src="basico/tags001_0005a.png"/>
   <details class="sub"><summary>&#x1f4c3; Links</summary>
-	<p>Usando a mesma <code>pagina3.htm</code>, vamos criar links. Os links podem ser criados em textos ou imagens.</p>
+	<p>Usando a mesma <code>pagina3.htm</code>, vamos criar links. Os links podem ser criados em textos, imagens ou vídeos.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="028" name="sl">
 			   <label for="028"></label>
 			   <img src="basico/05_02_01.png"/>
-			   <figcaption>A tag de link é <code>&lt;a&gt;</code>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto.</figcaption>
+			   <figcaption>A tag de link é <code>&lt;a&gt;</code>, e precisa de fechamento para você limitar o que o visitante clica para visitar uma outra página. Neste primeiro exemplo, o link está em um texto: <b>Página do Google</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="029" name="sl">
 			   <label for="029"></label>
 			   <img src="basico/05_02_01.png"/>
-			   <figcaption>O atributo <code>href</code> é obrigatório, e indica o endereço da página que será visitada. O atributo <code>target="_blank"</code> indica que a página será aberta em outra aba.</figcaption>
+			   <figcaption>O atributo <code>href</code> é obrigatório, e indica o endereço da página que será visitada. O atributo <code>target="_blank"</code> indica que a página será aberta em outra aba do navegador.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="030" name="sl">
@@ -396,14 +396,14 @@ Código estrutural da página HTML com links e imagens:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0006.png"/>
   <details class="sub"><summary>&#x1f4c3; Áudios</summary>
-	<p>Usando a mesma <code>pagina3.htm</code>, vamos inserir tags de áudios. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece um "frame" para o vídeo que fica similar à seguinte imagem:</p>
+	<p>Usando a mesma <code>pagina3.htm</code>, vamos inserir tags de áudios. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece um "frame" para o vídeo que fica parecido com a seguinte imagem:</p>
 	<p align="center"><img src="basico/06_01_04.png" width="40%"/></p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="031" name="sl">
 			   <label for="031"></label>
 			   <img src="basico/06_01_00.png"/>
-			   <figcaption>Na mesma pasta da nossa<code>pagina3</code>, podemos criar uma subpasta chamada <code>audios</code>. Assim, a estrutura de arquivos da nossa página fica organizada.</figcaption>
+			   <figcaption>Na mesma pasta da nossa<code>pagina3</code>, podemos criar uma pasta chamada <code>audios</code>. Assim, a estrutura de arquivos da nossa página fica bem organizada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="032" name="sl">
@@ -442,11 +442,11 @@ Código estrutural da página HTML com links e imagens:
 			   <figcaption>Usando a tag de link <code>&lt;a&gt;</code>, você insere os links de músicas em sua página.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/06_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="basico/06_01_01.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0006a.png"/>
   <details class="sub"><summary>&#x1f4c3; Vídeos</summary>
-	<p>Vamos criar uma nova pasta chamada <code>webdesign/pagina4</code>. Dentro desta pasta, crie as subpastas de <code>imagens</code> e de <code>videos</code>. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem similar à esta:</p>
+	<p>Vamos criar uma nova pasta chamada <code>webdesign/pagina4</code>. Dentro desta pasta, crie as pastas de <code>imagens</code> e de <code>videos</code>. Quando você salvar a página e visualizar em um navegador, a opção com controles fornece uma imagem parecida com esta:</p>
 	<p align="center"><img src="basico/06_02_05.png" width="60%"/></p>
 	  <ul class="slider">
 		  <li>
@@ -539,7 +539,7 @@ Código estrutural da página HTML com imagens e vídeos:
 			   <input type="radio" id="043" name="sl">
 			   <label for="043"></label>
 			   <img src="basico/06_03_03.png"/>
-			   <figcaption>Cole a tag criada na posição da página que você quer mostrar o vídeo. O atributo <code>frameborder</code> tem padrão com valor <b>0</b>. Se você quiser uma borda, basta digitar qualquer valor diferente de <b>0</b> neste atributo.</figcaption>
+			   <figcaption>Cole a tag criada na posição da página que você quer mostrar o vídeo. O atributo <code>frameborder</code> tem padrão com valor <b>0</b>. Se você quiser uma borda, basta alterar o valor deste atributo para qualquer número maior do que <b>0</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="043a" name="sl">
@@ -623,7 +623,7 @@ Código estrutural da página HTML com imagens e vídeos:
 			   <input type="radio" id="050" name="sl">
 			   <label for="050"></label>
 			   <img src="basico/07_01_02.png"/>
-			   <figcaption>As tags <code>&lt;th&gt;</code> podem ser usadas na primeira linha de uma tabela, como linha de títulos. Os textos, podemos digitar diretamente sem tags, como mostra o exemplo. Para colocar imagens, colocamos a tag <code>&lt;img&gt;</code> dentro da tag <code>&lt;td&gt;</code>.</figcaption>
+			   <figcaption>As tags <code>&lt;th&gt;</code> podem ser usadas na primeira linha de uma tabela, como linha de títulos. Podemos digitar os textos diretamente sem tags, como mostra o exemplo. Para colocar imagens, colocamos a tag <code>&lt;img&gt;</code> dentro da tag <code>&lt;td&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="051" name="sl">
@@ -691,7 +691,7 @@ Código estrutural da página HTML com tabelas:
 			   <input type="radio" id="055" name="sl">
 			   <label for="055"></label>
 			   <img src="basico/07_02_02.png"/>
-			   <figcaption>Agora você pode "aninhar" as tags de imagem <code>&lt;img&gt;</code> dentro de tags de link <code>&lt;a&gt;</code>, que estará dentro das respectivas tags de célula <code>&lt;td&gt;</code>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
+			   <figcaption>Agora você pode "aninhar" as tags de imagem <code>&lt;img&gt;</code> dentro de tags de link <code>&lt;a&gt;</code>, que ficam dentro das respectivas tags de célula <code>&lt;td&gt;</code>. Cuidado com as extensões e os caminhos dos arquivos!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="056" name="sl">
@@ -813,7 +813,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="065" name="sl">
 			   <label for="065"></label>
 			   <img src="basico/08_01_04.png"/>
-			   <figcaption>Na linha dos cereais, podemos mesclar as três células da primeira coluna com o atributo <code>rowspan="3"</code>. As outras 2 linhas da tabela tem 3 células com os valores indicados no exemplo. Agora complete esta tabela, que vamos utilizar na próxima Atividade.</figcaption>
+			   <figcaption>Na linha dos cereais, podemos mesclar as três células da primeira coluna com o atributo <code>rowspan="3"</code>. As outras 2 linhas da tabela têm 3 células com os valores indicados no exemplo. Agora complete esta tabela, que vamos utilizar na próxima Atividade.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="065a" name="sl">
@@ -925,7 +925,7 @@ Trecho do código HTML com galeria em formato de tabela:
   </details>
   <img src="basico/tags001_0009a.png"/>
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.8.8/" target="_blank">https://notepad-plus-plus.org/downloads/v7.8.8/</a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <code>webdesign/atividade2</code> para criar os arquivos da próxima atividade. A página principal será <code>index.htm</code></p>
+	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.9/" target="_blank">https://notepad-plus-plus.org/downloads/v7.9/</a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <code>webdesign/atividade2</code> para criar os arquivos da próxima atividade. A página principal terá o nome <code>index.htm</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="071" name="sl">
@@ -1036,7 +1036,7 @@ Trecho do código HTML com galeria em formato de tabela:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0010.png"/>
   <details class="sub"><summary>&#x1f4c3; Seletor de imagens</summary>
-	<p>Neste exemplo, vamos criar uma página com o seletor de imagens mostrado na apostila. Crie um arquivo chamado <code>webdesign/exercicios/seletor.htm</code> na nossa pasta de exercícios. Dentro da pasta de imagens, coloque 4 arquivos. No exemplo, estes arquivos estão com os nomes Foto1.jpg, Foto2.jpg, Foto3.jpg e Foto4.jpg.</p>
+	<p>Neste exemplo, vamos criar uma página com o seletor de imagens mostrado na apostila. Crie um arquivo chamado <code>webdesign/exercicios/seletor.htm</code> na nossa pasta de exercícios. Dentro da pasta de imagens, coloque 4 arquivos. No exemplo mostrado a seguir, estes arquivos estão com os nomes <b>Foto1.jpg</b>, <b>Foto2.jpg</b>, <b>Foto3.jpg</b> e <b>Foto4.jpg</b>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="082" name="sl">
@@ -1082,13 +1082,13 @@ Trecho do código HTML com galeria em formato de tabela:
   </details>
   <img src="basico/tags001_0010a.png"/>
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>Vamos criar uma pasta <code>webdesign/atividade3</code> para trabalharmos neste projeto. Selecione 5 pontos turísticos, e cada um deles terá uma página, salva na mesma pasta que criamos. Use uma subpasta chamada <code>webdesign/atividade3/imagens</code> para os arquivos das fotos. Neste projeto vamos inserir mapas nos sites.</p>
+	<p>Vamos criar uma pasta <code>webdesign/atividade3</code> para trabalharmos neste projeto. Selecione 5 pontos turísticos, e cada um deles terá uma página, salva na mesma pasta que criamos. Use uma pasta chamada <code>webdesign/atividade3/imagens</code> para os arquivos das fotos. Neste projeto vamos inserir mapas nos sites.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="085" name="sl">
 			   <label for="085"></label>
 			   <img src="basico/10_02_01.png"/>
-			   <figcaption>O layout da página principal do nosso site da Atividade 3 será feito usando tabelas. Coloque o nome de <code>index.htm</code> nesta págin, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <code>&lt;table&gt;</code>.</figcaption>
+			   <figcaption>O layout da página principal do nosso site da Atividade 3 será feito usando tabelas. Coloque o nome de <code>index.htm</code> nesta página, cuja estrutura está mostrada neste exemplo. A primeira tag, logo após começar o corpo da página será <code>&lt;table&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="086" name="sl">
@@ -4555,7 +4555,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		</ul>
 		<img src="css4/51_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
-	<img src="css4/tags001_0051a.png"/>
+	<img id="atv8c" src="css4/tags001_0051a.png"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0052.png"/>
 	<details class="sub"><summary>&#x1f4c3; 10&deg; banner: animações</summary>
