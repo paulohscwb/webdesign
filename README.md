@@ -1680,25 +1680,19 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="135" name="sl">
 			   <label for="135"></label>
 			   <img src="css1/18_02_04.png"/>
-			   <figcaption>As imagens dentro desta classe podem ser menores, pois funcionam como ícones de acesso. Logo, usamos o atributo <code>.contato img</code> que significa que as larguras de dentro da classe de contato terão larguras menores. Neste caso, usamos <b>50%</b>. Teste valores diferentes em sua página.</figcaption>
+			   <figcaption>As imagens dentro desta classe podem ser menores, pois funcionam como ícones de acesso. Logo, usamos o atributo <code>.contato img</code> que significa que as larguras de dentro da classe de contato serão menores. Neste caso, usamos <b>50%</b>. Teste valores diferentes em sua página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="136" name="sl">
 			   <label for="136"></label>
 			   <img src="css1/18_02_05.png"/>
-			   <figcaption>A tag de rodapé tem a configuração mais simples. Usamos as mesmas propriedades dos sites anteriores.</figcaption>
+			   <figcaption>A tag de rodapé tem a configuração mais simples. Usamos as mesmas propriedades das páginas anteriores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="137" name="sl">
 			   <label for="137"></label>
 			   <img src="css1/18_02_06.png"/>
-			   <figcaption>Com as propriedades definidas, a página <code>index.htm</code> fica com este layout. Teste medidas e cores para sua página. Depois de definir os valores mais adequados, você pode construir as outras 2 páginas: basta copiar e colar este código nos outros arquivos de esportes: no meu caso, <code>basquete.htm</code> e <code>natacao.htm</code>.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="138" name="sl">
-			   <label for="138"></label>
-			   <img src="css1/18_02_06.png"/>
-			   <figcaption>Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.</figcaption>
+			   <figcaption>Com as propriedades definidas, a página <code>index.htm</code> fica com este layout. Teste medidas e cores para sua página. Depois de definir os valores mais adequados, você pode construir as outras 2 páginas: basta copiar e colar este código nos outros arquivos de esportes: no meu caso, <code>basquete.htm</code> e <code>natacao.htm</code>. Não esqueça de definir os menus das outras páginas com o item <code>active</code>. Coloque os 3 arquivos na mesma pasta, compartilhando a mesma pasta de imagens.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="138b" name="sl">
@@ -1762,7 +1756,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="140" name="sl">
 			   <label for="140"></label>
 			   <img src="css1/20_01_01.png"/>
-			   <figcaption>Cada entrada terá um rótulo "agredado" <code>&lt;label&gt;</code>. Este rótulo pode ser referenciado com o atributo <code>for</code>, com o nome da respectiva entrada.</figcaption>
+			   <figcaption>Cada entrada terá um rótulo "agregado" <code>&lt;label&gt;</code>. Este rótulo pode ser referenciado com o atributo <code>for</code>, com o nome da respectiva entrada.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="141" name="sl">
@@ -1804,7 +1798,7 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="146" name="sl">
 			   <label for="146"></label>
 			   <img src="css1/20_01_08.png"/>
-			   <figcaption>As entradas com tags nativas <code>input</code> e <code>textarea</code> podem ter propriedades de largura, cor de fundo, sombras e margens internas. Neste exemplo, criamos bordas arredondadas com o atributo <code>border-radius</code>.</figcaption>
+			   <figcaption>As entradas com tags nativas <code>input</code> e <code>textarea</code> têm propriedades de largura, cor de fundo, sombras e margens internas que podem ser alteradas. Neste exemplo, criamos bordas arredondadas com o atributo <code>border-radius</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="147" name="sl">
