@@ -2905,12 +2905,7 @@ body {width:85%; margin:auto;}
 			   <input type="radio" id="239" name="sl">
 			   <label for="239"></label>
 			   <img src="css3/32_01_08.png"/>
-			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="239a" name="sl">
-			   <label for="239a"></label>
-			   <figcaption>Trecho HTML com menu modificado para modo responsivo:
+			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>. Aqui temos um trecho HTML com menu modificado para modo responsivo:
 <pre><code>&lt;input type="checkbox" id="checkbox1"&gt;
 &lt;label for="checkbox1"&gt;
 &lt;nav class="menu"&gt;
@@ -3949,7 +3944,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="326" name="sl">
 			   <label for="326"></label>
 			   <img src="css4/42_01_01.png"/>
-			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1de gradiente é a seguinte:
+			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1 de gradiente é a seguinte:
 <pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
 	&lt;stop offset="0%" stop-color="orange"/&gt;
 	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
