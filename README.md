@@ -3950,7 +3950,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="327" name="sl">
 			   <label for="327"></label>
 			   <img src="css4/42_01_02.png"/>
-			   <figcaption>Na roda dentada, temos que criar 2 efeitos: um radial, para o círculo e outro linear, para os trapézios. Estes efeitos variam de uma tonalidade <code>darkred</code> para o <code>red</code>. Consulte o site <a href="https://html-color.codes/" target="_blank">https://html-color.codes/</a> para combinar tonalidades. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
+			   <figcaption>Na roda dentada, temos que criar 2 efeitos: um radial, para o círculo e outro linear, para os trapézios. Estes efeitos variam de uma tonalidade <code>darkred</code> para o <code>red</code>. Consulte o site <a href="https://html-color.codes/" target="_blank">https://html-color.codes/</a> para combinar cores. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="328" name="sl">
@@ -3970,7 +3970,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="329" name="sl">
 			   <label for="329"></label>
 			   <img src="css4/42_01_04.png"/>
-			   <figcaption>O efeito gradiente da estrela também pode ser feito com um gradiente radial, para o círculo que desenhamos no meio da estrela, e outro linear para os triângulos. Escolha cores e coloque as referências nos preenchimentos para conseguir o efeito criado. Como estamos variando apenas 2 tons de cores, usamos apenas os atributos <code>&lt;stop offset="0%&gt;</code> e <code>&lt;stop offset="100%&gt;</code> para os tons de azul. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
+			   <figcaption>O efeito gradiente da estrela também pode ser feito com um gradiente radial, para o círculo que desenhamos no meio da estrela, e outro linear para os triângulos. Escolha cores e coloque as referências nos preenchimentos para conseguir o efeito criado. Como estamos variando apenas 2 cores, usamos apenas os atributos <code>&lt;stop offset="0%&gt;</code> e <code>&lt;stop offset="100%&gt;</code> para os tons de azul. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="330" name="sl">
@@ -4035,7 +4035,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="335" name="sl">
 			   <label for="335"></label>
 			   <img src="css4/43_01_00.png"/>
-			   <figcaption>Vamos criar o <code>id="efeito10"</code> como filtro de sombra desfocada, com desvio padrão 0.5 e distâncias do gráfico com 1px à direita e abaixo do desenho. Temos que colocar indicação nos gráficos que terão este efeito com o atributo <code>filter="url(#efeito10)"</code>. Neste primeiro exemplo, os desenhos do 5&deg; banner estão com o filtro</figcaption>
+			   <figcaption>Vamos criar o <code>id="efeito10"</code> como filtro de sombra desfocada, com desvio padrão 0.5 e distâncias do gráfico com 1px à direita e abaixo do desenho. Precisamos colocar indicação nos gráficos que terão este efeito com o atributo <code>filter="url(#efeito10)"</code>. Neste primeiro exemplo, os desenhos do 5&deg; banner estão com o filtro</figcaption>
 		   </li>
 		  <li>
 			   <input type="radio" id="336" name="sl">
@@ -4211,7 +4211,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="353" name="sl">
 			   <label for="353"></label>
 			   <img src="css4/48_01_02.png"/>
-			   <figcaption>A xícara será um retângulo com as medidas indicadas no desenho da apostila. Podemos colocar cantos arredondados com <code>rx="5"</code>. As elipses formam o cabo da xícara, com as medidas cos centros coincidentes, mudando apenas as medidas dos raios. Ajuste valores e cores no seu desenho.</figcaption>
+			   <figcaption>A xícara será um retângulo com as medidas indicadas no desenho da apostila. Podemos colocar cantos arredondados com <code>rx="5"</code>. As elipses formam o cabo da xícara, com as medidas dos centros coincidentes, mudando apenas as medidas dos raios. Ajuste valores e cores no seu desenho.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="354" name="sl">
@@ -4283,7 +4283,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="360" name="sl">
 			   <label for="360"></label>
 			   <img src="css4/49_01_01.png"/>
-			   <figcaption>No grupo <code>id="xicara"</code>definimos o tracejado com 400 pixels e a animação de vai e vem, que começa o traçejado no ponto 400px, vai até 0px e retorna ao 400px. Assim, a animação é de desenhar o contorno da xícara. Note que o atributo <code>&lt;animate&gt;</code> fica dentro da tag de grupo da xícara.</figcaption>
+			   <figcaption>No grupo <code>id="xicara"</code>definimos o tracejado com 400 pixels e a animação de vai e vem, que começa o tracejado no ponto 400px, vai até 0px e retorna ao 400px. Assim, a animação é de desenhar o contorno da xícara. Note que o atributo <code>&lt;animate&gt;</code> fica dentro da tag de grupo da xícara.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="361" name="sl">
@@ -4821,7 +4821,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="399" name="sl">
 			   <label for="399"></label>
 			   <img src="css4/54_01_01.png"/>
-			   <figcaption>Usando o desenho do lápis, coloque-o em uma tag <code>class="logo"</code> que já configuramos no CSS.</figcaption>
+			   <figcaption>Para usar o desenho do lápis, podemos colocá-lo em uma tag <code>class="logo"</code> que já configuramos no CSS.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="400" name="sl">
@@ -4833,7 +4833,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="401" name="sl">
 			   <label for="401"></label>
 			   <img src="css4/54_01_03.png"/>
-			   <figcaption>Depois do banner, antes de fechar a tag <code>&lt;svg&gt;</code>, crie uma curva <code>id="curva"</code>para desenharmos o título do banner alinhado com esta curva. Usando a tag <code>&lt;textpath&gt;</code>, coloque o título na página, com animação to tipo<code>startOffset</code>. Ajuste o valor inicial, pois depende do número de carcteres do título que você escolher.</figcaption>
+			   <figcaption>Depois do banner, antes de fechar a tag <code>&lt;svg&gt;</code>, crie uma curva <code>id="curva"</code>para desenhar o título do banner alinhado com esta curva. Usando a tag <code>&lt;textpath&gt;</code>, coloque o título na página, com animação to tipo<code>startOffset</code>. Ajuste o valor inicial, pois depende do número de caracteres do título que você escolher.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="402" name="sl">
