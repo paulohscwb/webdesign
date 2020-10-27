@@ -3949,7 +3949,12 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="326" name="sl">
 			   <label for="326"></label>
 			   <img src="css4/42_01_01.png"/>
-			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho.</figcaption>
+			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1de gradiente é a seguinte:
+<pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
+	&lt;stop offset="0%" stop-color="orange"/&gt;
+	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
+&lt;/radialGradient&gt;</code></pre>
+			   </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="327" name="sl">
@@ -3961,12 +3966,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="328" name="sl">
 			   <label for="328"></label>
 			   <img src="css4/42_01_03.png"/>
-			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 1, 2 e 3 de gradiente é a seguinte:
-<pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
-	&lt;stop offset="0%" stop-color="orange"/&gt;
-	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
-&lt;/radialGradient&gt;
-&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
+			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 2 e 3 de gradiente é a seguinte:
+<pre><code>&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
 	&lt;stop offset="0%" stop-color="darkred "/&gt;
 	&lt;stop offset="100%" stop-color="red"/&gt;
 &lt;/radialGradient&gt;
@@ -3979,13 +3980,21 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="329" name="sl">
 			   <label for="329"></label>
 			   <img src="css4/42_01_04.png"/>
-			   <figcaption>O efeito gradiente da estrela também pode ser feito com um gradiente radial, para o círculo que desenhamos no meio da estrela, e outro linear para os triângulos. Escolha cores e coloque as referências nos preenchimentos para conseguir o efeito criado. Como estamos variando apenas 2 tons de cores, usamos apenas os atributos <code>&lt;stop offset="0%&gt;</code> e <code>&lt;stop offset="100%&gt;</code> para os tons de azul.O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
+			   <figcaption>O efeito gradiente da estrela também pode ser feito com um gradiente radial, para o círculo que desenhamos no meio da estrela, e outro linear para os triângulos. Escolha cores e coloque as referências nos preenchimentos para conseguir o efeito criado. Como estamos variando apenas 2 tons de cores, usamos apenas os atributos <code>&lt;stop offset="0%&gt;</code> e <code>&lt;stop offset="100%&gt;</code> para os tons de azul. O efeito linear começa em <code>x1="0%, y1="0%</code> e termina em <code>x2="0%, y2="100%</code>, ou seja, vai de cima para baixo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="330" name="sl">
 			   <label for="330"></label>
 			   <img src="css4/42_01_05.png"/>
-			   <figcaption>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho.</figcaption>
+			   <figcaption>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho. A estrutura SVG dos efeitos 4 e 5 de gradiente é a seguinte:
+<pre><code>&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
+	&lt;stop offset="0%" stop-color="lightskyblue"/&gt;
+	&lt;stop offset="100%" stop-color="skyblue"/&gt;
+&lt;/radialGradient&gt;
+&lt;linearGradient id="efeito5" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+	&lt;stop offset="0%" stop-color="steelblue"/&gt;
+	&lt;stop offset="100%" stop-color="skyblue"/&gt;
+&lt;/linearGradient&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="331" name="sl">
@@ -3997,7 +4006,15 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="332" name="sl">
 			   <label for="332"></label>
 			   <img src="css4/42_01_07.png"/>
-			   <figcaption>O desenho com gradiente fica desta forma.</figcaption>
+			   <figcaption>O desenho com gradiente fica desta forma. A estrutura SVG dos efeitos 6 e 7 de gradiente é a seguinte:
+<pre><code>&lt;radialGradient id="efeito6" cx="50%" cy="50%" r="70%"&gt;
+	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
+	&lt;stop offset="100%" stop-color="limegreen"/&gt;
+&lt;/radialGradient&gt;
+&lt;linearGradient id="efeito7" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
+	&lt;stop offset="100%" stop-color="seagreen"/&gt;
+&lt;/linearGradient&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="333" name="sl">
@@ -4009,29 +4026,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="334" name="sl">
 			   <label for="334"></label>
 			   <img src="css4/42_01_09.png"/>
-			   <figcaption>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="334a" name="sl">
-			   <label for="334a"></label>
-			   <figcaption>Estrutura SVG dos efeitos 4, 5, 6, 7 e 8 de gradiente:
-<pre><code>&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
-	&lt;stop offset="0%" stop-color="lightskyblue"/&gt;
-	&lt;stop offset="100%" stop-color="skyblue"/&gt;
-&lt;/radialGradient&gt;
-&lt;linearGradient id="efeito5" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
-	&lt;stop offset="0%" stop-color="steelblue"/&gt;
-	&lt;stop offset="100%" stop-color="skyblue"/&gt;
-&lt;/linearGradient&gt;
-&lt;radialGradient id="efeito6" cx="50%" cy="50%" r="70%"&gt;
-	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
-	&lt;stop offset="100%" stop-color="limegreen"/&gt;
-&lt;/radialGradient&gt;
-&lt;linearGradient id="efeito7" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
-	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
-	&lt;stop offset="100%" stop-color="seagreen"/&gt;
-&lt;/linearGradient&gt;
-&lt;linearGradient id="efeito8" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
+			   <figcaption>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner. A estrutura SVG do efeito 8 de gradiente é a seguinte:
+<pre><code>&lt;linearGradient id="efeito8" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
 	&lt;stop offset="0%" stop-color="rgba(50,205,50,0.9)"/&gt;
 	&lt;stop offset="100%" stop-color="rgba(50,205,50,0.6"/&gt;
 &lt;/linearGradient&gt;</code></pre></figcaption>
