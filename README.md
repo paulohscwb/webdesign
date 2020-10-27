@@ -2961,7 +2961,7 @@ body {width:85%; margin:auto;}
 	<p class="topop" id="atv7b"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0034.png"/>
 	<details class="sub"><summary>&#x1f4c3; Atividade 7: banner e descrição</summary>
-	<p>Neste ponto, podemos criar o banner e uma logo para colocar flutuando sobre o banner. Escolha uma imagem com boa resolução para ficar no banner, e uma logo do filme.</p>
+	<p>Neste ponto, podemos criar o banner e uma logo para ficar flutuando sobre o banner. Escolha uma imagem com boa resolução para ficar no banner, e uma logo do filme.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="240" name="sl">
@@ -2973,13 +2973,13 @@ body {width:85%; margin:auto;}
 			   <input type="radio" id="241" name="sl">
 			   <label for="241"></label>
 			   <img src="css3/32_02_02.png"/>
-			   <figcaption>Na continuação do arquivo CSS, temos os atributos da classe <code>.banner</code>, com o background que você escolheu (sem repetição), com as propriedades para cobrir a largura da tag. O alinhamento da tag <code>.descricao</code> ficará à esquerda pois <code>flex-direction:flex-start;</code>. Se você quiser colocá-la centralizada no banner, basta mudar para <code>center</code> ou à direita ficaria <code>flex-end</code>.</figcaption>
+			   <figcaption>Na continuação do arquivo CSS, temos os atributos da classe <code>.banner</code>, com o background que você escolheu (sem repetição), com as propriedades para cobrir a largura da tag. O alinhamento da tag <code>.descricao</code> ficará à esquerda pois <code>flex-direction:flex-start;</code>. Se você quiser colocá-la centralizada no banner, basta mudar esta propriedade para <code>center</code> ou à direita ficaria <code>flex-end</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="242" name="sl">
 			   <label for="242"></label>
 			   <img src="css3/32_02_03.png"/>
-			   <figcaption>Quando o visitante passar o cursor do mouse sobre o banner, ele sofre um deslocamento na vertical: vai para a coordenada 0% 48%. Note que colocamos o efeito <b>transition</b> nesta tag e na tag do banner sem hover. Assim, o efeito é suavidado tanto no momento de passar o cursor quanto de retirar o cursor de cima do banner.</figcaption>
+			   <figcaption>Quando o visitante passar o cursor do mouse sobre o banner, ele sofre um deslocamento na vertical: vai para a coordenada 0% 48%. Note que colocamos o efeito <b>transition</b> nesta tag e na tag do banner sem hover. Assim, o efeito é suavizado tanto no momento de passar o cursor quanto de retirar o cursor de cima do banner.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="243" name="sl">
@@ -3173,7 +3173,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <input type="radio" id="258" name="sl">
 			   <label for="258"></label>
 			   <img src="css3/37_01_03.png"/>
-			   <figcaption>Uma animação na logomarca de descrição do site que usa rotação e escalas está atribuída com nome <code>@keyframes AnimaDescr</code>. Dentro da tag <code>.descricao img</code> colocamos a duração de 7 segundo com alternância e duração constante.</figcaption>
+			   <figcaption>Uma animação na logomarca de descrição do site que usa rotação e escalas está atribuída com nome <code>@keyframes AnimaDescr</code>. Dentro da tag <code>.descricao img</code> colocamos a duração de 7 segundos com alternância e duração constante.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="259" name="sl">
@@ -3249,7 +3249,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <input type="radio" id="263d" name="sl">
 			   <label for="263d"></label>
 			   <img src="css3/37_01_12.png"/>
-			   <figcaption>Para isso acontecer, no HTML você modifica cada tag <code>class="box"</code> inserindo 2 imagens: a primeira aparece automaticamente, e a segunda apenas quando o visitante passar o cursos do mouse sobre a <code>class="box"</code>.</figcaption>
+			   <figcaption>Para isso acontecer, no HTML você modifica cada tag <code>class="box"</code> inserindo 2 imagens: a primeira aparece automaticamente, e a segunda apenas quando o visitante passar o cursor do mouse sobre a <code>class="box"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="263b" name="sl">
@@ -3280,13 +3280,13 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <input type="radio" id="265" name="sl">
 			   <label for="265"></label>
 			   <img src="css3/37_02_02.png"/>
-			   <figcaption>A estrutura de menu será a mesma que usamos na atividade anterior. Alguns atributos CSS ficarão diferentes, pois da tag <code>&lt;label&gt;</code> está englobando os itens do menu.</figcaption>
+			   <figcaption>A estrutura de menu será a mesma que usamos na atividade anterior. Alguns atributos CSS ficarão diferentes, pois a tag <code>&lt;label&gt;</code> está englobando os itens do menu.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="266" name="sl">
 			   <label for="266"></label>
 			   <img src="css3/37_02_03.png"/>
-			   <figcaption>Depois da tag <code>class="barra"</code>, podemos inserir a <code>class="banner"</code>, que contém a <code>class="descrição"</code>. Neste caso, coloque um texto ou uma imagem para ser o título da página.</figcaption>
+			   <figcaption>Depois da tag <code>class="barra"</code>, podemos inserir a <code>class="banner"</code>, que contém a <code>class="descricao"</code>. Neste caso, coloque um texto ou uma imagem para ser o título da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="267" name="sl">
@@ -3367,7 +3367,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 &lt;/div&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
-		<img src="css3/37_02_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css3/37_02_05.png" class="fundo" style="visibility:hidden"/>
   </details>
   <details class="sub"><summary>&#x1f4c3; Detalhes da estrutura em CSS</summary>
 	<p>A estrutura CSS desta página fica um pouco mais simplificada em relação à Atividade 7. Crie o arquivo de folha de estilos na pasta <code>webdesign/atividade8</code> com nome <code>estilo.css</code>.</p>
@@ -3382,7 +3382,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <input type="radio" id="273" name="sl">
 			   <label for="273"></label>
 			   <img src="css3/37_02_11.png"/>
-			   <figcaption>Defina um valor grande para o <code>z-index</code> para deixar a barra de menu sobre o banner. para deixá-la alinhada na vertical, usamos <code>align-items:flex-start;</code>. A tag <code>label</code> é "mãe" do menu. Logo, definimos margem e tamanho <code>flex:3;</code> nesta tag. Para deixar o menu alinhado à direita, basta usar <code>justify-content:flex-end;</code>.</figcaption>
+			   <figcaption>Defina um valor grande para o <code>z-index</code> para deixar a barra de menu sobre o banner. Para deixá-la alinhada na vertical, usamos <code>align-items:flex-start;</code>. A tag <code>label</code> é "mãe" do menu: logo, definimos margem e tamanho <code>flex:3;</code> nesta tag. Para deixar o menu alinhado à direita, basta usar <code>justify-content:flex-end;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="274" name="sl">
@@ -3406,7 +3406,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 			   <input type="radio" id="277" name="sl">
 			   <label for="277"></label>
 			   <img src="css3/37_02_15.png"/>
-			   <figcaption>Tanto o toggle quando o checkbox ficam invisíveis em telas maiores. Note que nas configurações de telas menores, estamos sem os subitens. Nesta página o menu é simplificado, com apenas itens principais.</figcaption>
+			   <figcaption>Tanto o toggle quando o checkbox ficam invisíveis em telas maiores. Note que nas configurações de telas menores, não temos os subitens. Nesta página o menu é simplificado, com apenas itens principais.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="278" name="sl">
