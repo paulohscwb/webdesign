@@ -4077,12 +4077,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="342" name="sl">
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png"/>
-			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="342a" name="sl">
-			   <label for="342a"></label>
-			   <figcaption>Estrutura SVG do efeitos de filtro 10:
+			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho.A estrutura SVG do efeito de filtro 10 é a seguinte:
 <pre><code>&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
 	&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.5" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
 	&lt;feOffset in="desfocado" dx="1" dy="1" result="sombra"&gt;&lt;/feOffset&gt;
@@ -4554,12 +4549,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="382" name="sl">
 			   <label for="382"></label>
 			   <img src="css4/52_01_06.png"/>
-			   <figcaption>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="382a" name="sl">
-			   <label for="382a"></label>
-			   <figcaption>Estrutura SVG do 10&ordm; banner:
+			   <figcaption>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.A estrutura SVG do 10&ordm; banner é a seguinte:
 <pre><code>&lt;svg viewBox="0 0 60 60"&gt;
 	&lt;g stroke-width="0" fill="red" id="simbolo"&gt;
 		&lt;rect x="28" y="5" width="4" rx="1" height="10"/&gt;
