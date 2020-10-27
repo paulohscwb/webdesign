@@ -4077,7 +4077,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="342" name="sl">
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png"/>
-			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho.A estrutura SVG do efeito de filtro 10 é a seguinte:
+			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho. A estrutura SVG do efeito de filtro 10 é a seguinte:
 <pre><code>&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
 	&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.5" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
 	&lt;feOffset in="desfocado" dx="1" dy="1" result="sombra"&gt;&lt;/feOffset&gt;
