@@ -3518,7 +3518,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 	<p>Material da pág. 39 até a pág. 54</p>
 	<img src="css4/tags001_0039.png"/>
 	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
-	<p>Vamos criar uma pasta chamada <code>webdesign/atividade9</code>. Nesta pasta, crie os arquivos com nomes <code>index.htm</code> e <code>estilo.css</code>. Além disso, vamos criar uma pasta para inserir as imagens dos banners que vamos criar na Atividade 9, no caminho <code>webdesign/atividade9/imagens</code>.</p>
+	<p>Vamos criar uma pasta chamada <code>webdesign/atividade9</code>. Nesta pasta, crie os arquivos com nomes <code>index.htm</code> e <code>estilo.css</code>. Além disso, vamos criar uma pasta para inserir as imagens dos banners que criaremos na Atividade 9, com o caminho <code>webdesign/atividade9/imagens</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="285" name="sl">
@@ -3675,7 +3675,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="297" name="sl">
 			   <label for="297"></label>
 			   <img src="css4/41_01_02.png"/>
-			   <figcaption>O círculo tem centro no ponto de coordenadas (100,100) e raio 50. Defina também a cor do preenchimento com o atributo <code>fill</code> que pode ser informado com padrão RGB, Hexadecimal ou HTML. A primeira linha de raio de sol foi a que está mais acima do desenho, que começa no ponto (100,10) e termina em (100,40).</figcaption>
+			   <figcaption>O círculo tem centro no ponto de coordenadas (100,100) e raio 50. Defina também a cor do preenchimento com o atributo <code>fill</code> que pode ser informado com padrão RGB, Hexadecimal ou HTML. A primeira linha construída do raio do sol foi na parte superior do desenho, que começa no ponto (100,10) e termina em (100,40).</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="298" name="sl">
@@ -3705,7 +3705,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="302" name="sl">
 			   <label for="302"></label>
 			   <img src="css4/41_01_07.png"/>
-			   <figcaption>Nosso primeiro banner fica desta forma. Modifique cores e formações do layout no CSS para testar se está ficando bom. As próximas barras serão inseridas abaixo desta que acabamos de construir.</figcaption>
+			   <figcaption>Nosso primeiro banner fica desta forma. Modifique cores e atributos do layout no CSS para testar se está ficando bom. As próximas barras serão inseridas abaixo desta que acabamos de construir.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="302a" name="sl">
