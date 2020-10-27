@@ -3781,8 +3781,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="css4/41_02_06.png"/>
-			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela.
-			   <br>Estrutura SVG do 2&ordm; desenho de banner da Atividade 9:
+			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela. Veja a estrutura SVG deste banner:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
 	&lt;g stroke-width="0" fill="red" name="roda"&gt;
@@ -3835,8 +3834,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="316" name="sl">
 			   <label for="316"></label>
 			   <img src="css4/41_02_13.png"/>
-			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds.
-			   <br>Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
+			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds. A estrutura SVG deste banner fica assim:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g stroke-width="0" fill="skyblue" name="estrela"&gt;
 		&lt;circle r="15" cx="50" cy="50"/&gt;
