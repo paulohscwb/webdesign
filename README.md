@@ -4851,12 +4851,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="404" name="sl">
 			   <label for="404"></label>
 			   <img src="css4/54_01_05.png"/>
-			   <figcaption>No final da animação do texto, o banner fica desta forma.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="404a" name="sl">
-			   <label for="404a"></label>
-			   <figcaption>Trecho da estrutura SVG com animação do texto em curva:
+			   <figcaption>No final da animação do texto, o banner fica desta forma. Veja uma parte da estrutura SVG com animação do texto em curva:
 <pre><code>&lt;path id="curva" fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
 &lt;text&gt;
   &lt;textpath fill="rgb(50,150,50)" stroke="none" xlink:href="#curva"&gt;Meu portfólio
