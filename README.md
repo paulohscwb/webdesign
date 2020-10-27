@@ -3961,12 +3961,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="328" name="sl">
 			   <label for="328"></label>
 			   <img src="css4/42_01_03.png"/>
-			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="328a" name="sl">
-			   <label for="328a"></label>
-			   <figcaption>Estrutura SVG dos efeitos 1, 2 e 3 de gradiente:
+			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 1, 2 e 3 de gradiente é a seguinte:
 <pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
 	&lt;stop offset="0%" stop-color="orange"/&gt;
 	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
