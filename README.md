@@ -1467,12 +1467,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="115" name="sl">
 			   <label for="115"></label>
 			   <img src="css1/15_01_07.png"/>
-			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="115a" name="sl">
-			   <label for="115a"></label>
-			   <figcaption>Estrutura CSS do banner da Atividade 4:
+			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
