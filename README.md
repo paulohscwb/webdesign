@@ -4869,7 +4869,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	<p>Material da pág. 55 até a pág. 60</p>
 	<img src="css5/tags001_0055.png"/>
 	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML</summary>
-	<p>Na pasta <code>webdesign/atividade10</code>, crie os arquivos <code>index.htm</code>  e <code>estilo.css</code> e a pasta <code>webdesign/atividade10/imagens</code>.</p>
+	<p>Na pasta <code>webdesign/atividade10</code>, crie os arquivos <code>index.htm</code>  e <code>estilo.css</code>, além da pasta <code>webdesign/atividade10/imagens</code>.</p>
 	  <ul class="slider">
 			<li>
 			   <input type="radio" id="405" name="sl">
@@ -4949,13 +4949,13 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="411" name="sl">
 			   <label for="411"></label>
 			   <img src="css5/55_02_00.png"/>
-			   <figcaption>Neste exemplo, usamos a tag única de banner com janela de visulização <code>viewBox</code> com 1200 x 200 pixels. As primeiras tags são dos efeitos gradientes usados nos desenhos em tons de verde, azul, amarelo e um filtro para desfocar os contornos dos desenhos. Cada tag de efeito deve ter um <code>id</code> diferente.</figcaption>
+			   <figcaption>Neste exemplo, usamos a tag única de banner com janela de visualização <code>viewBox</code> de 1200 x 200 pixels. As primeiras tags são dos efeitos gradientes usados nos desenhos em tons de verde, azul, amarelo e um filtro para desfocar os contornos dos desenhos. Cada tag de efeito deve ter um <code>id</code> diferente.</figcaption>
 		   </li>
 		  <li>
 			   <input type="radio" id="412" name="sl">
 			   <label for="412"></label>
 			   <img src="css5/55_02_01.png"/>
-			   <figcaption>Seguindo com os efeitos, temos <code>id="filtro2"</code> e <code>id="filtro3"</code> com efeitos de sombras com intensidades diferentes. O primeiro desenho é do céu com um retângulo que cobre a janela de visualização SVG. Depois, temos o desenho de duas montanhas.</figcaption>
+			   <figcaption>Seguindo com os efeitos, temos <code>id="filtro2"</code> e <code>id="filtro3"</code> que produzem sombras com intensidades diferentes. O primeiro desenho é do céu com um retângulo que cobre a janela de visualização SVG. Depois, temos o desenho de duas montanhas.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="413" name="sl">
@@ -4979,7 +4979,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="415" name="sl">
 			   <label for="415"></label>
 			   <img src="css5/55_02_04.png"/>
-			   <figcaption>Os desenhos de gramados foram feitos com arcos de raios com raios entre 500px e 1500px. As tags de sol e de nuvens foram feitas parecidas com as que foram mostradas na atividade anterior.</figcaption>
+			   <figcaption>Os desenhos de gramados foram feitos com arcos com as medidas dos raios entre 500px e 1500px. As tags de sol e de nuvens foram feitas da mesma maneira que fizemos na atividade anterior.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="416" name="sl">
@@ -5213,25 +5213,25 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="424" name="sl">
 			   <label for="424"></label>
 			   <img src="css5/56_01_01.png"/>
-			   <figcaption>Depois da última miniatura de imagem <code>href="img12"</code>, começamos a inserir as tags das imagens ampliadas. Serão 12 blocos com <code>class="maior"</code> e os <code>ids</code> correspondentes das miniaturas.</figcaption>
+			   <figcaption>Depois da última miniatura de imagem <code>href="#img12"</code>, começamos a inserir as tags das imagens ampliadas. Serão 12 blocos com <code>class="maior"</code> e os <code>ids</code> correspondentes das miniaturas.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="425" name="sl">
 			   <label for="425"></label>
 			   <img src="css5/56_01_02.png"/>
-			   <figcaption>Colocamos os elementos na ordem: 1&deg; botão de imagem anterior (da primeira imagem, é a imagem 12); 2&deg;bloco de imagem com título usando tags <code>&lt;figure&gt;</code> <code>&lt;figcaption&gt;</code>;</figcaption>
+			   <figcaption>Colocamos os elementos na ordem: 1&deg; - botão de imagem anterior (da primeira imagem, é a imagem 12); 2&deg; - bloco de imagem com título usando tags <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>;</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="426" name="sl">
 			   <label for="426"></label>
 			   <img src="css5/56_01_03.png"/>
-			   <figcaption>3&deg; botão de próxima imagem (da primeira imagem, é a imagem 2); 4&deg; botão de fechar com <code>href="#_"</code>. No bloco da imagem 2, a imagem anterior tem a referência para <code>href="img1"</code> e de próxima imagem para <code>href="img3"</code>.</figcaption>
+			   <figcaption>3&deg; - botão de próxima imagem (da primeira imagem, é a imagem 2); 4&deg; - botão de fechar com <code>href="#_"</code>. No bloco da imagem 2, a imagem anterior tem a referência para <code>href="#img1"</code> e de próxima imagem para <code>href="#img3"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="427" name="sl">
 			   <label for="427"></label>
 			   <img src="css5/56_01_04.png"/>
-			   <figcaption>A última tag será <code>class="rodape"</code>, colocada depois do fechamento da tag <code>class="galeria"</code> após a imagem ampliada <code>href="img12"</code>.</figcaption>
+			   <figcaption>A última tag será <code>class="rodape"</code>, colocada depois do fechamento da tag <code>class="galeria"</code> após a imagem ampliada <code>href="#img12"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="427a" name="sl">
@@ -5458,7 +5458,7 @@ label {padding:0px; flex:1; width:100%;}
 			   <input type="radio" id="440" name="sl">
 			   <label for="440"></label>
 			   <img src="css5/59_01_03.png"/>
-			   <figcaption>Escolha as imagens do próximgo grupo da tag <code>&lt;details&gt;</code>.</figcaption>
+			   <figcaption>Escolha as imagens do próximo grupo da tag <code>&lt;details&gt;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="441" name="sl">
@@ -5470,7 +5470,7 @@ label {padding:0px; flex:1; width:100%;}
 			   <input type="radio" id="442" name="sl">
 			   <label for="442"></label>
 			   <img src="css5/59_01_05.png"/>
-			   <figcaption>No CSS, basta inserir propriedades de cores, margens e bordas. Como são tags nativas, não precisam de "ponto" antes de seus nomes.</figcaption>
+			   <figcaption>No CSS, basta inserir propriedades de cores, margens e bordas. Como são tags nativas, não precisam de "ponto" e nem de "hashtag" antes de seus nomes.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="443" name="sl">
