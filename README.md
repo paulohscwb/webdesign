@@ -3781,7 +3781,25 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="css4/41_02_06.png"/>
-			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela.</figcaption>
+			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela.
+			   <br>Estrutura SVG do 2&ordm; desenho de banner da Atividade 9:
+<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
+	&lt;g stroke-width="0" fill="red" name="roda"&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(150,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(180,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(210,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(240,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(270,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
+		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="310" name="sl">
@@ -3817,30 +3835,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="316" name="sl">
 			   <label for="316"></label>
 			   <img src="css4/41_02_13.png"/>
-			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="316a" name="sl">
-			   <label for="316a"></label>
-			   <figcaption>Estrutura SVG do 2&ordm; desenho de banner da Atividade 9:
-<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
-	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
-	&lt;g stroke-width="0" fill="red" name="roda"&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(150,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(180,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(210,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(240,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(270,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
-	&lt;/g&gt;
-&lt;/svg&gt;</code></pre>
-Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
+			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds.
+			   <br>Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g stroke-width="0" fill="skyblue" name="estrela"&gt;
 		&lt;circle r="15" cx="50" cy="50"/&gt;
@@ -3959,7 +3955,7 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 			   <input type="radio" id="325" name="sl">
 			   <label for="325"></label>
 			   <img src="css4/42_01_00.png"/>
-			   <figcaption>Vamos criar o <code>id="efeito1"</code> como gradiente radial de um tom de laranja mais claro para um pouco mais escuro. O centro deste efeito está no ponto de coordenadas (50%,50%) com raio abrangendo 100% do desenho. Ajuste cores e valores para seu banner. Na tag do círculo, colocamos a referência do efeito no preenchimento: <code>fill="url(#efeito1)"</code>.</figcaption>
+			   <figcaption>Vamos criar o <code>id="efeito1"</code> como gradiente radial de um tom de laranja mais claro para um pouco mais escuro. O centro deste efeito está no ponto de coordenadas (50%,50%) com raio que abrange 100% do desenho. Ajuste cores e valores para seu banner. Na tag do círculo, colocamos a referência do efeito no preenchimento: <code>fill="url(#efeito1)"</code>.</figcaption>
 		   </li>
 		  <li>
 			   <input type="radio" id="326" name="sl">
@@ -4058,7 +4054,7 @@ Estrutura SVG do 3&ordm; desenho de banner da Atividade 9:
 &lt;/linearGradient&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
-		<img src="css4/42_01_00.png" class="fundo" style="visibility:hidden"/>
+		<img src="css4/42_01_02.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css4/tags001_0042a.png"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
