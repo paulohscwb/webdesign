@@ -3781,7 +3781,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="css4/41_02_06.png"/>
-			   <figcaption>Ótimo, o nosso banner fica com este layout. Agora vamos desenhar a estrela. Veja a estrutura SVG deste banner:
+			   <figcaption>Ótimo, o nosso banner fica com este layout. Veja a estrutura SVG deste banner:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
 	&lt;g stroke-width="0" fill="red" name="roda"&gt;
@@ -3881,12 +3881,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="320" name="sl">
 			   <label for="320"></label>
 			   <img src="css4/41_03_03.png"/>
-			   <figcaption>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="320a" name="sl">
-			   <label for="320a"></label>
-			   <figcaption>Estrutura SVG do 4&ordm; desenho de banner da Atividade 9:
+			   <figcaption>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho. Veja a estrutura SVG deste banner:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g fill="none" stroke-width="2" stroke="green" id="atomos" transform="translate(0,-8)"&gt;
 		&lt;circle r="8" cx="50" cy="50" fill="green"/&gt;
@@ -3925,12 +3920,7 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="324" name="sl">
 			   <label for="324"></label>
 			   <img src="css4/41_03_07.png"/>
-			   <figcaption>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="324a" name="sl">
-			   <label for="324a"></label>
-			   <figcaption>Estrutura SVG do 5&ordm; desenho de banner da Atividade 9:
+			   <figcaption>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner. Veja a estrutura SVG deste banner:
 <pre><code>&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g fill="green" stroke-opacity="0.3" stroke-width="0.5" stroke="black" transform="translate(0,-8)" id="icone"&gt;
 		&lt;rect x="45" y="10" width="10" rx="2" height="80"/&gt;
