@@ -70,7 +70,7 @@
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/WG1MYwgWnCE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div> 
+  </div>
   <img src="basico/tags001_0002.png"/>
   <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
 	<p>Vamos salvar nosso arquivo em uma pasta chamada <code>webdesign</code>.</p>
@@ -929,6 +929,9 @@ Trecho do código HTML com galeria em formato de tabela:
 		</ul>
 		<img src="basico/09_01_02.png" class="fundo" style="visibility:hidden"/>
   </details>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/VjBU3Y-2Wwg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>  
   <img src="basico/tags001_0009a.png"/>
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
 	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.9/" target="_blank">https://notepad-plus-plus.org/downloads/v7.9/</a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <code>webdesign/atividade2</code> para criar os arquivos da próxima atividade. A página principal terá o nome <code>index.htm</code>.</p>
