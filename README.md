@@ -68,6 +68,9 @@
 		<img src="basico/01_02_00.png" class="fundo"/>
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/WG1MYwgWnCE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> 
   <img src="basico/tags001_0002.png"/>
   <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
 	<p>Vamos salvar nosso arquivo em uma pasta chamada <code>webdesign</code>.</p>
