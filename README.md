@@ -95,6 +95,9 @@
   </details>
   <img src="basico/tags001_0002a.png"/>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
+  <div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/gWhH6yQpme4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <img src="basico/tags001_0003.png"/>
   <details class="sub"><summary>&#x1f4c3; Layout básico de uma página</summary>
 	<p>O layout básico de uma página HTML tem as seguintes partes: cabeçalho (<code>head</code>) e corpo da página (<code>body</code>). Vamos ver os elementos de cada parte:</p>
