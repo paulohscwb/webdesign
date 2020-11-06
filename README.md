@@ -2,7 +2,7 @@
 
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
-<p>Este site contém os procedimentos e dicas para construção de páginas em HTML, foco da disciplina Fundamentos do Webdesign</p>
+<p>Esta página site contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2019/05/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
