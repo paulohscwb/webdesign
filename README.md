@@ -6,7 +6,7 @@
 <p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2019/05/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
-<details id="basico" open>
+<details id="basico">
   <summary>1. Estruturas básicas</summary>
 	<p>Material da pág. 1 até a pág. 10</p>
    <img src="basico/tags001_0001.png"/>
