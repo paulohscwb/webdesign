@@ -2483,7 +2483,7 @@ Trecho da estrutura HTML do mapeamento:
   </details>
 	<img src="css2/tags001_0027a.png"/>
 	<details class="sub"><summary>&#x1f4c3; Mapeamento lateral com div e texto</summary>
-	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-lateral-div-info.htm</code>, que usaremos para criar o mapeamento do menu lateral com tags <code>div</code> e informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="css2/menu_horizontal.png" download>menu verde</a>, <a href="css2/menu_horizontal1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
+	<p>Vamos usar a pasta <code>webdesign/mapeamento</code> para este exercício. Crie um arquivo chamado <code>mapeamento-lateral-div-info.htm</code>, que usaremos para criar o mapeamento do menu lateral com tags <code>div</code> e informações de texto. Escolha um dos arquivos para fazer o mapeamento: <a href="css2/menu_lateral.png" download>menu verde</a>, <a href="css2/menu_lateral1.png" download>menu branco</a> ou encontre outra imagem de um menu completo.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="201" name="sl">
