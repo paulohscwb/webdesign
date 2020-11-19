@@ -2691,7 +2691,7 @@ Trecho da estrutura HTML do mapeamento:
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css3"><summary>4. CSS e Animações</summary>
+<details id="css3" open><summary>4. CSS e Animações</summary>
 	<p>Material da pág. 28 até a pág. 38</p>
 	<img src="css3/tags001_0028.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
