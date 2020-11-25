@@ -1233,7 +1233,7 @@ Trecho do código HTML com galeria em formato de tabela:
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css1" open><summary>2. CSS - Cascading Style Sheets</summary>
+<details id="css1"><summary>2. CSS - Cascading Style Sheets</summary>
 	<p>Material da pág. 11 até a pág. 20</p>
 	<img src="css1/tags001_0011.png"/>
 	<p class="topop"><a href="#css1" class="topo">voltar ao topo</a></p>
