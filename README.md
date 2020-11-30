@@ -3660,6 +3660,9 @@ label {padding:15px; flex:1; width:100%;}
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0040.png"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
+	<div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/UWNFfDTYlxc " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 	<img src="css4/tags001_0041.png"/>
 	<details class="sub"><summary>&#x1f4c3; Primeiro banner</summary>
 	<p>Vamos criar nosso primeiro desenho SVG dentro da classe <code>class="logo"</code>. Este desenho usará apenas as tags <code>circle</code> e <code>line</code>.</p>
