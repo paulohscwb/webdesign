@@ -4112,6 +4112,9 @@ label {padding:15px; flex:1; width:100%;}
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0045.png"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
+	<div class="embed-container">
+		<iframe width="100%" src="https://www.youtube.com/embed/RvqjM3mcX94" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 	<img src="css4/tags001_0046.png"/>
 	<details class="sub"><summary>&#x1f4c3; 6&deg; e 7&deg; banners</summary>
 	<p>Vamos desenhar nuvens com arcos nos dois banners deste exercício. Escolha imagens para colocar nos fundos destas tags: <code>imagens/banner6.jpg</code> e <code>imagens/banner7.jpg</code>.</p>
