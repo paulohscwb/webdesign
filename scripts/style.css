@@ -9,7 +9,7 @@ pre code{font-weight: normal;}
 .topo::after {
     content: "";
     display: block;
-    background: url("../basico/topo.png") no-repeat;
+    background: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox="0 0 200 200"><rect x="0" y="0" width="200" rx="25" height="200" fill="#6182A6"/><path d="M20,120 l80,-80 l80,80" fill="none" stroke-width="15" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg>);
     background-size: contain;
     width: 18px;
     height: 18px;
