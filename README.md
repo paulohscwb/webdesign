@@ -4827,7 +4827,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0054.png"/>
 	<details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>Agora você pode montar o 14&deg; banner. Use um dos logos que você desenhou, o banner e o menu para colocá-los na tag <code>class="banner2"</code>.</p>
+	<p>Agora você pode montar o 13&deg; banner. Use um dos logos que você desenhou, o banner e o menu para colocá-los na tag <code>class="banner2"</code>.</p>
 	  <ul class="slider">
 			<li>
 			   <input type="radio" id="398" name="sl">
