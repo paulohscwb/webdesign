@@ -3641,7 +3641,7 @@ body {width:100%; margin:auto;}
 .barra:nth-child(3){background:url(imagens/banner3.jpg);background-size:cover;}
 
 .logo {display:flex; flex:1; justify-content:flex-start;}
-svg {max-width:100%; max-height:250px;}
+svg {width:100%; max-height:250px;}
 text {font-family: Calibri; }
 
 .banner {display:flex; flex:1; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
