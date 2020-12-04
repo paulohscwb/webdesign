@@ -3571,7 +3571,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 			   <input type="radio" id="293" name="sl">
 			   <label for="293"></label>
 			   <img src="css4/39_01_09.png"/>
-			   <figcaption>Na tag <code>.logo</code>, podemos definir uma largura padrão usando o atributo <code>flex:1</code> e alinhamento à esquerda com <code>flex-start</code>. As tags svg podem ter largura máxima de 100% e altura máxima definida, que será igual à altura máxima da tag <code>.banner</code>. Assim, o layout não terá uma logomarca com tamanho muito diferente do banner. Defina também a fonte dos textos svg.</figcaption>
+			   <figcaption>Na tag <code>.logo</code>, podemos definir uma largura padrão usando o atributo <code>flex:1</code> e alinhamento à esquerda com <code>flex-start</code>. As tags svg podem ter largura de 100% e altura máxima definida, que será igual à altura máxima da tag <code>.banner</code>. Assim, o layout não terá uma logomarca com tamanho muito diferente do banner. Defina também a fonte dos textos svg.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="294" name="sl">
