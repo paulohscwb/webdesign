@@ -2691,7 +2691,7 @@ Trecho da estrutura HTML do mapeamento:
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css3" open><summary>4. CSS e Animações</summary>
+<details id="css3"><summary>4. CSS e Animações</summary>
 	<p>Material da pág. 28 até a pág. 38</p>
 	<img src="css3/tags001_0028.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
@@ -3335,7 +3335,7 @@ background-size:100%; background-position: 0% 40%; align-items:center; justify-c
 				&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/nav&gt;
-		&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+		&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
 		&lt;/label&gt;	
 	&lt;/div&gt;
 	&lt;div class="banner"&gt;
@@ -4945,7 +4945,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 					&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
 				&lt;/ul&gt;
 			&lt;/nav&gt;
-		&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+		&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
 		&lt;/label&gt;
 	&lt;/div&gt;
 	&lt;div class="galeria"&gt;
