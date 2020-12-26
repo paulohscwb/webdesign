@@ -131,7 +131,7 @@ Código estrutural de uma página HTML:
 	&lt;meta name="description" content="Minha primeira página"&gt;
 	&lt;meta charset="UTF-8"&gt;
 &lt;/head&gt; 
-&lt;body <a title="cores de fundo: background color">bgcolor="blue"</a>&gt;
+&lt;body <a alt="cores de fundo: background color">bgcolor="blue"</a>&gt;
 	CONTEÚDO DA PÁGINA 
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>

@@ -6,13 +6,21 @@ pre code{font-weight: normal;}
 
 /*img{image-rendering: crisp-edges;}*/
 
-a[title]:hover::after {
-  content: attr(title);
+code a {
   position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration:none;
+}
+
+a[alt]:hover::after {
+  content: attr(alt);
+  position: absolute;
   top: 100%;
   left: 0;
-  color:green;
-  font-size:16px;
+  color: black;
+  font-size:18px;
+  background-color:rgba(200,200,200,0.8);
 }
 
 .topo::after {
