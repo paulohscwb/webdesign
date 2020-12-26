@@ -27,7 +27,7 @@ a[alt]:hover::after {
   border-radius:4px;
   z-index:2;
   transition:0.2s;
-  text-shadow:1px 1px 1px blue;
+  text-shadow:1px 1px 1px white;
 }
 
 a[alt]::after {
