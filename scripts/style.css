@@ -10,6 +10,10 @@ code a {
   text-decoration:none;
 }
 
+code a:hover {
+  text-decoration:none;
+}
+
 a[alt]:hover::after {
   content: attr(alt);
   position: absolute;
