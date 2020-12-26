@@ -8,6 +8,7 @@ code a {
   position: relative;
   display: inline-block;
   text-decoration:none;
+  font-size:14px;
 }
 
 code a:hover {
