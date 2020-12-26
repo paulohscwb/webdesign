@@ -20,7 +20,7 @@ a[alt]:hover::after {
   left: 0;
   color: black;
   font-size:18px;
-  background-color:rgba(200,200,200,0.8);
+  background-color:rgba(200,200,220,0.7);
   padding:2px;
 }
 
