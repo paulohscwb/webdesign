@@ -6,6 +6,15 @@ pre code{font-weight: normal;}
 
 /*img{image-rendering: crisp-edges;}*/
 
+a[title]:hover::after {
+  content: attr(title);
+  position: relative;
+  top: 100%;
+  left: 0;
+  color:green;
+  font-size:16px;
+}
+
 .topo::after {
     content: "";
     display: block;
