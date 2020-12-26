@@ -13,7 +13,7 @@ code a {
   text-decoration:none;
 }
 
-code{word-wrap:break-word; overflow-x:hidden;}
+pre {word-wrap:break-word; overflow-x:hidden;}
 
 a[alt]:hover::after {
   content: attr(alt);
