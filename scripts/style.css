@@ -18,7 +18,7 @@ a[alt]:hover::after {
   left: 0;
   color: midnightblue;
   font-size:17px;
-  background-color:rgba(176,196,222,0.7);
+  background-color:rgba(188,212,230,0.7);
   padding:0 4px 0 4px;
   border:1px skyblue solid;
   border-radius:4px;
