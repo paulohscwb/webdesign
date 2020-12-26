@@ -123,16 +123,17 @@
 <figcaption>
 Código estrutural de uma página HTML:
 <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt; 
-&lt;head&gt; 
-	&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;
-	&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;
-	&lt;meta name="keywords" content="HTML, PÁGINA"&gt;
-	&lt;meta name="description" content="Minha primeira página"&gt;
-	&lt;meta charset="UTF-8"&gt;
+<a alt="tag de início da programação html">&lt;html&gt;</a>
+<a alt="tag de cabeçalho">&lt;head&gt;</a> 
+	<a alt="tag de título da página">&lt;title&gt;TÍTULO DA PÁGINA&lt;/title&gt;</a>
+	<a alt="tag para o nome do autor">&lt;meta name="author" content="AUTOR DA PÁGINA"&gt;</a>
+	<a alt="tag de palavras-chave">&lt;meta name="keywords" content="HTML, PÁGINA"&gt;</a>
+	<a alt="tag de descrição da página">&lt;meta name="description" content="Minha primeira página"&gt;</a>
+	<a alt="tag de codificação da página&#10;É uma tag obrigatória para mostrar a acentuação correta. Pode ser UTF-8 ou ISO-8859-1">&lt;meta charset="UTF-8"&gt;</a>
 &lt;/head&gt; 
-&lt;body <a alt="cor de fundo do corpo da página (body): bgcolor&#10;escolha cor rgb, hexadecimal ou cores nativas HTML">bgcolor="blue"</a>&gt;
-	CONTEÚDO DA PÁGINA 
+&lt;body <a alt="Cor de fundo do corpo da página (body): bgcolor&#10;Escolha cor rgb, hexadecimal ou cores nativas HTML">bgcolor="blue"</a>&gt;
+	&lt;p&gt;<a alt="Insira o conteúdo separado por parágrafos com tags &lt;p&gt;">CONTEÚDO DA PÁGINA: primeiro parágrafo</a>&lt;/p&gt;
+	&lt;p&gt;CONTEÚDO DA PÁGINA: segundo parágrafo&lt;/p&gt;
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
 </figcaption>
