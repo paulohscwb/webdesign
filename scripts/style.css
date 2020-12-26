@@ -24,6 +24,7 @@ a[alt]:hover::after {
   font-size:18px;
   background-color:rgba(200,200,220,0.7);
   padding:0 4px 0 4px;
+  border:1px grey solid;
 }
 
 .topo::after {
