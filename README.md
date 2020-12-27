@@ -334,12 +334,12 @@ Código estrutural da página HTML com listas:
 &lt;/head&gt; 
 &lt;body&gt;
 	&lt;h3&gt;Minha página de listas&lt;/h3&gt;
-	<a alt="tag de lista com símbolo de círculo&#10;circle | disc | square">&lt;ul type="circle"&gt;</a>    
+	<a alt="tag de lista &lt;ul&gt; com símbolo de círculo&#10;circle | disc | square">&lt;ul type="circle"&gt;</a>    
 		<a alt="cada item da lista está em uma tag &lt;li&gt;">&lt;li&gt;Item amarelo&lt;/li&gt;</a>     
 		&lt;li&gt;Item azul&lt;/li&gt;     
 		&lt;li&gt;Item verde&lt;/li&gt; 
 	&lt;/ul&gt;
-	<a alt="tag de lista ordenada com letras maiúsculas, começando pela letra D&#10;A | a | 1 | I | i">&lt;ol type="A" start="4"&gt;</a>     
+	<a alt="tag de lista ordenada &lt;ol&gt; com letras maiúsculas, começando pela letra D&#10;A | a | 1 | I | i">&lt;ol type="A" start="4"&gt;</a>     
 		&lt;li&gt;Item cinza&lt;/li&gt;
 		&lt;li&gt;Item branco&lt;/li&gt;     
 		&lt;li&gt;Item preto&lt;/li&gt;     
@@ -400,13 +400,13 @@ Código estrutural da página HTML com imagens:
 	&lt;h3&gt;Minha página com imagens&lt;/h3&gt;
 	&lt;p&gt;Vamos testar se a imagem está alinhada com o texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem &lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt; está alinhada à esquerda do texto.&lt;/p&gt;
+	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 30% e alinhamento à esquerda&#10;align: left | right | middle | top | bottom">&lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt;</a> está alinhada à esquerda do texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem &lt;img src="imagens/figura2.jpg" width="80%" align="middle" hspace="30" vspace="60"&gt; está alinhada no meio do texto.&lt;/p&gt; 
+	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 80% e alinhada no meio do texto&#10;espaçamentos: horizontal 30 e vertical 60">&lt;img src="imagens/figura2.jpg" width="80%" align="middle" hspace="30" vspace="60"&gt;</a> está alinhada no meio do texto.&lt;/p&gt; 
 	
-	&lt;figure align="center"&gt;     
-		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
-		&lt;figcaption&gt;Esta é a legenda da imagem&lt;/figcaption&gt; 
+	<a alt="tag para organizar imagens e legendas&#10;align: left | right | center">&lt;figure align="center"&gt;</a>     
+		<a alt="tag de imagem &lt;img&gt;">&lt;img src="imagens/figura3.jpg" width="100%"&gt;</a>     
+		<a alt="tag de legenda &lt;figcaption&gt;">&lt;figcaption&gt;</a>Esta é a legenda da imagem&lt;/figcaption&gt; 
 	&lt;/figure&gt;
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
