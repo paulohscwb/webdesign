@@ -31,6 +31,17 @@ a[alt]:hover::after {
   text-shadow:1px 1px 1px skyblue;
 }
 
+a[alt]::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: skyblue transparent transparent transparent;
+}
+
 .topo::after {
     content: "";
     display: block;
