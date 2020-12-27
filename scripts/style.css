@@ -22,9 +22,9 @@ a[alt]:hover::after {
   left: 0;
   color: #3b444b;
   font-size:16px;
-  background-color:rgba(188,212,230,0.7);
+  background-color:rgba(233,255,219,0.7);
   padding:1px 4px 1px 4px;
-  border:1px skyblue solid;
+  border:1px #d0f0c0 solid;
   border-radius:4px;
   z-index:2;
   text-shadow:1px 1px 1px darkgrey;
