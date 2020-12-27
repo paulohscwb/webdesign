@@ -27,7 +27,7 @@ a[alt]:hover::after {
   border:1px skyblue solid;
   border-radius:4px;
   z-index:2;
-  text-shadow:1px 1px 1px skyblue;
+  text-shadow:1px 1px 1px darkgrey;
 }
 
 .topo::after {
