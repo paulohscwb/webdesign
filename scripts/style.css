@@ -23,7 +23,7 @@ a[alt]:hover::after {
   color: #3b444b;
   font-size: 16px;
   background-color:rgba(255,225,195,0.7);
-  padding:1px 4px 1px 4px;
+  padding:1px 6px 1px 6px;
   border:1px #ff8c69 solid;
   border-radius:4px;
   z-index:2;
