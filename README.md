@@ -274,7 +274,7 @@ Código estrutural de uma página HTML:
   dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus cursus, leo ac 
   sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
   lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
-  malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
+  malesuada lobortis nec in neque. <a alt="destaque de trecho riscado">&lt;strike&gt;Sed sit amet pharetra leo.&lt;/strike&gt;</a>&lt;/p&gt;
 <a alt="barra separadora de conteúdos: vermelha, com largura de 50%, altura de 10px">&lt;hr width="50%" size="10px" color="red"&gt;</a>
 <a alt="título com tamanho 3&#10;h1 | h2 | h3 | h4 | h5 | h6">&lt;h3&gt;Título da seção&lt;/h3&gt;</a>
   &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim 
