@@ -209,7 +209,7 @@ Código estrutural de uma página HTML:
   semper facilisis. Cras at dui turpis. Suspendisse convallis nisl leo, vel placerat est venenatis at. 
   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tristique 
   arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin efficitur 
-  eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.<a alt="tag de fonte">&lt;/p&gt;&lt;/font&gt;</a>
+  eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.<a alt="final da tag de fonte">&lt;/p&gt;&lt;/font&gt;</a>
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </figcaption>
