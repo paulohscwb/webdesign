@@ -455,7 +455,7 @@ Código estrutural da página HTML com links e imagens:
 	&lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
 	<a alt="tag de link &lt;a&gt; que abre em nova aba com atributo target _blank&#10;href contém o caminho da página do link">&lt;a href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;</a>
 	
-	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;img&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
+	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;a&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
 
 	&lt;figure align="center"&gt;     
 		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
@@ -515,6 +515,39 @@ Código estrutural da página HTML com links e imagens:
 			   <label for="034c"></label>
 			   <img src="basico/06_01_06.png"/>
 			   <figcaption>Usando a tag de link <code>&lt;a&gt;</code>, você insere os links de músicas em sua página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="034d" name="sl">
+			   <label for="034d"></label>
+			   <figcaption>
+Código estrutural da página HTML com links e imagens:
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;IMAGENS&lt;/title&gt;
+  &lt;meta name="author" content="Paulo Henrique"&gt;
+  &lt;meta name="keywords" content="HTML, IMAGENS, LINKS"&gt;
+  &lt;meta name="description" content="Minha primeira página"&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
+
+  &lt;a href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;
+  <a alt="tag de áudio &lt;audio&gt; com controles e reprodução automática">&lt;audio controls autoplay&gt;</a>  
+	<a alt="áudio com extensão mp3 salvo na pasta audios">&lt;source src="audios/musica1.mp3"&gt;</a> 
+	<a alt="áudio com extensão ogg salvo na pasta audios">&lt;source src="audios/musica1.ogg"&gt;</a>
+  &lt;/audio&gt;
+  <a alt="link de áudio do Spotify">&lt;a href="https://open.spotify.com/track/4QVD4vVkYveZuO0xkyi6AX?si=W4d7ctcHSOu2TraZcNaR2g"&gt;Música&lt;/a&gt;</a>
+  &lt;p align="center"&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;figure align="center"&gt;
+    &lt;img src="imagens/figura3.png" width="100%"&gt;
+    &lt;figcaption&gt;&lt;p align="center"&gt;Esta é a legenda da imagem&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</figcaption>
 		   </li>
 		</ul>
 		<img src="basico/06_01_01.png" class="fundo" style="visibility:hidden"/>
