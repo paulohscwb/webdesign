@@ -1112,9 +1112,9 @@ Trecho do código HTML com galeria em formato de tabela:
 	<a alt="tag &lt;font&gt; para a página toda, com fechamento no final da programação">&lt;font face="Calibri" size="4"&gt;</a>
 	<a alt="tag da tabela &lt;table&gt; com margens internas de 20px e externas de 15px">&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;</a>     
 		<a alt="tag da primeira linha &lt;tr&gt; para definir o banner">&lt;tr&gt;</a>
-			<a alt="tag de célula &lt;td&gt; para definir a imagem do banner&#10;célula mesclada com a do lado com o atributo colspan: 2&#10;definição de um título com tag &lt;h1&gt;">&lt;td width="100%" height="170" background="imagens/banner.jpg" colspan="2"&gt;
+			<a alt="tag de célula &lt;td&gt; para definir a imagem do banner&#10;célula mesclada com a do lado com o atributo colspan: 2&#10;definição de um título com tag &lt;h1&gt;">&lt;td width="100%" height="170" background="imagens/banner.jpg" colspan="2"&gt;</a>
 				&lt;h1&gt;&lt;font size="7"&gt;Meu Restaurante&lt;/font&gt;&lt;/h1&gt;
-			&lt;/td&gt;</a>
+			&lt;/td&gt;
 		&lt;/tr&gt; 
 		<a alt="tag da segunda linha &lt;tr&gt; com conteúdo e barra lateral">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
 			<a alt="tag de célula &lt;td&gt; que define o conteúdo principal da página&#10;a largura fica maior, por exemplo, com 70%">&lt;td width="70%"&gt;</a>
