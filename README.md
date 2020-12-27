@@ -195,7 +195,7 @@ Código estrutural de uma página HTML:
   &lt;meta name="description" content="Minha primeira página"&gt;
   &lt;meta charset="UTF-8"&gt;
 &lt;/head&gt;
-<a alt="definição de uma imagem de fundo da página, na pasta imagens">&lt;body background="imagens/fundo.jpg"&gt;</a>
+<a alt="imagem de fundo da página, localizada na pasta imagens">&lt;body background="imagens/fundo.jpg"&gt;</a>
   <a alt="definição de fonte da página, no início da programação">&lt;font face="Verdana"&gt;</a><a alt="alinhamento de parágrafo&#10;justify | left | right | center">&lt;p align="justify"&gt;</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
   Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
   pellentesque ipsum <a alt="destaque de trecho com fonte azul e tamanho 7">&lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;</a>. Fusce a ipsum diam. Fusce sem 
@@ -334,12 +334,12 @@ Código estrutural da página HTML com listas:
 &lt;/head&gt; 
 &lt;body&gt;
 	&lt;h3&gt;Minha página de listas&lt;/h3&gt;
-	&lt;ul&gt;    
+	<a alt="tag de lista com símbolo de círculo&#10;circle | disc | square">&lt;ul type="circle"&gt;</a>    
 		&lt;li&gt;Item amarelo&lt;/li&gt;     
 		&lt;li&gt;Item azul&lt;/li&gt;     
 		&lt;li&gt;Item verde&lt;/li&gt; 
 	&lt;/ul&gt;
-	&lt;ol&gt;     
+	<a alt="tag de lista ordenada com letras maiúsculas, começando pela letra D&#10;A | a | 1 | I | i">&lt;ol type="A" start="4"&gt</a>     
 		&lt;li&gt;Item cinza&lt;/li&gt;
 		&lt;li&gt;Item branco&lt;/li&gt;     
 		&lt;li&gt;Item preto&lt;/li&gt;     
