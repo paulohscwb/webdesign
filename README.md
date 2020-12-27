@@ -591,7 +591,7 @@ Código estrutural da página HTML com links e imagens:
 			   <input type="radio" id="039a" name="sl">
 			   <label for="039a"></label>
 			   <figcaption>
-Código estrutural da página HTML com imagens e vídeos:
+Código estrutural da página HTML com imagens e áudios:
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
@@ -755,24 +755,24 @@ Código estrutural da página HTML com imagens e vídeos:
 			   <input type="radio" id="053a" name="sl">
 			   <label for="053a"></label>
 			   <figcaption>
-Código estrutural da página HTML com tabelas:
+Código estrutural da página HTML com tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Minha página com tabelas&lt;/h3&gt;
-	&lt;table border="2" bordercolor="red" cellpadding="10" cellspacing="5"&gt;     
-		&lt;tr bgcolor="green"&gt; 
-			&lt;th&gt;Título 1&lt;/th&gt; 
+	<a alt="tag de tabela &lt;table&gt; com borda vermelha com 2px de espessura&#10;os espaçamentos são: 10px interno e 5px externo">&lt;table border="2" bordercolor="red" cellpadding="10" cellspacing="5"&gt;</a>     
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela, com cor de fundo verde">&lt;tr bgcolor="green"&gt;</a> 
+			<a alt="tag da primeira célula de título &lt;th&gt; da tabela">&lt;th&gt;Título 1&lt;/th&gt;</a> 
 			&lt;th&gt;Título 2&lt;/th&gt; 
 			&lt;th&gt;Título 3&lt;/th&gt; 
 			&lt;th&gt;Título 4&lt;/th&gt; 
 		&lt;/tr&gt; 
-		&lt;tr&gt;
-			&lt;td&gt;Linha 2, Coluna1&lt;/td&gt;
+		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="tag da primeira célula da segunda linha &lt;td&gt; da tabela">&lt;td&gt;Linha 2, Coluna1&lt;/td&gt;</a>
 			&lt;td&gt;Linha 2, Coluna2&lt;/td&gt;
 			&lt;td&gt;Linha 2, Coluna3&lt;/td&gt;
 			&lt;td&gt;Linha 2, Coluna3&lt;/td&gt;
 		&lt;/tr&gt; 
-		&lt;tr&gt;
-			&lt;td&gt;Linha 3, Coluna1&lt;/td&gt;
+		<a alt="tag de início da terceira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="tag da primeira célula da terceira linha &lt;td&gt; da tabela">&lt;td&gt;Linha 3, Coluna1&lt;/td&gt;</a>
 			&lt;td&gt;Linha 3, Coluna2&lt;/td&gt;
 			&lt;td&gt;Linha 3, Coluna3&lt;/td&gt;
 			&lt;td&gt;Linha 3, Coluna3&lt;/td&gt;
