@@ -930,7 +930,7 @@ Trecho do código HTML com galeria em formato de tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Tabela de nutrientes&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com borda cinza de 1px&#10;margens das células: internas de 15px e sem margens externas">&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;</a>     
-		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela, com fundo vermeho e alinhamento centralizado">&lt;tr bgcolor="red" align="center"&gt;</a>
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela&#10;linha com fundo vermelho e alinhamento centralizado">&lt;tr bgcolor="red" align="center"&gt;</a>
 			<a alt="tag da primeira célula de título &lt;th&gt;">&lt;th&gt;&lt;font color="white"&gt;GRUPO&lt;/font&gt;&lt;/th&gt;</a>
 			&lt;th&gt;&lt;font color="white"&gt;ALIMENTO&lt;/font&gt;&lt;/th&gt;
 			&lt;th&gt;&lt;font color="white"&gt;MEDIDA&lt;/font&gt;&lt;/th&gt;
@@ -983,19 +983,19 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML com a tabela de pesquisa com fumantes:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Pesquisa com fumantes e ex-fumantes&lt;/h3&gt;
-	&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;     
-		&lt;tr bgcolor="#ccffcc" align="center"&gt;
-			&lt;th rowspan="2"&gt;Região;&lt;/th&gt;
-			&lt;th colspan="2"&gt;Porcentagem de pessoas que &lt;br&gt;fumam diariamente&lt;/th&gt;
-			&lt;th colspan="2"&gt;Porcentagem de ex-fumantes &lt;br&gt;que fumavam diariamente&lt;/th&gt;
+	<a alt="tag da tabela &lt;table&gt; com borda cinza de 1px&#10;margens internas de 15px e sem margens externas">&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;</a>     
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr bgcolor="#ccffcc" align="center"&gt;</a>
+			<a alt="tag da primeira célula de título &lt;th&gt;&#10;célula mesclada com a de baixo usando o atributo rowspan: 2">&lt;th rowspan="2"&gt;Região;&lt;/th&gt;</a>
+			<a alt="tag da segunda célula de título &lt;th&gt;&#10;célula mesclada com a do lado usando o atributo colspan: 2">&lt;th colspan="2"&gt;Porcentagem de pessoas que &lt;br&gt;fumam diariamente&lt;/th&gt;</a>
+			<a alt="tag da terceira célula de título &lt;th&gt;&#10;célula mesclada com a do lado usando o atributo colspan: 2">&lt;th colspan="2"&gt;Porcentagem de ex-fumantes &lt;br&gt;que fumavam diariamente&lt;/th&gt;</a>
 		&lt;/tr&gt; 
-		&lt;tr bgcolor="#ffcccc" align="center"&gt;
+		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr bgcolor="#ffcccc" align="center"&gt;</a>
 			&lt;th&gt;Homens&lt;/th&gt;
 			&lt;th&gt;Mulheres&lt;/th&gt;
 			&lt;th&gt;Homens&lt;/th&gt;
 			&lt;th&gt;Mulheres&lt;/th&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center"&gt;
+		<a alt="tag de início da terceira linha &lt;tr&gt; da tabela">&lt;tr align="center"&gt;</a>
 			&lt;td&gt;Brasil&lt;/td&gt;
 			&lt;td&gt;18,9&lt;/td&gt;
 			&lt;td&gt;11,6&lt;/td&gt;
