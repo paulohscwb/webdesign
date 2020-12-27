@@ -453,7 +453,7 @@ Código estrutural da página HTML com links e imagens:
 &lt;/head&gt; 
 &lt;body&gt;
 	&lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
-	<a alt="tag de link &lt;a&gt; que abre em nova aba com atributo target _blank">&lt;a&gt;href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;</a>
+	<a alt="tag de link &lt;a&gt; que abre em nova aba com atributo target _blank&#10;href contém o caminho da página do link">&lt;a href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;</a>
 	
 	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;img&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
 
