@@ -538,7 +538,7 @@ Código estrutural da página HTML com links e imagens:
 	<a alt="áudio com extensão mp3 salvo na pasta audios">&lt;source src="audios/musica1.mp3"&gt;</a> 
 	<a alt="áudio com extensão ogg salvo na pasta audios">&lt;source src="audios/musica1.ogg"&gt;</a>
   &lt;/audio&gt;
-  <a alt="link de áudio do Spotify">&lt;a href="https://open.spotify.com/track/4QVD4vVkYveZuO0xkyi6AX?si=W4d7ctcHSOu2TraZcNaR2g"&gt;Música&lt;/a&gt;</a>
+  <a alt="link de áudio do Spotify, com a palavra Música usada como rótulo&#10;você pode usar uma imagem como rótulo, como mostrado nos códigos de links">&lt;a href="https://open.spotify.com/track/4QVD4vVkYveZuO0xkyi6AX?si=W4d7ctcHSOu2TraZcNaR2g"&gt;Música&lt;/a&gt;</a>
   &lt;p align="center"&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
 
   &lt;figure align="center"&gt;
@@ -608,10 +608,10 @@ Código estrutural da página HTML com imagens e vídeos:
 		&lt;img src="imagens/banner.png" width="90%"&gt;
 	&lt;/figure&gt;
 	&lt;hr&gt;
-	&lt;video width="100%" height="100%" controls autoplay&gt;
-		&lt;source src="videos/video1.mp4"type="video/mp4"&gt; 
-		&lt;source src="videos/video1.ogv"type="video/ogv"&gt; 
-		&lt;source src="videos/video1.webm"type="video/webm"&gt; 
+	<a alt="tag de vídeo &lt;video&gt; com controles e reprodução automática">&lt;video width="100%" height="100%" controls autoplay&gt;</a>
+		<a alt="vídeo com extensão mp4 salvo na pasta videos">&lt;source src="videos/video1.mp4"type="video/mp4"&gt;</a> 
+		<a alt="vídeo com extensão ogv salvo na pasta videos">&lt;source src="videos/video1.ogv"type="video/ogv"&gt;</a> 
+		<a alt="vídeo com extensão webm salvo na pasta videos">&lt;source src="videos/video1.webm"type="video/webm"&gt;</a> 
 	&lt;/video&gt;
 
 &lt;/body&gt; 
@@ -670,7 +670,7 @@ Código estrutural da página HTML com imagens e vídeos:
 		&lt;img src="imagens/banner.png" width="90%"&gt;
 	&lt;/figure&gt;
 	&lt;hr&gt;
-	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/uKEhiXcrW9A" frameborder="1" color="yellow" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+	<a alt="tag de moldura &lt;iframe&gt; com vídeo do Youtube&#10;não esqueça de definir a altura e a largura desta tag">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/uKEhiXcrW9A" frameborder="1" color="yellow" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</a>
 
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
