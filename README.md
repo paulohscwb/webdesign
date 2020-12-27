@@ -814,15 +814,15 @@ Código estrutural da página HTML com tabela:
 Trecho do código HTML com galeria em formato de tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
-	&lt;table width="100%" cellpadding="10"&gt;     
-		&lt;tr&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
 			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
 			&lt;td&gt;&lt;a href="imagens/imagem6.png"&gt;&lt;img src="imagens/imagem6.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;a href="imagens/imagem7.png"&gt;&lt;img src="imagens/imagem7.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;a href="imagens/imagem8.png"&gt;&lt;img src="imagens/imagem8.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
@@ -863,14 +863,14 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML com galeria em formato de tabela:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
-	&lt;table width="100%" cellpadding="10"&gt;     
-		&lt;tr&gt;
-			&lt;td width="33%"&gt;&lt;audio src="audios/musica1.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
+	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com áudio salvo na pasta audios, largura de 33%">&lt;td width="33%"&gt;&lt;audio src="audios/musica1.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;</a>
 			&lt;td width="33%"&gt;&lt;audio src="audios/musica2.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
 			&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
-		&lt;tr&gt;
-			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/E4povfmX144" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/E4povfmX144" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
 			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 		&lt;/tr&gt;
