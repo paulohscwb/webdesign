@@ -335,7 +335,7 @@ Código estrutural da página HTML com listas:
 &lt;body&gt;
 	&lt;h3&gt;Minha página de listas&lt;/h3&gt;
 	<a alt="tag de lista com símbolo de círculo&#10;circle | disc | square">&lt;ul type="circle"&gt;</a>    
-		<a alt="cada item da lista está em uma tag &lt;li&gt;">&lt;li&gt;Item amarelo&lt;/li&gt;     
+		<a alt="cada item da lista está em uma tag &lt;li&gt;">&lt;li&gt;Item amarelo&lt;/li&gt;</a>     
 		&lt;li&gt;Item azul&lt;/li&gt;     
 		&lt;li&gt;Item verde&lt;/li&gt; 
 	&lt;/ul&gt;
