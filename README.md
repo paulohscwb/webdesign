@@ -196,8 +196,20 @@ Código estrutural de uma página HTML:
   &lt;meta charset="UTF-8"&gt;
 &lt;/head&gt;
 <a alt="definição de uma imagem de fundo da página, na pasta imagens">&lt;body background="imagens/fundo.jpg"&gt;</a>
-  <a alt="definição de fonte da página, no início da programação">&lt;font face="Verdana"&gt;</a><a alt="alinhamento de parágrafo&#10;valores: justify, left, right ou center">&lt;p align="justify"&gt;</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet pellentesque ipsum <a alt="destaque de trecho com fonte azul e tamanho 7">&lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;</a>. Fusce a ipsum diam. Fusce sem magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat dui, dictum maximus turpis <a alt="destaque de trecho com fonte verde e tamanho 3">&lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;</a>. Vivamus cursus, leo ac sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
-  &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim semper facilisis. Cras at dui turpis. Suspendisse convallis nisl leo, vel placerat est venenatis at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
+  <a alt="definição de fonte da página, no início da programação">&lt;font face="Verdana"&gt;</a><a alt="alinhamento de parágrafo&#10;valores: justify, left, right ou center">&lt;p align="justify"&gt;</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
+  pellentesque ipsum <a alt="destaque de trecho com fonte azul e tamanho 7">&lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;</a>. Fusce a ipsum diam. Fusce sem 
+  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus 
+  ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
+  dui, dictum maximus turpis <a alt="destaque de trecho com fonte verde e tamanho 3">&lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;</a>. Vivamus cursus, leo ac 
+  sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
+  lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
+  malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
+  &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim
+  semper facilisis. Cras at dui turpis. Suspendisse convallis nisl leo, vel placerat est venenatis at. 
+  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tristique 
+  arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin efficitur 
+  eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </figcaption>
@@ -254,10 +266,22 @@ Código estrutural de uma página HTML:
   &lt;meta charset="UTF-8"&gt;
 &lt;/head&gt;
 &lt;body background="imagens/fundo.jpg"&gt;
-  &lt;font face="Verdana"&gt;&lt;p align="justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet pellentesque ipsum &lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;. Fusce a ipsum diam. Fusce sem magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus cursus, leo ac sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
+  &lt;font face="Verdana"&gt;&lt;p align="justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
+  pellentesque ipsum &lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;. Fusce a ipsum diam. Fusce sem 
+  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus ultricies. 
+  Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
+  dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus cursus, leo ac 
+  sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
+  lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
+  malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
 <a alt="barra separadora de conteúdos: vermelha, com largura de 50%, altura de 10px">&lt;hr width="50%" size="10px" color="red"&gt;</a>
 <a alt="título com tamanho 3; valores: h1, h2, h3, h4, h5 ou h6">&lt;h3&gt;Título da seção&lt;/h3&gt;</a>
-  &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim semper facilisis. <a alt="destaque de trecho em negrito (bold)">&lt;b&gt;Cras at dui turpis&lt;/b&gt;</a>. Suspendisse convallis nisl leo, vel placerat est venenatis at. <a alt="destaque de trecho com negrito e itálico">&lt;b&gt;&lt;i&gt;Vestibulum ante ipsum primis&lt;/i&gt;&lt;/b&gt;</a> in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
+  &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim 
+  semper facilisis. <a alt="destaque de trecho em negrito (bold)">&lt;b&gt;Cras at dui turpis&lt;/b&gt;</a>. Suspendisse convallis nisl leo, vel placerat est venenatis 
+  at. <a alt="destaque de trecho com negrito e itálico">&lt;b&gt;&lt;i&gt;Vestibulum ante ipsum primis&lt;/i&gt;&lt;/b&gt;</a> in faucibus orci luctus et ultrices posuere cubilia 
+  Curae; Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. 
+  Proin efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </figcaption>
