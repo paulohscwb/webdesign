@@ -1108,7 +1108,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="081a" name="sl">
 			   <label for="081a"></label>
 			   <figcaption>Trecho do código HTML da estrutura da Atividade 2:
-<pre><code>&lt;body align="center"&gt;
+<pre><code><a alt="trecho que mostra a programação a partir da tag &lt;body&gt;&#10;não esqueça de colocar as tags iniciais de cabeçalho desta atividade">&lt;body align="center"&gt;</a>
 	<a alt="tag &lt;font&gt; para a página toda, com fechamento no final da programação">&lt;font face="Calibri" size="4"&gt;</a>
 	<a alt="tag da tabela &lt;table&gt; com margens internas de 20px e externas de 15px">&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;</a>     
 		<a alt="tag da primeira linha &lt;tr&gt; para definir o banner">&lt;tr&gt;</a>
