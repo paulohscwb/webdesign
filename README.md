@@ -269,8 +269,8 @@ Código estrutural de uma página HTML:
   &lt;font face="Verdana"&gt;&lt;p align="justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
   Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
   pellentesque ipsum &lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;. Fusce a ipsum diam. Fusce sem 
-  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus ultricies. 
-  Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
+  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus 
+  ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
   dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus cursus, leo ac 
   sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
   lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
