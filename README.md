@@ -1109,30 +1109,30 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="081a"></label>
 			   <figcaption>Trecho do código HTML da estrutura da Atividade 2:
 <pre><code>&lt;body align="center"&gt;
-	&lt;font face="Calibri" size="4"&gt;
-	&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;     
-		&lt;tr&gt;
-			&lt;td width="100%" height="170" background="imagens/banner.jpg" colspan="2"&gt;
+	<a alt="tag &lt;font&gt; para a página toda, com fechamento no final da programação">&lt;font face="Calibri" size="4"&gt;</a>
+	<a alt="tag da tabela &lt;table&gt; com margens internas de 20px e externas de 15px">&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;</a>     
+		<a alt="tag da primeira linha &lt;tr&gt; para definir o banner">&lt;tr&gt;</a>
+			<a alt="tag de célula &lt;td&gt; para definir a imagem do banner&#10;célula mesclada com a do lado com o atributo colspan: 2&#10;definição de um título com tag &lt;h1&gt;">&lt;td width="100%" height="170" background="imagens/banner.jpg" colspan="2"&gt;
 				&lt;h1&gt;&lt;font size="7"&gt;Meu Restaurante&lt;/font&gt;&lt;/h1&gt;
-			&lt;/td&gt;
+			&lt;/td&gt;</a>
 		&lt;/tr&gt; 
-		&lt;tr align="center" bgcolor="#fff3e6"&gt;
-			&lt;td width="70%"&gt;
+		<a alt="tag da segunda linha &lt;tr&gt; com conteúdo e barra lateral">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; que define o conteúdo principal da página&#10;a largura fica maior, por exemplo, com 70%">&lt;td width="70%"&gt;</a>
 				&lt;p&gt;Aproveite a comodidade de fazer o seu pedido através do nosso site!&lt;/p&gt;
 				&lt;p&gt;É fácil e rápido. Os melhores pratos para você desfrutar no conforto de sua casa!&lt;/p&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/principal.jpg" width="70%"&gt;&lt;/p&gt;
 				&lt;p&gt;Usamos ingredientes selecionados. Há mais de 40 anos oferecemos opções de qualidade.&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td width="30%" valign="top"&gt;
+			<a alt="tag de célula &lt;td&gt; que define a barra lateral da página&#10;a largura fica menor, por exemplo, com 30%">&lt;td width="30%" valign="top"&gt;</a>
 				&lt;h4&gt;Conheça nossas promoções&lt;/h4&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/promocao.jpg" width="100%"&gt;&lt;/p&gt;
 				&lt;h4&gt;Tabela de Nutrientes&lt;/h4&gt;
-				&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;
+				<a alt="insira o link para a página de nutrientes do exercício 3&#10;não esqueça de salvar a página no mesmo diretório desta atividade">&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center" bgcolor="#fff3e6"&gt;
-			&lt;td colspan="2"&gt;
-				&lt;p align="center"&gt;Rodapé&lt;/p&gt;
+		<a alt="tag da terceira linha &lt;tr&gt; com o rodapé da página">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; para definir o rodapé&#10;célula mesclada com a do lado com o atributo colspan: 2">&lt;td colspan="2"&gt;</a>
+				&lt;p align="center"&gt;Rodapé &amp;copy; 2020&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt; 
 	&lt;/table&gt;
