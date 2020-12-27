@@ -25,11 +25,10 @@ a[alt]:hover::after {
   font-size: 16px;
   background-color:rgba(255,225,195,0.7);
   padding:1px 6px 1px 6px;
-  border:1px #ff8c69 solid;
   border-radius:4px;
   z-index:2;
   text-shadow:1px 1px 2px silver;
-  box-shadow:0 0 2px silver;
+  box-shadow:0 0 2px #ff8c69;
 }
 
 .topo::after {
