@@ -334,12 +334,12 @@ Código estrutural da página HTML com listas:
 &lt;/head&gt; 
 &lt;body&gt;
 	&lt;h3&gt;Minha página de listas&lt;/h3&gt;
-	<a alt="tag de lista &lt;ul&gt; com símbolo de círculo&#10;circle | disc | square">&lt;ul type="circle"&gt;</a>    
+	<a alt="tag de lista &lt;ul&gt; com símbolo de círculo&#10;type: circle | disc | square">&lt;ul type="circle"&gt;</a>    
 		<a alt="cada item da lista está em uma tag &lt;li&gt;">&lt;li&gt;Item amarelo&lt;/li&gt;</a>     
 		&lt;li&gt;Item azul&lt;/li&gt;     
 		&lt;li&gt;Item verde&lt;/li&gt; 
 	&lt;/ul&gt;
-	<a alt="tag de lista ordenada &lt;ol&gt; com letras maiúsculas, começando pela letra D&#10;A | a | 1 | I | i">&lt;ol type="A" start="4"&gt;</a>     
+	<a alt="tag de lista ordenada &lt;ol&gt; com letras maiúsculas, começando pela letra D&#10;type: A | a | 1 | I | i">&lt;ol type="A" start="4"&gt;</a>     
 		&lt;li&gt;Item cinza&lt;/li&gt;
 		&lt;li&gt;Item branco&lt;/li&gt;     
 		&lt;li&gt;Item preto&lt;/li&gt;     
