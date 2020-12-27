@@ -929,21 +929,21 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML com a tabela de nutrientes:
 <pre><code>&lt;body&gt;
 	&lt;h3&gt;Tabela de nutrientes&lt;/h3&gt;
-	&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;     
-		&lt;tr bgcolor="red" align="center"&gt;
-			&lt;th&gt;&lt;font color="white"&gt;GRUPO&lt;/font&gt;&lt;/th&gt;
+	<a alt="tag de tabela &lt;table&gt; com borda cinza de 1px&#10;margens das células: internas de 15px e sem margens externas">&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;</a>     
+		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela, com fundo vermeho e alinhamento centralizado">&lt;tr bgcolor="red" align="center"&gt;</a>
+			<a alt="tag da primeira célula de título &lt;th&gt;">&lt;th&gt;&lt;font color="white"&gt;GRUPO&lt;/font&gt;&lt;/th&gt;</a>
 			&lt;th&gt;&lt;font color="white"&gt;ALIMENTO&lt;/font&gt;&lt;/th&gt;
 			&lt;th&gt;&lt;font color="white"&gt;MEDIDA&lt;/font&gt;&lt;/th&gt;
 			&lt;th&gt;&lt;font color="white"&gt;QUANTIDADE&lt;/font&gt;&lt;/th&gt;
 		&lt;/tr&gt; 
-		&lt;tr align="center"&gt;
-			&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;&lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela com alinhamento centralizado">&lt;tr align="center"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; com imagem de fundo de verdura&#10;célula mesclada com a célula de baixo com o atributo rowspan: 2">&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;&lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</a>
 			&lt;td&gt;Hortaliça crua&lt;/td&gt;
 			&lt;td&gt;180g&lt;/td&gt;
 			&lt;td&gt;1 pires cheio&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center"&gt;
-			&lt;td&gt;Hortaliça cozida&lt;/td&gt; 
+		<a alt="tag de início da terceira linha &lt;tr&gt; da tabela">&lt;tr align="center"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; após as células mescladas da linha anterior">&lt;td&gt;Hortaliça cozida&lt;/td&gt;</a> 
 			&lt;td&gt;140g&lt;/td&gt;
 			&lt;td&gt;1 pires cheio&lt;/td&gt;
 		&lt;/tr&gt;
