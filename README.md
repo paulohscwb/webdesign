@@ -1273,24 +1273,24 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML da página index.htm:
 <pre><code>&lt;body align="center"&gt;
 	&lt;font face="Calibri"&gt;
-	&lt;table width="100%"&gt;
-		&lt;tr bgcolor="#e2efec"&gt;
-			&lt;td width="100%"&gt;
+	<a alt="tag de tabela &lt;table&gt; com a estrutura da página">&lt;table width="100%"&gt;</a>
+		<a alt="tag da primeira linha &lt;tr&gt; com o banner da página">&lt;tr bgcolor="#e2efec"&gt;</a>
+			<a alt="tag da célula &lt;td&gt; com o título da página&#10;você pode usar uma imagem de fundo nesta célula do banner">&lt;td width="100%"&gt;</a>
 				&lt;h1 align="center"&gt;Meus pontos turísticos favoritos&lt;/h1&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center"&gt;
-			&lt;td&gt;
-				&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;
-				&lt;select id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;
-					&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;
+		<a alt="tag da segunda linha &lt;tr&gt; com a lista seletora das páginas">&lt;tr align="center"&gt;</a>
+			<a alt="tag da célula &lt;td&gt; com a lista seletora">&lt;td&gt;</a>
+				<a alt="tag de rótulo &lt;label&gt; para a lista seletora">&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;</a>
+				<a alt="tag da lista &lt;select&gt; com o nome paginas linkada com o iframe1">&lt;select id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;</a>
+					<a alt="tag &lt;option&gt; com a primeira opção de página de ponto turístico&#10;lembre-se de colocar os nomes corretos das páginas criadas">&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;</a>
 					&lt;option value="kremlin.htm"&gt;Kremlin de Moscou&lt;/option&gt;
 					&lt;option value="tajmahal.htm"&gt;Taj Mahal&lt;/option&gt;
 					&lt;option value="egito.htm"&gt;Egito&lt;/option&gt;
 					&lt;option value="colosseum.htm"&gt;Colosseum&lt;/option&gt;
 				&lt;/select&gt;
 				&lt;/font&gt;
-				&lt;iframe src="capadocia.htm" name="iframe1" width="100%" style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;
+				<a alt="tag &lt;iframe&gt; que vai mostrar as páginas selecionadas">&lt;iframe src="capadocia.htm" name="iframe1" width="100%" style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
@@ -1304,9 +1304,9 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML da página capadocia.htm:
 <pre><code>&lt;body align="center"&gt;
 	&lt;font face="Calibri"&gt;
-	&lt;table width="100%" cellpadding="15" cellspacing="10"&gt;
-		&lt;tr bgcolor="#eff6f4"&gt;
-			&lt;td width="65%"&gt;
+	<a alt="tag &lt;table&gt; com a estrutura da página de um ponto turístico">&lt;table width="100%" cellpadding="15" cellspacing="10"&gt;</a>
+		<a alt="tag da primeira linha &lt;tr&gt; com o conteúdo de das páginas">&lt;tr bgcolor="#eff6f4"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; com o conteúdo principal da página&#10;esta célula pode ter uma largura maior, por exemplo, de 65%">&lt;td width="65%"&gt;</a>
 				&lt;h3&gt;Capadócia&lt;/h3&gt;
 				&lt;p&gt;&lt;b&gt;A Capadócia&lt;/b&gt; é uma região histórica e turística da Anatólia central...&lt;/p&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/capadocia.jpg" width="75%"&gt;&lt;/p&gt;
@@ -1314,13 +1314,13 @@ Trecho do código HTML com galeria em formato de tabela:
 				&lt;p&gt;Toda a região se encontra num planalto com aproximadamente 1.000 m...&lt;/p&gt;
 				&lt;p&gt;A paisagem única da região é o resultado da...&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td width="35%" valign="top"&gt;
+			<a alt="tag de célula &lt;td&gt; com a barra lateral da página&#10;esta célula pode ter a largura menor, por exemplo, de 35%">&lt;td width="35%" valign="top"&gt;</a>
 				&lt;h3&gt;Localização&lt;/h3&gt;
-				&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;
+				<a alt="coloque a tag de iframe do mapa de localização do ponto turístico">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr align="center" bgcolor="#eff6f4"&gt;
-			&lt;td colspan="2"&gt;
+		<a alt="tag de linha &lt;tr&gt; com o rodapé">&lt;tr align="center" bgcolor="#eff6f4"&gt;</a>
+			<a alt="tag de célula &lt;td&gt; que deve ser mesclada com a célula ao lado usando colspan: 2">&lt;td colspan="2"&gt;</a>
 				Rodapé
 			&lt;/td&gt;
 		&lt;/tr&gt;
