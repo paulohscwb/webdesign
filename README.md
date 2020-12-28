@@ -1173,17 +1173,17 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Trecho do código HTML da galeria de imagens com Select:
 <pre><code>&lt;body align="center"&gt;
 	&lt;font face="Verdana"&gt;
-	&lt;h3&gt;Galeria de imagens com Select&lt;/h3&gt;
-		&lt;label for="imagens"&gt;Escolha uma imagem da galeria:&lt;/label&gt;
+	">&lt;h3&gt;Galeria de imagens com Select&lt;/h3&gt;
+		<a alt="tag de rótulo &lt;label&gt; para a lista seletora com nome imagens">&lt;label for="imagens"&gt;Escolha uma imagem da galeria:&lt;/label&gt;</a>
 		&lt;br&gt;
-		&lt;select id="fotos" class="midia" name="imagens" onchange="javascript:iframe1.location=this.value"&gt;
+		<a alt="tag da lista seletora &lt;select&gt; com javascript ligado ao iframe1&#10;a ligação com o iframe serve para mostrar as imagens selecionadas pelo visitante">&lt;select id="fotos" class="midia" name="imagens" onchange="javascript:iframe1.location=this.value"&gt;</a>
 			&lt;option value="imagens/foto1.jpg"&gt;Foto 1&lt;/option&gt;
 			&lt;option value="imagens/foto2.jpg"&gt;Foto 2&lt;/option&gt;
 			&lt;option value="imagens/foto3.jpg"&gt;Foto 3&lt;/option&gt;
 			&lt;option value="imagens/foto4.jpg"&gt;Foto 4&lt;/option&gt;
 		&lt;/select&gt;
 		&lt;br&gt;
-		&lt;iframe src="imagens/foto1.jpg" name="iframe1" width="70%" height="400px"&gt;&lt;/iframe&gt;
+		<a alt="tag &lt;iframe&gt; com nome iframe1 linkado com a lista seletora">&lt;iframe src="imagens/foto1.jpg" name="iframe1" width="70%" height="400px"&gt;&lt;/iframe&gt;</a>
 	&lt;/font&gt;
 &lt;/body&gt;</code></pre>
 </figcaption>
