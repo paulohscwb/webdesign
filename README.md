@@ -3,7 +3,7 @@
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
 <p>Esta página site contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
-<p>A apostila está disponível no link: <a href="http://www.exatas.ufpr.br/portal/degraf_paulo/wp-content/uploads/sites/4/2019/05/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
+<p>A apostila está disponível no link: <a href="basico/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
 <details id="basico">
@@ -5641,7 +5641,7 @@ Trecho da estrutura HTML da galeria da Atividade 10 com divisões:
 <p>Paulo Henrique Siqueira</p>  
 <p><b>contato:</b> paulohscwb@gmail.com </p> 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fundamentos do Webdesign</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/webdesign/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fundamentos do Webdesign</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/webdesign/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Fundamentos do Webdesign". Disponível em: <https://paulohscwb.github.io/webdesign/>, Setembro de 2020.</p>
