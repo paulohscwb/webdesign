@@ -261,7 +261,7 @@ h3::after {
 
  .slider figcaption {
      opacity: 0;
-     visibility: hidden;
+     /*visibility: hidden;*/
      transition: all 0.5s;
 	 /*transform: translateY(-120px);*/
  }
@@ -270,7 +270,7 @@ h3::after {
      opacity: 1;
 	 /*transform: translateY(0);*/
      transition: all 1s ;
-     visibility: visible;
+     /*visibility: visible;*/
      z-index: 10;
  }
 
