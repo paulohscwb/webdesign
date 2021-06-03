@@ -101,6 +101,9 @@ details {
   100% {opacity: 1; margin-left: 0px;}
 }
 
+details[open] summary ~ * {
+  animation: open .5s ease-in-out;
+}
 
 .sub[open] summary ~ * {
   animation: open .5s ease-in-out;
