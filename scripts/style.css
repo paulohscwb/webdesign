@@ -107,14 +107,17 @@ details {
 
 details[open] summary ~ * {
   animation: open .5s ease-in-out;
+  visibility: visible;
 }
 
 .sub[open] summary ~ * {
   animation: open .5s ease-in-out;
+  visibility: visible;
 }
 
 details[close] summary ~ * {
   animation: nopen .5s ease-in-out;
+  visibility: visible;
 }
 
 
