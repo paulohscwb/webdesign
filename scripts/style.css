@@ -105,17 +105,17 @@ details {
   100% {opacity: 0; margin-top: -10px; height:0;}
 }
 
-details.open summary ~ * {
+details[open] summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
 
-.sub.open summary ~ * {
+.sub[open] summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
 
-details.close summary ~ * {
+details[close] summary ~ * {
   animation: nopen .5s ease-in-out;
   visibility: visible;
 }
