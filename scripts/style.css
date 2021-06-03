@@ -109,11 +109,11 @@ details[open] summary ~ * {
   animation: open .5s ease-in-out;
 }
 
-.sub.open summary ~ * {
+.sub[open] summary ~ * {
   animation: open .5s ease-in-out;
 }
 
-details[close] summary ~ * {
+details:not([open]) summary ~ * {
   animation: nopen .5s ease-in-out;
 }
 
