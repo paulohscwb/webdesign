@@ -103,21 +103,12 @@ details {
   100% {opacity: 1;}
 }
 
-@keyframes nopen {
-  0% {opacity: 1;}
-  100% {opacity: 0;}
-}
-
 details[open] summary ~ * {
   animation: open .5s ease-in-out;
 }
 
 .sub[open] summary ~ * {
   animation: open .5s ease-in-out;
-}
-
-.sub.close summary ~ * {
-  animation: nopen .5s ease-in-out;
 }
 
 .sub p {color: rgb(21,153,87);}
