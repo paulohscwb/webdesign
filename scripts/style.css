@@ -12,7 +12,7 @@ code a {
   color:#00aae4;
 }
 
-img{image-rendering:high-quality;}
+img{image-rendering:smooth;}
 
 code a:hover {
   text-decoration:none;
