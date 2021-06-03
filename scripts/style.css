@@ -12,6 +12,8 @@ code a {
   color:#00aae4;
 }
 
+img{image-rendering: crisp-edges;}
+
 code a:hover {
   text-decoration:none;
 }
