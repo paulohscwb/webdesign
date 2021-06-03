@@ -107,12 +107,10 @@ details {
 
 details[open], .sub.open summary ~ * {
   animation: open .5s ease-in-out;
-  visibility: visible;
 }
 
 details.close, .sub.close summary ~ * {
   animation: nopen .5s ease-in-out;
-  visibility: visible;
 }
 
 
