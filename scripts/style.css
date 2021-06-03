@@ -114,7 +114,7 @@ details[open] summary ~ * {
   animation: open .5s ease-in-out;
 }
 
-.sub::not[open] summary ~ * {
+.sub.close summary ~ * {
   animation: nopen .5s ease-in-out;
 }
 
