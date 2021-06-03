@@ -110,7 +110,7 @@ details[open] summary ~ * {
   visibility: visible;
 }
 
-details[not open] summary ~ * {
+details[close] summary ~ * {
   animation: nopen .5s ease-in-out;
   visibility: visible;
 }
