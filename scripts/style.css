@@ -111,7 +111,6 @@ details.sub[open] summary ~ * {
   visibility: visible;
 }
 
-summary ~ * {visibility: hidden;}
 
 
 .sub p {color: rgb(21,153,87);}
