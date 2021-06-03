@@ -106,7 +106,7 @@ details[open] summary ~ * {
   visibility: visible;
 }
 
-details[open] ~ details[open] summary ~ * {
+details ~ details[open] summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
