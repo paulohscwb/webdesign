@@ -110,7 +110,7 @@ details[open] summary ~ * {
   visibility: visible;
 }
 
-.sub[open] summary ~ * {
+.sub.open summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
