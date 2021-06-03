@@ -97,11 +97,16 @@ details {
 }
 
 @keyframes open {
-  0% {opacity: 0; margin-left: -20px}
-  100% {opacity: 1; margin-left: 0px}
+  0% {opacity: 0; margin-top: -10px}
+  100% {opacity: 1; margin-top: 0px}
 }
 
 details[open] summary ~ * {
+  animation: open .5s ease-in-out;
+  visibility: visible;
+}
+
+details[open] details[open] summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
