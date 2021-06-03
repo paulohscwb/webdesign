@@ -117,7 +117,7 @@ details[open] summary ~ * {
 
 details[close] summary ~ * {
   animation: nopen .5s ease-in-out;
-  visibility: visible;
+  visibility: hidden;
 }
 
 
