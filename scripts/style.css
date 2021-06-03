@@ -105,12 +105,12 @@ details {
   100% {opacity: 0; margin-top: -10px}
 }
 
-details[open] summary ~ * {
+details[open], .sub.open summary ~ * {
   animation: open .5s ease-in-out;
   visibility: visible;
 }
 
-details.close summary ~ * {
+details.close, .sub.close summary ~ * {
   animation: nopen .5s ease-in-out;
   visibility: visible;
 }
