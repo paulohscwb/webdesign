@@ -246,16 +246,16 @@ h3::after {
  .slider img {
 	 margin-top:10px;
      opacity: 0;
-     /*visibility: hidden;*/
-     transition: opacity .5s;
+     /*visibility: hidden;
+     transition: opacity .5s;*/
 	 overflow:hidden;
 	 min-width:100%;
  }
 
  .slider li input:checked ~ img  {
 	 opacity:1;
-     transition: opacity .5s;
-     /*visibility: visible;*/
+     /*transition: opacity .5s;
+     visibility: visible;*/
      z-index: 10;
  }
 
