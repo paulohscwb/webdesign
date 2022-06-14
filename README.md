@@ -1036,7 +1036,7 @@ Trecho do código HTML com galeria em formato de tabela:
   </div>  
   <img src="basico/tags001_0009a.png"/>
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
-	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v7.9/" target="_blank">https://notepad-plus-plus.org/downloads/v7.9/</a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <code>webdesign/atividade2</code> para criar os arquivos da próxima atividade. A página principal terá o nome <code>index.htm</code>.</p>
+	<p>A partir desta página, vamos utilizar o software <b>NOTEPAD++</b> para criar nossos próximos projetos. Acesse o endereço <a href="https://notepad-plus-plus.org/downloads/v8.4.2/" target="_blank">https://notepad-plus-plus.org/downloads/v8.4.2/</a> e instale a versão correspondente do seu computador: 32 ou 64 bits. Crie uma pasta <code>webdesign/atividade2</code> para criar os arquivos da próxima atividade. A página principal terá o nome <code>index.htm</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="071" name="sl">
