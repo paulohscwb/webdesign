@@ -1403,12 +1403,12 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;meta name="keywords" content="HTML, TABELAS, CSS"&gt;
   &lt;meta charset="UTF-8"&gt;
   <a alt="tag &lt;style&gt; com propriedades CSS">&lt;style type="text/css"&gt;</a>
-	<a alt="propriedades da tag &lt;body&gt;">body{font-size:25px;}</a>
-	<a alt="propriedades das células &lt;td&gt;">td {background-color:#ccffcc; color:blue; font-size:0.8em; padding:10px;</a> 
+	<a alt="propriedades da tag &lt;body&gt;">body</a> {font-size:25px;}
+	<a alt="propriedades das células &lt;td&gt;">td</a> {background-color:#ccffcc; color:blue; font-size:0.8em; padding:10px; 
 	border:5px solid white;}
-	<a alt="propriedades da tabela">table {width:100%; height:100vh; font-family:Tahoma; font-style:italic;</a> 
+	<a alt="propriedades da tabela">table</a> {width:100%; height:100vh; font-family:Tahoma; font-style:italic; 
 	border: 4px solid blue; text-align: center;}
-	<a alt="propriedades das imagens &lt;img&gt;">img{margin:30px;}</a>
+	<a alt="propriedades das imagens &lt;img&gt;">img</a> {margin:30px;}
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -1488,30 +1488,31 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;meta name="keywords" content="HTML, TABELAS, CSS"&gt;
   &lt;meta charset="UTF-8"&gt;
   &lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	<a alt="propriedades CSS da tag &lt;body&gt;">body</a> {width:85%; text-align:center; margin:auto; font-size:16px; 
+	<a alt="fundo da página fixo, com imagem ocupando a largura da página">background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}</a>
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 	&lt;table&gt;
 		&lt;tr&gt;
-			&lt;td class="icone"&gt;&amp;#x1f3d0;&lt;/td&gt;
-			&lt;td colspan="2" class="banner"&gt;Notícias do Vôlei&lt;/td&gt;
+			<a alt="logomarca ou pictograma">&lt;td class="icone"&gt;&amp;#x1f3d0;&lt;/td&gt;</a>
+			<a alt="imagem do banner">&lt;td colspan="2" class="banner"&gt;Notícias do Vôlei&lt;/td&gt;</a>
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td colspan="3"&gt;
-				&lt;nav class="menu"&gt;
+				<a alt="menu da página">&lt;nav class="menu"&gt;</a>
 					MENU
 				&lt;/nav&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;	
 		&lt;tr&gt;
-			&lt;td class="galeria"&gt;
+			<a alt="galeria de imagens à esquerda">&lt;td class="galeria"&gt;</a>
 				GALERIA LATERAL
 			&lt;/td&gt;
-			&lt;td class="principal"&gt;
+			<a alt="conteúdo centralizado">&lt;td class="principal"&gt;</a>
 				CONTEÚDO PRINCIPAL
 			&lt;/td&gt;
-			&lt;td class="contato"&gt;
+			<a alt="informações de contato à direita">&lt;td class="contato"&gt;</a>
 				CONTATO
 			&lt;/td&gt;
 		&lt;/tr&gt;
