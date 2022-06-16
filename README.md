@@ -1489,7 +1489,7 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;meta charset="UTF-8"&gt;
   &lt;style type="text/css"&gt;
 	<a alt="propriedades CSS da tag &lt;body&gt;">body</a> {width:85%; text-align:center; margin:auto; font-size:16px; 
-	<a alt="fundo da página fixo, com imagem ocupando a largura da página">background-size:cover; background-attachment:fixed;}</a> background: url(imagens/fundo.jpg);
+	<a alt="fundo da página fixo, com imagem ocupando a largura da página">background-size: cover; background-attachment: fixed;</a> background: url(imagens/fundo.jpg)}
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -1582,10 +1582,10 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
-	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
-	td {background-color: rgba(204,255,204,0.9); padding:10px; }
-	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
-	.icone {font-size:70px; }
+	<a alt="propriedades da classe banner">.banner </a> {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	<a alt="propriedades das células da tabela">td</a> {background-color: rgba(204,255,204,0.9); padding:10px; }
+	<a alt="propriedades da tabela">table</a> {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
+	<a alt="propriedades da classe ícone">.icone</a> {font-size:70px; }
 &lt;/style&gt;</code></pre>
 </figcaption>
 		   </li>
