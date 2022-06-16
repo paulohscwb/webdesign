@@ -1581,8 +1581,9 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <img src="css1/15_01_07.png"/>
 			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim:
 <pre><code>&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
-	<a alt="propriedades da classe banner">.banner </a> {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
+	body {width:85%; text-align:center; margin:auto; font-size:16px; 
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg);}
+	<a alt="propriedades da classe banner">.banner</a> {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	<a alt="propriedades das células da tabela">td</a> {background-color: rgba(204,255,204,0.9); padding:10px; }
 	<a alt="propriedades da tabela">table</a> {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	<a alt="propriedades da classe ícone">.icone</a> {font-size:70px; }
@@ -1657,23 +1658,26 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <label for="124a"></label>
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
 <pre><code>&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	body {width:85%; text-align:center; margin:auto; font-size:16px; 
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg);}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	.icone {font-size:70px; }
 	
-	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
-	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
-	.menu li:last-child {border-right:none;}
-	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
-	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
-	.active {text-shadow:1px 1px 1px green;}
+	<a alt="propriedades da lista &lt;ul&gt; do menu">.menu ul</a> {list-style-type:none; margin:0; padding:0; display:flex; 
+	justify-content:center; flex-direction:row;}
+	<a alt="propriedades de cada item da lista &lt;li&gt; do menu">.menu li</a> {margin-top: 10px; margin-bottom: 10px; padding: 8px; 
+	<a alt="borda direita de cada item do menu">border-right: 1px blue solid;</a> width: 100px; text-align:center;}
+	<a alt="último item da lista do menu sem borda">.menu li:last-child</a> {border-right:none;}
+	<a alt="propriedades de link de cada item &lt;li&gt; do menu">.menu li a</a> {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
+	<a alt="efeito de hover: quando passarmos o cursor do mouse nos itens">.menu li a:hover</a> {color:blue; text-shadow:1px 1px 2px white;}
+	<a alt="página ativa do menu">.active</a> {text-shadow:1px 1px 1px green;}
 &lt;/style&gt;</code></pre>
 Estrutura HTML do menu da Atividade 4:
 <pre><code>&lt;nav class="menu"&gt;
-	&lt;ul&gt;
-		&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;
+	<a alt="lista de itens do menu">&lt;ul&gt;</a>
+		<a alt="em cada item, defina o link e a página ativa">&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;</a>
 		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href="basquete.htm"&gt;Basquete&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
