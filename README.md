@@ -1402,27 +1402,27 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;meta name="author" content="Paulo Henrique"&gt;
   &lt;meta name="keywords" content="HTML, TABELAS, CSS"&gt;
   &lt;meta charset="UTF-8"&gt;
-  &lt;style type="text/css"&gt;
-	body{font-size:25px;}
-	td {background-color:#ccffcc; color:blue; font-size:0.8em; padding:10px; 
+  <a alt="tag &lt;style&gt; com propriedades CSS">&lt;style type="text/css"&gt;</a>
+	<a alt="propriedades da tag &lt;body&gt;">body{font-size:25px;}</a>
+	<a alt="propriedades das células &lt;td&gt;">td {background-color:#ccffcc; color:blue; font-size:0.8em; padding:10px;</a> 
 	border:5px solid white;}
-	table {width:100%; height:100vh; font-family:Tahoma; font-style:italic; 
+	<a alt="propriedades da tabela">table {width:100%; height:100vh; font-family:Tahoma; font-style:italic;</a> 
 	border: 4px solid blue; text-align: center;}
-	img{margin:30px;}
+	<a alt="propriedades das imagens &lt;img&gt;">img{margin:30px;}</a>
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 	&lt;table&gt;
 		&lt;tr&gt;
-			&lt;td colspan="2"&gt;Banner&lt;/td&gt;
+			<a alt="tag do banner da página">&lt;td colspan="2"&gt;Banner&lt;/td&gt;</a>
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td&gt;Barra lateral&lt;/td&gt;
-			&lt;td&gt;Conteúdo principal
+			<a alt="barra lateral à esquerda">&lt;td&gt;Barra lateral&lt;/td&gt;</a>
+			<a alt="conteúdo principal à direita">&lt;td&gt;Conteúdo principal</a>
 			&lt;br&gt;&lt;img src="imagens/foto1.jpg"&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
-			&lt;td colspan="2"&gt;Rodapé&lt;/td&gt;
+			<a alt="rodapé">&lt;td colspan="2"&gt;Rodapé&lt;/td&gt;</a>
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt;
