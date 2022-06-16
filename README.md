@@ -1489,7 +1489,7 @@ Trecho do código HTML com galeria em formato de tabela:
   &lt;meta charset="UTF-8"&gt;
   &lt;style type="text/css"&gt;
 	<a alt="propriedades CSS da tag &lt;body&gt;">body</a> {width:85%; text-align:center; margin:auto; font-size:16px; 
-	background: url(imagens/fundo.jpg); <a alt="fundo da página fixo, com imagem ocupando a largura da página">background-size:cover; background-attachment:fixed;}</a>
+	<a alt="fundo da página fixo, com imagem ocupando a largura da página">background-size:cover; background-attachment:fixed;}</a> background: url(imagens/fundo.jpg);
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
