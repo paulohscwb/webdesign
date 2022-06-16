@@ -1940,17 +1940,18 @@ Estrutura HTML do menu da Atividade 4:
 			   <label for="149a"></label>
 			   <figcaption>Estrutura CSS do formulário:
 <pre><code>&lt;style type="text/css"&gt;
-	body{width:85%; text-align:left; margin:auto; font-size:18px;}
-	label {display: block; margin-bottom: 8px; margin-top: 8px;}
-	.formulario {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
-	input, textarea {background-color: #ddd; border: none; padding: 8px; border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
+	body {width:85%; text-align:left; margin:auto; font-size:18px;}
+	<a alt="propriedades dos rótulos do formulário">label</a> {display: block; margin-bottom: 8px; margin-top: 8px;}
+	<a alt="propriedades da classe formulario">.formulario</a> {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
+	<a alt="propriedades das tags de caixas de texto">input, textarea</a> {background-color: #ddd; border: none; padding: 8px; 
+	border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
 	textarea {width: 97%; max-width: 97%;}
-	#submit {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
+	<a alt="propriedades do botão para enviar o formulário">#submit</a> {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
 &lt;/style&gt;</code></pre>
 Estrutura PHP do formulário:
 <pre><code>&lt;?php  
-	$name = $_POST['name'];  
+	<a alt="tags de cada item do formulário">$name</a> = $_POST['name'];  
 	$email = $_POST['email'];  
 	$message = $_POST['message']; 
 	$fone = $_POST['fone'];  
@@ -1958,7 +1959,7 @@ Estrutura PHP do formulário:
 	$to = 'paulohs@ufpr.br';  
 	$subject = 'Dúvida';  
 	$body = "De: $name\n E-Mail: $email\n Mensagem:\n $message";  
-	if ($_POST['submit'])  { if ($name != '' && $email != '') 
+	<a alt="condicional de verificação de erros do envio do formulário">if ($_POST['submit'])  { if ($name != '' && $email != '')</a> 
 		{ if (mail ($to, $subject, $body, $from))  
 			{ echo 'Sua mensagem foi enviada!';} 
 		else {echo 'Algo deu errado, volte e tente novamente!';} 
@@ -1971,12 +1972,12 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="149b" name="sl">
 			   <label for="149b"></label>
 			   <figcaption>Estrutura HTML do formulário:
-<pre><code>&lt;div class="formulario"&gt;
+<pre><code><a alt="tag principal do formulário">&lt;div class="formulario"&gt;</a>
 	&lt;form method="post" action="enviar.php"&gt;
 		&lt;h2&gt;Contato&lt;/h2&gt;
 		&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
 		&lt;hr&gt;
-		&lt;label for="nome"&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/label&gt;
+		<a alt="rótulos de informações para o usuário">&lt;label for="nome"&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/label&gt;</a>
 		&lt;input placeholder="Seu nome" name="nome" id="nome" required&gt;
 		&lt;label for="email"&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/label&gt;
 		&lt;input placeholder="Seu email" name="email" id="email" required&gt;
@@ -1985,7 +1986,7 @@ Estrutura PHP do formulário:
 		&lt;label for="duvida"&gt;&lt;b&gt;Qual é sua dúvida?&lt;/b&gt;&lt;/label&gt;
 		&lt;textarea rows="7" name="duvida" id="duvida" placeholder="Qual é sua dúvida?"&gt;&lt;/textarea&gt;
 		&lt;hr&gt;
-		&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;
+		<a alt="botão de envio do formulário">&lt;input id="submit" name="submit" type="submit" value="Enviar"&gt;</a>
 	&lt;/form&gt;
 &lt;/div&gt;</code></pre></figcaption>
 		   </li>
