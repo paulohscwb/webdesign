@@ -1582,7 +1582,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
-	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg);}
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	<a alt="propriedades da classe banner">.banner</a> {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	<a alt="propriedades das células da tabela">td</a> {background-color: rgba(204,255,204,0.9); padding:10px; }
 	<a alt="propriedades da tabela">table</a> {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
@@ -1659,7 +1659,7 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <figcaption>Estrutura CSS do menu da Atividade 4:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
-	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg);}
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
@@ -1671,7 +1671,7 @@ Trecho do código HTML com galeria em formato de tabela:
 	<a alt="borda direita de cada item do menu">border-right: 1px blue solid;</a> width: 100px; text-align:center;}
 	<a alt="último item da lista do menu sem borda">.menu li:last-child</a> {border-right:none;}
 	<a alt="propriedades de link de cada item &lt;li&gt; do menu">.menu li a</a> {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
-	<a alt="efeito de hover: quando passarmos o cursor do mouse nos itens">.menu li a:hover</a> {color:blue; text-shadow:1px 1px 2px white;}
+	<a alt="efeito de hover: quando passamos o cursor do mouse em cada item">.menu li a:hover</a> {color:blue; text-shadow:1px 1px 2px white;}
 	<a alt="página ativa do menu">.active</a> {text-shadow:1px 1px 1px green;}
 &lt;/style&gt;</code></pre>
 Estrutura HTML do menu da Atividade 4:
@@ -1741,23 +1741,26 @@ Estrutura HTML do menu da Atividade 4:
 			   <label for="131a"></label>
 			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
 <pre><code>&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	body {width:85%; text-align:center; margin:auto; font-size:16px; 
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	.icone {font-size:70px; }
 	
-	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
-	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
+	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; 
+	justify-content:center; flex-direction:row;}
+	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; 
+	border-right: 1px blue solid; width: 100px; text-align:center;}
 	.menu li:last-child {border-right:none;}
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
 	.active {text-shadow:1px 1px 1px green;}
 	
-	.imagem {text-align:center; margin-top:20px; margin-bottom:20px;}
-	img {max-width:100%;}
-	.galeria {width:20%; vertical-align:top;}
-	.principal {text-align:left;}
+	<a alt="propriedades da classe imagem do conteúdo">.imagem</a> {text-align:center; margin-top:20px; margin-bottom:20px;}
+	<a alt="limite para largura de imagens">img</a> {max-width:100%;}
+	<a alt="propriedades para a barra de galeria">.galeria</a> {width:20%; vertical-align:top;}
+	<a alt="propriedades para o conteúdo">.principal</a> {text-align:left;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -1809,8 +1812,8 @@ Estrutura HTML do menu da Atividade 4:
 			   <input type="radio" id="138b" name="sl">
 			   <label for="138b"></label>
 			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
-<pre><code>	&lt;td class="contato"&gt;
-		&lt;h3&gt;Contatos&lt;/h3&gt;
+<pre><code>	<a alt="classe de informações de contato">&lt;td class="contato"&gt;</a>
+		<a alt="crie os links de emails e redes sociais">&lt;h3&gt;Contatos&lt;/h3&gt;</a>
 		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
 		&lt;a href="https://www.facebook.com/supervolley20/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
 		&lt;a href="https://twitter.com/fivbvolleyball?lang=pt"&gt;&lt;img src="imagens/twitter.png" alt="Twitter" &gt;&lt;/a&gt;
@@ -1826,14 +1829,17 @@ Estrutura HTML do menu da Atividade 4:
 			   <label for="138a"></label>
 			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
 <pre><code>&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; background: url(imagens/fundo.jpg); background-size:cover; background-attachment:fixed;}
+	body {width:85%; text-align:center; margin:auto; font-size:16px; 
+	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
 	.icone {font-size:70px; }
 	
-	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:center; flex-direction:row;}
-	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; border-right: 1px blue solid; width: 100px; text-align:center;}
+	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; 
+	justify-content:center; flex-direction:row;}
+	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; 
+	border-right: 1px blue solid; width: 100px; text-align:center;}
 	.menu li:last-child {border-right:none;}
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
@@ -1843,9 +1849,9 @@ Estrutura HTML do menu da Atividade 4:
 	img {max-width:100%;}
 	.galeria {width:20%; vertical-align:top;}
 	.principal {text-align:left;}
-	.contato {width:10%; vertical-align:top;}
-	.contato img {width:50%; margin:20px;}
-	.rodape {color: #606060;}
+	<a alt="propriedades da barra de contato">.contato</a> {width:10%; vertical-align:top;}
+	<a alt="propriedades das imagens da classe de contato">.contato img</a> {width:50%; margin:20px;}
+	<a alt="propriedades da classe do rodapé">.rodape</a> {color: #606060;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
