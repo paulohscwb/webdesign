@@ -2800,22 +2800,29 @@ Trecho da estrutura HTML do mapeamento:
 	.Map {width:70%; position:relative;}
 	.Map img {width:100%;}
 	p {margin:0;padding:0;}
-	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden; text-align:center;}
+	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden; 
+	text-align:center;}
 	.items img {width:80%;}
 
-	.items div:hover > p {visibility:visible; transition: 0.5s;}
-	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
-	.Map:hover .items {visibility:visible; transition: 0.5s;}
-	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:10px;}
+	.items div:hover > p {visibility:visible; transition:0.5s;}
+	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
+	transition:0.5s;}
+	.Map:hover .items {visibility:visible; transition:0.5s;}
+	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; 
+	border:1px solid transparent; border-radius:10px;}
 
-	a.i1 {left:calc(168*100%/800); top:calc(104*100%/500); width:calc(59*100%/800); height:calc(82*100%/500);}
-	a.i2 {left:calc(357*100%/800); top:calc(192*100%/500); width:calc(60*100%/800); height:calc(84*100%/500);}
-	a.i3 {left:calc(692*100%/800); top:calc(222*100%/500); width:calc(80*100%/800); height:calc(111*100%/500);}
+	<a alt="top e height proporcionais à altura da imagem.">a.i1</a> {left:calc(168*100%/800); top:calc(104*100%/500); width:calc(59*100%/800); 
+	height:calc(82*100%/500);}
+	<a alt="left e width proporcionais à largura da imagem.">a.i2</a> {left:calc(357*100%/800); top:calc(192*100%/500); width:calc(60*100%/800); 
+	height:calc(84*100%/500);}
+	a.i3 {left:calc(692*100%/800); top:calc(222*100%/500); width:calc(80*100%/800); 
+	height:calc(111*100%/500);}
 
-	a.i1 + p {top:calc((104 + 82)*100%/500); left:calc(168*100%/800);}
-	a.i2 + p {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
-	a.i3 + p {top:calc((222 + 111)*100%/500);left:calc(692*100%/800 - 20% + 80*100%/800);}
-	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; text-shadow: 1px 1px 2px black; visibility:hidden; transition: 0.5s; background: rgba(100,120,250,0.3);}
+	<a alt="descrição alinhada à esquerda com o mapeamento do item.">a.i1 + p</a> {top:calc((104 + 82)*100%/500); left:calc(168*100%/800);}
+	<a alt="descrição centralizada com o mapeamento do item.">a.i2 + p</a> {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
+	<a alt="descrição alinhada à direita com o mapeamento do item.">a.i3 + p</a> {top:calc((222 + 111)*100%/500); left:calc(692*100%/800 - 20% + 80*100%/800);}
+	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; 
+	text-shadow:1px 1px 2px black; visibility:hidden; transition:0.5s; background:rgba(100,120,250,0.3);}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
