@@ -2821,8 +2821,8 @@ Trecho da estrutura HTML do mapeamento:
 	<a alt="descrição alinhada à esquerda com o mapeamento do item.">a.i1 + p</a> {top:calc((104 + 82)*100%/500); left:calc(168*100%/800);}
 	<a alt="descrição centralizada com o mapeamento do item.">a.i2 + p</a> {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
 	<a alt="descrição alinhada à direita com o mapeamento do item.">a.i3 + p</a> {top:calc((222 + 111)*100%/500); left:calc(692*100%/800 - 20% + 80*100%/800);}
-	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; 
-	text-shadow:1px 1px 2px black; visibility:hidden; transition:0.5s; background:rgba(100,120,250,0.3);}
+	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; visibility:hidden;
+	text-shadow:1px 1px 2px black; transition:0.5s; background:rgba(100,120,250,0.3);}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
