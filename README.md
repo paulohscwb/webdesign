@@ -2366,10 +2366,10 @@ Estrutura PHP do formulário:
 			   <input type="radio" id="183a" name="sl">
 			   <label for="183a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
-<pre><code>&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;
+<pre><code><a alt="tag com a imagem que será mapeada">&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;</a>
 &lt;map name="Map" id="Map"&gt;
-	&lt;area shape="circle" coords="104,104, 104" href="home.html" title="HOME" /&gt;
-	&lt;area shape="circle" coords="326,104, 104" href="dicas.html" title="DICAS" /&gt;
+	<a alt="primeiro item do menu com círculo">&lt;area shape="circle" coords="104,104, 104" href="home.html" title="HOME" /&gt;</a>
+	<a alt="mudança de coordenada x do segundo item do menu">&lt;area shape="circle" coords="326,104, 104" href="dicas.html" title="DICAS" /&gt;</a>
 	&lt;area shape="circle" coords="550,104, 104" href="hospedagem.html" title="HOSPEDAGEM" /&gt;
 	&lt;area shape="circle" coords="777,104, 104" href="galeria.html" title="GALERIA" /&gt;
 	&lt;area shape="circle" coords="1003,104, 104" href="mapas.html" title="MAPAS" /&gt;
@@ -2417,21 +2417,22 @@ Estrutura PHP do formulário:
 			   <figcaption>Estrutura CSS do mapeamento:
 <pre><code>&lt;style type="text/css"&gt;
 	body {background:rgba(255,255,255); width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
-	svg {width:100%;}
-	circle, rect, polyline {fill-opacity: 0;}
-	rect:hover, circle:hover, polyline:hover {fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.2}
+	<a alt="propriedades das tags svg">svg</a> {width:100%;}
+	<a alt="propriedades das figuras, que começam invisíveis">circle, rect, polyline</a> {fill-opacity: 0;}
+	<a alt="as figuras que mapeiam o menu só aparecem com hover">rect:hover, circle:hover, polyline:hover</a> {fill:blue; stroke:pink; stroke-width:5; 
+	fill-opacity:0.1; stroke-opacity:0.2}
 &lt;/style&gt;</code></pre>
 Trecho da estrutura HTML do mapeamento:
 <pre><code>&lt;svg viewBox="0,0, 1334,282"&gt;
 	&lt;image href="imagens/menu_horizontal.png" x="0" y="0" height="282" width="1334"/&gt;
-	&lt;a xlink:href="home.html"&gt;	
-		&lt;circle cx="104" cy="104" r="104"/&gt;
+	<a alt="tag svg de link">&lt;a xlink:href="home.html"&gt;</a>
+		<a alt="tag svg de círculo">&lt;circle cx="104" cy="104" r="104"/&gt;</a>
 	&lt;/a&gt;
 	&lt;a xlink:href="dicas.html"&gt;	
-		&lt;rect x="230" y="0" width="208" height="208"/&gt;
+		<a alt="tag svg de retângulo">&lt;rect x="230" y="0" width="208" height="208"/&gt;</a>
 	&lt;/a&gt;
 	&lt;a xlink:href="dicas.html"&gt;	
-		&lt;polyline points="506,20, 456,108, 506,195, 605,195, 654,108, 605,20"/&gt;
+		<a alt="tag svg de poligonal: hexágono">&lt;polyline points="506,20, 456,108, 506,195, 605,195, 654,108, 605,20"/&gt;</a>
 	&lt;/a&gt;
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
@@ -2485,16 +2486,18 @@ Trecho da estrutura HTML do mapeamento:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
-	rect {width: 193px; height: 190px; rx:40px; fill: blue; stroke: pink; stroke-width: 5; fill-opacity: 0.1; stroke-opacity: 0.2;}
-	rect, text {opacity:0;}
-	a:hover > text, a:hover > rect {opacity: 1; transition: 0.5s;}
-	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; stroke-width: 1; font-size: 22px; opacity: 0;}
+	rect {width: 193px; height: 190px; rx:40px; fill: blue; stroke: pink; stroke-width: 5; 
+	fill-opacity: 0.1; stroke-opacity: 0.2;}
+	<a alt="retângulos e textos começam invisíveis">rect, text</a> {opacity:0;}
+	<a alt="só aparecem quando o visitante passar o cursor do mouse sobre os itens">a:hover > text, a:hover > rect</a> {opacity: 1; transition: 0.5s;}
+	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; 
+	stroke-width: 1; font-size: 22px; opacity: 0;}
 &lt;/style&gt;</code></pre>
 Trecho da estrutura HTML do mapeamento:
 <pre><code>&lt;svg viewBox="0,0, 1287,220"&gt;
 	&lt;image href="imagens/menu_horizontal1.png" x="0" y="0" height="203px" width="1287px"/&gt;
 		&lt;a xlink:href="home.html"&gt;
-			&lt;text x="8" y="215"&gt;HOME&lt;/text&gt;
+			<a alt="tags de textos, posicionados logo abaixo de cada item do menu">&lt;text x="8" y="215"&gt;HOME&lt;/text&gt;</a>
 			&lt;rect x="8" y="0"/&gt;
 		&lt;/a&gt;
 		&lt;a xlink:href="dicas.html"&gt;	
