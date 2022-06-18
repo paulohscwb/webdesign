@@ -2080,11 +2080,11 @@ Estrutura PHP do formulário:
 			   <figcaption>Trecho da estrutura HTML:
 <pre><code>&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td class="barra"&gt;
+		<a alt="espaço da barra lateral que vamos preencher">&lt;td class="barra"&gt;</a>
 			Barra lateral
 		&lt;/td&gt;
 		&lt;td class="conteudo"&gt;Conteúdo principal
-			&lt;div class="todos"&gt;
+			<a alt="tag da classe todos, com os itens flexbox">&lt;div class="todos"&gt;</a>
 				&lt;div class="item"&gt;
 					ITEM 1
 					&lt;br&gt;&lt;img src="imagens/prod1.jpg"&gt;
@@ -2115,13 +2115,16 @@ Estrutura PHP do formulário:
 			   <label for="162b"></label>
 			   <figcaption>Estrutura CSS:
 <pre><code>&lt;style&gt;
-	body{font-size:25px;}
-	td {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; border:5px solid white;}
-	table {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
-	.barra {vertical-align:top;}
-	.conteudo {vertical-align:center; width:70%;}
-	.todos {width:100%; background:#ccffcc; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
-	.item {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;  border:1px solid grey; border-radius:7px;}
+	body {font-size:25px;}
+	<a alt="propriedades das células da tabela">td</a> {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
+	border:5px solid white;}
+	<a alt="propriedades da tabela">table</a> {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
+	<a alt="classe da barra lateral">.barra</a> {vertical-align:top;}
+	<a alt="classe da barra de conteúdo">.conteudo</a> {vertical-align:center; width:70%;}
+	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; background:#ccffcc; text-align:center; display:flex; 
+	<a alt="display flex com preenchimento do conteúdo em linhas">justify-content:space-around; flex-direction:row;</a> flex-wrap:wrap; color:grey; align-items:stretch;}
+	<a alt="classe de cada item">.item</a> {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;
+	border:1px solid grey; border-radius:7px;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
