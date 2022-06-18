@@ -2085,7 +2085,7 @@ Estrutura PHP do formulário:
 		&lt;/td&gt;
 		&lt;td class="conteudo"&gt;Conteúdo principal
 			<a alt="tag da classe todos, com os itens flexbox">&lt;div class="todos"&gt;</a>
-				&lt;div class="item"&gt;
+				<a alt="tags separadas dos itens">&lt;div class="item"&gt;</a>
 					ITEM 1
 					&lt;br&gt;&lt;img src="imagens/prod1.jpg"&gt;
 				&lt;/div&gt;
@@ -2121,9 +2121,9 @@ Estrutura PHP do formulário:
 	<a alt="propriedades da tabela">table</a> {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
 	<a alt="classe da barra lateral">.barra</a> {vertical-align:top;}
 	<a alt="classe da barra de conteúdo">.conteudo</a> {vertical-align:center; width:70%;}
-	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; background:#ccffcc; text-align:center; display:flex; 
-	<a alt="display flex com preenchimento do conteúdo em linhas">justify-content:space-around; flex-direction:row;</a> flex-wrap:wrap; color:grey; align-items:stretch;}
-	<a alt="classe de cada item">.item</a> {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;
+	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; background:#ccffcc; text-align:center; display:flex; color:grey;
+	<a alt="display flex com preenchimento do conteúdo em linhas">justify-content:space-around; flex-direction:row;</a> flex-wrap:wrap; align-items:stretch;}
+	<a alt="propriedades da classe de cada item">.item</a> {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;
 	border:1px solid grey; border-radius:7px;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
@@ -2202,18 +2202,18 @@ Estrutura PHP do formulário:
 			   <figcaption>Trecho da estrutura HTML:
 <pre><code>&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td class="icone"&gt;&amp;#x1f34f;&lt;/td&gt;
-		&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;
+		<a alt="tag para o ícone: imagem ou pictograma">&lt;td class="icone"&gt;&amp;#x1f34f;&lt;/td&gt;</a>
+		<a alt="tag do banner: imagem com texto">&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;</a>
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td class="barra" rowspan="2"&gt;
+		<a alt="barra lateral com informações de contato">&lt;td class="barra" rowspan="2"&gt;</a>
 			&lt;h4&gt;Contatos&lt;/h4&gt;
 			&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
 			&lt;a href="https://www.facebook.com/naturezaProdutosC/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
 			&lt;a href="https://twitter.com/naturezaProdutos?lang=pt"&gt;&lt;img src="imagens/twitter.png" alt="Twitter" &gt;&lt;/a&gt;
 			&lt;a href="https://www.instagram.com/Naturezaprodt/?hl=pt-br"&gt;&lt;img src="imagens/instagram.png" alt="Instagram" &gt;&lt;/a&gt;
 		&lt;/td&gt;
-		&lt;td class="menu"&gt;
+		<a alt="menu do site">&lt;td class="menu"&gt;</a>
 			&lt;nav&gt;
 				&lt;ul&gt;
 					&lt;li&gt;&lt;a href="index.htm"&gt;Produtos&lt;/a&gt;&lt;/li&gt;
@@ -2225,11 +2225,11 @@ Estrutura PHP do formulário:
 		&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td class="conteudo"&gt;
+		<a alt="conteúdo principal de cada página">&lt;td class="conteudo"&gt;</a>
 			&lt;h4&gt;Produtos&lt;/h4&gt;
 			&lt;p&gt;Confira os preços dos nossos produtos (cada 100g).&lt;/p&gt;
-			&lt;div class="todos"&gt;
-				&lt;div class="item"&gt;
+			<a alt="classe que engloba todos os itens">&lt;div class="todos"&gt;</a>
+				<a alt="classe de um dos itens da loja">&lt;div class="item"&gt;</a>
 					&lt;h4&gt;Açafrão em pó&lt;/h4&gt;
 					&lt;br&gt;&lt;img src="imagens/prod1.jpg"&gt;
 					De &lt;strike&gt;R$4,50&lt;/strike&gt;
@@ -2254,30 +2254,37 @@ Estrutura PHP do formulário:
 			   <label for="172b"></label>
 			   <figcaption>Estrutura CSS:
 <pre><code>&lt;style&gt;
-	body{font-size:25px; margin: auto; width:85%;}
-	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; padding:5px; border:none;}
-	table {width: 85%; font-family: Tahoma; border: 1px solid rgba(0,130,0,0.3); text-align: center; border-spacing: 8px;}
+	body {font-size:25px; margin: auto; width:85%;}
+	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; 
+	padding:5px; border:none;}
+	table {width:85%; font-family:Tahoma; border:1px solid rgba(0,130,0,0.3); 
+	text-align:center; border-spacing:8px;}
 	
-	.banner {height:10vh; background: url(imagens/banner.jpg); font-size: 2em; font-weight: bold; color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0,130,0);}
-	.icone {font-size: 5em; border-bottom: 1px solid rgba(0,130,0,0.3);}
+	<a alt="classe do banner, com 10% da altura do navegador">.banner</a> {height:10vh; background:url(imagens/banner.jpg); font-size:2em; font-weight:bold;
+	color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0,130,0);}
+	<a alt="classe do ícone da loja">.icone</a> {font-size:5em; border-bottom:1px solid rgba(0,130,0,0.3);}
 	
-	.barra {vertical-align:top; border-right: 1px solid rgba(0,130,0,0.3)}
+	<a alt="classe da barra lateral com informações de contato">.barra</a> {vertical-align:top; border-right: 1px solid rgba(0,130,0,0.3)}
 	.barra img {width:40%; margin:20px;}
 
-	.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; flex-direction:row; border-bottom: 1px solid rgba(0,130,0,0.3)}
-	.menu li {padding: 0px; border-right: 1px solid rgba(0,130,0,0.3); width: 150px; text-align:center;}
+	<a alt="configurações básicas do menu">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
+	flex-direction:row; border-bottom:1px solid rgba(0,130,0,0.3)}
+	.menu li {padding:0px; border-right:1px solid rgba(0,130,0,0.3); width:150px; 
+	text-align:center;}
 	.menu li:last-child {border-right:none;}
-	.menu li a {color: rgba(0,130,0,0.7); text-decoration:none; font-weight: bold;}
+	.menu li a {color:rgba(0,130,0,0.7); text-decoration:none; font-weight:bold;}
 	.menu li a:hover {color:rgba(0,130,0,1); text-shadow:1px 1px 1px LightSilver;}
 	
-	.conteudo {vertical-align:top; width:88%;}
-	.todos {width:100%; text-align:center; display:flex; justify-content:space-around; flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
-	.item {padding:15px; margin:10px; min-width:170px;  border:1px solid rgba(0,130,0,0.3); border-radius:7px; width:18%; font-size:0.8em;}
-	.item img{width:100%; height:10vh;}
+	<a alt="classe de conteúdo principal dos sites">.conteudo</a> {vertical-align:top; width:88%;}
+	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; text-align:center; display:flex; justify-content:space-around; 
+	flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
+	<a alt="classe de cada produto/item">.item</a> {padding:15px; margin:10px; min-width:170px; border:1px solid rgba(0,130,0,0.3); 
+	border-radius:7px; width:18%; font-size:0.8em;}
+	<a alt="classe das imagens de cada item">.item img</a> {width:100%; height:10vh;}
 	.item:hover {opacity:0.8;}
 	
-	h4 {margin:0; color: rgba(0,130,0,0.7);}
-	.rodape {border-top: 1px solid rgba(0,130,0,0.3); color: rgba(0,130,0,0.7); paddding: 5px;}
+	<a alt="propriedades dos cabeçalhos">h4</a> {margin:0; color: rgba(0,130,0,0.7);}
+	<a alt="classe do rodapé">.rodape</a> {border-top: 1px solid rgba(0,130,0,0.3); color: rgba(0,130,0,0.7); paddding: 5px;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
