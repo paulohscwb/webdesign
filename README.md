@@ -2377,7 +2377,7 @@ Estrutura PHP do formulário:
 &lt;/map&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
-		<img src="css2/23_01_00.png" class="fundo"/>
+		<img src="css2/23_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0023a.png"/>
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
@@ -2437,7 +2437,7 @@ Trecho da estrutura HTML do mapeamento:
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
-		<img src="css2/25_01_00.png" class="fundo"/>
+		<img src="css2/25_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css2/tags001_0025a.png"/>
 	<details class="sub"><summary>&#x1f4c3; Mapeamento com SVG e texto</summary>
@@ -2486,12 +2486,12 @@ Trecho da estrutura HTML do mapeamento:
 <pre><code>&lt;style type="text/css"&gt;
 	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
-	rect {width: 193px; height: 190px; rx:40px; fill: blue; stroke: pink; stroke-width: 5; 
+	rect {width:193px; height:190px; rx:40px; fill:blue; stroke:pink; stroke-width:5; 
 	fill-opacity: 0.1; stroke-opacity: 0.2;}
 	<a alt="retângulos e textos começam invisíveis">rect, text</a> {opacity:0;}
-	<a alt="só aparecem quando o visitante passar o cursor do mouse sobre os itens">a:hover > text, a:hover > rect</a> {opacity: 1; transition: 0.5s;}
-	text {font-family: Tahoma; font-weight: bold; fill: rgb(180,250,180); stroke: green; 
-	stroke-width: 1; font-size: 22px; opacity: 0;}
+	<a alt="só aparecem quando o visitante passar o cursor do mouse sobre os itens">a:hover > text, a:hover > rect</a> {opacity:1; transition:0.5s;}
+	text {font-family:Tahoma; font-weight:bold; fill:rgb(180,250,180); stroke:green; 
+	stroke-width:1; font-size:22px; opacity:0;}
 &lt;/style&gt;</code></pre>
 Trecho da estrutura HTML do mapeamento:
 <pre><code>&lt;svg viewBox="0,0, 1287,220"&gt;
@@ -2568,9 +2568,9 @@ Trecho da estrutura HTML do mapeamento:
 			   <label for="200a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
 <pre><code>&lt;div class="Map"&gt;
-	&lt;img src="imagens/menu_horizontal1.png"&gt;
+	<a alt="tag da imagem que será mapeada">&lt;img src="imagens/menu_horizontal1.png"&gt;</a>
 	&lt;div class="items"&gt;
-		&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+		<a alt="cada item terá uma classe CSS: i1, i2, ..., i6.">&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;</a>
 		&lt;div title="DICAS"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;DICAS&lt;/p&gt;&lt;/div&gt;
 		&lt;div title="HOSPEDAGEM"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;HOSPEDAGEM&lt;/p&gt;&lt;/div&gt;
 		&lt;div title="GALERIA"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;GALERIA&lt;/p&gt;&lt;/div&gt;
@@ -2584,25 +2584,28 @@ Trecho da estrutura HTML do mapeamento:
 			   <label for="200b"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
 <pre><code>&lt;style type="text/css"&gt;
-	* {font-family: Calibri; font-size:14pt;}
+	* {font-family:Calibri; font-size:14pt;}
 	.Map {width:100%; position:relative;}
 	.Map img {width:100%;}
 	p {margin:0; padding:0;}
-	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
+	<a alt="tag dos itens, que começam invisíveis">.items</a> {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
 
-	.items div:hover > p {visibility:visible; transition: 0.5s;}
-	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
-	.Map:hover .items {visibility:visible; transition: 0.5s;}
-	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:10px;}
+	<a alt="cada item aparece quando o usuário acionar hover.">.items div:hover > p</a> {visibility:visible; transition:0.5s;}
+	<a alt="z-index é importante para deixar os itens em primeiro plano">.items div:hover > a</a> {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
+	transition: 0.5s;}
+	<a alt="os itens mapeados aparecem quando o usuário acionar hover">.Map:hover .items</a> {visibility:visible; transition: 0.5s;}
+	<a alt="propriedades dos nomes dos itens.">.items a</a> {position:absolute; background:#000; z-index:2; opacity:0.05; 
+	border:1px solid transparent; border-radius:10px;}
 
-	.Map a {width:calc(100%/6); height:95%; top:0%;}
-	a.i1, a.i1 + p {left:0%;}
-	a.i2, a.i2 + p {left:calc(100%/6);}
-	a.i3, a.i3 + p {left:calc(2*100%/6);}
+	<a alt="largura e altura de cada mapeamento em percentual para 6 itens">.Map a</a> {width:calc(100%/6); height:95%; top:0%;}
+	<a alt="primeiro item fica à esquerda, com distância 0.">a.i1, a.i1 + p</a> {left:0%;}
+	<a alt="o segundo item fica proporcionalmente posicionado com razão 1/6.">a.i2, a.i2 + p</a> {left:calc(100%/6);}
+	<a alt="o próximo item fica na razão 2/6, e assim sucessivamente.">a.i3, a.i3 + p</a> {left:calc(2*100%/6);}
 	a.i4, a.i4 + p {left:calc(3*100%/6);}
 	a.i5, a.i5 + p {left:calc(4*100%/6);}
 	a.i6, a.i6 + p {left:calc(5*100%/6);}
-	.Map a + p {position:absolute; top:95%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
+	<a alt="Configurações do texto e da largura de cada item.">.Map a + p</a> {position:absolute; top:95%; width:30%; font-weight:bold; color:orange; 
+	visibility:hidden; transition:0.5s;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -2659,8 +2662,8 @@ Trecho da estrutura HTML do mapeamento:
 			   <label for="207a"></label>
 			   <figcaption>Estrutura HTML do mapeamento:
 <pre><code>&lt;div class="Map"&gt;
-	&lt;img src="imagens/menu_lateral.png"&gt;
-		&lt;div class="items"&gt;
+	<a alt="mapeamento de um menu vertical com 5 itens.">&lt;img src="imagens/menu_lateral.png"&gt;</a>
+		<a alt="A estrutura HTML fica parecida com os menus horizontais que já vimos.">&lt;div class="items"&gt;</a>
 			&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
 			&lt;div title="TWITTER"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;TWITTER&lt;/p&gt;&lt;/div&gt;
 			&lt;div title="LINKEDIN"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;LINKEDIN&lt;/p&gt;&lt;/div&gt;
@@ -2674,30 +2677,33 @@ Trecho da estrutura HTML do mapeamento:
 			   <label for="207b"></label>
 			   <figcaption>Estrutura CSS do mapeamento:
 <pre><code>&lt;style type="text/css"&gt;
-	* {font-family: Calibri; font-size:14pt;}
-	.Map {width:8%; position:relative;}
+	* {font-family:Calibri; font-size:14pt;}
+	<a alt="largura do mapeamento de acordo com a imagem mapeada">.Map</a> {width:8%; position:relative;}
 	.Map img {width:100%;}
-	p {margin:0;padding:0;}
+	p {margin:0; padding:0;}
 	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
 
-	.items div:hover > p {visibility:visible; transition: 0.5s;}
-	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; transition: 0.5s;}
+	.items div:hover > p {visibility:visible; transition:0.5s;}
+	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
+	transition:0.5s;}
 	.Map:hover .items {visibility:visible; transition: 0.5s;}
-	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; border:1px solid transparent; border-radius:50%;}
+	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; 
+	border:1px solid transparent; border-radius:50%;}
 
-	.Map a {width:85%; height:calc(80%/5); left:6%;}
-	a.i1 {top:0%;}
-	a.i2 {top:calc(99%/5);}
-	a.i3 {top:calc(2*99%/5);}
+	<a alt="as alturas dos itens devem prever os espaçamentos para textos.">.Map a</a> {width:85%; height:calc(80%/5); left:6%;}
+	<a alt="primeiro item fica no topo, com distância 0.">a.i1</a> {top:0%;}
+	<a alt="O segundo item fica posicionado proporcionalmente com a razão 1/5 na vertical.">a.i2</a> {top:calc(99%/5);}
+	<a alt="O terceiro item fica com a razão 2/5 e assim sucessivamente.">a.i3</a> {top:calc(2*99%/5);}
 	a.i4 {top:calc(3*99%/5);}
 	a.i5 {top:calc(4*99%/5);}
 
-	a.i1 + p {top:calc(80%/5);}
+	<a alt="as posições dos textos prevêem os espaços entre as imagens de cada item.">a.i1 + p</a> {top:calc(80%/5);}
 	a.i2 + p {top:calc(180%/5);}
 	a.i3 + p {top:calc(280%/5);}
 	a.i4 + p {top:calc(380%/5);}
 	a.i5 + p {top:calc(480%/5);}
-	.Map a + p {position:absolute; left:6%; width:30%; font-weight:bold; color:orange; visibility:hidden; transition: 0.5s;}
+	<a alt="largura e posicionamento de cada item.">.Map a + p</a> {position:absolute; left:6%; width:30%; font-weight:bold; color:orange; 
+	visibility:hidden; transition: 0.5s;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
