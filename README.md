@@ -3154,8 +3154,8 @@ animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 &lt;/div&gt;</code></pre>
 Trecho CSS da barra banner com a descrição:
 <pre><code><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
-background-size:100%; background-position: 0% 40%; align-items:center; 
-justify-content:flex-start; transition:0.5s;}
+background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s;
+justify-content:flex-start;}
 
 <a alt="efeito hover para mudar posição e opacidade do fundo do banner.">.banner:hover</a> {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
 
@@ -3243,19 +3243,18 @@ justify-content:flex-start; transition:0.5s;}
 			   <input type="radio" id="255a" name="sl">
 			   <label for="255a"></label>
 			   <figcaption>Trecho HTML do conteúdo e da barra lateral:
-<pre><code>&lt;div class="barra3"&gt;
-	&lt;div class="conteudo"&gt;
+	<a alt="galeria de imagens com classe conteudo.">&lt;div class="conteudo"&gt;</a>
 		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
-		&lt;div class="box"&gt;
+		<a alt="podemos inserir algumas imagens na galeria, com classe box.">&lt;div class="box"&gt;</a>
 			&lt;img src="imagens/img1.jpg"&gt;
 		&lt;/div&gt;
 		&lt;div class="box"&gt;
 			&lt;img src="imagens/img2.png"&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class="lateral"&gt;
+	<a alt="galeria lateral com imagens de personagens.">&lt;div class="lateral"&gt;</a>
 		&lt;div class="titulo"&gt;Personagens&lt;/div&gt;
-		&lt;div class="box"&gt;
+		<a alt="podemos inserir imagens e os nomes de cada personagem.">&lt;div class="box"&gt;</a>
 			&lt;div class="titulo"&gt;Miguel Rivera&lt;/div&gt;
 			&lt;img src="imagens/miguel.png"&gt;
 		&lt;/div&gt;
@@ -3274,22 +3273,26 @@ justify-content:flex-start; transition:0.5s;}
 			   <input type="radio" id="255b" name="sl">
 			   <label for="255b"></label>
 			   <figcaption>Trecho CSS do conteúdo e da barra lateral:
-<pre><code>.barra3 {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
+<pre><code><a alt="flexbox da barra de galeria de imagens.">.barra3</a> {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
 
-.conteudo {display:flex; width:60%; flex-wrap:wrap; justify-content:center; align-content:flex-start;}
+<a alt="distribuição de itens flexbox da galeria de imagens.">.conteudo</a> {display:flex; width:60%; flex-wrap:wrap; justify-content:center; 
+align-content:flex-start;}
 
-.box {border-radius:10px; color:#171e42; padding:10px; margin:10px; background:linear-gradient(white, rgba(0,0,180,0.1)); text-align:center; flex:1 150px;}
+<a alt="configuração de cada box de imagem.">.box</a> {border-radius:10px; color:#171e42; padding:10px; margin:10px; text-align:center;
+background:linear-gradient(white, rgba(0,0,180,0.1)); flex:1 150px;}
 .box img {width:16vw; height:15vh; transition:transform 0.5s linear; }
 
-.box:nth-child(even) {background:linear-gradient(0deg, rgba(0,0,150,0.1),white);}
-.box:nth-child(odd) {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
+<a alt="ordem par da coleção de box com uma configuração.">.box:nth-child(even)</a> {background:linear-gradient(0deg, rgba(0,0,150,0.1),white);}
+<a alt="ordem ímpar da coleção de box com outra configuração.">.box:nth-child(odd) {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
 
-.lateral {display:flex; width:40%; flex-wrap:wrap; border-left: 1px solid grey; justify-content:center; align-content:flex-start;}
+<a alt="galeria lateral flexbox de imagens da página.">.lateral</a> {display:flex; width:40%; flex-wrap:wrap; border-left:1px solid grey; 
+justify-content:center; align-content:flex-start;}
 .lateral img {width:5vw; height:15vh;}
 
-.titulo {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
+<a alt="títulos das imagens da galeria lateral.">.titulo</a> {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
 
-.rodape {background: linear-gradient(white, rgb(240,240,255)); display:flex; justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
+<a alt="configuração do rodapé da página.">.rodape</a> {background: linear-gradient(white, rgb(240,240,255)); display:flex; 
+justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/34_01_03a.png" class="fundo" style="visibility:hidden"/>
