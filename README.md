@@ -3090,7 +3090,7 @@ font-weight: bold; transition: 0.5s;}
 	<a alt="subitens visíveis com hover.">.menu li:hover .subitens</a> {position:relative; display:flex;}
 }
 
-<a alt="barra2: fundo da página com animação AnimaBarra.">.barra2</a> {background: url(imagens/filme.png) repeat-x; height:90px; 
+<a alt="barra2: fundo da página com animação AnimaBarra.">.barra2</a> {background:url(imagens/filme.png) repeat-x; height:90px; 
 animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 
 <a alt="efeitos de animação do fundo da página.">@keyframes AnimaBarra</a> { 
@@ -3147,20 +3147,20 @@ animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 			   <input type="radio" id="245a" name="sl">
 			   <label for="245a"></label>
 			   <figcaption>Trecho HTML da barra banner com a descrição:
-<pre><code>&lt;div class="banner"&gt;
+<pre><code><a alt="banner colocado abaixo das tags da classe barra.">&lt;div class="banner"&gt;</a>
 	&lt;div class="descricao"&gt;
 		&lt;img src="imagens/ico.png"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 Trecho CSS da barra banner com a descrição:
-<pre><code>.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
-background-size:100%; background-position: 0% 40%; align-items:center; justify-content:flex-start; transition:0.5s;}
+<pre><code><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; transition:0.5s;
+background-size:100%; background-position: 0% 40%; align-items:center; justify-content:flex-start;}
 
-.banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
+<a alt="efeito hover para mudar posição e opacidade do fundo do banner.">.banner:hover</a> {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
 
-.descricao {padding:10px; position:relative; background:rgba(0,0,0,0.3); transition:0.5s;}
+<a alt="item flutuante sobre o banner, com descrição ou imagem.">.descricao</a> {padding:10px; position:relative; background:rgba(0,0,0,0.3); transition:0.5s;}
 
-.boxSite {box-shadow:0 0 8px black;}</code></pre></figcaption>
+<a alt="efeito de contorno da página.">.boxSite</a> {box-shadow:0 0 8px black;}</code></pre></figcaption>
 	   </li>
 		</ul>
 		<img src="css3/32_02_00.png" class="fundo" style="visibility:hidden"/>
