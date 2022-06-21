@@ -3053,8 +3053,8 @@ font-weight: bold; transition: 0.5s;}
 			   <label for="239"></label>
 			   <img src="css3/32_01_08.png"/>
 			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>. Aqui temos um trecho HTML com menu modificado para modo responsivo:
-<pre><code>&lt;input type="checkbox" id="checkbox1"&gt;
-&lt;label for="checkbox1"&gt;
+<pre><code><a alt="inserção do toggle para deixar o site com todos os itens responsivos.">&lt;input type="checkbox" id="checkbox1"&gt;</a>
+<a alt="ativação do toggle usando checkbox.">&lt;label for="checkbox1"&gt;</a>
 &lt;nav class="menu"&gt;
 	&lt;ul&gt;
 		&lt;li&gt;&lt;a href="index.htm"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -3071,27 +3071,29 @@ font-weight: bold; transition: 0.5s;}
 		&lt;li&gt;&lt;a href="pagina4.htm"&gt;Página 4&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/nav&gt;
-&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
+<a alt="menu do tipo toggle que aparece para o visitante.">&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;</a>
 &lt;/label&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="239b" name="sl">
 			   <label for="239b"></label>
 			   <figcaption>Trecho CSS com menu modificado e animações:
-<pre><code>@media screen and (max-width:800px) {
-	.barra {flex-direction:column; align-items:stretch;}
-	.toggle {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; color:#595959; background:linear-gradient(white,rgb(240,240,255));}
-	#checkbox1:checked + label .menu li {visibility:visible;}
-	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
-	.menu ul{display:flex; flex-direction:column;}
+<pre><code><a alt="mudanças dos itens para telas com larguras menores que 800px.">@media screen and (max-width:800px)</a> {
+	<a alt="barra com itens distribuídos verticalmentoe.">.barra</a> {flex-direction:column; align-items:stretch;}
+	<a alt="posição do menu toggle acima do menu horizontal.">.toggle</a> {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; 
+	color:#595959; background:linear-gradient(white,rgb(240,240,255));}
+	<a alt="menu visível quando o usuário clicar no toggle.">#checkbox1:checked + label .menu li</a> {visibility:visible;}
+	<a alt="configuração de visualização do menu visível.">#checkbox1:checked + label .menu</a> {max-height:50vh; transition: 0.3s; opacity:1;}
+	<a alt="disposição vertical dos itens do menu.">.menu ul</a> {display:flex; flex-direction:column;}
 	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
-	.menu li {visibility:hidden; border-right:none; padding:10px;}
-	.menu li:hover .subitens {position:relative; display:flex;}
+	<a alt="subitens escondidos.">.menu li</a> {visibility:hidden; border-right:none; padding:10px;}
+	<a alt="subitens visíveis com hover.">.menu li:hover .subitens</a> {position:relative; display:flex;}
 }
 
-.barra2 {background: url(imagens/filme.png) repeat-x; height:90px; animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
+<a alt="barra2: fundo da página com animação AnimaBarra.">.barra2</a> {background: url(imagens/filme.png) repeat-x; height:90px; 
+animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 
-@keyframes AnimaBarra { 
+<a alt="efeitos de animação do fundo da página.">@keyframes AnimaBarra</a> { 
 	0% {background-position:0% 0%;}
 	100% {background-position:100% 0%;}
 }</code></pre></figcaption>
