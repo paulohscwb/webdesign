@@ -3566,64 +3566,64 @@ body {width:100%; margin:auto;}
 			   <label for="271a"></label>
 			   <figcaption>Trecho da estrutura HTML da Atividade 8:
 <pre><code>&lt;body&gt;
-  <a alt="tag mãe da página">&lt;div class="boxSite"&gt;</a>
-	<a alt="tag do vídeo de fundo da página">&lt;video autoplay muted loop id="VideoFundo" src="videos/mountain.mp4"&gt;&lt;/video&gt;</a>
-	<a alt="tag do botão de interação com o usuário">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
-	<a alt="primeira barra de conteúdo com logo e menu">&lt;div class="barra"&gt;</a>
-		<a alt="tag de logo da página">&lt;div class="logo"&gt;</a>
-        	&amp;#x1f304;
-        &lt;/div&gt;
-		<a alt="tag completa de menu, parecida com a que usamos na Atividade 7">&lt;input type="checkbox" id="checkbox1"&gt;</a>
-		&lt;label for="checkbox1"&gt;
-        &lt;nav class="menu"&gt;
-      		&lt;ul&gt;
-                &lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/nav&gt;
-		&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
-		&lt;/label&gt;	
-	&lt;/div&gt;
-	<a alt="tag do banner da página">&lt;div class="banner"&gt;</a>
-		&lt;div class="descricao"&gt;
-        	Paisagens do Canadá
-        &lt;/div&gt;
-    &lt;/div&gt;
-	<a alt="barra de conteúdo de compartilhamento e galeria de imagens">&lt;div class="barra2"&gt;</a>
-		&lt;div class="compartilhar"&gt;
-			&lt;a href="#"&gt;&lt;img src="imagens/facebook.png"&gt;&lt;/a&gt;
-			&lt;a href="#"&gt;&lt;img src="imagens/whatsapp.png"&gt;&lt;/a&gt;
-			&lt;a href="#"&gt;&lt;img src="imagens/twitter.png"&gt;&lt;/a&gt; 
+	<a alt="tag mãe da página">&lt;div class="boxSite"&gt;</a>
+		<a alt="tag do vídeo de fundo da página">&lt;video autoplay muted loop id="VideoFundo" src="videos/mountain.mp4"&gt;&lt;/video&gt;</a>
+		<a alt="tag do botão de interação com o usuário">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
+		<a alt="primeira barra de conteúdo com logo e menu">&lt;div class="barra"&gt;</a>
+			<a alt="tag de logo da página">&lt;div class="logo"&gt;</a>
+				&amp;#x1f304;
+			&lt;/div&gt;
+			<a alt="tag completa de menu, parecida com a que usamos na Atividade 7">&lt;input type="checkbox" id="checkbox1"&gt;</a>
+			&lt;label for="checkbox1"&gt;
+				&lt;nav class="menu"&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/nav&gt;
+				&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
+			&lt;/label&gt;	
 		&lt;/div&gt;
-		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
-		&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá ...&lt;hr&gt;&lt;/div&gt;
-		<a alt="box com uma das imagens da galeria">&lt;div class="box"&gt;</a>
-			&lt;div class="titulo"&gt;Lake Louise&lt;/div&gt;
-			&lt;img src="imagens/foto1.jpg"&gt;
+		<a alt="tag do banner da página">&lt;div class="banner"&gt;</a>
+			&lt;div class="descricao"&gt;
+				Paisagens do Canadá
+			&lt;/div&gt;
 		&lt;/div&gt;
-		&lt;div class="box"&gt;
-			&lt;div class="titulo"&gt;Whistler&lt;/div&gt;
-			&lt;img src="imagens/foto6.jpg"&gt;
+		<a alt="barra de conteúdo de compartilhamento e galeria de imagens">&lt;div class="barra2"&gt;</a>
+			&lt;div class="compartilhar"&gt;
+				&lt;a href="#"&gt;&lt;img src="imagens/facebook.png"&gt;&lt;/a&gt;
+				&lt;a href="#"&gt;&lt;img src="imagens/whatsapp.png"&gt;&lt;/a&gt;
+				&lt;a href="#"&gt;&lt;img src="imagens/twitter.png"&gt;&lt;/a&gt; 
+			&lt;/div&gt;
+			&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
+			&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá ...&lt;hr&gt;&lt;/div&gt;
+			<a alt="box com uma das imagens da galeria">&lt;div class="box"&gt;</a>
+				&lt;div class="titulo"&gt;Lake Louise&lt;/div&gt;
+				&lt;img src="imagens/foto1.jpg"&gt;
+			&lt;/div&gt;
+			&lt;div class="box"&gt;
+				&lt;div class="titulo"&gt;Whistler&lt;/div&gt;
+				&lt;img src="imagens/foto6.jpg"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="rodape"&gt;
+			Copyright &copy; 2022
 		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class="rodape"&gt;
-		Copyright &copy; 2022
-	&lt;/div&gt;
-  &lt;/div&gt;
-  <a alt="função de interação do vídeo com o usuário">&lt;script&gt;</a>
-	var video = document.getElementById("VideoFundo");
-	var btn = document.getElementById("botao");
-	function minhaFuncao() {
-	  if (video.paused) {
-		video.play();
-		btn.innerHTML = "Pause";
-	  } else {
-		video.pause();
-		btn.innerHTML = "Play";
-	  }
+	<a alt="função de interação do vídeo com o usuário">&lt;script&gt;</a>
+		var video = document.getElementById("VideoFundo");
+		var btn = document.getElementById("botao");
+		function minhaFuncao() {
+		if (video.paused) {
+			video.play();
+			btn.innerHTML = "Pause";
+		} else {
+			video.pause();
+			btn.innerHTML = "Play";
+		}
 	}
-  &lt;/script&gt; 
+	&lt;/script&gt; 
 &lt;/body&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
