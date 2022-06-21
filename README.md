@@ -3417,6 +3417,94 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 		<img src="css3/37_01_03.png" class="fundo" style="visibility:hidden"/>
   </details>
 	<img src="css3/tags001_0038a.png"/>
+	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
+	<img src="css3/tags001_0039.png"/>
+	<details class="sub" style="box-shadow:none;"><summary>&#x1f4c3; Página com vídeo no fundo</summary>
+	<p>Crie uma pasta chamada <code>webdesign/paginaVideo</code> e escolha um vídeo com curta duração em formato mp4 para colocarmos no background.</p>
+	  <ul class="slider">
+		  <li>
+			   <input type="radio" id="264a" name="sl">
+			   <label for="264a"></label>
+			   <img src="css3/39_01_00.png"/>
+			   <figcaption>Insira a tag de vídeo com id <code>#VideoFundo</code> com as opções loop, autoplay e muted.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="265a" name="sl">
+			   <label for="265a"></label>
+			   <img src="css3/39_01_01.png"/>
+			   <figcaption>O botão de interação deve ter a ligação com a função javascript com nome <code>minhaFuncao()</code> e com id <code>#botao</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="266a" name="sl">
+			   <label for="266a"></label>
+			   <img src="css3/39_01_02.png"/>
+			   <figcaption>Insira uma tag de conteúdo para aparecer sobre o vídeo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="267a" name="sl">
+			   <label for="267a"></label>
+			   <img src="css3/39_01_03.png"/>
+			   <figcaption>A função javascript deve ficar dentro da tag <code>body</code>, pausando o vídeo quando o vídeo estiver sendo tocado (play) e tocando o vídeo (play) quando o vídeo estiver pausado.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="268a" name="sl">
+			   <label for="268a"></label>
+			   <img src="css3/39_01_04.png"/>
+			   <figcaption>No arquivo css, inserimos o vídeo de fundo fixo, ocupando toda a tela do navegador, com z-index negativo: assim, o resto do conteúdo ficará visível sobre o vídeo.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="269a" name="sl">
+			   <label for="269a"></label>
+			   <img src="css3/39_01_05.png"/>
+			   <figcaption>Escolha uma posição e as configurações do botão de interação.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="270a" name="sl">
+			   <label for="270a"></label>
+			   <img src="css3/39_01_06.png"/>
+			   <figcaption>O conteúdo pode ficar em uma posição fixa, sobre o vídeo da página.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="271b" name="sl">
+			   <label for="271b"></label>
+			   <figcaption>Trecho da estrutura HTML:
+<pre><code>&lt;body&gt;
+  &lt;video autoplay muted loop id="VideoFundo" src="videos/marine.mp4"&gt;&lt;/video&gt;
+  &lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;
+  &lt;div class="conteudo"&gt;
+	&lt;h2&gt;Minha página com vídeo no fundo&lt;/h2&gt;
+	&lt;p&gt;Podemos clicar no botão para pausar o vídeo!&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+	var video = document.getElementById("VideoFundo");
+	var btn = document.getElementById("botao");
+	function minhaFuncao() {
+	  if (video.paused) {
+		video.play();
+		btn.innerHTML = "Pause";
+	  } else {
+		video.pause();
+		btn.innerHTML = "Play";
+	  }
+	}
+  &lt;/script&gt; 
+&lt;/body&gt;</code></pre></figcaption>
+<figcaption>Trecho da estrutura CSS:
+<pre><code>#VideoFundo {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
+
+#botao {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
+background:red; color:#fff; cursor:pointer;}
+
+#botao:hover {background:cyan; color:black;} 
+
+body {width:100%; margin:auto;}
+
+.conteudo {position:fixed; top:50vh; background:rgba(200,200,200,0.5); text-align:center; width:90%}</code></pre></figcaption>
+		   </li>
+		</ul>
+		<img src="css3/39_01_00.png" class="fundo" style="visibility:hidden"/>
+  </details>
+	<img src="css3/tags001_0039a.png"/>
 	<details class="sub" style="box-shadow:none;"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
 	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também da pasta <code>webdesign/atividade8/imagens</code>.</p>
 	  <ul class="slider">
