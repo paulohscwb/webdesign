@@ -3469,13 +3469,13 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <label for="271b"></label>
 			   <figcaption>Trecho da estrutura HTML:
 <pre><code>&lt;body&gt;
-  &lt;video autoplay muted loop id="VideoFundo" src="videos/marine.mp4"&gt;&lt;/video&gt;
-  &lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;
-  &lt;div class="conteudo"&gt;
+  <a alt="tag do vídeo com autoplay, muted e loop ativados.">&lt;video autoplay muted loop id="VideoFundo" src="videos/marine.mp4"&gt;&lt;/video&gt;</a>
+  <a alt="botão de interação do vídeo.">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
+  <a alt="conteúdo da página">&lt;div class="conteudo"&gt;</a>
 	&lt;h2&gt;Minha página com vídeo no fundo&lt;/h2&gt;
 	&lt;p&gt;Podemos clicar no botão para pausar o vídeo!&lt;/p&gt;
   &lt;/div&gt;
-  &lt;script&gt;
+  <a alt="função de interação do vídeo com o usuário">&lt;script&gt;</a>
 	var video = document.getElementById("VideoFundo");
 	var btn = document.getElementById("botao");
 	function minhaFuncao() {
@@ -3494,16 +3494,16 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271c" name="sl">
 			   <label for="271c"></label>
 			   <figcaption>Trecho da estrutura CSS:
-<pre><code>#VideoFundo {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
+<pre><code><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
-#botao {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
+<a alt="posição e propriedades do botão de interação.">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
 
 #botao:hover {background:cyan; color:black;} 
 
 body {width:100%; margin:auto;}
 
-.conteudo {position:fixed; top:50vh; background:rgba(200,200,200,0.5); text-align:center; width:90%}</code></pre></figcaption>
+<a alt="propriedades do conteúdo.">.conteudo</a> {position:fixed; top:50vh; background:rgba(200,200,200,0.5); text-align:center; width:90%}</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/39_01_00.png" class="fundo" style="visibility:hidden"/>
