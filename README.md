@@ -2832,7 +2832,7 @@ Trecho da estrutura HTML do mapeamento:
 </details>
 
 <details id="css3"><summary>4. CSS e Animações</summary>
-	<p>Material da pág. 28 até a pág. 38</p>
+	<p>Material da pág. 28 até a pág. 39</p>
 	<img src="css3/tags001_0028.png"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 	<img src="css3/tags001_0029.png"/>
@@ -3489,7 +3489,11 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 	}
   &lt;/script&gt; 
 &lt;/body&gt;</code></pre></figcaption>
-<figcaption>Trecho da estrutura CSS:
+		   </li>
+		   <li>
+			   <input type="radio" id="271c" name="sl">
+			   <label for="271c"></label>
+			   <figcaption>Trecho da estrutura CSS:
 <pre><code>#VideoFundo {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
 #botao {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
@@ -3753,7 +3757,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 </details>
 
 <details id="css4"><summary>5. Imagens Vetoriais</summary>
-	<p>Material da pág. 39 até a pág. 54</p>
+	<p>Material da pág. 40 até a pág. 55</p>
 	<img src="css4/tags001_0039.png"/>
 	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
 	<p>Vamos criar uma pasta chamada <code>webdesign/atividade9</code>. Nesta pasta, crie os arquivos com nomes <code>index.htm</code> e <code>estilo.css</code>. Além disso, vamos criar uma pasta para inserir as imagens dos banners que criaremos na Atividade 9, com o caminho <code>webdesign/atividade9/imagens</code>.</p>
@@ -5123,7 +5127,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 </details>
 
 <details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>6. Galeria de Imagens</summary>
-	<p>Material da pág. 55 até a pág. 60</p>
+	<p>Material da pág. 56 até a pág. 61</p>
 	<img src="css5/tags001_0055.png"/>
 	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML</summary>
 	<p>Na pasta <code>webdesign/atividade10</code>, crie os arquivos <code>index.htm</code>  e <code>estilo.css</code>, além da pasta <code>webdesign/atividade10/imagens</code>.</p>
