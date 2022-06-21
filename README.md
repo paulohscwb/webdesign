@@ -3702,32 +3702,33 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="284a" name="sl">
 			   <label for="284a"></label>
 			   <figcaption>Trecho da estrutura CSS da Atividade 8:
-<pre><code>#VideoFundo {position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
-#botao {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
+<pre><code><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
+<a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
 #botao:hover {background:cyan; color:black;} 
 
 body {width:100%; margin:auto;}
 * {font-family:'Kufam', cursive; font-size:18px;}
 
-.boxSite {box-shadow:0 0 8px black;}
-.banner {display:flex; min-height:300px; align-items:center; transition:0.5s; justify-content:center; 
-top:0; left:0; overflow:auto;}
+<a alt="atributos das barras principais da página e do banner">.boxSite</a> {box-shadow:0 0 8px black;}
+.banner {display:flex; min-height:300px; align-items:center; transition:0.5s; top:0; left:0;
+justify-content:center; overflow:auto;}
 .banner:hover {opacity:0.7; transition:0.5s;}
 .descricao {font-size:60px; color:white; text-shadow:1px 1px 3px black;}
 .barra {display:flex; align-items:flex-start; position:absolute; top:0; width:100%; z-index:10;}
 
-label {padding:15px; flex:3; }
+<a alt="propriedades do menu, parecidas com as que já usamos na atividade anterior">label</a> {padding:15px; flex:3; }
 .menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; 
 flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
 .menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; 
-font-weight:bold; transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); 
-border-radius:7px; text-shadow:1px 1px 2px black;}
-.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+font-weight:bold; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); 
+transition:0.5s; border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a:hover {background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));
+transition:0.5s;}
 
-.logo {display:flex; justify-content:flex-start; font-size:120px; animation: AnimaLogo 7s linear infinite alternate;}
+<a alt="atributos da logo e barra de galeria">.logo</a> {display:flex; justify-content:flex-start; font-size:120px; animation: AnimaLogo 7s linear infinite alternate;}
 .barra2 {background-color:rgba(210,210,210,0.5); display:flex; width:85%; justify-content:center; 
 margin:auto; flex-wrap:wrap; text-align:center;}
 
@@ -3735,15 +3736,16 @@ margin:auto; flex-wrap:wrap; text-align:center;}
 .compartilhar img {width:30%; margin:15px; min-width: 70px; max-width:100px;}
 #checkbox1, .toggle {display:none;}
 
-.box {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.2)); text-align:center;}
+<a alt="atributos dos itens da galeria">.box</a> {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.2)); text-align:center;}
 .box img {width:20vw; height:20vh; transition:transform 0.5s linear; }
 .box:hover {transform:scale(1.5); box-shadow: 0 0 15px white;transition: 0.5s;}
 hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 
-@media screen and (max-width:800px) {
+<a alt="atributos dos elementos para aparecerem corretamente em telas menores">@media screen and (max-width:800px) {</a>
 	.box img {width:50vw;}
 	.box:hover {transform:scale(1.1);}
-	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:yellow;}
+	.toggle {display:block; width:95%; text-align:right; font-size:35px; 
+	cursor:pointer; color:yellow;}
 	#checkbox1:checked + label .menu li {visibility:visible;}
 	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
 	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
@@ -3756,11 +3758,11 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 	.descricao {font-size:40px;}
 }
 
-.titulo {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
+<a alt="títulos das imagens da galeria">.titulo</a> {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
 .rodape {background:linear-gradient(white, rgb(180,180,195)); display:flex; justify-content:center; 
 padding:20px; color:black;}
 
-@keyframes AnimaLogo { 
+<a alt="animação da logo da página">@keyframes</a> AnimaLogo { 
    0% {opacity:0.25; transform:rotate(-30deg);}
    25% {opacity:0.5; transform:scale(0.92);}
    50% {opacity:0.7; transform:scale(0.95);}
