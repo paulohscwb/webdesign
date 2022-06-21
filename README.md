@@ -3284,7 +3284,7 @@ background:linear-gradient(white, rgba(0,0,180,0.1)); flex:1 150px;}
 .box img {width:16vw; height:15vh; transition:transform 0.5s linear; }
 
 <a alt="ordem par da coleção de box com uma configuração.">.box:nth-child(even)</a> {background:linear-gradient(0deg, rgba(0,0,150,0.1),white);}
-<a alt="ordem ímpar da coleção de box com outra configuração.">.box:nth-child(odd) {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
+<a alt="ordem ímpar da coleção de box com outra configuração.">.box:nth-child(odd)</a> {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
 
 <a alt="galeria lateral flexbox de imagens da página.">.lateral</a> {display:flex; width:40%; flex-wrap:wrap; border-left:1px solid grey; 
 justify-content:center; align-content:flex-start;}
