@@ -3728,7 +3728,8 @@ transition:0.5s; border-radius:7px; text-shadow:1px 1px 2px black;}
 .menu li a:hover {background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));
 transition:0.5s;}
 
-<a alt="atributos da logo e barra de galeria">.logo</a> {display:flex; justify-content:flex-start; font-size:120px; animation: AnimaLogo 7s linear infinite alternate;}
+<a alt="atributos da logo e barra de galeria">.logo</a> {display:flex; justify-content:flex-start; font-size:120px; 
+animation: AnimaLogo 7s linear infinite alternate;}
 .barra2 {background-color:rgba(210,210,210,0.5); display:flex; width:85%; justify-content:center; 
 margin:auto; flex-wrap:wrap; text-align:center;}
 
@@ -3736,8 +3737,9 @@ margin:auto; flex-wrap:wrap; text-align:center;}
 .compartilhar img {width:30%; margin:15px; min-width: 70px; max-width:100px;}
 #checkbox1, .toggle {display:none;}
 
-<a alt="atributos dos itens da galeria">.box</a> {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.2)); text-align:center;}
-.box img {width:20vw; height:20vh; transition:transform 0.5s linear; }
+<a alt="atributos dos itens da galeria">.box</a> {padding:5px; margin:10px; text-align:center; 
+background:linear-gradient(white, rgba(220,220,255,0.2));}
+.box img {width:20vw; height:20vh; transition:transform 0.5s linear;}
 .box:hover {transform:scale(1.5); box-shadow: 0 0 15px white;transition: 0.5s;}
 hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 
