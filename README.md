@@ -3503,7 +3503,8 @@ background:red; color:#fff; cursor:pointer;}
 
 body {width:100%; margin:auto;}
 
-<a alt="propriedades do conteúdo.">.conteudo</a> {position:fixed; top:50vh; background:rgba(200,200,200,0.5); text-align:center; width:90%}</code></pre></figcaption>
+<a alt="propriedades do conteúdo.">.conteudo</a> {position:fixed; top:50vh; background:rgba(200,200,200,0.5); text-align:center; width:90%}
+ </code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/39_01_00.png" class="fundo" style="visibility:hidden"/>
