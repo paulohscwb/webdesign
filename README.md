@@ -2967,27 +2967,30 @@ Trecho da estrutura HTML do mapeamento:
 <pre><code>* {font-family:Calibri; font-size:20px;}
 body {width:85%; margin:auto;}
 
-.menu {flex:3;}
-.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; flex-direction:row; flex-wrap:wrap;}
-.menu li {padding: 0; border-right: 1px solid rgba(0,0,130,0.3); min-width: 150px; text-align:center;}
+<a alt="menu com razão de proporção 3.">.menu</a> {flex:3;}
+<a alt="configurações básicas dos itens do menu.">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
+flex-direction:row; flex-wrap:wrap;}
+.menu li {padding: 0; border-right: 1px solid rgba(0,0,130,0.3); min-width: 150px; 
+text-align:center;}
 .menu li:last-child {border-right:none;}
-.menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; font-weight: bold; transition: 0.5s;}
+.menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; 
+font-weight: bold; transition: 0.5s;}
 .menu li a:hover {color:rgba(0,0,130,0.5); text-shadow:1px 1px 1px LightSilver; transition:0.5s;}
 
-.subitens {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; transition:0.3s;}
+<a alt="subitens do menu, que devem ficar escondidos.">.subitens</a> {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; transition:0.3s;}
 .menu .subitens {margin-top:10px; flex-direction:column;}
 .subitens li {padding:10px; border-bottom:1px solid rgba(0,0,130,0.3); border-right:none;}
-.menu li:hover ul {opacity:1;}
+<a alt="ativação dos subitens do menu: hover.">.menu li:hover ul</a> {opacity:1;}
 
-.barra {background:rgb(240,240,255); min-height:120px; display:flex; align-items:center;}
+<a alt="barra que contém menu, logo e compartilhar.">.barra</a> {background:rgb(240,240,255); min-height:120px; display:flex; align-items:center;}
 
-.logo {flex:1; display:flex; align-items:center; justify-content:center; }
+<a alt="logo com razão de proporção 1.">.logo</a> {flex:1; display:flex; align-items:center; justify-content:center; }
 .logo img {width:20%; min-width:50px;}
 
-.compartilhar {flex:1; display:flex; align-items:center; justify-content:center;}
+<a alt="barra de compartilhar com razão de proporção 1.">.compartilhar</a> {flex:1; display:flex; align-items:center; justify-content:center;}
 .compartilhar img {width:10%; margin:15px; min-width:30px;}
 
-@media screen and (max-width:800px) {
+<a alt="mudança de layout para telas com largura menor do que 800px.">@media screen and (max-width:800px)</a> {
 	.barra {flex-direction:column; align-items:stretch;}
 }</code></pre></figcaption>
 		   </li>
