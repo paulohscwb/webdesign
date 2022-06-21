@@ -3597,7 +3597,7 @@ body {width:100%; margin:auto;}
 				&lt;a href="#"&gt;&lt;img src="imagens/twitter.png"&gt;&lt;/a&gt; 
 			&lt;/div&gt;
 			&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
-			&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá ...&lt;hr&gt;&lt;/div&gt;
+			&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais ...&lt;/div&gt;
 			<a alt="box com uma das imagens da galeria">&lt;div class="box"&gt;</a>
 				&lt;div class="titulo"&gt;Lake Louise&lt;/div&gt;
 				&lt;img src="imagens/foto1.jpg"&gt;
@@ -3614,15 +3614,15 @@ body {width:100%; margin:auto;}
 	<a alt="função de interação do vídeo com o usuário">&lt;script&gt;</a>
 		var video = document.getElementById("VideoFundo");
 		var btn = document.getElementById("botao");
-		function minhaFuncao() {
-		if (video.paused) {
-			video.play();
-			btn.innerHTML = "Pause";
-		} else {
-			video.pause();
-			btn.innerHTML = "Play";
+			function minhaFuncao() {
+			if (video.paused) {
+				video.play();
+				btn.innerHTML = "Pause";
+			} else {
+				video.pause();
+				btn.innerHTML = "Play";
+			}
 		}
-	}
 	&lt;/script&gt; 
 &lt;/body&gt;</code></pre></figcaption>
 		   </li>
@@ -3635,137 +3635,137 @@ body {width:100%; margin:auto;}
 		  <li>
 			   <input type="radio" id="272" name="sl">
 			   <label for="272"></label>
+			   <img src="css3/37_02_09.png"/>
+			   <figcaption>Podemos usar os mesmos atritutos usados da página com fundo de vídeo para os elementos inseridos no HTML: <code>#VideoFundo</code> e <code>#botao</code>.</figcaption>
+		   </li>
+		   <li>
+			   <input type="radio" id="272z" name="sl">
+			   <label for="272z"></label>
 			   <img src="css3/37_02_10.png"/>
-			   <figcaption>Escolha a fonte do site <b>google fonts</b> e defina os elementos genéricos da página com o indicar <b>*</b>. Defina altura mínima do banner, posição, alinhamentos e efeitos com <code>hover</code>. Nesta página, vamos usar o atributo <code>overflow:auto;</code> que permite sobreposições de elementos.</figcaption>
+			   <figcaption>Escolha a fonte do site <b>google fonts</b> e defina os elementos genéricos da página com o indicar <b>*</b>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="273" name="sl">
 			   <label for="273"></label>
 			   <img src="css3/37_02_11.png"/>
-			   <figcaption>Defina um valor grande para o <code>z-index</code> para deixar a barra de menu sobre o banner. Para deixá-la alinhada na vertical, usamos <code>align-items:flex-start;</code>. A tag <code>label</code> é "mãe" do menu: logo, definimos margem e tamanho <code>flex:3;</code> nesta tag. Para deixar o menu alinhado à direita, basta usar <code>justify-content:flex-end;</code>.</figcaption>
+			   <figcaption>Defina altura mínima do banner, posição, alinhamentos e efeitos com <code>hover</code>. Nesta página, vamos usar o atributo <code>overflow:auto;</code> que permite sobreposições de elementos. Defina um valor grande para o <code>z-index</code> para deixar a barra de menu sobre o banner. Para deixá-la alinhada na vertical, usamos <code>align-items:flex-start;</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="274" name="sl">
 			   <label for="274"></label>
 			   <img src="css3/37_02_12.png"/>
-			   <figcaption>Os itens do menu têm estrutura de programação CSS parecida com a que usamos na atividade 7. Escolha cores adequadas para ter um contraste com a imagem de fundo do banner. Neste caso, foi escolhida a cor branca com sombra de texto <code>text-shadow</code>.</figcaption>
+			   <figcaption>A tag <code>label</code> é "mãe" do menu: logo, definimos margem e tamanho <code>flex:3;</code> nesta tag. Para deixar o menu alinhado à direita, basta usar <code>justify-content:flex-end;</code>. Os itens do menu têm estrutura de programação CSS parecida com a que usamos na atividade 7. Escolha cores adequadas para ter um contraste com a imagem de fundo do banner. Neste caso, foi escolhida a cor branca com sombra de texto <code>text-shadow</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="275" name="sl">
 			   <label for="275"></label>
 			   <img src="css3/37_02_13.png"/>
-			   <figcaption>Para alinhar a <code>.logo</code> à esquerda usamos <code>justify-content:flex-start;</code>. Neste exemplo vamos utilizar um pictograma: logo, definimos <code>font-size</code> com tamanho maior do que o usual. A animação será a mesma da página da atividade anterior. A barra de compartilhamento pode ter os valores ajustados de acordo com as dimensões das imagens.</figcaption>
+			   <figcaption>Para alinhar a <code>.logo</code> à esquerda usamos <code>justify-content:flex-start;</code>. Neste exemplo vamos utilizar um pictograma: logo, definimos <code>font-size</code> com tamanho maior do que o usual. A animação será a mesma da página da atividade anterior. Vamos usar a largura da <code>barra2</code> com 85%.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="276" name="sl">
 			   <label for="276"></label>
 			   <img src="css3/37_02_14.png"/>
-			   <figcaption>Ajuste os valores de todos os elementos programados para visualizar tanto em um navegador com mais e com menos de 800px de largura. A tag <code>.barra</code> tem o atributo <code>flex-direction:column;</code> em navegadores com larguras reduzidas.</figcaption>
+			   <figcaption>A barra de compartilhamento pode ter os valores ajustados de acordo com as dimensões das imagens.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="277" name="sl">
 			   <label for="277"></label>
 			   <img src="css3/37_02_15.png"/>
-			   <figcaption>Tanto o toggle quando o checkbox ficam invisíveis em telas maiores. Note que nas configurações de telas menores, não temos os subitens. Nesta página o menu é simplificado, com apenas itens principais.</figcaption>
+			   <figcaption>Os atributos da <code>.barra2</code> e dos <code>.box</code> são similares aos que usamos na atividade anterior. O efeito de transformação de imagens que usamos na atividade anterior pode ser usado nos <code>.box</code>. Assim, as imagens são ampliadas com os títulos, como se fossem legendas. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="278" name="sl">
 			   <label for="278"></label>
 			   <img src="css3/37_02_16.png"/>
-			   <figcaption>Os atributos da <code>.barra2</code> e dos <code>.box</code> são similares aos que usamos na atividade anterior. Vamos usar a largura da barra menor, com 85%.</figcaption>
+			   <figcaption>Ajuste os valores de todos os elementos programados para visualizar tanto em um navegador com mais e com menos de 800px de largura. A tag <code>.barra</code> tem o atributo <code>flex-direction:column;</code> em navegadores com larguras reduzidas. </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="279" name="sl">
 			   <label for="279"></label>
-			   <img src="css3/37_02_17.png"/>
-			   <figcaption>Atribua as propriedades para visualização dos títulos e do rodapé da página.</figcaption>
+			   <img src="css3/37_02_16.png"/>
+			   <figcaption>Tanto o toggle quando o checkbox ficam invisíveis em telas maiores. Note que nas configurações de telas menores, não temos os subitens. Nesta página o menu é simplificado, com apenas itens principais. .</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="280" name="sl">
 			   <label for="280"></label>
-			   <img src="css3/37_02_18.png"/>
-			   <figcaption>O efeito de transformação de imagens que usamos na atividade anterior pode ser usado nos <code>.box</code>. Assim, as imagens são ampliadas com os títulos, como se fossem legendas.</figcaption>
+			   <img src="css3/37_02_17.png"/>
+			   <figcaption>Atribua as propriedades para visualização dos títulos e do rodapé da página. Defina as propriedades de animação da tag <code>.logo</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="281" name="sl">
 			   <label for="281"></label>
-			   <img src="css3/37_02_19.png"/>
-			   <figcaption>Defina as propriedades de animação da tag <code>.logo</code>. </figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="282" name="sl">
-			   <label for="282"></label>
-			   <img src="css3/37_02_20.png"/>
-			   <figcaption>Defina os atributos de visualizações das barras e das imagens da <code>.barra2 img</code>. Ajuste as dimensões das imagens em navegador com largura menor do que 800px. A disposição de elementos destas barras deve ser modificada para vertical (coluna).</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="283" name="sl">
-			   <label for="283"></label>
-			   <img src="css3/37_02_21.png"/>
-			   <figcaption>Ajuste também os efeitos de transformação e tamanhos de fontes das tags <code>.logo</code> e <code>.descricao</code>.</figcaption>
-		   </li>
-		   <li>
-			   <input type="radio" id="284" name="sl">
-			   <label for="284"></label>
-			   <img src="css3/37_02_22.jpg"/>
+			   <img src="css3/37_02_18.png"/>
 			   <figcaption>O layout da página fica desta maneira. Ajuste os valores e atributos para a finalização desta atividade. Coloque nomes nos títulos das 3 páginas para que apareçam no menu.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="284a" name="sl">
 			   <label for="284a"></label>
 			   <figcaption>Trecho da estrutura CSS da Atividade 8:
-<pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
+<pre><code>#VideoFundo {position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
+#botao {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
+background:red; color:#fff; cursor:pointer;}
+#botao:hover {background:cyan; color:black;} 
+
 body {width:100%; margin:auto;}
+* {font-family:'Kufam', cursive; font-size:18px;}
+
 .boxSite {box-shadow:0 0 8px black;}
-.banner {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s; justify-content:center; top:0; left:0; overflow:auto;}
-.banner:hover {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
+.banner {display:flex; min-height:300px; align-items:center; transition:0.5s; justify-content:center; 
+top:0; left:0; overflow:auto;}
+.banner:hover {opacity:0.7; transition:0.5s;}
 .descricao {font-size:60px; color:white; text-shadow:1px 1px 3px black;}
-.barra {display:flex; align-items:center; position:absolute; top:0; width:100%; z-index:10; align-items:flex-start; } 
-label {padding:15px; flex:3;}
-.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
+.barra {display:flex; align-items:flex-start; position:absolute; top:0; width:100%; z-index:10;}
+
+label {padding:15px; flex:3; }
+.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; 
+flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
-.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; 
+font-weight:bold; transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); 
+border-radius:7px; text-shadow:1px 1px 2px black;}
 .menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+
 .logo {display:flex; justify-content:flex-start; font-size:120px; animation: AnimaLogo 7s linear infinite alternate;}
-.compartilhar {display:flex; justify-content:flex-end;}
-.compartilhar img {width:3%; margin:20px; min-width:30px;}
-@media screen and (max-width:800px) {
-	.barra {flex-direction:column; align-items:stretch;}
-}
+.barra2 {background-color:rgba(210,210,210,0.5); display:flex; width:85%; justify-content:center; 
+margin:auto; flex-wrap:wrap; text-align:center;}
+
+.compartilhar {display:flex;}
+.compartilhar img {width:30%; margin:15px; min-width: 70px; max-width:100px;}
 #checkbox1, .toggle {display:none;}
+
+.box {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.2)); text-align:center;}
+.box img {width:20vw; height:20vh; transition:transform 0.5s linear; }
+.box:hover {transform:scale(1.5); box-shadow: 0 0 15px white;transition: 0.5s;}
+hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
+
 @media screen and (max-width:800px) {
-	.barra {flex-direction:column; align-items:stretch;}
+	.box img {width:50vw;}
+	.box:hover {transform:scale(1.1);}
 	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:yellow;}
 	#checkbox1:checked + label .menu li {visibility:visible;}
 	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
 	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
 	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
 	.menu li {visibility:hidden; border-right:none; padding:10px;}
+	.barra, .barra2 {flex-direction:column; align-items:stretch; text-align:center; width:100%;}
+	.banner {min-height:300px;}
+	body {width:95%;}
+	.logo {font-size:60px; max-width:60px; justify-content:center;}
+	.descricao {font-size:40px;}
 }
-.barra2 {display:flex; width:85%; justify-content:center; margin:auto; flex-wrap:wrap; text-align:center;}
-.box {padding:5px; margin:10px; background:linear-gradient(white, rgba(220,220,255,0.5)); text-align:center;}
-.box img {width:20vw; height:20vh; transition:transform 0.5s linear; }
+
 .titulo {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
-.rodape {background: linear-gradient(white, rgb(180,180,195)); display:flex; justify-content:center; padding:20px; color:black;}
-.box:hover {transform:scale(2); box-shadow: 0 0 15px white;transition: 0.5s;}
-hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
+.rodape {background:linear-gradient(white, rgb(180,180,195)); display:flex; justify-content:center; 
+padding:20px; color:black;}
+
 @keyframes AnimaLogo { 
    0% {opacity:0.25; transform:rotate(-30deg);}
    25% {opacity:0.5; transform:scale(0.92);}
    50% {opacity:0.7; transform:scale(0.95);}
    75% {opacity:0.9; transform:scale(1.1);}
    100% {opacity:1; transform:scale(-1,1);}
-}
-@media screen and (max-width:800px) {
-	.barra, .barra2 {flex-direction:column; align-items:stretch; text-align:center;}
-	.barra2 {flex-direction:row; width:100%;}
-	.barra2 img {width:40vw; height:15vh;}
-	.box:hover {transform:scale(1.5);}
-	.banner {min-height:300px;}
-	body {width:95%;}
-	.logo {font-size:60px;}
-	.descricao {font-size:40px;}
 }</code></pre></figcaption>
 		   </li>
 		</ul>
