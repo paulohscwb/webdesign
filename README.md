@@ -3243,6 +3243,7 @@ justify-content:flex-start;}
 			   <input type="radio" id="255a" name="sl">
 			   <label for="255a"></label>
 			   <figcaption>Trecho HTML do conteúdo e da barra lateral:
+<pre><code><a alt="barra3 com os conteúdos de galerias de imagens da página.">&lt;div class="barra3"&gt;</a>
 	<a alt="galeria de imagens com classe conteudo.">&lt;div class="conteudo"&gt;</a>
 		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
 		<a alt="podemos inserir algumas imagens na galeria, com classe box.">&lt;div class="box"&gt;</a>
