@@ -3153,8 +3153,9 @@ animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 Trecho CSS da barra banner com a descrição:
-<pre><code><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; transition:0.5s;
-background-size:100%; background-position: 0% 40%; align-items:center; justify-content:flex-start;}
+<pre><code><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
+background-size:100%; background-position: 0% 40%; align-items:center; 
+justify-content:flex-start; transition:0.5s;}
 
 <a alt="efeito hover para mudar posição e opacidade do fundo do banner.">.banner:hover</a> {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
 
