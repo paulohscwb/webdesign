@@ -3359,11 +3359,11 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="263e" name="sl">
 			   <label for="263e"></label>
 			   <figcaption>Trecho CSS com atributos de animações:
-<pre><code>.box img:hover {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow: 0 0 15px white;}
+<pre><code><a alt="ampliação de imagens da classe box com hover.">.box img:hover</a> {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow:0 0 15px white;}
 
-.descricao img {animation:AnimaDescr 7s linear infinite alternate;}
+<a alt="animação da classe descrição que fica sobre o banner.">.descricao img</a> {animation:AnimaDescr 7s linear infinite alternate;}
 
-@keyframes AnimaDescr { 
+<a alt="animação da descrição: rotação e variação de escala.">@keyframes AnimaDescr { </a>
    0% {opacity:0.25; transform:rotate(-30deg);}
    25% {opacity:0.5; transform:scale(0.92);}
    50% {opacity:0.7; transform:scale(0.95);}
@@ -3371,12 +3371,12 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
    100% {opacity:1; transform:scale(-1,1);}
 }
 
-@keyframes AnimaLogo { 
+<a alt="animação de rotação para a logo da página.">@keyframes AnimaLogo { </a>
    0% {transform:rotate(0deg);}
    100% {transform:rotate(360deg);}
 }
 
-@media screen and (max-width:800px) {
+<a alt="mudanças de layout para telas com larguras menores que 800px.">@media screen and (max-width:800px) {</a>
 	.barra, .barra3 {flex-direction:column; align-items:stretch; text-align:center;}
 	.lateral {flex-direction:row; width:100%;}
 	.conteudo {flex-direction:row; width:100%;}
