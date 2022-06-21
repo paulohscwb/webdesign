@@ -3161,7 +3161,8 @@ justify-content:flex-start; transition:0.5s;}
 
 <a alt="item flutuante sobre o banner, com descrição ou imagem.">.descricao</a> {padding:10px; position:relative; background:rgba(0,0,0,0.3); transition:0.5s;}
 
-<a alt="efeito de contorno da página.">.boxSite</a> {box-shadow:0 0 8px black;}</code></pre></figcaption>
+<a alt="efeito de contorno da página.">.boxSite</a> {box-shadow:0 0 8px black;}
+</code></pre></figcaption>
 	   </li>
 		</ul>
 		<img src="css3/32_02_00.png" class="fundo" style="visibility:hidden"/>
