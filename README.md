@@ -3511,43 +3511,43 @@ body {width:100%; margin:auto;}
   </details>
 	<img src="css3/tags001_0039a.png"/>
 	<details class="sub" style="box-shadow:none;"><summary>&#x1f4c3; Detalhes da estrutura em HTML</summary>
-	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também da pasta <code>webdesign/atividade8/imagens</code>.</p>
+	<p>Esta página tem estrutura HTML parecida com a que montamos na página da Atividade 7. Crie uma pasta chamada <code>webdesign/atividade8</code> com a página inicial <code>index.htm</code>. Vamos precisar também das pastas<code>webdesign/atividade8/imagens</code> e <code>webdesign/atividade8/videos</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="264" name="sl">
 			   <label for="264"></label>
 			   <img src="css3/37_02_01.png"/>
-			   <figcaption>A tag "mãe" do site será <code>class="boxSite"</code>, com a barra de menu <code>class="barra"</code>, onde colocaremos uma logo. Vamos fazer uma página de algum lugar com belas paisagens. Escolha um <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a> ou coloque uma imagem na tag <code>class="logo"</code>.</figcaption>
+			   <figcaption>A tag "mãe" do site será <code>class="boxSite"</code>, com a barra de menu <code>class="barra"</code>, onde colocaremos uma logo. Vamos fazer uma página de algum lugar com belas paisagens. Escolha um vídeo para inserir no fundo da página na pasta <code>videos/"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="265" name="sl">
 			   <label for="265"></label>
 			   <img src="css3/37_02_02.png"/>
-			   <figcaption>A estrutura de menu será a mesma que usamos na atividade anterior. Alguns atributos CSS ficarão diferentes, pois a tag <code>&lt;label&gt;</code> está englobando os itens do menu.</figcaption>
+			   <figcaption>Escolha um <a href="http://www.degraf.ufpr.br/docentes/paulo/webdesign/pictograph.html" target="_blank">pictograma</a> ou coloque uma imagem na tag <code>class="logo"</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="266" name="sl">
 			   <label for="266"></label>
 			   <img src="css3/37_02_03.png"/>
-			   <figcaption>Depois da tag <code>class="barra"</code>, podemos inserir a <code>class="banner"</code>, que contém a <code>class="descricao"</code>. Neste caso, coloque um texto ou uma imagem para ser o título da página.</figcaption>
+			   <figcaption>A estrutura de menu será a mesma que usamos na atividade anterior. Alguns atributos CSS ficarão diferentes, pois a tag <code>&lt;label&gt;</code> está englobando os itens do menu.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="267" name="sl">
 			   <label for="267"></label>
 			   <img src="css3/37_02_04.png"/>
-			   <figcaption>A barra <code>class="compartilhar"</code> fica logo abaixo da <code>class="banner"</code>. Insira links para os itens desta barra.</figcaption>
+			   <figcaption>Depois da tag <code>class="barra"</code>, podemos inserir a <code>class="banner"</code>, que contém a <code>class="descricao"</code>. Neste caso, coloque um texto ou uma imagem para ser o título da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="268" name="sl">
 			   <label for="268"></label>
 			   <img src="css3/37_02_05.png"/>
-			   <figcaption>Depois da barra <code>class="compartilhar"</code>, podemos criar a barra de contéudo <code>class="barra2"</code>, como se fosse uma galeria de imagens das paisagens que vamos inserir.</figcaption>
+			   <figcaption>A barra <code>class="compartilhar"</code> pode ser inserida na tag <code>class="barra2"</code>, junto com a galeria de imagens. Insira links para os itens desta barra de compartilhamento.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="269" name="sl">
 			   <label for="269"></label>
 			   <img src="css3/37_02_06.png"/>
-			   <figcaption>Insira o texto sobre o local escolhido em uma <code>&lt;div&gt;</code>, pois vamos distribuir os conteúdos usando <code>display:flex;</code> no CSS.</figcaption>
+			   <figcaption>Depois da barra <code>class="compartilhar"</code>, podemos criar a galeria de imagens das paisagens que vamos inserir. Insira o texto sobre o local escolhido em uma <code>&lt;div&gt;</code>, pois vamos distribuir os conteúdos usando <code>display:flex;</code> no CSS.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="270" name="sl">
@@ -3559,42 +3559,45 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="271" name="sl">
 			   <label for="271"></label>
 			   <img src="css3/37_02_08.png"/>
-			   <figcaption>Por último, a tag mais simples de nossas páginas: o rodapé.</figcaption>
+			   <figcaption>Finalizamos o layout da página com a tag mais simples de nossas páginas: o rodapé. Logo após a tag <code>class=boxSite</code> podemos inserir a função javascript do botão de interação do vídeo de fundo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="271a" name="sl">
 			   <label for="271a"></label>
 			   <figcaption>Trecho da estrutura HTML da Atividade 8:
-<pre><code>&lt;div class="boxSite"&gt;
+<pre><code>&lt;body&gt;
+  &lt;div class="boxSite"&gt;
+	&lt;video autoplay muted loop id="VideoFundo" src="videos/mountain.mp4"&gt;&lt;/video&gt;
+	&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;
 	&lt;div class="barra"&gt;
 		&lt;div class="logo"&gt;
-			&amp;#x1f304;
-		&lt;/div&gt;
+        	&#x1f304;
+        &lt;/div&gt;
 		&lt;input type="checkbox" id="checkbox1"&gt;
 		&lt;label for="checkbox1"&gt;
-		&lt;nav class="menu"&gt;
-			&lt;ul&gt;
-				&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/nav&gt;
-		&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
+        &lt;nav class="menu"&gt;
+      		&lt;ul&gt;
+                &lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="pagina1.htm"&gt;Página 2&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="pagina2.htm"&gt;Página 3&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+		&lt;span class="toggle"&gt;&#9776;&lt;/span&gt;
 		&lt;/label&gt;	
 	&lt;/div&gt;
 	&lt;div class="banner"&gt;
 		&lt;div class="descricao"&gt;
-			Paisagens do Canadá
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class="compartilhar"&gt;
-		&lt;img src="imagens/facebook.png"&gt;
-		&lt;img src="imagens/whatsapp.png"&gt;
-		&lt;img src="imagens/twitter.png"&gt; 
-	&lt;/div&gt;
+        	Paisagens do Canadá
+        &lt;/div&gt;
+    &lt;/div&gt;
 	&lt;div class="barra2"&gt;
+		&lt;div class="compartilhar"&gt;
+			&lt;a href="#"&gt;&lt;img src="imagens/facebook.png"&gt;&lt;/a&gt;
+			&lt;a href="#"&gt;&lt;img src="imagens/whatsapp.png"&gt;&lt;/a&gt;
+			&lt;a href="#"&gt;&lt;img src="imagens/twitter.png"&gt;&lt;/a&gt; 
+		&lt;/div&gt;
 		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
-		&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá, e claro, a maioria dos lugares escolhidos tinha alguma beleza natural na paisagem, deixando o cenário digno de estar entre os lugares mais lindos do país. Gostamos da ideia e decidimos compartilhar algumas paisagens com vocês. Conheçam algumas dessas belas paisagens:&lt;hr&gt;&lt;/div&gt;
+		&lt;div&gt;O site da CNN divulgou uma lista com os 20 lugares mais bonitos do Canadá ...&lt;hr&gt;&lt;/div&gt;
 		&lt;div class="box"&gt;
 			&lt;div class="titulo"&gt;Lake Louise&lt;/div&gt;
 			&lt;img src="imagens/foto1.jpg"&gt;
@@ -3605,9 +3608,23 @@ body {width:100%; margin:auto;}
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="rodape"&gt;
-		Copyright &amp;copy; 2020
+		Copyright &copy; 2022
 	&lt;/div&gt;
-&lt;/div&gt;</code></pre></figcaption>
+  &lt;/div&gt;
+  &lt;script&gt;
+	var video = document.getElementById("VideoFundo");
+	var btn = document.getElementById("botao");
+	function minhaFuncao() {
+	  if (video.paused) {
+		video.play();
+		btn.innerHTML = "Pause";
+	  } else {
+		video.pause();
+		btn.innerHTML = "Play";
+	  }
+	}
+  &lt;/script&gt; 
+&lt;/body&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/37_02_05.png" class="fundo" style="visibility:hidden"/>
