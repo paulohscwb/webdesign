@@ -3476,7 +3476,8 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271b" name="sl">
 			   <label for="271b"></label>
 			   <figcaption>Trecho da estrutura HTML:
-<pre><code>&lt;body&gt;
+			   <button type="button" onclick="copyEvent('cod99')">COPIAR</button>
+<pre><code id="cod99">&lt;body&gt;
   <a alt="tag do vídeo com autoplay, muted e loop ativados.">&lt;video autoplay muted loop id="VideoFundo" src="videos/marine.mp4"&gt;&lt;/video&gt;</a>
   <a alt="botão de interação do vídeo.">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
   <a alt="conteúdo da página">&lt;div class="conteudo"&gt;</a>
@@ -3502,7 +3503,8 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271c" name="sl">
 			   <label for="271c"></label>
 			   <figcaption>Trecho da estrutura CSS:
-<pre><code><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
+			   <button type="button" onclick="copyEvent('cod100')">COPIAR</button>
+<pre><code id="cod100"><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
 <a alt="posição e propriedades do botão de interação.">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
@@ -3573,7 +3575,8 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="271a" name="sl">
 			   <label for="271a"></label>
 			   <figcaption>Trecho da estrutura HTML da Atividade 8:
-<pre><code>&lt;body&gt;
+			   <button type="button" onclick="copyEvent('cod101')">COPIAR</button>
+<pre><code id="cod101">&lt;body&gt;
 	<a alt="tag mãe da página">&lt;div class="boxSite"&gt;</a>
 		<a alt="tag do vídeo de fundo da página">&lt;video autoplay muted loop id="VideoFundo" src="videos/mountain.mp4"&gt;&lt;/video&gt;</a>
 		<a alt="tag do botão de interação com o usuário">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
@@ -3710,7 +3713,8 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="284a" name="sl">
 			   <label for="284a"></label>
 			   <figcaption>Trecho da estrutura CSS da Atividade 8:
-<pre><code><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
+			   <button type="button" onclick="copyEvent('cod102')">COPIAR</button>
+<pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
 <a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
 #botao:hover {background:cyan; color:black;} 
