@@ -41,7 +41,7 @@ a[alt]:hover::after {
   box-shadow:0 0 1px #ff4500, 0 0 1px #ff4500 inset;
 }
 
-button {border: none; background-color: rgba(21,153,87,0.1); border-radius: 5px; float:right;}
+button {border: none; background-color: rgba(21,153,87,0.1); border-radius: 5px; float:right; padding: 10px;}
 button:hover {background-color: rgba(21,153,87,0.2);}
 
 button::after {
@@ -52,7 +52,7 @@ button::after {
     width: 20px;
     height: 22px;
 	float: right;
-    margin-bottom: 20px;
+    margin: 5px;
 }
 
 .topo::after {
