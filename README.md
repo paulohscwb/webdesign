@@ -3713,7 +3713,7 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="284a" name="sl">
 			   <label for="284a"></label>
 			   <figcaption>Trecho da estrutura CSS da Atividade 8:
-			   <button type="button" onclick="copyEvent('cod102')">COPIAR</button>
+			   <button type="button" onclick="copyEvent('cod102')"></button>
 <pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
 <a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
