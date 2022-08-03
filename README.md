@@ -1,5 +1,12 @@
 <link rel="stylesheet" href="scripts/style.css">
-
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
 <p>Esta página site contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
@@ -3359,7 +3366,8 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="263e" name="sl">
 			   <label for="263e"></label>
 			   <figcaption>Trecho CSS com atributos de animações:
-<pre><code><a alt="ampliação de imagens da classe box com hover.">.box img:hover</a> {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow:0 0 15px white;}
+			   <button type="button" onclick="copyEvent('cod98')">COPIAR</button>
+<pre><code id="cod98"><a alt="ampliação de imagens da classe box com hover.">.box img:hover</a> {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow:0 0 15px white;}
 
 <a alt="animação da classe descrição que fica sobre o banner.">.descricao img</a> {animation:AnimaDescr 7s linear infinite alternate;}
 
