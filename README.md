@@ -5,7 +5,7 @@
         var str = document.getElementById(id);
         window.getSelection().selectAllChildren(str);
         document.execCommand("Copy")
-		window.collapseToStart();
+		window.getSelection().collapseToStart();
     }
 </script>
 <h2 id="inicio">Construção de páginas com HTML</h2>
