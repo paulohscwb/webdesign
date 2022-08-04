@@ -7,7 +7,7 @@ footer {
 }
 
 code{
-	font-weight: bold; 
+	font-weight: bold; z-index:3;
 }
 
 pre code{font-weight: normal;}
