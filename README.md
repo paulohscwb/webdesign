@@ -2666,12 +2666,12 @@
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod87', 'cd87')" onmouseout="outFunc('cd87')"><span class="tooltiptext" id="cd87">Copiar o código</span></button></div>Estrutura HTML do mapeamento:
 <pre><code id="cod87">&lt;div class="Map"&gt;
 	<a alt="mapeamento de um menu vertical com 5 itens.">&lt;img src="imagens/menu_lateral.png"&gt;</a>
-		<a alt="A estrutura HTML fica parecida com os menus horizontais que já vimos.">&lt;div class="items"&gt;</a>
-			&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
-			&lt;div title="TWITTER"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;TWITTER&lt;/p&gt;&lt;/div&gt;
-			&lt;div title="LINKEDIN"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;LINKEDIN&lt;/p&gt;&lt;/div&gt;
-			&lt;div title="CONTATO"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
-			&lt;div title="PEDIDOS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;PEDIDOS&lt;/p&gt;&lt;/div&gt;
+	<a alt="A estrutura HTML fica parecida com os menus horizontais que já vimos.">&lt;div class="items"&gt;</a>
+		&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="TWITTER"&gt;&lt;a href="dicas.html" class="i2"&gt;&lt;/a&gt;&lt;p&gt;TWITTER&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="LINKEDIN"&gt;&lt;a href="hospedagem.html" class="i3"&gt;&lt;/a&gt;&lt;p&gt;LINKEDIN&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="CONTATO"&gt;&lt;a href="galeria.html" class="i4"&gt;&lt;/a&gt;&lt;p&gt;CONTATO&lt;/p&gt;&lt;/div&gt;
+		&lt;div title="PEDIDOS"&gt;&lt;a href="mapas.html" class="i5"&gt;&lt;/a&gt;&lt;p&gt;PEDIDOS&lt;/p&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;&lt;</code></pre></figcaption>
 		   </li>
