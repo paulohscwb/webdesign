@@ -1,19 +1,5 @@
 <link rel="stylesheet" href="scripts/style.css">
-<script>
-    function copyEvent(id, id1)
-    {
-        var str = document.getElementById(id);
-        window.getSelection().selectAllChildren(str);
-        document.execCommand("Copy")
-		window.getSelection().collapseToStart();
-		var tooltip = document.getElementById(id1);
-		tooltip.innerHTML = "Código copiado!";
-    }
-	function outFunc(id) {
-		var tooltip = document.getElementById(id);
-		tooltip.innerHTML = "Copiar o código";
-	}
-</script>
+
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
 <p>Esta página site contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
@@ -5834,3 +5820,18 @@ details {border:1px solid skyblue; border-bottom:none; padding:3px; border-radiu
 	<li>Zemel, T. <i>Web design responsivo: páginas adaptáveis para todos os
 	dispositivos</i>. São Paulo, SP: Casa do Código, 2015</li>
 <ol>
+<script>
+    function copyEvent(id, id1)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+		window.getSelection().collapseToStart();
+		var tooltip = document.getElementById(id1);
+		tooltip.innerHTML = "Código copiado!";
+    }
+	function outFunc(id) {
+		var tooltip = document.getElementById(id);
+		tooltip.innerHTML = "Copiar o código";
+	}
+</script>
