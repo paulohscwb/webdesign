@@ -6,11 +6,11 @@
         window.getSelection().selectAllChildren(str);
         document.execCommand("Copy")
 		window.getSelection().collapseToStart();
-		var tooltip = document.getElementByClassName("myTooltip");
+		var tooltip = document.getElementByClassName("tooltiptext");
 		tooltip.innerHTML = "Código copiado!";
     }
 	function outFunc() {
-		var tooltip = document.getElementByClassName("myTooltip");
+		var tooltip = document.getElementByClassName("tooltiptext");
 		tooltip.innerHTML = "Copiar o código";
 	}
 </script>
