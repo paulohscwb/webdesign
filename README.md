@@ -3871,9 +3871,9 @@ padding:20px; color:black;}
   &lt;div class="boxSite"&gt;
 	&lt;div class="barra"&gt;
 		&lt;div class="logo"&gt;
-        	&lt;svg viewBox="0 0 200 200"&gt;
-				DESENHOS SVG
-			&lt;/svg&gt;
+            &lt;svg viewBox="0 0 200 200"&gt;
+                DESENHOS SVG
+            &lt;/svg&gt;
         &lt;/div&gt;
 		&lt;div class="banner"&gt;
 			Vip Turismo
