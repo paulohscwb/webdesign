@@ -3857,8 +3857,8 @@ padding:20px; color:black;}
 		   <li>
 			   <input type="radio" id="295a" name="sl">
 			   <label for="295a"></label>
-			   <figcaption>Estrutura HTML da Atividade 9:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod46', 'cd46')" onmouseout="outFunc('cd46')"><span class="tooltiptext" id="cd46">Copiar o código</span></button></div>Estrutura HTML da Atividade 9:
+<pre><code id="cod46">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;title&gt;Atividade 9&lt;/title&gt;
@@ -3897,8 +3897,8 @@ padding:20px; color:black;}
 		   <li>
 			   <input type="radio" id="295b" name="sl">
 			   <label for="295b"></label>
-			   <figcaption>Estrutura CSS da Atividade 9:
-<pre><code>* {font-family: 'Kufam', cursive; font-size:18px;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod45', 'cd45')" onmouseout="outFunc('cd45')"><span class="tooltiptext" id="cd45">Copiar o código</span></button></div>Estrutura CSS da Atividade 9:
+<pre><code id="cod45">* {font-family: 'Kufam', cursive; font-size:18px;}
 body {width:100%; margin:auto;}
 
 .boxSite {box-shadow:0 0 8px black;}
@@ -3981,8 +3981,8 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="302a" name="sl">
 			   <label for="302a"></label>
-			   <figcaption>Estrutura HTML do primeiro desenho de banner da Atividade 9:
-<pre><code>&lt;div class="logo"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod44', 'cd44')" onmouseout="outFunc('cd44')"><span class="tooltiptext" id="cd44">Copiar o código</span></button></div>Estrutura HTML do primeiro desenho de banner da Atividade 9:
+<pre><code id="cod44">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 200 200"&gt;
 		&lt;g stroke="orange" stroke-width="1" name="sol"&gt;
 			&lt;circle r="50" cx="100" cy="100" fill="rgb(100%, 90%, 0%)" /&gt;
@@ -4052,8 +4052,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="309" name="sl">
 			   <label for="309"></label>
 			   <img src="css4/41_02_06.png"/>
-			   <figcaption>Ótimo, o nosso banner fica com este layout. Veja a estrutura SVG deste banner:
-<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod43', 'cd43')" onmouseout="outFunc('cd43')"><span class="tooltiptext" id="cd43">Copiar o código</span></button></div>Ótimo, o nosso banner fica com este layout. Veja a estrutura SVG deste banner:
+<pre><code id="cod43">&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
 	&lt;g stroke-width="0" fill="red" name="roda"&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
@@ -4105,8 +4105,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="316" name="sl">
 			   <label for="316"></label>
 			   <img src="css4/41_02_13.png"/>
-			   <figcaption>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds. A estrutura SVG deste banner fica assim:
-<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod42', 'cd42')" onmouseout="outFunc('cd42')"><span class="tooltiptext" id="cd42">Copiar o código</span></button></div>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds. A estrutura SVG deste banner fica assim:
+<pre><code id="cod42">&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g stroke-width="0" fill="skyblue" name="estrela"&gt;
 		&lt;circle r="15" cx="50" cy="50"/&gt;
 		&lt;polygon points="40,40 50,10 60,40"/&gt;
@@ -4152,8 +4152,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="320" name="sl">
 			   <label for="320"></label>
 			   <img src="css4/41_03_03.png"/>
-			   <figcaption>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho. Veja a estrutura SVG deste banner:
-<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod41', 'cd41')" onmouseout="outFunc('cd41')"><span class="tooltiptext" id="cd41">Copiar o código</span></button></div>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho. Veja a estrutura SVG deste banner:
+<pre><code id="cod41">&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g fill="none" stroke-width="2" stroke="green" id="atomos" transform="translate(0,-8)"&gt;
 		&lt;circle r="8" cx="50" cy="50" fill="green"/&gt;
 		&lt;ellipse cx="50" cy="50" rx="15" ry="35"/&gt;
@@ -4191,8 +4191,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="324" name="sl">
 			   <label for="324"></label>
 			   <img src="css4/41_03_07.png"/>
-			   <figcaption>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner. Veja a estrutura SVG deste banner:
-<pre><code>&lt;svg viewBox="0 0 100 100"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod40', 'cd40')" onmouseout="outFunc('cd40')"><span class="tooltiptext" id="cd40">Copiar o código</span></button></div>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner. Veja a estrutura SVG deste banner:
+<pre><code id="cod40">&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g fill="green" stroke-opacity="0.3" stroke-width="0.5" stroke="black" transform="translate(0,-8)" id="icone"&gt;
 		&lt;rect x="45" y="10" width="10" rx="2" height="80"/&gt;
 		&lt;rect x="45" y="10" width="10" rx="2" height="80" transform="rotate(60,50,50)"/&gt;
@@ -4220,8 +4220,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="326" name="sl">
 			   <label for="326"></label>
 			   <img src="css4/42_01_01.png"/>
-			   <figcaption>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1 de gradiente é a seguinte:
-<pre><code>&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod39', 'cd39')" onmouseout="outFunc('cd39')"><span class="tooltiptext" id="cd39">Copiar o código</span></button></div>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1 de gradiente é a seguinte:
+<pre><code id="cod39">&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
 	&lt;stop offset="0%" stop-color="orange"/&gt;
 	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
 &lt;/radialGradient&gt;</code></pre>
@@ -4237,8 +4237,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="328" name="sl">
 			   <label for="328"></label>
 			   <img src="css4/42_01_03.png"/>
-			   <figcaption>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 2 e 3 de gradiente é a seguinte:
-<pre><code>&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod38', 'cd38')" onmouseout="outFunc('cd38')"><span class="tooltiptext" id="cd38">Copiar o código</span></button></div>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 2 e 3 de gradiente é a seguinte:
+<pre><code id="cod38">&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
 	&lt;stop offset="0%" stop-color="darkred "/&gt;
 	&lt;stop offset="100%" stop-color="red"/&gt;
 &lt;/radialGradient&gt;
@@ -4257,8 +4257,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="330" name="sl">
 			   <label for="330"></label>
 			   <img src="css4/42_01_05.png"/>
-			   <figcaption>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho. A estrutura SVG dos efeitos 4 e 5 de gradiente é a seguinte:
-<pre><code>&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod37', 'cd37')" onmouseout="outFunc('cd37')"><span class="tooltiptext" id="cd37">Copiar o código</span></button></div>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho. A estrutura SVG dos efeitos 4 e 5 de gradiente é a seguinte:
+<pre><code id="cod37">&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
 	&lt;stop offset="0%" stop-color="lightskyblue"/&gt;
 	&lt;stop offset="100%" stop-color="skyblue"/&gt;
 &lt;/radialGradient&gt;
@@ -4277,8 +4277,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="332" name="sl">
 			   <label for="332"></label>
 			   <img src="css4/42_01_07.png"/>
-			   <figcaption>O desenho com gradiente fica desta forma. A estrutura SVG dos efeitos 6 e 7 de gradiente é a seguinte:
-<pre><code>&lt;radialGradient id="efeito6" cx="50%" cy="50%" r="70%"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod36', 'cd36')" onmouseout="outFunc('cd36')"><span class="tooltiptext" id="cd36">Copiar o código</span></button></div>O desenho com gradiente fica desta forma. A estrutura SVG dos efeitos 6 e 7 de gradiente é a seguinte:
+<pre><code id="cod36">&lt;radialGradient id="efeito6" cx="50%" cy="50%" r="70%"&gt;
 	&lt;stop offset="0%" stop-color="lightgreen"/&gt;
 	&lt;stop offset="100%" stop-color="limegreen"/&gt;
 &lt;/radialGradient&gt;
@@ -4297,8 +4297,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="334" name="sl">
 			   <label for="334"></label>
 			   <img src="css4/42_01_09.png"/>
-			   <figcaption>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner. A estrutura SVG do efeito 8 de gradiente é a seguinte:
-<pre><code>&lt;linearGradient id="efeito8" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod35', 'cd35')" onmouseout="outFunc('cd35')"><span class="tooltiptext" id="cd35">Copiar o código</span></button></div>O layout deste banner com gradiente fica desta forma. Ajuste cores e valores de gradiente para seu desenho de banner. A estrutura SVG do efeito 8 de gradiente é a seguinte:
+<pre><code id="cod35">&lt;linearGradient id="efeito8" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
 	&lt;stop offset="0%" stop-color="rgba(50,205,50,0.9)"/&gt;
 	&lt;stop offset="100%" stop-color="rgba(50,205,50,0.6"/&gt;
 &lt;/linearGradient&gt;</code></pre></figcaption>
@@ -4358,8 +4358,8 @@ label {padding:15px; flex:1; width:100%;}
 			   <input type="radio" id="342" name="sl">
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png"/>
-			   <figcaption>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho. A estrutura SVG do efeito de filtro 10 é a seguinte:
-<pre><code>&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod34', 'cd34')" onmouseout="outFunc('cd34')"><span class="tooltiptext" id="cd34">Copiar o código</span></button></div>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho. A estrutura SVG do efeito de filtro 10 é a seguinte:
+<pre><code id="cod34">&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
 	&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.5" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
 	&lt;feOffset in="desfocado" dx="1" dy="1" result="sombra"&gt;&lt;/feOffset&gt;
 	&lt;feMerge&gt;
@@ -4421,8 +4421,8 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="346a" name="sl">
 			   <label for="346a"></label>
-			   <figcaption>Estrutura SVG do 6&ordm; banner:
-<pre><code>&lt;div class="logo"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod33', 'cd33')" onmouseout="outFunc('cd33')"><span class="tooltiptext" id="cd33">Copiar o código</span></button></div>Estrutura SVG do 6&ordm; banner:
+<pre><code id="cod33">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 80 80" id="nuvem1"&gt;
 		&lt;radialGradient id="efeito12" cx="50%" cy="50%" r="100%"&gt;
 			&lt;stop offset="0%" stop-color="rgba(256,256,256,0.4)"/&gt;
@@ -4462,8 +4462,8 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="350a" name="sl">
 			   <label for="350a"></label>
-			   <figcaption>Estrutura SVG do 7&ordm; banner:
-<pre><code>&lt;div class="logo"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod32', 'cd32')" onmouseout="outFunc('cd32')"><span class="tooltiptext" id="cd32">Copiar o código</span></button></div>Estrutura SVG do 7&ordm; banner:
+<pre><code id="cod32">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 25 20" id="nuvem2"&gt;
 		&lt;path d="M3,15 a2,2 0 0,1 0,-4 a2,2 0 0,1 3,-3 a4,4 0 0,1 10,-1 a3,3 0 0,1 4,4 a2,2 0 0,1 0,4z" stroke="rgba(200,200,200,0.7)" stroke-width="0.1" fill="url(#efeito12)"/&gt;
 	&lt;/svg&gt;
@@ -4533,8 +4533,8 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="358a" name="sl">
 			   <label for="358a"></label>
-			   <figcaption>Estrutura SVG do 8&ordm; banner:
-<pre><code>&lt;svg viewBox="0 0 200 200"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod31', 'cd31')" onmouseout="outFunc('cd31')"><span class="tooltiptext" id="cd31">Copiar o código</span></button></div>Estrutura SVG do 8&ordm; banner:
+<pre><code id="cod31">&lt;svg viewBox="0 0 200 200"&gt;
 	&lt;linearGradient id="efeito13" x1="0%" y1="0%" x2="100%" y2="100%"&gt;
 		&lt;stop offset="0%" stop-color="orange"/&gt;
 		&lt;stop offset="100%" stop-color="#C36900"/&gt;
@@ -4605,8 +4605,8 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="365a" name="sl">
 			   <label for="365a"></label>
-			   <figcaption>Estrutura SVG das animações do 8&ordm; banner:
-<pre><code>&lt;svg viewBox="0 0 200 220" &gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod30', 'cd30')" onmouseout="outFunc('cd30')"><span class="tooltiptext" id="cd30">Copiar o código</span></button></div>Estrutura SVG das animações do 8&ordm; banner:
+<pre><code id="cod30">&lt;svg viewBox="0 0 200 220" &gt;
 	&lt;linearGradient id="efeito13" x1="0%" y1="0%" x2="100%" y2="100%"&gt;
 		&lt;stop offset="0%" stop-color="orange"/&gt;
 		&lt;stop offset="100%" stop-color="#C36900"/&gt;
@@ -4712,16 +4712,16 @@ label {padding:15px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="376a" name="sl">
 			   <label for="376a"></label>
-			   <figcaption>Trecho da estrutura CSS do 9&ordm; banner, configurando o novo banner:
-<pre><code>.banner2 svg{width:100%; max-height:470px; flex:3;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod29', 'cd29')" onmouseout="outFunc('cd29')"><span class="tooltiptext" id="cd29">Copiar o código</span></button></div>Trecho da estrutura CSS do 9&ordm; banner, configurando o novo banner:
+<pre><code id="cod29">.banner2 svg{width:100%; max-height:470px; flex:3;}
 .banner2 {display:flex; justify-content:flex-end; align-items:center; background:linear-gradient(to bottom, skyblue, white);}
 .banner2 label .menu ul{flex:1; flex-direction:column; align-content:flex-end;}
 .banner2 label .menu li{margin-bottom:15px;}
 
 textpath {font-family:Calibri; font-size:30pt; text-shadow:1px 1px 3px yellow;}
 
-label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura HTML do 9&ordm; banner:
-<pre><code>&lt;div class="banner2"&gt;
+label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><button type="button" onclick="copyEvent('cod28', 'cd28')" onmouseout="outFunc('cd28')"><span class="tooltiptext" id="cd28">Copiar o código</span></button></div>1&ordf; parte da estrutura HTML do 9&ordm; banner:
+<pre><code id="cod28">&lt;div class="banner2"&gt;
 	&lt;svg viewBox="0 0 150 76" &gt;
 		&lt;defs&gt;
 			&lt;linearGradient id="linear2" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
@@ -4753,8 +4753,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="376b" name="sl">
 			   <label for="376b"></label>
-			   <figcaption>2&ordf; parte da estrutura SVG do 9&ordm; banner:
-<pre><code>		&lt;g name="ceu"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod27', 'cd27')" onmouseout="outFunc('cd27')"><span class="tooltiptext" id="cd27">Copiar o código</span></button></div>2&ordf; parte da estrutura SVG do 9&ordm; banner:
+<pre><code id="cod27">		&lt;g name="ceu"&gt;
 			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
 		&lt;/g&gt;
 		&lt;g name="perfil" filter="url(#filtro)"&gt;
@@ -4836,8 +4836,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="382" name="sl">
 			   <label for="382"></label>
 			   <img src="css4/52_01_06.png"/>
-			   <figcaption>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.A estrutura SVG do 10&ordm; banner é a seguinte:
-<pre><code>&lt;svg viewBox="0 0 60 60"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod26', 'cd26')" onmouseout="outFunc('cd26')"><span class="tooltiptext" id="cd26">Copiar o código</span></button></div>Com os atributos mostrados, este é o layout do banner com o símbolo apresentado. Modifique valores e cores para fazer o seu banner.A estrutura SVG do 10&ordm; banner é a seguinte:
+<pre><code id="cod26">&lt;svg viewBox="0 0 60 60"&gt;
 	&lt;g stroke-width="0" fill="red" id="simbolo"&gt;
 		&lt;rect x="28" y="5" width="4" rx="1" height="10"/&gt;
 		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(36,30,30)" opacity="0.9"/&gt;
@@ -4863,8 +4863,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 	<details class="sub"><summary>&#x1f4c3; 11&deg; banner</summary>
 	<p>Usando as tags mostradas do lápis em uma <code>class="barra"</code>, temos o layout mostrado abaixo. Insira uma imagem de fundo para este banner na pasta <code>imagens/banner11.jpg</code> e coloque as tags do lápis em uma <code>class="logo"</code>.</p>
 	<img src="css4/53_01_00.png"/>
-<figcaption>Estrutura SVG do 11&ordm; banner:
-<pre><code>&lt;svg viewBox="0 0 200 200"&gt;
+<figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod25', 'cd25')" onmouseout="outFunc('cd25')"><span class="tooltiptext" id="cd25">Copiar o código</span></button></div>Estrutura SVG do 11&ordm; banner:
+<pre><code id="cod25">&lt;svg viewBox="0 0 200 200"&gt;
 	&lt;g id="lapis" stroke-width="1" stroke="black"&gt;
 		&lt;rect x="30" y="10" width="56" height="5" fill="white"/&gt;
 		&lt;rect x="30" y="15" width="14" height="100" fill="rgba(0,0,255,1)"/&gt;
@@ -4926,8 +4926,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="388a" name="sl">
 			   <label for="388a"></label>
-			   <figcaption>Estrutura SVG do 12&ordm; banner:
-<pre><code>&lt;div class="logo"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod24', 'cd24')" onmouseout="outFunc('cd24')"><span class="tooltiptext" id="cd24">Copiar o código</span></button></div>Estrutura SVG do 12&ordm; banner:
+<pre><code id="cod24">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 150 120"&gt;
 		&lt;g id="halteres" stroke-width="1" stroke="grey" fill="yellow" filter="url(#filtro)"&gt;
 			&lt;rect x="5" y="25" width="10" height="40"/&gt;
@@ -4992,8 +4992,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="394a" name="sl">
 			   <label for="394a"></label>
-			   <figcaption>Estrutura SVG do 2&ordm; banner com animações:
-<pre><code>&lt;svg viewBox="0 0 140 140"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod23', 'cd23')" onmouseout="outFunc('cd23')"><span class="tooltiptext" id="cd23">Copiar o código</span></button></div>Estrutura SVG do 2&ordm; banner com animações:
+<pre><code id="cod23">&lt;svg viewBox="0 0 140 140"&gt;
 	&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
 		&lt;stop offset="0%" stop-color="darkred "/&gt;
 		&lt;stop offset="100%" stop-color="red"/&gt;
@@ -5073,8 +5073,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="397a" name="sl">
 			   <label for="397a"></label>
-			   <figcaption>Trecho da estrutura SVG do 9&ordm; banner com animações:
-<pre><code>&lt;g name="ceu"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod22', 'cd22')" onmouseout="outFunc('cd22')"><span class="tooltiptext" id="cd22">Copiar o código</span></button></div>Trecho da estrutura SVG do 9&ordm; banner com animações:
+<pre><code id="cod22">&lt;g name="ceu"&gt;
 	&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
 &lt;/g&gt;
 &lt;g name="perfil" filter="url(#filtro)"&gt;
@@ -5138,8 +5138,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="404" name="sl">
 			   <label for="404"></label>
 			   <img src="css4/54_01_05.png"/>
-			   <figcaption>No final da animação do texto, o banner fica desta forma. Veja uma parte da estrutura SVG com animação do texto em curva:
-<pre><code>&lt;path id="curva" fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod21', 'cd21')" onmouseout="outFunc('cd21')"><span class="tooltiptext" id="cd21">Copiar o código</span></button></div>No final da animação do texto, o banner fica desta forma. Veja uma parte da estrutura SVG com animação do texto em curva:
+<pre><code id="cod21">&lt;path id="curva" fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
 &lt;text&gt;
   &lt;textpath fill="rgb(50,150,50)" stroke="none" xlink:href="#curva"&gt;Meu portfólio
 &lt;animate attributeName="startOffset" from="-150" to="5" dur="5s" begin="0s" fill="freeze" /&gt;
@@ -5197,8 +5197,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		    <li>
 			   <input type="radio" id="410a" name="sl">
 			   <label for="410a"></label>
-			   <figcaption>Estrutura HTML da galeria da Atividade 10:
-<pre><code>&lt;div class="boxSite"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod20', 'cd20')" onmouseout="outFunc('cd20')"><span class="tooltiptext" id="cd20">Copiar o código</span></button></div>Estrutura HTML da galeria da Atividade 10:
+<pre><code id="cod20">&lt;div class="boxSite"&gt;
 	&lt;div class="barra"&gt;
 		&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
 			BANNER SVG
@@ -5308,9 +5308,9 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 			   <input type="radio" id="422" name="sl">
 			   <label for="422"></label>
 			   <img src="css5/55_02_11.png"/>
-			   <figcaption>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod19', 'cd19')" onmouseout="outFunc('cd19')"><span class="tooltiptext" id="cd19">Copiar o código</span></button></div>Este é o resultado do banner com as tags mostradas. Faça o seu desenho de banner para esta atividade.
 			   <br>1&ordf; parte da estrutura SVG do banner da Atividade 10:
-<pre><code>&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
+<pre><code id="cod19">&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
 	&lt;defs&gt;
 		&lt;linearGradient id="azul" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
 			&lt;stop offset="0%" stop-color="skyblue"/&gt;
@@ -5366,8 +5366,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="422a" name="sl">
 			   <label for="422a"></label>
-			   <figcaption>2&ordf; parte da estrutura SVG do banner da Atividade 10:
-<pre><code>	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" fill="url(#azul)" /&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod18', 'cd18')" onmouseout="outFunc('cd18')"><span class="tooltiptext" id="cd18">Copiar o código</span></button></div>2&ordf; parte da estrutura SVG do banner da Atividade 10:
+<pre><code id="cod18">	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" fill="url(#azul)" /&gt;
 	&lt;g id="montanha1" filter="url(#filtro2)" stroke-linecap="round"&gt;
 		&lt;path d="M800,120 l80,-80 h60 l80,80z" fill="url(#verde)" /&gt;
 		&lt;path d="M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 l-10,10 l-10,-10z" fill="white"/&gt;
@@ -5523,8 +5523,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="427a" name="sl">
 			   <label for="427a"></label>
-			   <figcaption>Trecho da estrutura HTML da galeria da Atividade 10:
-<pre><code>&lt;div class="galeria"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod17', 'cd17')" onmouseout="outFunc('cd17')"><span class="tooltiptext" id="cd17">Copiar o código</span></button></div>Trecho da estrutura HTML da galeria da Atividade 10:
+<pre><code id="cod17">&lt;div class="galeria"&gt;
 	&lt;!-- miniaturas das fotos --&gt;
 	&lt;a href="#img1" class="mini" title="Meu projeto 1"&gt;
 		&lt;img src="imagens/projeto1.jpg"&gt;
@@ -5631,8 +5631,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre>1&ordf; parte da estrutura
 		   <li>
 			   <input type="radio" id="437a" name="sl">
 			   <label for="437a"></label>
-			   <figcaption>1&ordf; parte da estrutura CSS da galeria da Atividade 10:
-<pre><code>* {font-family: 'Hind', sans-serif;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod16', 'cd16')" onmouseout="outFunc('cd16')"><span class="tooltiptext" id="cd16">Copiar o código</span></button></div>1&ordf; parte da estrutura CSS da galeria da Atividade 10:
+<pre><code id="cod16">* {font-family: 'Hind', sans-serif;}
 text {font-family: 'Hind'; font-size:2em;}
 body {width: 95%; margin:auto;}
 html,body {height:100%;}
@@ -5674,8 +5674,8 @@ figcaption {text-align: left;}
 		   <li>
 			   <input type="radio" id="437b" name="sl">
 			   <label for="437b"></label>
-			   <figcaption>2&ordf; parte da estrutura CSS da galeria da Atividade 10:
-<pre><code>.mini {margin:20px 10px; padding:7px; text-align:center; text-decoration:none; background:linear-gradient(-45deg,#FFF,#CCC); border-radius:5px; border: 0.1px solid #999;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod15', 'cd15')" onmouseout="outFunc('cd15')"><span class="tooltiptext" id="cd15">Copiar o código</span></button></div>2&ordf; parte da estrutura CSS da galeria da Atividade 10:
+<pre><code id="cod15">.mini {margin:20px 10px; padding:7px; text-align:center; text-decoration:none; background:linear-gradient(-45deg,#FFF,#CCC); border-radius:5px; border: 0.1px solid #999;}
 .mini img {width:150px; height:100px; margin:10px 10px -5px 10px; transition:0.4s; z-index:1;}
 .mini img:hover {transform:scale(1.1);}
 .mini:after {content:attr(title); display:block; font-size:1.1em;}
@@ -5780,11 +5780,11 @@ label {padding:0px; flex:1; width:100%;}
 		   <li>
 			   <input type="radio" id="445a" name="sl">
 			   <label for="445a"></label>
-			   <figcaption>Trecho da estrutura CSS da galeria da Atividade 10 com divisões:
-<pre><code>summary {font-size:1.3em; color:#004953; font-weight:bold; cursor:pointer; margin-bottom:12px; text-shadow:1px 1px 1px skyblue; text-align:center;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod14', 'cd14')" onmouseout="outFunc('cd14')"><span class="tooltiptext" id="cd14">Copiar o código</span></button></div>Trecho da estrutura CSS da galeria da Atividade 10 com divisões:
+<pre><code id="cod14">summary {font-size:1.3em; color:#004953; font-weight:bold; cursor:pointer; margin-bottom:12px; text-shadow:1px 1px 1px skyblue; text-align:center;}
 details {border:1px solid skyblue; border-bottom:none; padding:3px; border-radius:10px; }</code></pre>
-Trecho da estrutura HTML da galeria da Atividade 10 com divisões:
-<pre><code>&lt;details open&gt;&lt;summary&gt;Disciplina 1&lt;/summary&gt;
+<div class="tooltip"><button type="button" onclick="copyEvent('cod13', 'cd13')" onmouseout="outFunc('cd13')"><span class="tooltiptext" id="cd13">Copiar o código</span></button></div>Trecho da estrutura HTML da galeria da Atividade 10 com divisões:
+<pre><code id="cod13">&lt;details open&gt;&lt;summary&gt;Disciplina 1&lt;/summary&gt;
 &lt;div class="galeria"&gt;
 	MINIATURAS DAS IMAGENS DA DISCIPLINA 1
 	IMAGENS AMPLIADAS DA DISCIPLINA 1
