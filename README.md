@@ -6,9 +6,13 @@
         window.getSelection().selectAllChildren(str);
         document.execCommand("Copy")
 		window.getSelection().collapseToStart();
-		var tooltip = document.getElementById("myTooltip");
+		var tooltip = document.getElementByClassName("myTooltip");
 		tooltip.innerHTML = "Código copiado!";
     }
+	function outFunc() {
+		var tooltip = document.getElementByClassName("myTooltip");
+		tooltip.innerHTML = "Copiar o código";
+	}
 </script>
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
@@ -3369,7 +3373,7 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="263e" name="sl">
 			   <label for="263e"></label>
 			   <figcaption>Trecho CSS com atributos de animações:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod98')"><span class="tooltiptext" id="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod98')" onmouseout="outFunc()><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod98"><a alt="ampliação de imagens da classe box com hover.">.box img:hover</a> {transform:scale(3.5); background:rgba(255,255,255,0.45); box-shadow:0 0 15px white;}
 
 <a alt="animação da classe descrição que fica sobre o banner.">.descricao img</a> {animation:AnimaDescr 7s linear infinite alternate;}
@@ -3479,7 +3483,7 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271b" name="sl">
 			   <label for="271b"></label>
 			   <figcaption>Trecho da estrutura HTML:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod99')"><span class="tooltiptext" id="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod99')" onmouseout="outFunc()><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod99">&lt;body&gt;
   <a alt="tag do vídeo com autoplay, muted e loop ativados.">&lt;video autoplay muted loop id="VideoFundo" src="videos/marine.mp4"&gt;&lt;/video&gt;</a>
   <a alt="botão de interação do vídeo.">&lt;button id="botao" onclick="minhaFuncao()"&gt;Pause&lt;/button&gt;</a>
@@ -3506,7 +3510,7 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271c" name="sl">
 			   <label for="271c"></label>
 			   <figcaption>Trecho da estrutura CSS:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod100')"><span class="tooltiptext" id="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod100')" onmouseout="outFunc()><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod100"><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
 <a alt="posição e propriedades do botão de interação.">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
@@ -3578,7 +3582,7 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="271a" name="sl">
 			   <label for="271a"></label>
 			   <figcaption>Trecho da estrutura HTML da Atividade 8:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod101')"><span class="tooltiptext" id="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod101')" onmouseout="outFunc()><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod101">&lt;body&gt;
 	<a alt="tag mãe da página">&lt;div class="boxSite"&gt;</a>
 		<a alt="tag do vídeo de fundo da página">&lt;video autoplay muted loop id="VideoFundo" src="videos/mountain.mp4"&gt;&lt;/video&gt;</a>
@@ -3716,8 +3720,8 @@ body {width:100%; margin:auto;}
 			   <input type="radio" id="284a" name="sl">
 			   <label for="284a"></label>
 			   <figcaption>Trecho da estrutura CSS da Atividade 8:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod102')">
-			   <span class="tooltiptext" id="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod102')" onmouseout="outFunc()>
+			   <span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
 <a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
 background:red; color:#fff; cursor:pointer;}
