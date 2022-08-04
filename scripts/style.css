@@ -56,7 +56,8 @@ button::after {
 }
 
 .tooltip {
-  float: right;
+  position: relative;
+  display: inline-block;
 }
 
 .tooltip .tooltiptext {
