@@ -7,10 +7,10 @@ footer {
 }
 
 code{
-	font-weight: bold; z-index:11;
+	font-weight: bold; 
 }
 
-pre code{font-weight: normal;}
+pre code{font-weight: normal; z-index:11;}
 
 code a {
   position: relative;
