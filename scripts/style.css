@@ -58,7 +58,7 @@ button::after {
 .tooltip {
   position: relative;
   display: inline-block;
-  float:left;
+  margin-right:3px;
 }
 
 .tooltip .tooltiptext {
