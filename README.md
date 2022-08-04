@@ -3510,7 +3510,7 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 			   <input type="radio" id="271c" name="sl">
 			   <label for="271c"></label>
 			   <figcaption>Trecho da estrutura CSS:
-			   <div class="tooltip"><button type="button" onclick="copyEvent('cod100')" onmouseout="outFunc()><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
+			   <div class="tooltip"><button type="button" onclick="copyEvent('cod100')" onmouseout="outFunc()"><span class="tooltiptext" class="myTooltip">Copiar o código</span></button></div>
 <pre><code id="cod100"><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
 <a alt="posição e propriedades do botão de interação.">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
