@@ -1582,7 +1582,7 @@
 			   <input type="radio" id="115" name="sl">
 			   <label for="115"></label>
 			   <img src="css1/15_01_07.png"/>
-			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim: <div class="tooltip"><button type="button" onclick="copyEvent('cod68', 'cd68')" onmouseout="outFunc('cd68')"><span class="tooltiptext" id="cd68">Copiar o código</span></button></div>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod68', 'cd68')" onmouseout="outFunc('cd68')"><span class="tooltiptext" id="cd68">Copiar o código</span></button></div>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim: 
 <pre><code id="cod68">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
 	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
