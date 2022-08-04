@@ -62,7 +62,7 @@ button::after {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 130px;
+  width: 140px;
   background-color: rgb(21,153,87);
   color: #fff;
   text-align: center;
@@ -74,9 +74,6 @@ button::after {
   left: 50%;
   margin-left: -70px;
   opacity: 0;
-  box-shadow: 0 0 3px #848484;
-  transition: opacity 0.3s;
-  font-size: 0.9em;
 }
 
 .tooltip .tooltiptext::after {
@@ -94,7 +91,6 @@ button::after {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-  transition: opacity 0.3s;
 }
 
 .topo::after {
