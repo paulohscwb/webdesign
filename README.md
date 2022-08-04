@@ -6,6 +6,7 @@
         window.getSelection().selectAllChildren(str);
         document.execCommand("Copy")
 		window.getSelection().collapseToStart();
+		tooltip.innerHTML = "Código copiado!";
     }
 </script>
 <h2 id="inicio">Construção de páginas com HTML</h2>
