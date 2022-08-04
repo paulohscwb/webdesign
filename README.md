@@ -152,7 +152,7 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/03_01_00.png" class="fundo"/>
+		<img src="basico/03_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0003a.png"/>
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
@@ -474,7 +474,7 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/05_02_00.png" class="fundo"/>
+		<img src="basico/05_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <img src="basico/tags001_0006.png"/>
@@ -836,7 +836,7 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/07_02_00.png" class="fundo"/>
+		<img src="basico/07_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0007b.png"/>
   <details class="sub"><summary>&#x1f4c3; Galeria de vídeos e áudios</summary>
@@ -1011,7 +1011,7 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/08_02_00.png" class="fundo"/>
+		<img src="basico/08_02_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0008b.png"/>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
@@ -1192,7 +1192,7 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/10_01_00.png" class="fundo"/>
+		<img src="basico/10_01_00.png" class="fundo" style="visibility:hidden"/>
   </details>
   <img src="basico/tags001_0010a.png"/>
   <details class="sub"><summary>&#x1f4c3; Detalhes da Atividade</summary>
