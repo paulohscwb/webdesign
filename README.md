@@ -134,9 +134,8 @@
 		   <li>
 			   <input type="radio" id="011a" name="sl">
 			   <label for="011a"></label>
-<figcaption>
-Código estrutural de uma página HTML:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod48', 'cd48')" onmouseout="outFunc('cd48')"><span class="tooltiptext" id="cd48">Copiar o código</span></button></div>Código estrutural de uma página HTML:
+<pre><code id="cod48">&lt;!DOCTYPE html&gt;
 <a alt="tag de início da programação html">&lt;html&gt;</a>
 <a alt="tag de cabeçalho">&lt;head&gt;</a> 
 	<a alt="tag de título da página">&lt;title&gt;</a>TÍTULO DA PÁGINA&lt;/title&gt;
@@ -198,9 +197,8 @@ Código estrutural de uma página HTML:
 		   <li>
 			   <input type="radio" id="015a" name="sl">
 			   <label for="015a"></label>
-<figcaption>
-Código estrutural de uma página HTML:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod49', 'cd49')" onmouseout="outFunc('cd49')"><span class="tooltiptext" id="cd49">Copiar o código</span></button></div>Código estrutural de uma página HTML:
+<pre><code id="cod49">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
    &lt;title&gt;Primeira Página&lt;/title&gt;
@@ -268,9 +266,8 @@ Código estrutural de uma página HTML:
 		   <li>
 			   <input type="radio" id="020a" name="sl">
 			   <label for="020a"></label>
-<figcaption>
-Código estrutural de uma página HTML:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod50', 'cd50')" onmouseout="outFunc('cd50')"><span class="tooltiptext" id="cd50">Copiar o código</span></button></div>Código estrutural de uma página HTML:
+<pre><code id="cod50">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
    &lt;title&gt;Primeira Página&lt;/title&gt;
@@ -335,9 +332,8 @@ Código estrutural de uma página HTML:
 		   <li>
 			   <input type="radio" id="024a" name="sl">
 			   <label for="024a"></label>
-			   <figcaption>
-Código estrutural da página HTML com listas:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod51', 'cd51')" onmouseout="outFunc('cd51')"><span class="tooltiptext" id="cd51">Copiar o código</span></button></div>Código estrutural da página HTML com listas:
+<pre><code id="cod51">&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;LISTAS&lt;/title&gt;
@@ -399,9 +395,8 @@ Código estrutural da página HTML com listas:
 		   <li>
 			   <input type="radio" id="027a" name="sl">
 			   <label for="027a"></label>
-			   <figcaption>
-Código estrutural da página HTML com imagens:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod52', 'cd52')" onmouseout="outFunc('cd52')"><span class="tooltiptext" id="cd52">Copiar o código</span></button></div>Código estrutural da página HTML com imagens:
+<pre><code id="cod52">&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
@@ -454,9 +449,8 @@ Código estrutural da página HTML com imagens:
 		   <li>
 			   <input type="radio" id="030a" name="sl">
 			   <label for="030a"></label>
-			   <figcaption>
-Código estrutural da página HTML com links e imagens:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod53', 'cd53')" onmouseout="outFunc('cd53')"><span class="tooltiptext" id="cd53">Copiar o código</span></button></div>Código estrutural da página HTML com links e imagens:
+<pre><code id="cod53">&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
@@ -533,9 +527,8 @@ Código estrutural da página HTML com links e imagens:
 		   <li>
 			   <input type="radio" id="034d" name="sl">
 			   <label for="034d"></label>
-			   <figcaption>
-Código estrutural da página HTML com links e imagens:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod54', 'cd54')" onmouseout="outFunc('cd54')"><span class="tooltiptext" id="cd54">Copiar o código</span></button></div>Código estrutural da página HTML com links e imagens:
+<pre><code id="cod54">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;IMAGENS&lt;/title&gt;
@@ -604,9 +597,8 @@ Código estrutural da página HTML com links e imagens:
 		   <li>
 			   <input type="radio" id="039a" name="sl">
 			   <label for="039a"></label>
-			   <figcaption>
-Código estrutural da página HTML com imagens e áudios:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod55', 'cd55')" onmouseout="outFunc('cd55')"><span class="tooltiptext" id="cd55">Copiar o código</span></button></div>Código estrutural da página HTML com imagens e áudios:
+<pre><code id="cod55">&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
@@ -666,9 +658,8 @@ Código estrutural da página HTML com imagens e áudios:
 		   <li>
 			   <input type="radio" id="043a" name="sl">
 			   <label for="043a"></label>
-			   <figcaption>
-Código estrutural da página HTML com imagens e vídeos:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod56', 'cd56')" onmouseout="outFunc('cd56')"><span class="tooltiptext" id="cd56">Copiar o código</span></button></div>Código estrutural da página HTML com imagens e vídeos:
+<pre><code id="cod56">&lt;!DOCTYPE html&gt;
 &lt;html&gt; 
 &lt;head&gt; 
 	&lt;title&gt;IMAGENS&lt;/title&gt;
@@ -768,9 +759,8 @@ Código estrutural da página HTML com imagens e vídeos:
 		   <li>
 			   <input type="radio" id="053a" name="sl">
 			   <label for="053a"></label>
-			   <figcaption>
-Código estrutural da página HTML com tabela:
-<pre><code>&lt;body&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod57', 'cd57')" onmouseout="outFunc('cd57')"><span class="tooltiptext" id="cd57">Copiar o código</span></button></div>Código estrutural da página HTML com tabela:
+<pre><code id="cod57">&lt;body&gt;
 	&lt;h3&gt;Minha página com tabelas&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com borda vermelha com 2px de espessura&#10;os espaçamentos são: 10px interno e 5px externo">&lt;table border="2" bordercolor="red" cellpadding="10" cellspacing="5"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela, com cor de fundo verde">&lt;tr bgcolor="green"&gt;</a> 
@@ -824,9 +814,8 @@ Código estrutural da página HTML com tabela:
 		   <li>
 			   <input type="radio" id="056a" name="sl">
 			   <label for="056a"></label>
-			   <figcaption>
-Trecho do código HTML com galeria em formato de tabela:
-<pre><code>&lt;body&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod58', 'cd58')" onmouseout="outFunc('cd58')"><span class="tooltiptext" id="cd58">Copiar o código</span></button></div>Trecho do código HTML com galeria em formato de tabela:
+<pre><code id="cod58">&lt;body&gt;
 	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
@@ -874,8 +863,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="059a" name="sl">
 			   <label for="059a"></label>
-			   <figcaption>Trecho do código HTML com galeria em formato de tabela:
-<pre><code>&lt;body&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod59', 'cd59')" onmouseout="outFunc('cd59')"><span class="tooltiptext" id="cd59">Copiar o código</span></button></div>Trecho do código HTML com galeria em formato de tabela:
+<pre><code id="cod59">&lt;body&gt;
 	&lt;h3&gt;Galeria de Vídeos e Áudios&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
@@ -940,8 +929,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="065a" name="sl">
 			   <label for="065a"></label>
-			   <figcaption>Trecho do código HTML com a tabela de nutrientes:
-<pre><code>&lt;body&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod60', 'cd60')" onmouseout="outFunc('cd60')"><span class="tooltiptext" id="cd60">Copiar o código</span></button></div>Trecho do código HTML com a tabela de nutrientes:
+<pre><code id="cod60">&lt;body&gt;
 	&lt;h3&gt;Tabela de nutrientes&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com borda cinza de 1px&#10;margens das células: internas de 15px e sem margens externas">&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela&#10;linha com fundo vermelho e alinhamento centralizado">&lt;tr bgcolor="red" align="center"&gt;</a>
@@ -994,8 +983,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="068a" name="sl">
 			   <label for="068a"></label>
-			   <figcaption>Trecho do código HTML com a tabela de pesquisa com fumantes:
-<pre><code>&lt;body&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod61', 'cd61')" onmouseout="outFunc('cd61')"><span class="tooltiptext" id="cd61">Copiar o código</span></button></div>Trecho do código HTML com a tabela de pesquisa com fumantes:
+<pre><code id="cod61">&lt;body&gt;
 	&lt;h3&gt;Pesquisa com fumantes e ex-fumantes&lt;/h3&gt;
 	<a alt="tag da tabela &lt;table&gt; com borda cinza de 1px&#10;margens internas de 15px e sem margens externas">&lt;table border="1" bordercolor="grey" cellpadding="15" cellspacing="0"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr bgcolor="#ccffcc" align="center"&gt;</a>
@@ -1121,8 +1110,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="081a" name="sl">
 			   <label for="081a"></label>
-			   <figcaption>Trecho do código HTML da estrutura da Atividade 2:
-<pre><code><a alt="trecho que mostra a programação a partir da tag &lt;body&gt;&#10;não esqueça de colocar as tags iniciais de cabeçalho desta atividade">&lt;body align="center"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod62', 'cd62')" onmouseout="outFunc('cd62')"><span class="tooltiptext" id="cd62">Copiar o código</span></button></div>Trecho do código HTML da estrutura da Atividade 2:
+<pre><code id="cod62"><a alt="trecho que mostra a programação a partir da tag &lt;body&gt;&#10;não esqueça de colocar as tags iniciais de cabeçalho desta atividade">&lt;body align="center"&gt;</a>
 	<a alt="tag &lt;font&gt; para a página toda, com fechamento no final da programação">&lt;font face="Calibri" size="4"&gt;</a>
 	<a alt="tag da tabela &lt;table&gt; com margens internas de 20px e externas de 15px">&lt;table width="100%" cellpadding="20" cellspacing="15"&gt;</a>     
 		<a alt="tag da primeira linha &lt;tr&gt; para definir o banner">&lt;tr&gt;</a>
@@ -1184,8 +1173,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="084a" name="sl">
 			   <label for="084a"></label>
-			   <figcaption>Trecho do código HTML da galeria de imagens com Select:
-<pre><code>&lt;body align="center"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod63', 'cd63')" onmouseout="outFunc('cd63')"><span class="tooltiptext" id="cd63">Copiar o código</span></button></div>Trecho do código HTML da galeria de imagens com Select:
+<pre><code id="cod63">&lt;body align="center"&gt;
 	&lt;font face="Verdana"&gt;
 	">&lt;h3&gt;Galeria de imagens com Select&lt;/h3&gt;
 		<a alt="tag de rótulo &lt;label&gt; para a lista seletora com nome imagens">&lt;label for="imagens"&gt;Escolha uma imagem da galeria:&lt;/label&gt;</a>
@@ -1284,8 +1273,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="095a" name="sl">
 			   <label for="095a"></label>
-			   <figcaption>Trecho do código HTML da página index.htm:
-<pre><code>&lt;body align="center"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod64', 'cd64')" onmouseout="outFunc('cd64')"><span class="tooltiptext" id="cd64">Copiar o código</span></button></div>Trecho do código HTML da página index.htm:
+<pre><code id="cod64">&lt;body align="center"&gt;
 	&lt;font face="Calibri"&gt;
 	<a alt="tag de tabela &lt;table&gt; com a estrutura da página">&lt;table width="100%"&gt;</a>
 		<a alt="tag da primeira linha &lt;tr&gt; com o banner da página">&lt;tr bgcolor="#e2efec"&gt;</a>
@@ -1315,8 +1304,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="095b" name="sl">
 			   <label for="095b"></label>
-			   <figcaption>Trecho do código HTML da página capadocia.htm:
-<pre><code>&lt;body align="center"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod65', 'cd65')" onmouseout="outFunc('cd65')"><span class="tooltiptext" id="cd65">Copiar o código</span></button></div>Trecho do código HTML da página capadocia.htm:
+<pre><code id="cod65">&lt;body align="center"&gt;
 	&lt;font face="Calibri"&gt;
 	<a alt="tag &lt;table&gt; com a estrutura da página de um ponto turístico">&lt;table width="100%" cellpadding="15" cellspacing="10"&gt;</a>
 		<a alt="tag da primeira linha &lt;tr&gt; com o conteúdo da página">&lt;tr bgcolor="#eff6f4"&gt;</a>
@@ -1408,8 +1397,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="103a" name="sl">
 			   <label for="103a"></label>
-			   <figcaption>Trecho do código HTML com CSS interno:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod66', 'cd66')" onmouseout="outFunc('cd66')"><span class="tooltiptext" id="cd66">Copiar o código</span></button></div>Trecho do código HTML com CSS interno:
+<pre><code id="cod66">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;CSS&lt;/title&gt;
@@ -1493,8 +1482,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="108a" name="sl">
 			   <label for="108a"></label>
-			   <figcaption>Estrutura em HTML com CSS interno da Atividade 4:
-<pre><code>&lt;!DOCTYPE html&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod67', 'cd67')" onmouseout="outFunc('cd67')"><span class="tooltiptext" id="cd67">Copiar o código</span></button></div>Estrutura em HTML com CSS interno da Atividade 4:
+<pre><code id="cod67">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;Atividade 4&lt;/title&gt;
@@ -1593,8 +1582,8 @@ Trecho do código HTML com galeria em formato de tabela:
 			   <input type="radio" id="115" name="sl">
 			   <label for="115"></label>
 			   <img src="css1/15_01_07.png"/>
-			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption>Com as propriedades definidas neste exemplo, a página fica com a parte superior desta forma. Formate o layout da sua página com as propriedades que você ache mais adequadas para esta atividade. Seguiremos com as outras partes desta atividade. A estrutura CSS do banner desta atividade fica assim: <div class="tooltip"><button type="button" onclick="copyEvent('cod68', 'cd68')" onmouseout="outFunc('cd68')"><span class="tooltiptext" id="cd68">Copiar o código</span></button></div>
+<pre><code id="cod68">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
 	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	<a alt="propriedades da classe banner">.banner</a> {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1670,8 +1659,8 @@ Trecho do código HTML com galeria em formato de tabela:
 		   <li>
 			   <input type="radio" id="124a" name="sl">
 			   <label for="124a"></label>
-			   <figcaption>Estrutura CSS do menu da Atividade 4:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod69', 'cd69')" onmouseout="outFunc('cd69')"><span class="tooltiptext" id="cd69">Copiar o código</span></button></div>Estrutura CSS do menu da Atividade 4:
+<pre><code id="cod69">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
 	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1688,8 +1677,8 @@ Trecho do código HTML com galeria em formato de tabela:
 	<a alt="efeito de hover: quando passamos o cursor do mouse em cada item">.menu li a:hover</a> {color:blue; text-shadow:1px 1px 2px white;}
 	<a alt="página ativa do menu">.active</a> {text-shadow:1px 1px 1px green;}
 &lt;/style&gt;</code></pre>
-Estrutura HTML do menu da Atividade 4:
-<pre><code>&lt;nav class="menu"&gt;
+<div class="tooltip"><button type="button" onclick="copyEvent('cod47', 'cd47')" onmouseout="outFunc('cd47')"><span class="tooltiptext" id="cd47">Copiar o código</span></button></div>Estrutura HTML do menu da Atividade 4:
+<pre><code id="cod47">&lt;nav class="menu"&gt;
 	<a alt="lista de itens do menu">&lt;ul&gt;</a>
 		<a alt="em cada item, defina o link e a página ativa">&lt;li class="active"&gt;&lt;a href="index.htm"&gt;Vôlei&lt;/a&gt;&lt;/li&gt;</a>
 		&lt;li&gt;&lt;a href="natacao.htm"&gt;Natação&lt;/a&gt;&lt;/li&gt;
@@ -1753,8 +1742,8 @@ Estrutura HTML do menu da Atividade 4:
 		   <li>
 			   <input type="radio" id="131a" name="sl">
 			   <label for="131a"></label>
-			   <figcaption>Estrutura CSS do conteúdo da Atividade 4:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod70', 'cd70')" onmouseout="outFunc('cd70')"><span class="tooltiptext" id="cd70">Copiar o código</span></button></div>Estrutura CSS do conteúdo da Atividade 4:
+<pre><code id="cod70">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
 	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1825,8 +1814,8 @@ Estrutura HTML do menu da Atividade 4:
 		   <li>
 			   <input type="radio" id="138b" name="sl">
 			   <label for="138b"></label>
-			   <figcaption>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
-<pre><code>	<a alt="classe de informações de contato">&lt;td class="contato"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod71', 'cd71')" onmouseout="outFunc('cd71')"><span class="tooltiptext" id="cd71">Copiar o código</span></button></div>Trecho da estrutura HTML do contato e do rodapé da Atividade 4:
+<pre><code id="cod71"><a alt="classe de informações de contato">&lt;td class="contato"&gt;</a>
 		<a alt="crie os links de emails e redes sociais">&lt;h3&gt;Contatos&lt;/h3&gt;</a>
 		&lt;a href="mailto:seuemail@provedor.com.br"&gt;&lt;img src="imagens/email.png" alt="Nosso email" &gt;&lt;/a&gt;
 		&lt;a href="https://www.facebook.com/supervolley20/"&gt;&lt;img src="imagens/facebook.png" alt="Facebook" &gt;&lt;/a&gt;
@@ -1841,8 +1830,8 @@ Estrutura HTML do menu da Atividade 4:
 		   <li>
 			   <input type="radio" id="138a" name="sl">
 			   <label for="138a"></label>
-			   <figcaption>Estrutura CSS do contato e do rodapé da Atividade 4:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod72', 'cd72')" onmouseout="outFunc('cd72')"><span class="tooltiptext" id="cd72">Copiar o código</span></button></div>Estrutura CSS do contato e do rodapé da Atividade 4:
+<pre><code id="cod72">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:center; margin:auto; font-size:16px; 
 	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
@@ -1952,8 +1941,8 @@ Estrutura HTML do menu da Atividade 4:
 		   <li>
 			   <input type="radio" id="149a" name="sl">
 			   <label for="149a"></label>
-			   <figcaption>Estrutura CSS do formulário:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod73', 'cd73')" onmouseout="outFunc('cd73')"><span class="tooltiptext" id="cd73">Copiar o código</span></button></div>Estrutura CSS do formulário:
+<pre><code id="cod73">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:left; margin:auto; font-size:18px;}
 	<a alt="propriedades dos rótulos do formulário">label</a> {display: block; margin-bottom: 8px; margin-top: 8px;}
 	<a alt="propriedades da classe formulario">.formulario</a> {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
@@ -1963,8 +1952,8 @@ Estrutura HTML do menu da Atividade 4:
 	<a alt="propriedades do botão para enviar o formulário">#submit</a> {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
 &lt;/style&gt;</code></pre>
-Estrutura PHP do formulário:
-<pre><code>&lt;?php  
+<div class="tooltip"><button type="button" onclick="copyEvent('cod74', 'cd74')" onmouseout="outFunc('cd74')"><span class="tooltiptext" id="cd74">Copiar o código</span></button></div>Estrutura PHP do formulário:
+<pre><code id="cod74">&lt;?php  
 	<a alt="tags de cada item do formulário">$name</a> = $_POST['name'];  
 	$email = $_POST['email'];  
 	$message = $_POST['message']; 
@@ -1985,8 +1974,8 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="149b" name="sl">
 			   <label for="149b"></label>
-			   <figcaption>Estrutura HTML do formulário:
-<pre><code><a alt="tag principal do formulário">&lt;div class="formulario"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod75', 'cd75')" onmouseout="outFunc('cd75')"><span class="tooltiptext" id="cd75">Copiar o código</span></button></div>Estrutura HTML do formulário:
+<pre><code id="cod75"><a alt="tag principal do formulário">&lt;div class="formulario"&gt;</a>
 	&lt;form method="post" action="enviar.php"&gt;
 		&lt;h2&gt;Contato&lt;/h2&gt;
 		&lt;p&gt;Preencha o formulário com seus dados.&lt;/p&gt;
@@ -2091,8 +2080,8 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="162a" name="sl">
 			   <label for="162a"></label>
-			   <figcaption>Trecho da estrutura HTML:
-<pre><code>&lt;table&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod76', 'cd76')" onmouseout="outFunc('cd76')"><span class="tooltiptext" id="cd76">Copiar o código</span></button></div>Trecho da estrutura HTML:
+<pre><code id="cod76">&lt;table&gt;
 	&lt;tr&gt;
 		<a alt="espaço da barra lateral que vamos preencher">&lt;td class="barra"&gt;</a>
 			Barra lateral
@@ -2127,8 +2116,8 @@ Estrutura PHP do formulário:
 			<li>
 			   <input type="radio" id="162b" name="sl">
 			   <label for="162b"></label>
-			   <figcaption>Estrutura CSS:
-<pre><code>&lt;style&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod77', 'cd77')" onmouseout="outFunc('cd77')"><span class="tooltiptext" id="cd77">Copiar o código</span></button></div>Estrutura CSS:
+<pre><code id="cod77">&lt;style&gt;
 	body {font-size:25px;}
 	<a alt="propriedades das células da tabela">td</a> {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
 	border:5px solid white;}
@@ -2213,8 +2202,8 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="172a" name="sl">
 			   <label for="172a"></label>
-			   <figcaption>Trecho da estrutura HTML:
-<pre><code>&lt;table&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod78', 'cd78')" onmouseout="outFunc('cd78')"><span class="tooltiptext" id="cd78">Copiar o código</span></button></div>Trecho da estrutura HTML:
+<pre><code id="cod78">&lt;table&gt;
 	&lt;tr&gt;
 		<a alt="tag para o ícone: imagem ou pictograma">&lt;td class="icone"&gt;&amp;#x1f34f;&lt;/td&gt;</a>
 		<a alt="tag do banner: imagem com texto">&lt;td class="banner"&gt;Minha loja de produtos naturais&lt;/td&gt;</a>
@@ -2266,8 +2255,8 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="172b" name="sl">
 			   <label for="172b"></label>
-			   <figcaption>Estrutura CSS:
-<pre><code>&lt;style&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod79', 'cd79')" onmouseout="outFunc('cd79')"><span class="tooltiptext" id="cd79">Copiar o código</span></button></div>Estrutura CSS:
+<pre><code id="cod79">&lt;style&gt;
 	body {font-size:25px; margin: auto; width:85%;}
 	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; 
 	padding:5px; border:none;}
@@ -2379,8 +2368,8 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="183a" name="sl">
 			   <label for="183a"></label>
-			   <figcaption>Estrutura HTML do mapeamento:
-<pre><code><a alt="tag com a imagem que será mapeada">&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod80', 'cd80')" onmouseout="outFunc('cd80')"><span class="tooltiptext" id="cd80">Copiar o código</span></button></div>Estrutura HTML do mapeamento:
+<pre><code id="cod80"><a alt="tag com a imagem que será mapeada">&lt;img src="imagens/menu_horizontal.png" width="1334" height="282" usemap="#Map"&gt;</a>
 &lt;map name="Map" id="Map"&gt;
 	<a alt="primeiro item do menu com círculo">&lt;area shape="circle" coords="104,104, 104" href="home.html" title="HOME" /&gt;</a>
 	<a alt="mudança de coordenada x do segundo item do menu">&lt;area shape="circle" coords="326,104, 104" href="dicas.html" title="DICAS" /&gt;</a>
@@ -2428,16 +2417,16 @@ Estrutura PHP do formulário:
 		   <li>
 			   <input type="radio" id="187a" name="sl">
 			   <label for="187a"></label>
-			   <figcaption>Estrutura CSS do mapeamento:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod81', 'cd81')" onmouseout="outFunc('cd81')"><span class="tooltiptext" id="cd81">Copiar o código</span></button></div>Estrutura CSS do mapeamento:
+<pre><code id="cod81">&lt;style type="text/css"&gt;
 	body {background:rgba(255,255,255); width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	<a alt="propriedades das tags svg">svg</a> {width:100%;}
 	<a alt="propriedades das figuras, que começam invisíveis">circle, rect, polyline</a> {fill-opacity: 0;}
 	<a alt="as figuras que mapeiam o menu só aparecem com hover">rect:hover, circle:hover, polyline:hover</a> {fill:blue; stroke:pink; stroke-width:5; 
 	fill-opacity:0.1; stroke-opacity:0.2}
 &lt;/style&gt;</code></pre>
-Trecho da estrutura HTML do mapeamento:
-<pre><code>&lt;svg viewBox="0,0, 1334,282"&gt;
+<div class="tooltip"><button type="button" onclick="copyEvent('cod82', 'cd82')" onmouseout="outFunc('cd82')"><span class="tooltiptext" id="cd82">Copiar o código</span></button></div>Trecho da estrutura HTML do mapeamento:
+<pre><code id="cod82">&lt;svg viewBox="0,0, 1334,282"&gt;
 	&lt;image href="imagens/menu_horizontal.png" x="0" y="0" height="282" width="1334"/&gt;
 	<a alt="tag svg de link">&lt;a xlink:href="home.html"&gt;</a>
 		<a alt="tag svg de círculo">&lt;circle cx="104" cy="104" r="104"/&gt;</a>
@@ -2496,8 +2485,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="193a" name="sl">
 			   <label for="193a"></label>
-			   <figcaption>Estrutura CSS do mapeamento:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod83', 'cd83')" onmouseout="outFunc('cd83')"><span class="tooltiptext" id="cd83">Copiar o código</span></button></div>Estrutura CSS do mapeamento:
+<pre><code id="cod83">&lt;style type="text/css"&gt;
 	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
 	rect {width:193px; height:190px; rx:40px; fill:blue; stroke:pink; stroke-width:5; 
@@ -2507,8 +2496,8 @@ Trecho da estrutura HTML do mapeamento:
 	text {font-family:Tahoma; font-weight:bold; fill:rgb(180,250,180); stroke:green; 
 	stroke-width:1; font-size:22px; opacity:0;}
 &lt;/style&gt;</code></pre>
-Trecho da estrutura HTML do mapeamento:
-<pre><code>&lt;svg viewBox="0,0, 1287,220"&gt;
+<div class="tooltip"><button type="button" onclick="copyEvent('cod84', 'cd84')" onmouseout="outFunc('cd84')"><span class="tooltiptext" id="cd84">Copiar o código</span></button></div>Trecho da estrutura HTML do mapeamento:
+<pre><code id="cod84">&lt;svg viewBox="0,0, 1287,220"&gt;
 	&lt;image href="imagens/menu_horizontal1.png" x="0" y="0" height="203px" width="1287px"/&gt;
 		&lt;a xlink:href="home.html"&gt;
 			<a alt="tags de textos, posicionados logo abaixo de cada item do menu">&lt;text x="8" y="215"&gt;HOME&lt;/text&gt;</a>
@@ -2580,8 +2569,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="200a" name="sl">
 			   <label for="200a"></label>
-			   <figcaption>Estrutura HTML do mapeamento:
-<pre><code>&lt;div class="Map"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod85', 'cd85')" onmouseout="outFunc('cd85')"><span class="tooltiptext" id="cd85">Copiar o código</span></button></div>Estrutura HTML do mapeamento:
+<pre><code id="cod85">&lt;div class="Map"&gt;
 	<a alt="tag da imagem que será mapeada">&lt;img src="imagens/menu_horizontal1.png"&gt;</a>
 	&lt;div class="items"&gt;
 		<a alt="cada item terá uma classe CSS: i1, i2, ..., i6.">&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;</a>
@@ -2596,8 +2585,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="200b" name="sl">
 			   <label for="200b"></label>
-			   <figcaption>Estrutura CSS do mapeamento:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod86', 'cd86')" onmouseout="outFunc('cd86')"><span class="tooltiptext" id="cd86">Copiar o código</span></button></div>Estrutura CSS do mapeamento:
+<pre><code id="cod86">&lt;style type="text/css"&gt;
 	* {font-family:Calibri; font-size:14pt;}
 	.Map {width:100%; position:relative;}
 	.Map img {width:100%;}
@@ -2674,8 +2663,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="207a" name="sl">
 			   <label for="207a"></label>
-			   <figcaption>Estrutura HTML do mapeamento:
-<pre><code>&lt;div class="Map"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod87', 'cd87')" onmouseout="outFunc('cd87')"><span class="tooltiptext" id="cd87">Copiar o código</span></button></div>Estrutura HTML do mapeamento:
+<pre><code id="cod87">&lt;div class="Map"&gt;
 	<a alt="mapeamento de um menu vertical com 5 itens.">&lt;img src="imagens/menu_lateral.png"&gt;</a>
 		<a alt="A estrutura HTML fica parecida com os menus horizontais que já vimos.">&lt;div class="items"&gt;</a>
 			&lt;div title="HOME"&gt;&lt;a href="home.html" class="i1"&gt;&lt;/a&gt;&lt;p&gt;FACEBOOK&lt;/p&gt;&lt;/div&gt;
@@ -2689,8 +2678,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="207b" name="sl">
 			   <label for="207b"></label>
-			   <figcaption>Estrutura CSS do mapeamento:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod88', 'cd88')" onmouseout="outFunc('cd88')"><span class="tooltiptext" id="cd88">Copiar o código</span></button></div>Estrutura CSS do mapeamento:
+<pre><code id="cod88">&lt;style type="text/css"&gt;
 	* {font-family:Calibri; font-size:14pt;}
 	<a alt="largura do mapeamento de acordo com a imagem mapeada">.Map</a> {width:8%; position:relative;}
 	.Map img {width:100%;}
@@ -2808,8 +2797,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="218a" name="sl">
 			   <label for="218a"></label>
-			   <figcaption>Estrutura CSS da Atividade 6:
-<pre><code>&lt;style type="text/css"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod89', 'cd89')" onmouseout="outFunc('cd89')"><span class="tooltiptext" id="cd89">Copiar o código</span></button></div>Estrutura CSS da Atividade 6:
+<pre><code id="cod89">&lt;style type="text/css"&gt;
 	* {font-family: Calibri; font-size:18px;}
 	.Map {width:70%; position:relative;}
 	.Map img {width:100%;}
@@ -2896,8 +2885,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="224a" name="sl">
 			   <label for="224a"></label>
-			   <figcaption>Trecho da estrutura HTML da página index.htm da Atividade 7:
-<pre><code>&lt;div class="boxSite"&gt;
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod90', 'cd90')" onmouseout="outFunc('cd90')"><span class="tooltiptext" id="cd90">Copiar o código</span></button></div>Trecho da estrutura HTML da página index.htm da Atividade 7:
+<pre><code id="cod90">&lt;div class="boxSite"&gt;
 	&lt;div class="barra"&gt;
 		&lt;div class="logo"&gt;
 			&lt;img src="imagens/icone_filme.png"&gt;
@@ -2977,8 +2966,8 @@ Trecho da estrutura HTML do mapeamento:
 		   <li>
 			   <input type="radio" id="231a" name="sl">
 			   <label for="231a"></label>
-			   <figcaption>Estrutura CSS do menu superior da Atividade 7:
-<pre><code>* {font-family:Calibri; font-size:20px;}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod91', 'cd91')" onmouseout="outFunc('cd91')"><span class="tooltiptext" id="cd91">Copiar o código</span></button></div>Estrutura CSS do menu superior da Atividade 7:
+<pre><code id="cod91">* {font-family:Calibri; font-size:20px;}
 body {width:85%; margin:auto;}
 
 <a alt="menu com razão de proporção 3.">.menu</a> {flex:3;}
@@ -3066,8 +3055,8 @@ font-weight: bold; transition: 0.5s;}
 			   <input type="radio" id="239" name="sl">
 			   <label for="239"></label>
 			   <img src="css3/32_01_08.png"/>
-			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>. Aqui temos um trecho HTML com menu modificado para modo responsivo:
-<pre><code><a alt="inserção do toggle para deixar o site com todos os itens responsivos.">&lt;input type="checkbox" id="checkbox1"&gt;</a>
+			   <figcaption>Com todos os atributos mostrados até agora, o layout com as duas barras superiores fica desta maneira. O fundo da tag do menu foi modificado usando o atributo <code>linear-gradient</code>. Aqui temos um trecho HTML com menu modificado para modo responsivo:<div class="tooltip"><button type="button" onclick="copyEvent('cod92', 'cd92')" onmouseout="outFunc('cd92')"><span class="tooltiptext" id="cd92">Copiar o código</span></button></div>
+<pre><code id="cod92"><a alt="inserção do toggle para deixar o site com todos os itens responsivos.">&lt;input type="checkbox" id="checkbox1"&gt;</a>
 <a alt="ativação do toggle usando checkbox.">&lt;label for="checkbox1"&gt;</a>
 &lt;nav class="menu"&gt;
 	&lt;ul&gt;
@@ -3091,8 +3080,8 @@ font-weight: bold; transition: 0.5s;}
 		   <li>
 			   <input type="radio" id="239b" name="sl">
 			   <label for="239b"></label>
-			   <figcaption>Trecho CSS com menu modificado e animações:
-<pre><code><a alt="mudanças dos itens para telas com larguras menores que 800px.">@media screen and (max-width:800px)</a> {
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod93', 'cd93')" onmouseout="outFunc('cd93')"><span class="tooltiptext" id="cd93">Copiar o código</span></button></div>Trecho CSS com menu modificado e animações:
+<pre><code id="cod93"><a alt="mudanças dos itens para telas com larguras menores que 800px.">@media screen and (max-width:800px)</a> {
 	<a alt="barra com itens distribuídos verticalmentoe.">.barra</a> {flex-direction:column; align-items:stretch;}
 	<a alt="posição do menu toggle acima do menu horizontal.">.toggle</a> {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; 
 	color:#595959; background:linear-gradient(white,rgb(240,240,255));}
@@ -3160,14 +3149,14 @@ animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 		   <li>
 			   <input type="radio" id="245a" name="sl">
 			   <label for="245a"></label>
-			   <figcaption>Trecho HTML da barra banner com a descrição:
-<pre><code><a alt="banner colocado abaixo das tags da classe barra.">&lt;div class="banner"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod94', 'cd94')" onmouseout="outFunc('cd94')"><span class="tooltiptext" id="cd94">Copiar o código</span></button></div>Trecho HTML da barra banner com a descrição:
+<pre><code id="cod94"><a alt="banner colocado abaixo das tags da classe barra.">&lt;div class="banner"&gt;</a>
 	&lt;div class="descricao"&gt;
 		&lt;img src="imagens/ico.png"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-Trecho CSS da barra banner com a descrição:
-<pre><code><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
+<div class="tooltip"><button type="button" onclick="copyEvent('cod95', 'cd95')" onmouseout="outFunc('cd95')"><span class="tooltiptext" id="cd95">Copiar o código</span></button></div>Trecho CSS da barra banner com a descrição:
+<pre><code id="cod95"><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
 background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s;
 justify-content:flex-start;}
 
@@ -3256,8 +3245,8 @@ justify-content:flex-start;}
 		   <li>
 			   <input type="radio" id="255a" name="sl">
 			   <label for="255a"></label>
-			   <figcaption>Trecho HTML do conteúdo e da barra lateral:
-<pre><code><a alt="barra3 com os conteúdos de galerias de imagens da página.">&lt;div class="barra3"&gt;</a>
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod96', 'cd96')" onmouseout="outFunc('cd96')"><span class="tooltiptext" id="cd96">Copiar o código</span></button></div>Trecho HTML do conteúdo e da barra lateral:
+<pre><code id="cod96"><a alt="barra3 com os conteúdos de galerias de imagens da página.">&lt;div class="barra3"&gt;</a>
 	<a alt="galeria de imagens com classe conteudo.">&lt;div class="conteudo"&gt;</a>
 		&lt;div class="titulo"&gt;Galeria&lt;/div&gt;
 		<a alt="podemos inserir algumas imagens na galeria, com classe box.">&lt;div class="box"&gt;</a>
@@ -3287,8 +3276,8 @@ justify-content:flex-start;}
 		   <li>
 			   <input type="radio" id="255b" name="sl">
 			   <label for="255b"></label>
-			   <figcaption>Trecho CSS do conteúdo e da barra lateral:
-<pre><code><a alt="flexbox da barra de galeria de imagens.">.barra3</a> {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
+			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod97', 'cd97')" onmouseout="outFunc('cd97')"><span class="tooltiptext" id="cd97">Copiar o código</span></button></div>Trecho CSS do conteúdo e da barra lateral:
+<pre><code id="cod97"><a alt="flexbox da barra de galeria de imagens.">.barra3</a> {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
 
 <a alt="distribuição de itens flexbox da galeria de imagens.">.conteudo</a> {display:flex; width:60%; flex-wrap:wrap; justify-content:center; 
 align-content:flex-start;}
