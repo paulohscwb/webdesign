@@ -74,6 +74,7 @@ button::after {
   left: 50%;
   margin-left: -70px;
   opacity: 0;
+  box-shadow: 0 0 3px #848484;
   transition: opacity 0.3s;
 }
 
@@ -86,6 +87,7 @@ button::after {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent rgb(21,153,87) transparent;
+  box-shadow: 0 0 3px #848484;
   transition: opacity 0.3s;
 }
 
