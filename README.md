@@ -9,112 +9,112 @@
 <details id="basico">
   <summary>1. Estruturas básicas</summary>
 	<p>Material da pág. 1 até a pág. 10</p>
-   <img src="basico/tags001_0001.png" loading="lazy" loading="lazy"/>
+   <img src="basico/tags001_0001.png" loading="lazy"/>
    <details class="sub"><summary>&#x1f4c3; Escolha de cores</summary>
 	<p>Existem vários sites que mostram as escolhas de cores para usar em HTML. Vamos começar usando as cores com códigos HTML ou hexadecimais. Clique nos passos abaixo para ver como podemos escolher as cores.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="001" name="sl" checked>
 			   <label for="001"></label>
-			   <img src="basico/01_01_01.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_01_01.png" loading="lazy"/>
 			   <figcaption>Acessando o site <a href="http://html-color-codes.info/Codigos-de-Cores-HTML/" target="_blank">http://html-color-codes.info/Codigos-de-Cores-HTML/</a>, você pode clicar em cores pré-definidas. Note que o código hexadecimal aparece logo abaixo das cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="002" name="sl">
 			   <label for="002"></label>
-			   <img src="basico/01_01_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_01_02.png" loading="lazy"/>
 			   <figcaption>Logo abaixo, você encontra outra maneira de escolher cores neste mesmo site. Basta escolher o tom da cor e clicar sobre a cor escolhida.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="003" name="sl">
 			   <label for="003"></label>
-			   <img src="basico/01_01_03.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_01_03.png" loading="lazy"/>
 			   <figcaption>Acessando o site <a href="https://color.adobe.com/pt/create/color-wheel/" target="_blank">https://color.adobe.com/pt/create/color-wheel/</a>, você pode escolher as cores de forma análoga. Note que aparecem os códigos hexadecimais e RGB logo abaixo do disco de cores.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="004" name="sl">
 			   <label for="004"></label>
-			   <img src="basico/01_01_04.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_01_04.png" loading="lazy"/>
 			   <figcaption>Outro site interessante é <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank">https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb</a>, que além dos códigos RGB e hexadecimais mostra os nomes das cores usadas em HTML na primeira coluna da tabela. 
 			   </figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="004a" name="sl">
 			   <label for="004a"></label>
-			   <img src="basico/01_01_05.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_01_05.png" loading="lazy"/>
 			   <figcaption>O site <a href="https://html-color.codes" target="_blank">https://html-color.codes</a> também é uma ótima opção para escolhermos cores para nossas páginas. As cores ficam separadas por tonalidades.
 			   </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" loading="lazy" loading="lazy"/>
+		<img src="basico/01_01_00.png" class="fundo" style="visibility:hidden" loading="lazy"/>
   </details>
-  <img src="basico/tags001_0001a.png" loading="lazy" loading="lazy"/>
+  <img src="basico/tags001_0001a.png" loading="lazy"/>
    <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
 	<p>Muitas vezes, nosso foco é de testar somente o layout de uma página. Podemos preenchê-la com textos e listas usando o site mostrado a seguir. Clique nos passos abaixo para ver como produzir estes conteúdos.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="005" name="sl">
 			   <label for="005"></label>
-			   <img src="basico/01_02_01.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_02_01.png" loading="lazy"/>
 			   <figcaption>Acessando o site <a href="http://br.lipsum.com/" target="_blank">http://br.lipsum.com/</a>, você pode criar blocos de textos ou listas, usados para testarmos layouts.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="006" name="sl">
 			   <label for="006"></label>
-			   <img src="basico/01_02_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/01_02_02.png" loading="lazy"/>
 			   <figcaption>Escolha a criação de 2 parágrafos para fazermos um teste. Copie e cole este texto produzido no programa <code>Notepad</code> (<code>Bloco de Notas</code>) do Windows.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/01_02_00.png" class="fundo" loading="lazy" loading="lazy"/>
+		<img src="basico/01_02_00.png" class="fundo" loading="lazy"/>
   </details>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/WG1MYwgWnCE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <img src="basico/tags001_0002.png" loading="lazy" loading="lazy"/>
+  <img src="basico/tags001_0002.png" loading="lazy"/>
   <details class="sub"><summary>&#x1f4c3; Texto para testar layouts</summary>
 	<p>Vamos salvar nosso arquivo em uma pasta chamada <code>webdesign</code>.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="007" name="sl">
 			   <label for="007"></label>
-			   <img src="basico/02_01_00.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/02_01_00.png" loading="lazy"/>
 			   <figcaption>Escolha a opção do Bloco de Notas <code>Salvar como</code>. Salve o arquivo como <code>pagina1.htm</code>. Uma dica importantíssima é de <b>não usar acentuação para nomear as páginas</b>!!!</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="008" name="sl">
 			   <label for="008"></label>
-			   <img src="basico/02_01_01.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/02_01_01.png" loading="lazy"/>
 			   <figcaption>É muito importante lembrar que a extensão do arquivo deve ser <code>.htm</code> ou <code>.html</code>. Abra o arquivo em um navegador de internet. Como não foram feitas as marcações dos parágrafos, vamos colocá-las no arquivo.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="009" name="sl">
 			   <label for="009"></label>
-			   <img src="basico/02_01_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/02_01_02.png" loading="lazy"/>
 			   <figcaption>Antes de cada parágrafo, devemos colocar a tag <code>&lt;p&gt;</code>. Logo após o parágrafo, colocamos a tag de fechamento de parágrafo <code>&lt;/p&gt;</code>. Faça isso nos 2 parágrafos e visualize a página em um navegador.</figcaption>
 		   </li>
 		</ul>
-		<img src="basico/02_01_00.png" class="fundo" loading="lazy" loading="lazy"/>
+		<img src="basico/02_01_00.png" class="fundo" loading="lazy"/>
   </details>
-  <img src="basico/tags001_0002a.png" loading="lazy" loading="lazy"/>
+  <img src="basico/tags001_0002a.png" loading="lazy"/>
   <p class="topop"><a href="#basico" class="topo">voltar ao topo</a></p>
   <div class="embed-container">
 		<iframe width="100%" src="https://www.youtube.com/embed/gWhH6yQpme4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <img src="basico/tags001_0003.png" loading="lazy" loading="lazy"/>
+  <img src="basico/tags001_0003.png" loading="lazy"/>
   <details class="sub"><summary>&#x1f4c3; Layout básico de uma página</summary>
 	<p>O layout básico de uma página HTML tem as seguintes partes: cabeçalho (<code>head</code>) e corpo da página (<code>body</code>). Vamos ver os elementos de cada parte:</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="010" name="sl">
 			   <label for="010"></label>
-			   <img src="basico/03_01_01.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/03_01_01.png" loading="lazy"/>
 			   <figcaption>O cabeçalho <code>&lt;head&gt;</code> contém informações autorais, título, codificação de caracteres, palavras-chave, scripts e referências externas. Nem todos os elementos desta tag são visíveis para os visitantes da página.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="011" name="sl">
 			   <label for="011"></label>
-			   <img src="basico/03_01_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/03_01_02.png" loading="lazy"/>
 			   <figcaption>Dentro da tag do corpo da página <code>&lt;body&gt;</code> devemos colocar todos os contéudos visíveis para os visitantes.</figcaption>
 		   </li>
 		   <li>
@@ -138,28 +138,28 @@
 </figcaption>
 		   </li>
 		</ul>
-		<img src="basico/03_01_00.png" class="fundo" style="visibility:hidden" loading="lazy" loading="lazy"/>
+		<img src="basico/03_01_00.png" class="fundo" style="visibility:hidden" loading="lazy"/>
   </details>
-  <img src="basico/tags001_0003a.png" loading="lazy" loading="lazy"/>
+  <img src="basico/tags001_0003a.png" loading="lazy"/>
   <details class="sub"><summary>&#x1f4c3; Fundo da página, alinhamentos</summary>
 	<p>Vamos deixar todos os arquivos desta disciplina organizados. Podemos criar uma pasta chamada <code>pagina1</code> para colocar todos os arquivos desta primeira página. É importante deixar os arquivos sempre organizados em pastas para usarmos as referências corretas na hora de construir sites.</p>
 	  <ul class="slider">
 		  <li>
 			   <input type="radio" id="012" name="sl">
 			   <label for="012"></label>
-			   <img src="basico/03_02_01.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/03_02_01.png" loading="lazy"/>
 			   <figcaption>Crie uma pasta dentro da pasta <code>pagina1</code> para colocarmos as imagens. Podemos chamá-la de <code>imagens</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="012a" name="sl">
 			   <label for="012a"></label>
-			   <img src="basico/03_02_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/03_02_02.png" loading="lazy"/>
 			   <figcaption>Podemos escolher uma imagem para colocar no fundo da página (<code>background</code>). Escolha uma imagem com largura maior do que 1000px, para cobrir todo o fundo da página, e salve na pasta que criamos <code>/imagens</code>.</figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="013" name="sl">
 			   <label for="013"></label>
-			   <img src="basico/03_02_02.png" loading="lazy" loading="lazy"/>
+			   <img src="basico/03_02_02.png" loading="lazy"/>
 			   <figcaption>Na tag do corpo da página, colocamos o caminho da imagem salva: <code>&lt;body background="imagens/fundo.jpg"&gt;</code>. Salve e veja a página renderizada em um navegador.</figcaption>
 		   </li>
 		   <li>
