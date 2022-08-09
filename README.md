@@ -3896,28 +3896,33 @@ body {width:95%; margin:auto;}
 
 <a alt="tamanhos e alinhamentos dos desenhos SVG">.logo</a> {display:flex; flex:1; justify-content:flex-start;}
 
-<a alt="tamanhos, propriedades do texto e alinhamento do banner">.banner</a> {display:flex; flex:2; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
+<a alt="tamanhos, propriedades do texto e alinhamento do banner">.banner</a> {display:flex; flex:2; min-height:250px; align-items:center; overflow:auto; 
+justify-content:center; width:100%; font-size:3em; 
+text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
 
 <a alt="tag mãe do menu">label</a> {padding:15px; flex:1.5; width:100%;}
-.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
+.menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; 
+flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
-.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; 
+font-weight: bold; transition: 0.5s; border-radius:7px; text-shadow:1px 1px 2px black; 
+background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 .menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
 
 #checkbox1, .toggle {display:none;}
 
 <a alt="propriedades das classes em telas menores">@media screen</a> and (max-width:800px) {
-	.barra {flex-direction:column; align-items:stretch;  text-align:center;}
-	.banner {flex:1;}
-	.logo {flex:1;}
-	svg {max-height:20vh;}
-	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:grey;}
-	#checkbox1:checked + label .menu li {visibility:visible;}
-	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
-	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
-	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
-	.menu li {visibility:hidden; border-right:none; padding:10px;}
+    .barra {flex-direction:column; align-items:stretch;  text-align:center;}
+    .banner {flex:1;}
+    .logo {flex:1;}
+    svg {max-height:20vh;}
+    .toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:grey;}
+    #checkbox1:checked + label .menu li {visibility:visible;}
+    #checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
+    .menu ul{display:flex; flex-direction:column; align-content:flex-end;}
+    .menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
+    .menu li {visibility:hidden; border-right:none; padding:10px;}
 }</code></pre></figcaption>   
 		   </li>
 		</ul>
@@ -3985,8 +3990,8 @@ body {width:95%; margin:auto;}
 		<a alt="tag de grupo: definimos a cor e espessura das linhas">&lt;g stroke="orange" stroke-width="1"</a> name="sol"&gt;
 			<a alt="círculo com centro em (100,100) e raio 50">&lt;circle r="50" cx="100" cy="100"</a> fill="rgb(100%, 90%, 0%)" /&gt;
 			<a alt="primeiro raio entre os pontos (100,10) e (100,40)">&lt;line x1="100" y1="10" x2="100" y2="40"</a>/&gt;
-			&lt;line x1="100" y1="10" x2="100" y2="40" <a alt="12 raios: repetir a tag e rotacionar em torno do centro com 30&deg;">transform="rotate(30,100,100)"</a>/&gt;
-			&lt;line x1="100" y1="10" x2="100" y2="40" <a alt="no próximo raio, rotacionamos com 60&deg;">transform="rotate(60,100,100)"</a>/&gt;
+			<a alt="12 raios: repetir a tag e rotacionar em torno do centro com 30&deg;">&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(30,100,100)"</a>/&gt;
+			<a alt="no próximo raio, rotacionamos com 60&deg;">&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(60,100,100)"</a>/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(90,100,100)"/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(120,100,100)"/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(150,100,100)"/&gt;
@@ -4055,7 +4060,7 @@ body {width:95%; margin:auto;}
 	<a alt="círculo com centro em (50,50) e raio 30">&lt;circle r="30" cx="50" cy="50"</a> stroke="red" <a alt="espessura das linhas de 5px">stroke-width="5"</a> fill="none" /&gt;
 	&lt;g stroke-width="0" fill="red" name="roda"&gt;
 		<a alt="primeiro trapézio, com a sequência de vértices">&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;</a>
-		&lt;polygon points="40,20 60,20 55,10 45,10" <a alt="depois, rotacionamos este trapézio com 30&deg;, depois 60&deg;...">transform="rotate(30,50,50)"</a>/&gt;
+		<a alt="depois, rotacionamos este trapézio com 30&deg;, depois 60&deg;...">&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"</a>/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
@@ -4104,11 +4109,11 @@ body {width:95%; margin:auto;}
 			   <label for="316"></label>
 			   <img src="css4/41_02_13.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod42', 'cd42')" onmouseout="outFunc('cd42')"><span class="tooltiptext" id="cd42">Copiar o código</span></button></div>E assim fica o desenho do nosso banner. Se necessário, mude configurações CSS e os arquivos dos backgrounds. A estrutura SVG deste banner fica assim:
-<pre><code id="cod42">&lt;svg viewBox="0 0 100 100"&gt;
-	&lt;g stroke-width="0" fill="skyblue" name="estrela"&gt;
-		&lt;circle r="15" cx="50" cy="50"/&gt;
-		&lt;polygon points="40,40 50,10 60,40"/&gt;
-		&lt;polygon points="40,40 50,10 60,40" transform="rotate(72,50,50)"/&gt;
+<pre><code id="cod42"><a alt="janela de visualização de 100 x 100 pixels">&lt;svg viewBox="0 0 100 100"&gt;</a>
+	<a alt="espessura 0 nas linhas">&lt;g stroke-width="0"</a> fill="skyblue" name="estrela"&gt;
+		<a alt="círculo com centro em (50,50) e raio 15">&lt;circle r="15" cx="50" cy="50"/&gt;</a>
+		<a alt="sequência de vértices do primeiro triângulo">&lt;polygon points="40,40 50,10 60,40"/&gt;</a>
+		<a alt="rotação de 72&deg; do primeiro triângulo.">&lt;polygon points="40,40 50,10 60,40" transform="rotate(72,50,50)"/&gt;</a>
 		&lt;polygon points="40,40 50,10 60,40" transform="rotate(144,50,50)"/&gt;
 		&lt;polygon points="40,40 50,10 60,40" transform="rotate(216,50,50)"/&gt;
 		&lt;polygon points="40,40 50,10 60,40" transform="rotate(288,50,50)"/&gt;
@@ -4152,13 +4157,13 @@ body {width:95%; margin:auto;}
 			   <img src="css4/41_03_03.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod41', 'cd41')" onmouseout="outFunc('cd41')"><span class="tooltiptext" id="cd41">Copiar o código</span></button></div>O banner fica com este layout. Teste os atributos de cores e tamanhos em seu desenho. Veja a estrutura SVG deste banner:
 <pre><code id="cod41">&lt;svg viewBox="0 0 100 100"&gt;
-	&lt;g fill="none" stroke-width="2" stroke="green" id="atomos" transform="translate(0,-8)"&gt;
-		&lt;circle r="8" cx="50" cy="50" fill="green"/&gt;
-		&lt;ellipse cx="50" cy="50" rx="15" ry="35"/&gt;
-		&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(60,50,50)"/&gt;
-		&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(120,50,50)"/&gt;
+	<a alt="translação de 8px para cima, para inserir o texto abaixo do desenho">&lt;g fill="none" stroke-width="2" stroke="green" id="atomos" transform="translate(0,-8)"&gt;</a>
+		<a alt="círculo com centro em (50,50) e raio 8">&lt;circle r="8" cx="50" cy="50"</a> fill="green"/&gt;
+		<a alt="elipse com centro em (50,50) e raios 15 e 35">&lt;ellipse cx="50" cy="50" rx="15" ry="35"/&gt;</a>
+		<a alt="rotação da elipse com 60&deg;">&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(60,50,50)"/&gt;</a>
+		<a alt="rotação da elipse com 120&deg;">&lt;ellipse cx="50" cy="50" rx="15" ry="35" transform="rotate(120,50,50)"/&gt;</a>
 	&lt;/g&gt;
-	&lt;text x="20" y="95" font-weight="bold" font-size="20pt" fill="aqua" stroke="green" stroke-width="1"&gt;Átomos&lt;/text&gt;
+	<a alt="texto que pode ser configurado no CSS">&lt;text x="20" y="95"</a> font-weight="bold" font-size="20pt" fill="aqua" stroke="green" stroke-width="1"&gt;Átomos&lt;/text&gt;
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
 		   <li>
@@ -4192,7 +4197,7 @@ body {width:95%; margin:auto;}
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod40', 'cd40')" onmouseout="outFunc('cd40')"><span class="tooltiptext" id="cd40">Copiar o código</span></button></div>O layout deste banner fica desta forma. Configure os atributos para fazer o seu banner. Veja a estrutura SVG deste banner:
 <pre><code id="cod40">&lt;svg viewBox="0 0 100 100"&gt;
 	&lt;g fill="green" stroke-opacity="0.3" stroke-width="0.5" stroke="black" transform="translate(0,-8)" id="icone"&gt;
-		&lt;rect x="45" y="10" width="10" rx="2" height="80"/&gt;
+		<a alt="retângulo de dimensões 10 x 80 px e cantos arredondados de 2px">&lt;rect x="45" y="10" width="10" rx="2" height="80"/&gt;</a>
 		&lt;rect x="45" y="10" width="10" rx="2" height="80" transform="rotate(60,50,50)"/&gt;
 		&lt;rect x="45" y="10" width="10" rx="2" height="80" transform="rotate(120,50,50)"/&gt;
 	&lt;/g&gt;
