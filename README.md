@@ -4634,7 +4634,7 @@ filter="url(#efeito10)"
 	  filter="url(#filtro)"&gt;
 		<a alt="desenho do cabo com arcos">&lt;path d=</a>"M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z" /&gt;
 		&lt;rect x="40" y="120" rx="5" width="120" height="70" /&gt;
-		&lt;animate <a alt="animação da linha de contorno">attributeName=</a>"stroke-dashoffset" <a alt="valores na animação vai-e-vem: de 400, para 0, depois retorna a 400">values=</a>"400;0;400" dur="7s" <a alt="início da animação">begin=</a>"0s"
+		&lt;animate <a alt="animação da linha de contorno">attributeName=</a>"stroke-dashoffset" <a alt="de 400, para 0 e retorna a 400">values=</a>"400;0;400" dur="7s" <a alt="início">begin=</a>"0s"
 		  <a alt="não deixa o desenho sumir depois da animação">fill=</a>"freeze" <a alt="repetição infinita">repeatCount=</a>"indefinite"/&gt;
 		&lt;animate <a alt="animação da opacidade">attributeName=</a>"opacity" <a alt="valores parciais da animação">values=</a>"0.8;1;0.8" dur="7s" begin="0s" 
 		  fill="freeze" repeatCount="indefinite"/&gt;
@@ -4739,9 +4739,10 @@ filter="url(#efeito10)"
 			   <input type="radio" id="376a" name="sl">
 			   <label for="376a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod29', 'cd29')" onmouseout="outFunc('cd29')"><span class="tooltiptext" id="cd29">Copiar o código</span></button></div>Trecho da estrutura CSS do 9&ordm; banner, configurando o novo banner:
-<pre><code id="cod29">.banner2 svg{width:100%; max-height:470px; flex:3;}
-.banner2 {display:flex; justify-content:flex-end; align-items:center; background:linear-gradient(to bottom, skyblue, white);}
-.banner2 label .menu ul{flex:1; flex-direction:column; align-content:flex-end;}
+<pre><code id="cod29"><a alt="limitações do SVG do banner2">.banner2 svg</a> {width:100%; max-height:470px; flex:3;}
+.banner2 {display:flex; justify-content:flex-end; align-items:center; 
+background:linear-gradient(to bottom, skyblue, white);}
+<a alt="limitações do menu no banner2">.banner2 label .menu ul</a> {flex:1; flex-direction:column; align-content:flex-end;}
 .banner2 label .menu li{margin-bottom:15px;}
 
 textpath {font-family:Calibri; font-size:30pt; text-shadow:1px 1px 3px yellow;}
@@ -4750,7 +4751,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 <pre><code id="cod28">&lt;div class="banner2"&gt;
 	&lt;svg viewBox="0 0 150 76" &gt;
 		&lt;defs&gt;
-			&lt;linearGradient id="linear2" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+			<a alt="lista de efeitos de gradiente e filtros">&lt;linearGradient id=</a>"linear2" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
 				&lt;stop offset="0%" stop-color="skyblue"/&gt;
 				&lt;stop offset="100%" stop-color="white"/&gt;
 			&lt;/linearGradient&gt;
@@ -4784,17 +4785,27 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
 		&lt;/g&gt;
 		&lt;g name="perfil" filter="url(#filtro)"&gt;
-			&lt;path d="M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" stroke-width="0.5" stroke-dasharray="900"&gt;
-				&lt;animate attributeName="stroke-dashoffset" values="900;0;900" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			<a alt="desenho do perfil arquitetônico">&lt;path d=</a>"M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 
+			  h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 
+			  a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 
+			  v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 
+			  v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" 
+			  stroke-width="0.5" stroke-dasharray="900"&gt;
+				&lt;animate <a alt="animação do contorno do perfil">attributeName=</a>"stroke-dashoffset" values="900;0;900" 
+				  dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 			&lt;/path&gt;
 		&lt;/g&gt;
 		&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
-			&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
-				&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 
+			  a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" 
+			  stroke-width="0.5" stroke-dasharray="80"&gt;
+				&lt;animate <a alt="animação do contorno da nuvem">attributeName=</a>"stroke-dashoffset" values="80;0;80" 
+				  dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 			&lt;/path&gt;
 		&lt;/g&gt;
 		&lt;circle r="5" cx="55" cy="15" fill="url(#radial1)" filter="url(#filtro)" /&gt;
-		&lt;g stroke-dasharray="35" stroke="orange" stroke-width="0.3" filter="url(#filtro)" name="sol" &gt;
+		&lt;g stroke-dasharray="35" stroke="orange" stroke-width="0.3" 
+		  filter="url(#filtro)" name="sol" &gt;
 			&lt;path d="M55,4 v5" stroke-dasharray="5" /&gt;
 			&lt;path d="M55,4 v5" transform="rotate(45,55,15)" stroke-dasharray="5"/&gt;
 			&lt;path d="M55,4 v5" transform="rotate(90,55,15)" stroke-dasharray="5"/&gt;
@@ -4803,7 +4814,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;path d="M55,4 v5" transform="rotate(-45,55,15)" stroke-dasharray="5"/&gt;
 			&lt;path d="M55,4 v5" transform="rotate(-90,55,15)" stroke-dasharray="5"/&gt;
 			&lt;path d="M55,4 v5" transform="rotate(-135,55,15)" stroke-dasharray="5"/&gt;
-			&lt;animate attributeName="stroke-dashoffset" values="3;0;3" dur="10s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			&lt;animate <a alt="animação do contorno do sol">attributeName=</a>"stroke-dashoffset" values="3;0;3" dur="10s" 
+			begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/svg&gt;
 	&lt;input type="checkbox" id="checkbox1"&gt;
