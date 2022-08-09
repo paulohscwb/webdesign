@@ -452,8 +452,8 @@
 	&lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
 	<a alt="tag de link &lt;a&gt; que abre em nova aba com atributo target _blank&#10;href contém o caminho da página do link">&lt;a href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;</a>
 	
-	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;a&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" 
-	  width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
+	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;a&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png"</a>
+	  width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
 
 	&lt;figure align="center"&gt;     
 		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
@@ -812,8 +812,8 @@
 	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" 
-			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg"</a> 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" 
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" 
@@ -822,8 +822,8 @@
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" 
-			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg"</a> 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;a href="imagens/imagem6.png"&gt;&lt;img src="imagens/imagem6.png" 
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;a href="imagens/imagem7.png"&gt;&lt;img src="imagens/imagem7.png" 
@@ -874,15 +874,15 @@
 			<a alt="terceira célula &lt;td&gt; com áudio salvo na pasta audios, largura de 34%">&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;</a>
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/E4povfmX144"
+			<a alt="primeira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/E4povfmX144"</a>
 			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
+			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/_5pSQGk9BXQ"
 			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
 			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-			<a alt="terceira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/_5pSQGk9BXQ"
+			<a alt="terceira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/_5pSQGk9BXQ"</a>
 			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
+			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt; 
@@ -947,8 +947,8 @@
 			&lt;th&gt;&lt;font color="white"&gt;QUANTIDADE&lt;/font&gt;&lt;/th&gt;
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela com alinhamento centralizado">&lt;tr align="center"&gt;</a>
-			<a alt="tag de célula &lt;td&gt; com imagem de fundo de verdura&#10;célula mesclada com a célula de baixo com o atributo rowspan: 2">&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;
-			  &lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</a>
+			<a alt="tag de célula &lt;td&gt; com imagem de fundo de verdura&#10;célula mesclada com a célula de baixo com o atributo rowspan: 2">&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;</a>
+			  &lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
 			&lt;td&gt;Hortaliça crua&lt;/td&gt;
 			&lt;td&gt;180g&lt;/td&gt;
 			&lt;td&gt;1 pires cheio&lt;/td&gt;
@@ -1141,8 +1141,8 @@
 				&lt;h4&gt;Conheça nossas promoções&lt;/h4&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/promocao.jpg" width="100%"&gt;&lt;/p&gt;
 				&lt;h4&gt;Tabela de Nutrientes&lt;/h4&gt;
-				<a alt="insira o link para a página de nutrientes do exercício 3&#10;não esqueça de salvar a página no mesmo diretório desta atividade">&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa 
-				  tabela de nutrientes&lt;/p&gt;</a>
+				<a alt="insira o link para a página de nutrientes do exercício 3&#10; não esqueça de salvar a página no mesmo diretório da atividade">&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt;</a> a nossa 
+				  tabela de nutrientes&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 		<a alt="tag da terceira linha &lt;tr&gt; com o rodapé da página">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
@@ -1297,8 +1297,8 @@
 		<a alt="tag da segunda linha &lt;tr&gt; com a lista seletora das páginas">&lt;tr align="center"&gt;</a>
 			<a alt="tag da célula &lt;td&gt; com a lista seletora">&lt;td&gt;</a>
 				<a alt="tag de rótulo &lt;label&gt; para a lista seletora">&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;</a>
-				<a alt="tag da lista &lt;select&gt; com o nome paginas linkada com o iframe1">&lt;select  onchange="javascript:iframe1.location=this.value"
-				  id="paginas" name="paginas"&gt;</a>
+				<a alt="tag da lista &lt;select&gt; com o nome paginas linkada com o iframe1">&lt;select  onchange="javascript:iframe1.location=this.value"</a>
+				  id="paginas" name="paginas"&gt;
 					<a alt="tag &lt;option&gt; com a primeira opção de página de ponto turístico&#10;lembre-se de colocar os nomes corretos das páginas criadas">&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;</a>
 					&lt;option value="kremlin.htm"&gt;Kremlin de Moscou&lt;/option&gt;
 					&lt;option value="tajmahal.htm"&gt;Taj Mahal&lt;/option&gt;
@@ -1306,8 +1306,8 @@
 					&lt;option value="colosseum.htm"&gt;Colosseum&lt;/option&gt;
 				&lt;/select&gt;
 				&lt;/font&gt;
-				<a alt="tag &lt;iframe&gt; que vai mostrar as páginas selecionadas">&lt;iframe src="capadocia.htm" name="iframe1" width="100%" 
-				  style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;</a>
+				<a alt="tag &lt;iframe&gt; que vai mostrar as páginas selecionadas">&lt;iframe src="capadocia.htm" name="iframe1" width="100%"</a> 
+				  style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
