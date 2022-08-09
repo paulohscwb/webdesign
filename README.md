@@ -4815,7 +4815,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;path d="M55,4 v5" transform="rotate(-90,55,15)" stroke-dasharray="5"/&gt;
 			&lt;path d="M55,4 v5" transform="rotate(-135,55,15)" stroke-dasharray="5"/&gt;
 			&lt;animate <a alt="animação do contorno do sol">attributeName=</a>"stroke-dashoffset" values="3;0;3" dur="10s" 
-			begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			  begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/svg&gt;
 	<a alt="estrutura do menu responsivo">&lt;input type="checkbox"</a> id="checkbox1"&gt;
