@@ -3885,7 +3885,7 @@ padding:20px; color:black;}
 			   <label for="295b"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod45', 'cd45')" onmouseout="outFunc('cd45')"><span class="tooltiptext" id="cd45">Copiar o código</span></button></div>Estrutura CSS da Atividade 9:
 <pre><code id="cod45">* {font-family: 'Kufam', cursive; font-size:18px;}
-body {width:100%; margin:auto;}
+body {width:95%; margin:auto;}
 
 .boxSite {box-shadow:0 0 8px black;}
 
@@ -3896,17 +3896,30 @@ body {width:100%; margin:auto;}
 .barra:nth-child(3){background:url(imagens/banner3.jpg);background-size:cover;}
 
 .logo {display:flex; flex:1; justify-content:flex-start;}
-svg {width:100%; max-height:250px;}
-text {font-family: Calibri; }
 
-.banner {display:flex; flex:1; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
+.banner {display:flex; flex:2; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
 
-label {padding:15px; flex:1; width:100%;}
+label {padding:15px; flex:1.5; width:100%;}
 .menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
 .menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
-.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}</code></pre></figcaption>   
+.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+
+#checkbox1, .toggle {display:none;}
+
+@media screen and (max-width:800px) {
+	.barra {flex-direction:column; align-items:stretch;  text-align:center;}
+	.banner {flex:1;}
+	.logo {flex:1;}
+	svg {max-height:20vh;}
+	.toggle {display:block; width:95%; text-align:right; font-size:35px; cursor:pointer; color:grey;}
+	#checkbox1:checked + label .menu li {visibility:visible;}
+	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
+	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
+	.menu {width:100%; max-height:0; opacity:0; transition: 0.3s;}
+	.menu li {visibility:hidden; border-right:none; padding:10px;}
+}</code></pre></figcaption>   
 		   </li>
 		</ul>
 		<img src="css4/39_01_00.png" class="fundo" style="visibility:hidden" loading="lazy"/>
