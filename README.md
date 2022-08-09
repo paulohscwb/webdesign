@@ -4559,14 +4559,14 @@ filter="url(#efeito10)"
 		&lt;stop offset="100%" stop-color="#C36900"/&gt;
 	&lt;/linearGradient&gt;
 	&lt;g id="xicara" fill="url(#efeito13)" stroke="grey"&gt;
-		&lt;ellipse cx="160" cy="140" rx="30" ry="20" fill="url(#efeito13)" stroke="grey"/&gt;
-		&lt;ellipse cx="160" cy="140" rx="18" ry="10" pathLength="2" fill="white" stroke="grey"/&gt;
-		&lt;path d="M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z"/&gt;
+		<a alt="elipse maior do cabo">&lt;ellipse cx="160" cy="140"</a> rx="30" ry="20" fill="url(#efeito13)" stroke="grey"/&gt;
+		<a alt="elipse menor do cabo, preenchimento branco">&lt;ellipse cx="160" cy="140"</a> rx="18" ry="10" pathLength="2" fill="white" stroke="grey"/&gt;
+		<a alt="retângulo do contorno da xícara">&lt;rect x="40" y="120"</a> rx="5" width="120" height="70" /&gt;
 	&lt;/g&gt;
 	&lt;g id="fumaca" fill="none" stroke="grey" stroke-width="2"&gt;
-		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50"  /&gt;
-		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(-20,0)"/&gt;
-		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(20,0)"/&gt;
+		&lt;path d="M100,110 <a alt="curva de Bezier, ponto de controle (-25,-25) e final (0,-50)">q-25,-25 0,-50</a> <a alt="continuação da curva de Bezier no ponto (0,-50)">t0,-50"</a>  /&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" <a alt="translação da curva com coordenada x=-20">transform=</a>"translate(-20,0)"/&gt;
+		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" <a alt="translação da curva com coordenada x=20">transform=</a>"translate(20,0)"/&gt;
 	&lt;/g&gt;
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
@@ -4630,19 +4630,26 @@ filter="url(#efeito10)"
 		&lt;stop offset="0%" stop-color="orange"/&gt;
 		&lt;stop offset="100%" stop-color="#C36900"/&gt;
 	&lt;/linearGradient&gt;
-	&lt;g id="xicara" fill="url(#efeito13)" stroke="grey" opacity="0.8" stroke-dasharray="400" filter="url(#filtro)"&gt;
-		&lt;path d="M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z" /&gt;
+	&lt;g id="xicara" fill="url(#efeito13)" stroke="grey" opacity="0.8" stroke-dasharray="400" 
+	  filter="url(#filtro)"&gt;
+		<a alt="desenho do cabo com arcos">&lt;path d=</a>"M160,120 a30,20 0 0,1 0,40 v-10 a18,10 0 0,0 0,-20z" /&gt;
 		&lt;rect x="40" y="120" rx="5" width="120" height="70" /&gt;
-		&lt;animate attributeName="stroke-dashoffset" values="400;0;400" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-		&lt;animate attributeName="opacity" values="0.8;1;0.8" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;animate <a alt="animação da linha de contorno">attributeName=</a>"stroke-dashoffset" <a alt="valores na animação vai-e-vem: de 400, para 0, depois retorna a 400">values=</a>"400;0;400" dur="7s" <a alt="início da animação">begin=</a>"0s"
+		  <a alt="não deixa o desenho sumir depois da animação">fill=</a>"freeze" <a alt="repetição infinita">repeatCount=</a>"indefinite"/&gt;
+		&lt;animate <a alt="animação da opacidade">attributeName=</a>"opacity" <a alt="valores parciais da animação">values=</a>"0.8;1;0.8" dur="7s" begin="0s" 
+		  fill="freeze" repeatCount="indefinite"/&gt;
 	&lt;/g&gt;
-	&lt;g id="fumaca" fill="none" stroke="grey" stroke-width="2" stroke-dasharray="150" opacity="0.5" filter="url(#filtro)"&gt; 
+	&lt;g id="fumaca" fill="none" stroke="grey" stroke-width="2" stroke-dasharray="150" 
+	  opacity="0.5" filter="url(#filtro)"&gt; 
 		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50"  /&gt;
 		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(-20,0)"/&gt;
 		&lt;path d="M100,110 q-25,-25 0,-50 t0,-50" transform="translate(20,0)"/&gt;
-		&lt;text x="50" y="215" font-weight="bold" fill="url(#efeito13)" stroke="brown" stroke-width="1"&gt;Meu Café&lt;/text&gt;
-		&lt;animate attributeName="stroke-dashoffset" values="150;0;150" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-		&lt;animate attributeName="opacity" values="0.5;1;0.5" dur="7s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;text x="50" y="215" font-weight="bold" fill="url(#efeito13)" stroke="brown" 
+		  stroke-width="1"&gt;Meu Café&lt;/text&gt;
+		&lt;animate <a alt="animação na linha de contorno">attributeName=</a>"stroke-dashoffset" values="150;0;150" dur="7s" begin="0s" 
+		  fill="freeze" repeatCount="indefinite"/&gt;
+		&lt;animate <a alt="animação da opacidade">attributeName=</a>"opacity" values="0.5;1;0.5" dur="7s" begin="0s" 
+		  fill="freeze" repeatCount="indefinite"/&gt;
 	&lt;/g&gt;
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li> 
