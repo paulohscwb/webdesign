@@ -5633,12 +5633,12 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 	&lt;!-- fotos ampliadas, escondidas pelo CSS --&gt;
 	&lt;div <a alt="classe das imagens ampliadas">class=</a>"maior" <a alt="identificação da primeira imagem ampliada">id=</a>"img1"&gt;
 		&lt;div <a alt="bloco com imagem e botões">class=</a>"bloco"&gt;
-			&lt;a <a alt="link da imagem anterior">href=</a>"#img12" <a alt="botão da imagem anterior">class=</a>"botao anterior"&gt;&lt;<a alt="código HTML da seta de imagem anterior">&lt;</a>/a&gt;
+			&lt;a <a alt="link da imagem anterior">href=</a>"#img12" <a alt="botão da imagem anterior">class=</a>"botao anterior"&gt;&lt;<a alt="código HTML da seta de imagem anterior">&lt;</a>&gt;
 			<a alt="bloco da imagem e da legenda">&lt;figure&gt;</a>
 				&lt;img src="imagens/projeto1.jpg"&gt;
 				&lt;figcaption&gt;Meu projeto 1&lt;/figcaption&gt;
 			&lt;/figure&gt;
-			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;<a alt="código HTML da seta de próxima imagem">&gt;</a>&lt;/a&gt;
+			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;<a alt="código HTML da seta de próxima imagem">&gt;</a>&lt;&gt;
 			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;<a alt="X usado para fechar o bloco">x</a>&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
