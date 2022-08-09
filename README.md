@@ -5474,8 +5474,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;path d="M50,20 v-15" transform="rotate(330,50,50)"/&gt;
 			&lt;animate attributeName="stroke-dashoffset" from="30" to="0" dur="4s" 
 			  begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,50,50" to="360,50,50" 
-			  begin="0s" dur="30s" repeatCount="indefinite"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" 
+			  from="0,50,50" to="360,50,50" begin="0s" dur="30s" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/g&gt;
 	&lt;g <a alt="nuvens com efeitos já usados anteriormente">id="nuvem1"</a> transform="scale(0.4) translate(1700,0)" filter="url(#filtro3)"&gt;
@@ -5558,7 +5558,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;animate <a alt="animação do preenchimento do texto">attributeName="fill"</a> from="rgba(180,45,10,0.2)" to="rgba(180,45,100,1)" 
 		  dur="5s" begin="0s" fill="freeze" /&gt;
 	&lt;/text&gt;
-	&lt;a <a alt="links no SVG, com imagens">href="http://www.facebook.com/pages/UFPR"&gt;</a>
+	&lt;a <a alt="links para redes sociais feitos no SVG, com imagens">href="http://www.facebook.com/pages/UFPR"&gt;</a>
 		&lt;image xlink:href="imagens/facebook.png" x="860" y="140" 
 		  height="50px" width="50px" filter="url(#filtro2)"/&gt;
 	&lt;/a&gt;
@@ -5624,22 +5624,22 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod17', 'cd17')" onmouseout="outFunc('cd17')"><span class="tooltiptext" id="cd17">Copiar o código</span></button></div>Trecho da estrutura HTML da galeria da Atividade 10:
 <pre><code id="cod17">&lt;div class="galeria"&gt;
 	&lt;!-- miniaturas das fotos --&gt;
-	&lt;a href="#img1" class="mini" title="Meu projeto 1"&gt;
-		&lt;img src="imagens/projeto1.jpg"&gt;
+	&lt;a <a alt="link da miniatura para a respectiva foto ampliada">href=</a>"#img1" <a alt="classe das miniaturas">class=</a>"mini" <a alt="título que será usado como legenda">title=</a>"Meu projeto 1"&gt;
+		&lt;img <a alt="caminho da primeira imagem">src=</a>"imagens/projeto1.jpg"&gt;
 	&lt;/a&gt;		
 	&lt;a href="#img2" class="mini" title="Meu projeto 2"&gt;
 		&lt;img src="imagens/projeto2.png"&gt;
 	&lt;/a&gt;		
 	&lt;!-- fotos ampliadas, escondidas pelo CSS --&gt;
-	&lt;div class="maior" id="img1"&gt;
-		&lt;div class="bloco"&gt;
-			&lt;a href="#img12" class="botao anterior"&gt;&lt;&lt;/a&gt;
-			&lt;figure&gt;
+	&lt;div <a alt="classe das imagens ampliadas">class=</a>"maior" <a alt="identificação da primeira imagem ampliada">id=</a>"img1"&gt;
+		&lt;div <a alt="bloco com imagem e botões">class=</a>"bloco"&gt;
+			&lt;a <a alt="link da imagem anterior">href=</a>"#img12" <a alt="botão da imagem anterior">class=</a>"botao anterior"&gt;&lt;<a alt="código HTML da seta de imagem anterior">&lt;</a>/a&gt;
+			<a alt="bloco da imagem e da legenda">&lt;figure&gt;</a>
 				&lt;img src="imagens/projeto1.jpg"&gt;
 				&lt;figcaption&gt;Meu projeto 1&lt;/figcaption&gt;
 			&lt;/figure&gt;
-			&lt;a href="#img2" class="botao proxima"&gt;&gt;&lt;/a&gt;
-			&lt;a href="#_" class="botao fechar"&gt;x&lt;/a&gt;
+			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;<a alt="código HTML da seta de próxima imagem">&gt;&lt;/a&gt;
+			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;<a alt="X usado para fechar o bloco">x</a>&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="maior" id="img2"&gt;
