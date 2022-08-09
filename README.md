@@ -4245,7 +4245,7 @@ fill="url(#efeito1)"
 			   <label for="328"></label>
 			   <img src="css4/42_01_03.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod38', 'cd38')" onmouseout="outFunc('cd38')"><span class="tooltiptext" id="cd38">Copiar o código</span></button></div>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 2 e 3 de gradiente é a seguinte:
-<pre><code id="cod38">&lt;radialGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito2" cx="50%" cy="50%" <a alt="final do efeito no triplo do raio">r="300%"&gt;
+<pre><code id="cod38">&lt;radialGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito2" cx="50%" cy="50%" <a alt="final do efeito no triplo do raio">r="300%"&gt;</a>
 	&lt;stop offset="0%" stop-color="darkred "/&gt;
 	&lt;stop offset="100%" stop-color="red"/&gt;
 &lt;/radialGradient&gt;
