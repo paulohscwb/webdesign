@@ -195,19 +195,19 @@
 &lt;/head&gt;
 <a alt="imagem de fundo da página, localizada na pasta imagens">&lt;body background="imagens/fundo.jpg"&gt;</a>
   <a alt="definição de fonte da página, no início da programação">&lt;font face="Verdana"&gt;</a><a alt="alinhamento de parágrafo&#10;justify | left | right | center">&lt;p align="justify"&gt;</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
-  pellentesque ipsum <a alt="destaque de trecho com fonte azul e tamanho 7">&lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;</a>. Fusce a ipsum diam. Fusce sem 
-  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus 
-  ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
-  dui, dictum maximus turpis <a alt="destaque de trecho com fonte verde e tamanho 3">&lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;</a>. Vivamus cursus, leo ac 
-  sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
-  lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
-  malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
+  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit 
+  amet pellentesque ipsum <a alt="destaque de trecho com fonte azul e tamanho 7">&lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;</a>. Fusce a ipsum diam. 
+  Fusce sem magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa  
+  sollicitudin finibus ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus 
+  dignissim consequat dui, dictum maximus turpis <a alt="destaque de trecho com fonte verde e tamanho 3">&lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;</a>. Vivamus  
+  cursus, leo ac sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at  
+  nulla et justo lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac  
+  lorem eget tellus malesuada lobortis nec in neque. Sed sit amet pharetra leo.&lt;/p&gt;
   &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim
-  semper facilisis. Cras at dui turpis. Suspendisse convallis nisl leo, vel placerat est venenatis at. 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur tristique 
-  arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin efficitur 
-  eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.<a alt="final da tag de fonte">&lt;/p&gt;&lt;/font&gt;</a>
+  semper facilisis. Cras at dui turpis. Suspendisse convallis nisl leo, vel placerat est venenatis  
+  at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+  Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. Proin  
+  efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.<a alt="final da tag de fonte">&lt;/p&gt;&lt;/font&gt;</a>
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </figcaption>
@@ -264,21 +264,22 @@
 &lt;/head&gt;
 &lt;body background="imagens/fundo.jpg"&gt;
   &lt;font face="Verdana"&gt;&lt;p align="justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit amet 
-  pellentesque ipsum &lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;. Fusce a ipsum diam. Fusce sem 
-  magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa sollicitudin finibus 
-  ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus dignissim consequat 
-  dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus cursus, leo ac 
-  sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at nulla et justo 
-  lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac lorem eget tellus 
-  malesuada lobortis nec in neque. <a alt="destaque de trecho riscado">&lt;del&gt;Sed sit amet pharetra leo.&lt;/del&gt;</a>&lt;/p&gt;
+  Pellentesque vestibulum bibendum posuere. Nulla blandit fermentum mi. In euismod dolor ligula, sit 
+  amet pellentesque ipsum &lt;font color="blue" size="7"&gt;venenatis a&lt;/font&gt;. Fusce a ipsum diam.
+  Fusce sem magna, tempus fringilla arcu nec, interdum ultrices turpis. In euismod massa
+  sollicitudin finibus ultricies. Nullam faucibus elit non semper porta. Curabitur nec leo urna. Phasellus 
+  dignissim consequat dui, dictum maximus turpis &lt;font color="green" size="3"&gt;tristique at&lt;/font&gt;. Vivamus 
+  cursus, leo ac sagittis blandit, est sem lacinia nibh, id sagittis ipsum dui facilisis augue. Fusce at 
+  nulla et justo lacinia egestas in eu ante. Fusce lacinia pulvinar urna ut venenatis. Fusce ac 
+  lorem eget tellus malesuada lobortis nec in neque. <a alt="destaque de trecho riscado">&lt;del&gt;Sed sit amet pharetra leo.&lt;/del&gt;</a>&lt;/p&gt;
 <a alt="barra separadora de conteúdos: vermelha, com largura de 50%, altura de 10px">&lt;hr width="50%" size="10px" color="red"&gt;</a>
 <a alt="título com tamanho 3&#10;h1 | h2 | h3 | h4 | h5 | h6">&lt;h3&gt;Título da seção&lt;/h3&gt;</a>
   &lt;p&gt;Proin finibus diam at imperdiet condimentum. Nullam at dolor dolor. Phasellus a nisi id enim 
-  semper facilisis. <a alt="destaque de trecho em negrito (bold)">&lt;b&gt;Cras at dui turpis&lt;/b&gt;</a>. Suspendisse convallis nisl leo, vel placerat est venenatis 
-  at. <a alt="destaque de trecho com negrito e itálico">&lt;b&gt;&lt;i&gt;Vestibulum ante ipsum primis&lt;/i&gt;&lt;/b&gt;</a> in faucibus orci luctus et ultrices posuere cubilia 
-  Curae; Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed ligula convallis varius. 
-  Proin efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
+  semper facilisis. <a alt="destaque de trecho em negrito (bold)">&lt;b&gt;Cras at dui turpis&lt;/b&gt;</a>. Suspendisse convallis nisl leo, vel placerat est 
+  venenatis at. <a alt="destaque de trecho com negrito e itálico">&lt;b&gt;&lt;i&gt;Vestibulum ante ipsum primis&lt;/i&gt;&lt;/b&gt;</a> in faucibus orci luctus et ultrices 
+  posuere cubilia Curae; Curabitur tristique arcu in turpis tempor tincidunt. Ut varius nisl sed  
+  ligula convallis varius. Proin efficitur eleifend laoreet. Etiam orci nulla, ornare in fringilla eu, 
+  lacinia in turpis.&lt;/p&gt;&lt;/font&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </figcaption>
@@ -395,9 +396,11 @@
 	&lt;h3&gt;Minha página com imagens&lt;/h3&gt;
 	&lt;p&gt;Vamos testar se a imagem está alinhada com o texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 30% e alinhamento à esquerda&#10;align: left | right | middle | top | bottom">&lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt;</a> está alinhada à esquerda do texto.&lt;/p&gt;
+	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 30% e alinhamento à esquerda&#10;align: left | right | middle | top | bottom">&lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt;</a> está alinhada 
+	  à esquerda do texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 80% e alinhada no meio do texto&#10;margens: horizontal 30 e vertical 60">&lt;img src="imagens/figura2.jpg" width="80%" align="middle" hspace="30" vspace="60"&gt;</a> está alinhada no meio do texto.&lt;/p&gt; 
+	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 80% e alinhada no meio do texto&#10;margens: horizontal 30 e vertical 60">&lt;img src="imagens/figura2.jpg" width="80%" align="middle" 
+	  hspace="30" vspace="60"&gt;</a> está alinhada no meio do texto.&lt;/p&gt; 
 	
 	<a alt="tag &lt;figure&gt; para organizar imagens e legendas&#10;align: left | right | center">&lt;figure align="center"&gt;</a>     
 		<a alt="tag de imagem &lt;img&gt;">&lt;img src="imagens/figura3.jpg" width="100%"&gt;</a>     
@@ -449,7 +452,8 @@
 	&lt;h3&gt;Minha página com imagens e links&lt;/h3&gt;
 	<a alt="tag de link &lt;a&gt; que abre em nova aba com atributo target _blank&#10;href contém o caminho da página do link">&lt;a href="http://www.google.com.br" target="_blank" title="Google"&gt;Página do Google&lt;/a&gt;</a>
 	
-	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;a&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
+	<a alt="tag aninhada de imagem &lt;img&gt; por dentro da tag de link &lt;a&gt;&#10;serve para colocar um link em uma imagem">&lt;p&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" 
+	  width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;</a>
 
 	&lt;figure align="center"&gt;     
 		&lt;img src="imagens/figura3.jpg" width="100%"&gt;     
@@ -532,7 +536,8 @@
 	<a alt="áudio com extensão ogg salvo na pasta audios">&lt;source src="audios/musica1.ogg"&gt;</a>
   &lt;/audio&gt;
   <a alt="link de áudio do Spotify, com a palavra Música usada como rótulo&#10;você pode usar uma imagem como rótulo, como mostrado nos códigos de links">&lt;a href="https://open.spotify.com/track/4QVD4vVkYveZuO0xkyi6AX?si=W4d7ctcHSOu2TraZcNaR2g"&gt;Música&lt;/a&gt;</a>
-  &lt;p align="center"&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;p align="center"&gt;&lt;a href="http://www.google.com.br" title="Google"&gt;&lt;img src="imagens/figura2.png" 
+    width="80%" vspace="45"&gt;&lt;/a&gt;&lt;/p&gt;
 
   &lt;figure align="center"&gt;
     &lt;img src="imagens/figura3.png" width="100%"&gt;
@@ -661,7 +666,9 @@
 		&lt;img src="imagens/banner.png" width="90%"&gt;
 	&lt;/figure&gt;
 	&lt;hr&gt;
-	<a alt="tag de moldura &lt;iframe&gt; com vídeo do Youtube&#10;não esqueça de definir a altura e a largura desta tag">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/uKEhiXcrW9A" frameborder="1" color="yellow" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</a>
+	<a alt="tag de moldura &lt;iframe&gt; com vídeo do Youtube&#10;não esqueça de definir a altura e a largura desta tag">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/uKEhiXcrW9A"</a>
+	  frameborder="1" color="yellow" allow="accelerometer; autoplay; encrypted-media; 
+	  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;/body&gt; 
 &lt;/html&gt;</code></pre>
@@ -805,16 +812,24 @@
 	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
-			&lt;td&gt;&lt;a href="imagens/imagem6.png"&gt;&lt;img src="imagens/imagem6.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;a href="imagens/imagem7.png"&gt;&lt;img src="imagens/imagem7.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;a href="imagens/imagem8.png"&gt;&lt;img src="imagens/imagem8.png" width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td&gt;&lt;a href="imagens/imagem5.jpg"&gt;&lt;img src="imagens/imagem5.jpg" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;</a>
+			&lt;td&gt;&lt;a href="imagens/imagem6.png"&gt;&lt;img src="imagens/imagem6.png" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem7.png"&gt;&lt;img src="imagens/imagem7.png" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;a href="imagens/imagem8.png"&gt;&lt;img src="imagens/imagem8.png" 
+			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt; 
@@ -859,9 +874,15 @@
 			<a alt="terceira célula &lt;td&gt; com áudio salvo na pasta audios, largura de 34%">&lt;td width="34%"&gt;&lt;audio src="audios/musica3.mp3 autoplay"&gt;&lt;/audio&gt;&lt;/td&gt;</a>
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/E4povfmX144" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
-			&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-			<a alt="terceira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/_5pSQGk9BXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
+			<a alt="primeira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/E4povfmX144"
+			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
+			&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/_5pSQGk9BXQ"
+			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+			<a alt="terceira célula &lt;td&gt; com vídeo do youtube com tag &lt;iframe&gt;">&lt;td&gt;&lt;iframe width="100%" src="https://www.youtube.com/embed/_5pSQGk9BXQ"
+			  height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+			  gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;</a>
 		&lt;/tr&gt;
 	&lt;/table&gt;
 &lt;/body&gt; 
@@ -926,7 +947,8 @@
 			&lt;th&gt;&lt;font color="white"&gt;QUANTIDADE&lt;/font&gt;&lt;/th&gt;
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela com alinhamento centralizado">&lt;tr align="center"&gt;</a>
-			<a alt="tag de célula &lt;td&gt; com imagem de fundo de verdura&#10;célula mesclada com a célula de baixo com o atributo rowspan: 2">&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;&lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</a>
+			<a alt="tag de célula &lt;td&gt; com imagem de fundo de verdura&#10;célula mesclada com a célula de baixo com o atributo rowspan: 2">&lt;td background="imagens/verdura.jpg" rowspan="2"&gt;&lt;font color="white"&gt;
+			  &lt;b&gt;VERDURA&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</a>
 			&lt;td&gt;Hortaliça crua&lt;/td&gt;
 			&lt;td&gt;180g&lt;/td&gt;
 			&lt;td&gt;1 pires cheio&lt;/td&gt;
@@ -1107,16 +1129,20 @@
 		&lt;/tr&gt; 
 		<a alt="tag da segunda linha &lt;tr&gt; com conteúdo e barra lateral">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
 			<a alt="tag de célula &lt;td&gt; que define o conteúdo principal da página&#10;a largura fica maior, por exemplo, com 70%">&lt;td width="70%"&gt;</a>
-				&lt;p&gt;Aproveite a comodidade de fazer o seu pedido através do nosso site!&lt;/p&gt;
-				&lt;p&gt;É fácil e rápido. Os melhores pratos para você desfrutar no conforto de sua casa!&lt;/p&gt;
+				&lt;p&gt;Aproveite a comodidade de fazer o seu pedido através do 
+				  nosso site!&lt;/p&gt;
+				&lt;p&gt;É fácil e rápido. Os melhores pratos para você desfrutar no 
+				  conforto de sua casa!&lt;/p&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/principal.jpg" width="70%"&gt;&lt;/p&gt;
-				&lt;p&gt;Usamos ingredientes selecionados. Há mais de 40 anos oferecemos opções de qualidade.&lt;/p&gt;
+				&lt;p&gt;Usamos ingredientes selecionados. Há mais de 40 anos oferecemos 
+				  opções de qualidade.&lt;/p&gt;
 			&lt;/td&gt;
 			<a alt="tag de célula &lt;td&gt; que define a barra lateral da página&#10;a largura fica menor, por exemplo, com 30%">&lt;td width="30%" valign="top"&gt;</a>
 				&lt;h4&gt;Conheça nossas promoções&lt;/h4&gt;
 				&lt;p align="center"&gt;&lt;img src="imagens/promocao.jpg" width="100%"&gt;&lt;/p&gt;
 				&lt;h4&gt;Tabela de Nutrientes&lt;/h4&gt;
-				<a alt="insira o link para a página de nutrientes do exercício 3&#10;não esqueça de salvar a página no mesmo diretório desta atividade">&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa tabela de nutrientes&lt;/p&gt;</a>
+				<a alt="insira o link para a página de nutrientes do exercício 3&#10;não esqueça de salvar a página no mesmo diretório desta atividade">&lt;p&gt;&lt;a href="nutrientes.htm"&gt;Acesse aqui&lt;/a&gt; a nossa 
+				  tabela de nutrientes&lt;/p&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
 		<a alt="tag da terceira linha &lt;tr&gt; com o rodapé da página">&lt;tr align="center" bgcolor="#fff3e6"&gt;</a>
@@ -1165,7 +1191,7 @@
 	">&lt;h3&gt;Galeria de imagens com Select&lt;/h3&gt;
 		<a alt="tag de rótulo &lt;label&gt; para a lista seletora com nome imagens">&lt;label for="imagens"&gt;Escolha uma imagem da galeria:&lt;/label&gt;</a>
 		&lt;br&gt;
-		<a alt="tag da lista seletora &lt;select&gt; com javascript ligado ao iframe1&#10;a ligação com o iframe serve para mostrar cada imagem selecionada">&lt;select id="fotos" class="midia" name="imagens" onchange="javascript:iframe1.location=this.value"&gt;</a>
+		<a alt="tag da lista seletora &lt;select&gt; com javascript ligado ao iframe1&#10;a ligação com o iframe serve para mostrar cada imagem selecionada">&lt;select id="fotos" name="imagens" onchange="javascript:iframe1.location=this.value"&gt;</a>
 			<a alt="cada tag &lt;option&gt; contém uma imagem da galeria">&lt;option value="imagens/foto1.jpg"&gt;Foto 1&lt;/option&gt;</a>
 			&lt;option value="imagens/foto2.jpg"&gt;Foto 2&lt;/option&gt;
 			&lt;option value="imagens/foto3.jpg"&gt;Foto 3&lt;/option&gt;
@@ -1271,7 +1297,8 @@
 		<a alt="tag da segunda linha &lt;tr&gt; com a lista seletora das páginas">&lt;tr align="center"&gt;</a>
 			<a alt="tag da célula &lt;td&gt; com a lista seletora">&lt;td&gt;</a>
 				<a alt="tag de rótulo &lt;label&gt; para a lista seletora">&lt;label for="paginas"&gt;Escolha um ponto turístico:&lt;/label&gt;</a>
-				<a alt="tag da lista &lt;select&gt; com o nome paginas linkada com o iframe1">&lt;select id="paginas" class="midia" name="paginas" onchange="javascript:iframe1.location=this.value"&gt;</a>
+				<a alt="tag da lista &lt;select&gt; com o nome paginas linkada com o iframe1">&lt;select  onchange="javascript:iframe1.location=this.value"
+				  id="paginas" name="paginas"&gt;</a>
 					<a alt="tag &lt;option&gt; com a primeira opção de página de ponto turístico&#10;lembre-se de colocar os nomes corretos das páginas criadas">&lt;option value="capadocia.htm"&gt;Capadócia&lt;/option&gt;</a>
 					&lt;option value="kremlin.htm"&gt;Kremlin de Moscou&lt;/option&gt;
 					&lt;option value="tajmahal.htm"&gt;Taj Mahal&lt;/option&gt;
@@ -1279,7 +1306,8 @@
 					&lt;option value="colosseum.htm"&gt;Colosseum&lt;/option&gt;
 				&lt;/select&gt;
 				&lt;/font&gt;
-				<a alt="tag &lt;iframe&gt; que vai mostrar as páginas selecionadas">&lt;iframe src="capadocia.htm" name="iframe1" width="100%" style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;</a>
+				<a alt="tag &lt;iframe&gt; que vai mostrar as páginas selecionadas">&lt;iframe src="capadocia.htm" name="iframe1" width="100%" 
+				  style="min-height:150vh;" frameborder="0" framebordercolor="red"&gt;&lt;/iframe&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
@@ -1305,7 +1333,8 @@
 			&lt;/td&gt;
 			<a alt="tag de célula &lt;td&gt; com a barra lateral da página&#10;esta célula pode ter a largura menor, por exemplo, de 35%&#10;use o atributo valign: top para deixar o conteúdo alinhado no topo">&lt;td width="35%" valign="top"&gt;</a>
 				&lt;h3&gt;Localização&lt;/h3&gt;
-				<a alt="coloque a tag de iframe do mapa do ponto turístico">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;</a>
+				<a alt="coloque a tag de iframe do mapa do ponto turístico">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" 
+				  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;</a>
 			&lt;/td&gt;
 		&lt;/tr&gt;
 		<a alt="tag de linha &lt;tr&gt; com o rodapé">&lt;tr align="center" bgcolor="#eff6f4"&gt;</a>
