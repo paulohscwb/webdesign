@@ -4440,11 +4440,13 @@ filter="url(#efeito10)"
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod33', 'cd33')" onmouseout="outFunc('cd33')"><span class="tooltiptext" id="cd33">Copiar o código</span></button></div>Estrutura SVG do 6&ordm; banner:
 <pre><code id="cod33">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 80 80" id="nuvem1"&gt;
-		&lt;radialGradient id="efeito12" cx="50%" cy="50%" r="100%"&gt;
+		<a alt="gradiente usado na nuvem">&lt;radialGradient id="efeito12"</a> cx="50%" cy="50%" r="100%"&gt;
 			&lt;stop offset="0%" stop-color="rgba(256,256,256,0.4)"/&gt;
 			&lt;stop offset="100%" stop-color="rgba(256,256,256,0.9)""/&gt;
 		&lt;/radialGradient&gt;
-		&lt;path d="M10,15 a11,11 0 0,1 20,-5 a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 a9,9 0 0,1 -15,10 a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" stroke="rgba(200,200,200,0.7)" stroke-width="0.5" fill="url(#efeito12)"/&gt;
+		&lt;path <a alt="início da curva">d=</a>"M10,15 <a alt="raio 11, rotação 0, arco menor, sentido horário, fim (20,-5)">a11,11 0 0,1 20,-5</a> a14,14 0 0,1 25,5 <a alt="raio 6, rotação 0, arco menor, sentido horário, fim (10,10)">a6,6 0 0,1 10,10</a> 
+		  a9,9 0 0,1 -15,10 <a alt="raio 17, rotação 0, arco menor, sentido horário, fim (-25,0)">a17,17 0 0,1 -25,0</a> a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" 
+		  stroke="rgba(200,200,200,0.7)" stroke-width="0.5" fill="url(#efeito12)"/&gt;
 	&lt;/svg&gt;
 &lt;/div&gt;
 &lt;div class="banner"&gt;
@@ -4481,7 +4483,8 @@ filter="url(#efeito10)"
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod32', 'cd32')" onmouseout="outFunc('cd32')"><span class="tooltiptext" id="cd32">Copiar o código</span></button></div>Estrutura SVG do 7&ordm; banner:
 <pre><code id="cod32">&lt;div class="logo"&gt;
 	&lt;svg viewBox="0 0 25 20" id="nuvem2"&gt;
-		&lt;path d="M3,15 a2,2 0 0,1 0,-4 a2,2 0 0,1 3,-3 a4,4 0 0,1 10,-1 a3,3 0 0,1 4,4 a2,2 0 0,1 0,4z" stroke="rgba(200,200,200,0.7)" stroke-width="0.1" fill="url(#efeito12)"/&gt;
+		&lt;path <a alt="início da curva">d=</a>"M3,15 <a alt="raio 2, rotação 0, arco menor, sentido horário, fim (0,-4)">a2,2 0 0,1 0,-4</a> a2,2 0 0,1 3,-3 a4,4 0 0,1 10,-1 a3,3 0 0,1 4,4 
+		  <a alt="raio 2, rotação 0, arco menor, sentido horário, fim (0,4)">a2,2 0 0,1 0,4z"</a> stroke="rgba(200,200,200,0.7)" stroke-width="0.1" fill="url(#efeito12)"/&gt;
 	&lt;/svg&gt;
 &lt;/div&gt;
 &lt;div class="banner"&gt;
