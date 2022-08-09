@@ -1738,9 +1738,9 @@
 	.icone {font-size:70px; }
 	
 	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; 
-	justify-content:center; flex-direction:row;}
+	  justify-content:center; flex-direction:row;}
 	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; 
-	border-right: 1px blue solid; width: 100px; text-align:center;}
+	  border-right: 1px blue solid; width: 100px; text-align:center;}
 	.menu li:last-child {border-right:none;}
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
@@ -1826,9 +1826,9 @@
 	.icone {font-size:70px; }
 	
 	.menu ul {list-style-type:none; margin:0; padding:0; display:flex; 
-	justify-content:center; flex-direction:row;}
+	  justify-content:center; flex-direction:row;}
 	.menu li {margin-top: 10px; margin-bottom: 10px; padding: 8px; 
-	border-right: 1px blue solid; width: 100px; text-align:center;}
+	  border-right: 1px blue solid; width: 100px; text-align:center;}
 	.menu li:last-child {border-right:none;}
 	.menu li a {color:#666; padding:10px; text-decoration:none; font-size:1.2em;}
 	.menu li a:hover {color:blue; text-shadow:1px 1px 2px white;}
@@ -1933,7 +1933,7 @@
 	<a alt="propriedades dos rótulos do formulário">label</a> {display: block; margin-bottom: 8px; margin-top: 8px;}
 	<a alt="propriedades da classe formulario">.formulario</a> {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
 	<a alt="propriedades das tags de caixas de texto">input, textarea</a> {background-color: #ddd; border: none; padding: 8px; 
-	border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
+	  border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
 	textarea {width: 97%; max-width: 97%;}
 	<a alt="propriedades do botão para enviar o formulário">#submit</a> {width: 25%; background-color: #aad187; box-shadow: 2px 2px 2px #ddd; opacity:0.85;}
 	#submit:hover {opacity: 1;}
@@ -2106,14 +2106,14 @@
 <pre><code id="cod77">&lt;style&gt;
 	body {font-size:25px;}
 	<a alt="propriedades das células da tabela">td</a> {background-color:#ccffcc; color:grey; font-size:0.8em; padding:10px; 
-	border:5px solid white;}
+	  border:5px solid white;}
 	<a alt="propriedades da tabela">table</a> {width:85%; font-family:Tahoma; border: 1px solid #ccffcc; text-align: center;}
 	<a alt="classe da barra lateral">.barra</a> {vertical-align:top;}
 	<a alt="classe da barra de conteúdo">.conteudo</a> {vertical-align:center; width:70%;}
 	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; background:#ccffcc; text-align:center; display:flex; color:grey;
 	<a alt="display flex com preenchimento do conteúdo em linhas">justify-content:space-around; flex-direction:row;</a> flex-wrap:wrap; align-items:stretch;}
 	<a alt="propriedades da classe de cada item">.item</a> {padding:15px; background:rgba(0,150,0,0.1); margin:10px; min-width:150px;
-	border:1px solid grey; border-radius:7px;}
+	  border:1px solid grey; border-radius:7px;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -2259,16 +2259,16 @@
 	<a alt="configurações básicas do menu">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
 	flex-direction:row; border-bottom:1px solid rgba(0,130,0,0.3)}
 	.menu li {padding:0px; border-right:1px solid rgba(0,130,0,0.3); width:150px; 
-	text-align:center;}
+	  text-align:center;}
 	.menu li:last-child {border-right:none;}
 	.menu li a {color:rgba(0,130,0,0.7); text-decoration:none; font-weight:bold;}
 	.menu li a:hover {color:rgba(0,130,0,1); text-shadow:1px 1px 1px LightSilver;}
 	
 	<a alt="classe de conteúdo principal dos sites">.conteudo</a> {vertical-align:top; width:88%;}
 	<a alt="classe de todos os itens com propriedade flexbox">.todos</a> {width:100%; text-align:center; display:flex; justify-content:space-around; 
-	flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
+	  flex-direction:row; flex-wrap:wrap; color:grey; align-items: stretch;}
 	<a alt="classe de cada produto/item">.item</a> {padding:15px; margin:10px; min-width:170px; border:1px solid rgba(0,130,0,0.3); 
-	border-radius:7px; width:18%; font-size:0.8em;}
+	  border-radius:7px; width:18%; font-size:0.8em;}
 	<a alt="classe das imagens de cada item">.item img</a> {width:100%; height:10vh;}
 	.item:hover {opacity:0.8;}
 	
@@ -2581,10 +2581,10 @@
 
 	<a alt="cada item aparece quando o usuário acionar hover.">.items div:hover > p</a> {visibility:visible; transition:0.5s;}
 	<a alt="z-index é importante para deixar os itens em primeiro plano">.items div:hover > a</a> {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
-	transition: 0.5s;}
+	  transition: 0.5s;}
 	<a alt="os itens mapeados aparecem quando o usuário acionar hover">.Map:hover .items</a> {visibility:visible; transition: 0.5s;}
 	<a alt="propriedades dos nomes dos itens.">.items a</a> {position:absolute; background:#000; z-index:2; opacity:0.05; 
-	border:1px solid transparent; border-radius:10px;}
+	  border:1px solid transparent; border-radius:10px;}
 
 	<a alt="largura e altura de cada mapeamento em percentual para 6 itens">.Map a</a> {width:calc(100%/6); height:95%; top:0%;}
 	<a alt="primeiro item fica à esquerda, com distância 0.">a.i1, a.i1 + p</a> {left:0%;}
@@ -2594,7 +2594,7 @@
 	a.i5, a.i5 + p {left:calc(4*100%/6);}
 	a.i6, a.i6 + p {left:calc(5*100%/6);}
 	<a alt="Configurações do texto e da largura de cada item.">.Map a + p</a> {position:absolute; top:95%; width:30%; font-weight:bold; color:orange; 
-	visibility:hidden; transition:0.5s;}
+	  visibility:hidden; transition:0.5s;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -2674,10 +2674,10 @@
 
 	.items div:hover > p {visibility:visible; transition:0.5s;}
 	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
-	transition:0.5s;}
+	  transition:0.5s;}
 	.Map:hover .items {visibility:visible; transition: 0.5s;}
 	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; 
-	border:1px solid transparent; border-radius:50%;}
+	  border:1px solid transparent; border-radius:50%;}
 
 	<a alt="as alturas dos itens devem prever os espaçamentos para textos.">.Map a</a> {width:85%; height:calc(80%/5); left:6%;}
 	<a alt="primeiro item fica no topo, com distância 0.">a.i1</a> {top:0%;}
@@ -2692,7 +2692,7 @@
 	a.i4 + p {top:calc(380%/5);}
 	a.i5 + p {top:calc(480%/5);}
 	<a alt="largura e posicionamento de cada item.">.Map a + p</a> {position:absolute; left:6%; width:30%; font-weight:bold; color:orange; 
-	visibility:hidden; transition: 0.5s;}
+	  visibility:hidden; transition: 0.5s;}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -2790,28 +2790,28 @@
 	.Map img {width:100%;}
 	p {margin:0;padding:0;}
 	.items {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden; 
-	text-align:center;}
+	  text-align:center;}
 	.items img {width:80%;}
 
 	.items div:hover > p {visibility:visible; transition:0.5s;}
 	.items div:hover > a {background:#fff; z-index:2; opacity:0.3; border:1px solid #000; 
-	transition:0.5s;}
+	  transition:0.5s;}
 	.Map:hover .items {visibility:visible; transition:0.5s;}
 	.items a {position:absolute; background:#000; z-index:2; opacity:0.05; 
-	border:1px solid transparent; border-radius:10px;}
+	  border:1px solid transparent; border-radius:10px;}
 
 	<a alt="top e height proporcionais à altura da imagem.">a.i1</a> {left:calc(168*100%/800); top:calc(104*100%/500); width:calc(59*100%/800); 
-	height:calc(82*100%/500);}
+	  height:calc(82*100%/500);}
 	<a alt="left e width proporcionais à largura da imagem.">a.i2</a> {left:calc(357*100%/800); top:calc(192*100%/500); width:calc(60*100%/800); 
-	height:calc(84*100%/500);}
+	  height:calc(84*100%/500);}
 	a.i3 {left:calc(692*100%/800); top:calc(222*100%/500); width:calc(80*100%/800); 
-	height:calc(111*100%/500);}
+	  height:calc(111*100%/500);}
 
 	<a alt="descrição alinhada à esquerda com o mapeamento do item.">a.i1 + p</a> {top:calc((104 + 82)*100%/500); left:calc(168*100%/800);}
 	<a alt="descrição centralizada com o mapeamento do item.">a.i2 + p</a> {top:calc((192 + 84)*100%/500); left:calc(357*100%/800 - 10% + 60*50%/800);}
 	<a alt="descrição alinhada à direita com o mapeamento do item.">a.i3 + p</a> {top:calc((222 + 111)*100%/500); left:calc(692*100%/800 - 20% + 80*100%/800);}
 	.Map a + p {position:absolute; width:20%; font-weight:bold; color:orange; visibility:hidden;
-	text-shadow:1px 1px 2px black; transition:0.5s; background:rgba(100,120,250,0.3);}
+	  text-shadow:1px 1px 2px black; transition:0.5s; background:rgba(100,120,250,0.3);}
 &lt;/style&gt;</code></pre></figcaption>
 		   </li>
 		</ul>
@@ -2958,12 +2958,12 @@ body {width:85%; margin:auto;}
 
 <a alt="menu com razão de proporção 3.">.menu</a> {flex:3;}
 <a alt="configurações básicas dos itens do menu.">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
-flex-direction:row; flex-wrap:wrap;}
+  flex-direction:row; flex-wrap:wrap;}
 .menu li {padding: 0; border-right: 1px solid rgba(0,0,130,0.3); min-width: 150px; 
 text-align:center;}
 .menu li:last-child {border-right:none;}
 .menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; 
-font-weight: bold; transition: 0.5s;}
+  font-weight: bold; transition: 0.5s;}
 .menu li a:hover {color:rgba(0,0,130,0.5); text-shadow:1px 1px 1px LightSilver; transition:0.5s;}
 
 <a alt="subitens do menu, que devem ficar escondidos.">.subitens</a> {position:absolute; z-index:1; background:rgb(230,230,255); opacity:0; transition:0.3s;}
@@ -3070,7 +3070,7 @@ font-weight: bold; transition: 0.5s;}
 <pre><code id="cod93"><a alt="mudanças dos itens para telas com larguras menores que 800px.">@media screen and (max-width:800px)</a> {
 	<a alt="barra com itens distribuídos verticalmentoe.">.barra</a> {flex-direction:column; align-items:stretch;}
 	<a alt="posição do menu toggle acima do menu horizontal.">.toggle</a> {display:block; width:100%; text-align:center; font-size:30px; cursor:pointer; 
-	color:#595959; background:linear-gradient(white,rgb(240,240,255));}
+	  color:#595959; background:linear-gradient(white,rgb(240,240,255));}
 	<a alt="menu visível quando o usuário clicar no toggle.">#checkbox1:checked + label .menu li</a> {visibility:visible;}
 	<a alt="configuração de visualização do menu visível.">#checkbox1:checked + label .menu</a> {max-height:50vh; transition: 0.3s; opacity:1;}
 	<a alt="disposição vertical dos itens do menu.">.menu ul</a> {display:flex; flex-direction:column;}
@@ -3080,7 +3080,7 @@ font-weight: bold; transition: 0.5s;}
 }
 
 <a alt="barra2: fundo da página com animação AnimaBarra.">.barra2</a> {background:url(imagens/filme.png) repeat-x; height:90px; 
-animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
+  animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 
 <a alt="efeitos de animação do fundo da página.">@keyframes AnimaBarra</a> { 
 	0% {background-position:0% 0%;}
@@ -3143,8 +3143,8 @@ animation:AnimaBarra 20s linear infinite alternate; opacity:0.4;}
 &lt;/div&gt;</code></pre>
 <div class="tooltip"><button type="button" onclick="copyEvent('cod95', 'cd95')" onmouseout="outFunc('cd95')"><span class="tooltiptext" id="cd95">Copiar o código</span></button></div>Trecho CSS da barra banner com a descrição:
 <pre><code id="cod95"><a alt="banner com distribuição de itens flexbox.">.banner</a> {display:flex; min-height:500px; background:url(imagens/banner.jpg) no-repeat; 
-background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s;
-justify-content:flex-start;}
+  background-size:100%; background-position: 0% 40%; align-items:center; transition:0.5s;
+  justify-content:flex-start;}
 
 <a alt="efeito hover para mudar posição e opacidade do fundo do banner.">.banner:hover</a> {opacity:0.7; background-position: 0% 48%; transition:0.5s;}
 
@@ -3266,23 +3266,23 @@ justify-content:flex-start;}
 <pre><code id="cod97"><a alt="flexbox da barra de galeria de imagens.">.barra3</a> {display:flex; background:linear-gradient(rgba(0,0,180,0.1), white);}
 
 <a alt="distribuição de itens flexbox da galeria de imagens.">.conteudo</a> {display:flex; width:60%; flex-wrap:wrap; justify-content:center; 
-align-content:flex-start;}
+  align-content:flex-start;}
 
 <a alt="configuração de cada box de imagem.">.box</a> {border-radius:10px; color:#171e42; padding:10px; margin:10px; text-align:center;
-background:linear-gradient(white, rgba(0,0,180,0.1)); flex:1 150px;}
+  background:linear-gradient(white, rgba(0,0,180,0.1)); flex:1 150px;}
 .box img {width:16vw; height:15vh; transition:transform 0.5s linear; }
 
 <a alt="ordem par da coleção de box com uma configuração.">.box:nth-child(even)</a> {background:linear-gradient(0deg, rgba(0,0,150,0.1),white);}
 <a alt="ordem ímpar da coleção de box com outra configuração.">.box:nth-child(odd)</a> {background:linear-gradient(180deg, rgba(0,0,150,0.1),white);}
 
 <a alt="galeria lateral flexbox de imagens da página.">.lateral</a> {display:flex; width:40%; flex-wrap:wrap; border-left:1px solid grey; 
-justify-content:center; align-content:flex-start;}
+  justify-content:center; align-content:flex-start;}
 .lateral img {width:5vw; height:15vh;}
 
 <a alt="títulos das imagens da galeria lateral.">.titulo</a> {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
 
 <a alt="configuração do rodapé da página.">.rodape</a> {background: linear-gradient(white, rgb(240,240,255)); display:flex; 
-justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
+  justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css3/34_01_03a.png" class="fundo" style="visibility:hidden" loading="lazy"/>
@@ -3486,7 +3486,7 @@ justify-content:center; padding:20px; color:black;}</code></pre></figcaption>
 <pre><code id="cod100"><a alt="posição, largura e altura do vídeo de fundo da página.">#VideoFundo</a> {position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 
 <a alt="posição e propriedades do botão de interação.">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
-background:red; color:#fff; cursor:pointer;}
+  background:red; color:#fff; cursor:pointer;}
 
 #botao:hover {background:cyan; color:black;} 
 
@@ -3694,7 +3694,7 @@ body {width:100%; margin:auto;}
 			   <span class="tooltiptext" id="cd102">Copiar o código</span></button></div>Trecho da estrutura CSS da Atividade 8:
 <pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
 <a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
-background:red; color:#fff; cursor:pointer;}
+  background:red; color:#fff; cursor:pointer;}
 #botao:hover {background:cyan; color:black;} 
 
 body {width:100%; margin:auto;}
@@ -3702,33 +3702,33 @@ body {width:100%; margin:auto;}
 
 <a alt="atributos das barras principais da página e do banner">.boxSite</a> {box-shadow:0 0 8px black;}
 .banner {display:flex; min-height:300px; align-items:center; transition:0.5s; top:0; left:0;
-justify-content:center; overflow:auto;}
+  justify-content:center; overflow:auto;}
 .banner:hover {opacity:0.7; transition:0.5s;}
 .descricao {font-size:60px; color:white; text-shadow:1px 1px 3px black;}
 .barra {display:flex; align-items:flex-start; position:absolute; top:0; width:100%; z-index:10;}
 
 <a alt="propriedades do menu, parecidas com as que já usamos na atividade anterior">label</a> {padding:15px; flex:3; }
 .menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; 
-flex-wrap:wrap; justify-content:flex-end;}
+  flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
 .menu li a {padding: 5px 15px 5px 15px; margin-left:5px; color: white;text-decoration:none; 
-font-weight:bold; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); 
-transition:0.5s; border-radius:7px; text-shadow:1px 1px 2px black;}
+  font-weight:bold; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); 
+  transition:0.5s; border-radius:7px; text-shadow:1px 1px 2px black;}
 .menu li a:hover {background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));
-transition:0.5s;}
+  transition:0.5s;}
 
 <a alt="atributos da logo e barra de galeria">.logo</a> {display:flex; justify-content:flex-start; font-size:120px; 
-animation: AnimaLogo 7s linear infinite alternate;}
+  animation: AnimaLogo 7s linear infinite alternate;}
 .barra2 {background-color:rgba(210,210,210,0.5); display:flex; width:85%; justify-content:center; 
-margin:auto; flex-wrap:wrap; text-align:center;}
+  margin:auto; flex-wrap:wrap; text-align:center;}
 
 .compartilhar {display:flex;}
 .compartilhar img {width:30%; margin:15px; min-width: 70px; max-width:100px;}
 #checkbox1, .toggle {display:none;}
 
 <a alt="atributos dos itens da galeria">.box</a> {padding:5px; margin:10px; text-align:center; 
-background:linear-gradient(white, rgba(220,220,255,0.2));}
+  background:linear-gradient(white, rgba(220,220,255,0.2));}
 .box img {width:20vw; height:20vh; transition:transform 0.5s linear;}
 .box:hover {transform:scale(1.5); box-shadow: 0 0 15px white;transition: 0.5s;}
 hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
@@ -3752,7 +3752,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 
 <a alt="títulos das imagens da galeria">.titulo</a> {width:100%; color:blue; padding:5px; text-shadow: 1px 1px 2px grey;}
 .rodape {background:linear-gradient(white, rgb(180,180,195)); display:flex; justify-content:center; 
-padding:20px; color:black;}
+  padding:20px; color:black;}
 
 <a alt="animação da logo da página">@keyframes</a> AnimaLogo { 
    0% {opacity:0.25; transform:rotate(-30deg);}
@@ -5739,7 +5739,7 @@ html,body {height:100%;}
 .barra {display:flex; background: linear-gradient(to bottom, lightblue, white); font-size:15pt;}
 .logo {flex:1;}
 .rodape {display:flex; background: linear-gradient(to bottom, white,lightblue); 
-padding:15px; justify-content:center;}
+  padding:15px; justify-content:center;}
 svg {width:100%;}
 .galeria {display:flex; flex-wrap:wrap; padding:10px; justify-content:center;}
 
