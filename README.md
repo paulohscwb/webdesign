@@ -4224,10 +4224,14 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 			   <label for="326"></label>
 			   <img src="css4/42_01_01.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod39', 'cd39')" onmouseout="outFunc('cd39')"><span class="tooltiptext" id="cd39">Copiar o código</span></button></div>O desenho do sol fica com esse efeito. Ajuste os valores para seu desenho. A estrutura SVG do efeito 1 de gradiente é a seguinte:
-<pre><code id="cod39">&lt;radialGradient id="efeito1" cx="50%" cy="50%" r="100%"&gt;
-	&lt;stop offset="0%" stop-color="orange"/&gt;
-	&lt;stop offset="100%" stop-color="#FFD732"/&gt;
-&lt;/radialGradient&gt;</code></pre>
+<pre><code id="cod39">&lt;radialGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito1" <a alt="centro do efeito">cx="50%" cy=</a>"50%" <a alt="raio do efeito">r=</a>"100%"&gt;
+	<a alt="cor no centro do efeito">&lt;stop offset="0%"</a> stop-color="orange"/&gt;
+	<a alt="cor no final do raio do efeito">&lt;stop offset="100%"</a> stop-color="#FFD732"/&gt;
+&lt;/radialGradient&gt;
+
+INSIRA A REFERÊNCIA NO PREENCHIMENTO DO CÍRCULO DO SOL:
+fill="url(#efeito1)"
+</code></pre>
 			   </figcaption>
 		   </li>
 		   <li>
@@ -4241,14 +4245,19 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 			   <label for="328"></label>
 			   <img src="css4/42_01_03.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod38', 'cd38')" onmouseout="outFunc('cd38')"><span class="tooltiptext" id="cd38">Copiar o código</span></button></div>O layout com gradiente no SVG fica desta forma. Ajuste valores e cores para seu banner. A estrutura SVG dos efeitos 2 e 3 de gradiente é a seguinte:
-<pre><code id="cod38">&lt;radialGradient id="efeito2" cx="50%" cy="50%" r="300%"&gt;
+<pre><code id="cod38">&lt;radialGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito2" cx="50%" cy="50%" <a alt="final do efeito no triplo do raio">r="300%"&gt;
 	&lt;stop offset="0%" stop-color="darkred "/&gt;
 	&lt;stop offset="100%" stop-color="red"/&gt;
 &lt;/radialGradient&gt;
-&lt;linearGradient id="efeito3" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+&lt;linearGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito3" <a alt="coordenadas do início do efeito linear">x1="0%" y1=</a>"0%" <a alt="coordenadas do final do efeito linear">x2="0%" y2=</a>"100%"&gt;
 	&lt;stop offset="0%" stop-color="red"/&gt;
 	&lt;stop offset="100%" stop-color="darkred"/&gt;
-&lt;/linearGradient&gt;</code></pre></figcaption>
+&lt;/linearGradient&gt;
+
+INSIRA AS REFERÊNCIAS NA LINHA DO CÍRCULO DA RODA E NO PREENCHIMENTO DO GRUPO DOS DENTES:
+stroke="url(#efeito2)"
+fill="url(#efeito3)"
+</code></pre></figcaption>
 		   </li>
 		   <li>
 			   <input type="radio" id="329" name="sl">
@@ -4261,11 +4270,11 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 			   <label for="330"></label>
 			   <img src="css4/42_01_05.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod37', 'cd37')" onmouseout="outFunc('cd37')"><span class="tooltiptext" id="cd37">Copiar o código</span></button></div>O layout com gradiente fica desta forma. Ajuste cores e efeitos para seu desenho. A estrutura SVG dos efeitos 4 e 5 de gradiente é a seguinte:
-<pre><code id="cod37">&lt;radialGradient id="efeito4" cx="50%" cy="50%" r="70%"&gt;
+<pre><code id="cod37">&lt;radialGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito4" cx="50%" cy="50%" <a alt="final do efeito em 70% do raio">r="70%"&gt;</a>
 	&lt;stop offset="0%" stop-color="lightskyblue"/&gt;
 	&lt;stop offset="100%" stop-color="skyblue"/&gt;
 &lt;/radialGradient&gt;
-&lt;linearGradient id="efeito5" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+&lt;linearGradient <a alt="id usada como referência nos desenhos">id=</a>"efeito5" <a alt="coordenadas do início e do fim do efeito linear">x1="0%" y1="0%" x2="0%" y2="100%"&gt;</a>
 	&lt;stop offset="0%" stop-color="steelblue"/&gt;
 	&lt;stop offset="100%" stop-color="skyblue"/&gt;
 &lt;/linearGradient&gt;</code></pre></figcaption>
@@ -4362,15 +4371,19 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod34', 'cd34')" onmouseout="outFunc('cd34')"><span class="tooltiptext" id="cd34">Copiar o código</span></button></div>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho. A estrutura SVG do efeito de filtro 10 é a seguinte:
-<pre><code id="cod34">&lt;filter id="efeito10" x="-20" y="-20" height="50" width="50"&gt;
-	&lt;feGaussianBlur in="SourceAlpha" stdDeviation="0.5" result="desfocado"&gt;&lt;/feGaussianBlur&gt;
-	&lt;feOffset in="desfocado" dx="1" dy="1" result="sombra"&gt;&lt;/feOffset&gt;
-	&lt;feMerge&gt;
+<pre><code id="cod34">&lt;filter <a alt="id usada como referência nos desenhos">id=</a>"efeito10" x="-20" y="-20" height="50" width="50"&gt;
+	&lt;feGaussianBlur <a alt="aplicação do filtro nos contornos do desenho">in=</a>"SourceAlpha" <a alt="desvio padrão">stdDeviation=</a>"0.5" <a alt="id do resultado do filtro">result=</a>"desfocado"&gt;&lt;/feGaussianBlur&gt;
+	&lt;feOffset in="desfocado" <a alt="sombra de 1px à direita e 1px abaixo do desenho">dx="1" dy=</a>"1" <a alt="id do resultado do filtro">result=</a>"sombra"&gt;&lt;/feOffset&gt;
+	<a alt="mistura dos efeitos: sombra, desfocado e o desenho">&lt;feMerge&gt;</a>
 		&lt;feMergeNode in="sombra"/&gt;
 		&lt;feMergeNode in="desfocado"/&gt;
 		&lt;feMergeNode in="SourceGraphic"/&gt;
 	&lt;/feMerge&gt;
-&lt;/filter&gt;</code></pre></figcaption>
+&lt;/filter&gt;
+
+INSIRA OS FILTROS NOS DESENHOS:
+filter="url(#efeito10)"
+</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/43_01_00.png" class="fundo" style="visibility:hidden" loading="lazy"/>
