@@ -4444,8 +4444,8 @@ filter="url(#efeito10)"
 			&lt;stop offset="0%" stop-color="rgba(256,256,256,0.4)"/&gt;
 			&lt;stop offset="100%" stop-color="rgba(256,256,256,0.9)""/&gt;
 		&lt;/radialGradient&gt;
-		&lt;path <a alt="início da curva">d=</a>"M10,15 <a alt="raio 11, rotação 0, arco menor, sentido horário, fim (20,-5)">a11,11 0 0,1 20,-5</a> a14,14 0 0,1 25,5 <a alt="raio 6, rotação 0, arco menor, sentido horário, fim (10,10)">a6,6 0 0,1 10,10</a> 
-		  a9,9 0 0,1 -15,10 <a alt="raio 17, rotação 0, arco menor, sentido horário, fim (-25,0)">a17,17 0 0,1 -25,0</a> a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" 
+		&lt;path <a alt="início da curva">d=</a>"M10,15 <a alt="raio 11, rotação 0, arco menor, sentido horário, fim (20,-5)">a11,11 0 0,1 20,-5</a> a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 
+		  <a alt="raio 9, rotação 0, arco menor, sentido horário, fim (-15,10)">a9,9 0 0,1 -15,10</a> a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" 
 		  stroke="rgba(200,200,200,0.7)" stroke-width="0.5" fill="url(#efeito12)"/&gt;
 	&lt;/svg&gt;
 &lt;/div&gt;
