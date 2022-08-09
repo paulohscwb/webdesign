@@ -5796,7 +5796,8 @@ flex-direction:row; flex-wrap:wrap; justify-content:center;}
 .menu li a {padding: 5px 15px 5px 15px; margin-left: 15px; color: white; text-decoration:none; 
 font-weight: bold; transition: 0.5s; border-radius:7px; text-shadow:1px 1px 2px black; 
 background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
-.menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
+.menu li a:hover {background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));
+transition:0.5s;}
 
 #checkbox1, .toggle {display:none;}
 
@@ -5886,7 +5887,8 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 			   <input type="radio" id="445a" name="sl">
 			   <label for="445a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod14', 'cd14')" onmouseout="outFunc('cd14')"><span class="tooltiptext" id="cd14">Copiar o código</span></button></div>Trecho da estrutura CSS da galeria da Atividade 10 com divisões:
-<pre><code id="cod14">summary {font-size:1.3em; color:#004953; font-weight:bold; cursor:pointer; margin-bottom:12px; text-shadow:1px 1px 1px skyblue; text-align:center;}
+<pre><code id="cod14">summary {font-size:1.3em; color:#004953; font-weight:bold; cursor:pointer; margin-bottom:12px; 
+text-shadow:1px 1px 1px skyblue; text-align:center;}
 details {border:1px solid skyblue; border-bottom:none; padding:3px; border-radius:10px; }</code></pre>
 <div class="tooltip"><button type="button" onclick="copyEvent('cod13', 'cd13')" onmouseout="outFunc('cd13')"><span class="tooltiptext" id="cd13">Copiar o código</span></button></div>Trecho da estrutura HTML da galeria da Atividade 10 com divisões:
 <pre><code id="cod13">&lt;details open&gt;&lt;summary&gt;Disciplina 1&lt;/summary&gt;
