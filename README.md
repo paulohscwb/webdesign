@@ -4996,8 +4996,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		  stroke-width="1" stroke-dasharray="200"&gt;Academia
 			&lt;animate <a alt="variação do contorno">attributeName=</a>"stroke-dashoffset" from="200" to="0" dur="5s" 
 			  begin="2s" fill="freeze" /&gt;
-			&lt;animate attributeName="fill" <a alt="variação do preenchimento">from="rgba(250,250,0,0.1)" 
-			  to="rgba(250,250,0,0.7)"</a> dur="5s" begin="2s" fill="freeze" /&gt;
+			&lt;animate attributeName="fill" <a alt="variação do preenchimento">from="rgba(250,250,0,0.1)"</a> 
+			  to="rgba(250,250,0,0.7)" dur="5s" begin="2s" fill="freeze" /&gt;
 		&lt;/text&gt;
 	&lt;/svg&gt;
 &lt;/div&gt;
@@ -5061,7 +5061,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;stop offset="0%" stop-color="red"/&gt;
 		&lt;stop offset="100%" stop-color="darkred"/&gt;
 	&lt;/linearGradient&gt;
-	&lt;g stroke-width="0" fill="url(#efeito3)" <a alt="tag da roda dentada">id="roda"</a> filter="url(#efeito10)"&gt;
+	&lt;g stroke-width="0" fill="url(#efeito3)" <a alt="tags da primeira roda dentada">id="roda"</a> filter="url(#efeito10)"&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
@@ -5087,7 +5087,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;stop offset="100%" stop-color="limegreen"/&gt;
 	&lt;/linearGradient&gt;
 	&lt;g name="roda2" <a alt="translação e escala na geometria">transform="translate(65,65) scale(0.8)"</a> &gt;
-		&lt;g stroke-width="0" fill="url(#efeito3a)" <a alt="segunda roda dentada">id="roda"</a> filter="url(#efeito10)"&gt;
+		&lt;g stroke-width="0" fill="url(#efeito3a)" <a alt="tags da segunda roda dentada">id="roda"</a> filter="url(#efeito10)"&gt;
 			&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
 			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
 			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
@@ -5101,7 +5101,8 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(300,50,50)"/&gt;
 			&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(330,50,50)"/&gt;
 			&lt;animateTransform attributeType="xml" attributeName="transform" 
-			  type="rotate" <a alt="variação da rotação">from="0,50,50" to="360,50,50"</a> dur="10s" begin="1s" fill="freeze"/&gt;
+			  type="rotate" <a alt="variação da rotação">from="0,50,50" to="360,50,50"</a> dur="10s" 
+			  begin="1s" fill="freeze"/&gt;
 		&lt;/g&gt;
 		&lt;circle r="30" cx="50" cy="50"stroke="url(#efeito2a)" stroke-width="5" fill="none"/&gt;
 	&lt;/g&gt;
@@ -5135,21 +5136,33 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <input type="radio" id="397a" name="sl">
 			   <label for="397a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod22', 'cd22')" onmouseout="outFunc('cd22')"><span class="tooltiptext" id="cd22">Copiar o código</span></button></div>Trecho da estrutura SVG do 9&ordm; banner com animações:
-<pre><code id="cod22">&lt;g name="ceu"&gt;
-	&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
-&lt;/g&gt;
-&lt;g name="perfil" filter="url(#filtro)"&gt;
-	&lt;path d="M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 h10 v5 l4,2 v10 h5 v-5 h4 v3 h3 v-10 h2 v-4 h3 v-15 l3,5 v20 h2 v-25 l5,3 v35 a4,4 0 0,1 4,-4 a2,2 0 0,1 4,0 a4,4 0 0,1 4,4 v5 h2 v-3 h8 v-17 h2 v-14 h2 v-10 l4,-20 l4,20 v10 h2 v14 h2 v17 h5 v5 l3,-4 v-5 h2 v-10 h1 v-10 h1 v-1 h5 v1 h1 v10 h1 v3 h1 v-4 h3 v4 h2 v17" stroke="grey" fill="url(#linear3)" stroke-width="0.5" stroke-dasharray="900"&gt;
-		&lt;animate attributeName="stroke-dashoffset" values="900;0;900" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-	&lt;/path&gt;
-&lt;/g&gt;
+<pre><code id="cod22">
 &lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
 	&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
 		&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-		&lt;animateTransform attributeName="transform" attributeType="xml" type="translate" values="0,0;3,0;0,0;-3,0;0,0" begin="0s" dur="5s" repeatCount="indefinite" /&gt;
-		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" values="1;0.95;1" begin="0s" dur="5s" additive="sum" repeatCount="indefinite" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="translate"  
+		  <a alt="valores da translação">values="0,0;3,0;0,0;-3,0;0,0" </a>begin="0s" dur="5s" repeatCount="indefinite" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" 
+		  <a alt="valores da escala">values="1;0.95;1"</a> begin="0s" dur="5s" additive="sum" repeatCount="indefinite" /&gt;
 	&lt;/path&gt;
-&lt;/g&gt;</code></pre></figcaption>
+&lt;/g&gt;
+&lt;circle r="5" cx="55" cy="15" fill="url(#radial1)" filter="url(#filtro)" /&gt;
+&lt;g stroke-dasharray="35" stroke="orange" stroke-width="0.3" 
+  filter="url(#filtro)" name="sol" &gt;
+	&lt;path d="M55,4 v5" stroke-dasharray="5" /&gt;
+	&lt;path d="M55,4 v5" transform="rotate(45,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(90,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(135,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(180,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(-45,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(-90,55,15)" stroke-dasharray="5"/&gt;
+	&lt;path d="M55,4 v5" transform="rotate(-135,55,15)" stroke-dasharray="5"/&gt;
+	&lt;animate <a alt="animação do contorno do sol">attributeName=</a>"stroke-dashoffset" values="3;0;3" dur="10s" 
+	  begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+	&lt;animateTransform attributeName="transform" attributeType="xml" type="rotate" 
+	  <a alt="valores da rotação">values="0,55,15;30,55,15;0,55,15"</a> begin="0s" dur="10s" repeatCount="indefinite"/&gt;
+&lt;/g&gt;
+</code></pre></figcaption>
 		   </li>
 		</ul>
 		<img src="css4/53_04_00.png" class="fundo" style="visibility:hidden" loading="lazy"/>
@@ -5200,10 +5213,10 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <label for="404"></label>
 			   <img src="css4/54_01_05.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod21', 'cd21')" onmouseout="outFunc('cd21')"><span class="tooltiptext" id="cd21">Copiar o código</span></button></div>No final da animação do texto, o banner fica desta forma. Veja uma parte da estrutura SVG com animação do texto em curva:
-<pre><code id="cod21">&lt;path id="curva" fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
+<pre><code id="cod21">&lt;path <a alt="curva usada na animação">id="curva"</a> fill="none" stroke="none" d="M20,40 a160,160 0 0,0 120,0"/&gt;
 &lt;text&gt;
-  &lt;textpath fill="rgb(50,150,50)" stroke="none" xlink:href="#curva"&gt;Meu portfólio
-&lt;animate attributeName="startOffset" from="-150" to="5" dur="5s" begin="0s" fill="freeze" /&gt;
+  &lt;textpath fill="rgb(50,150,50)" stroke="none" <a alt="link para a curva para o texto deslizar">xlink:href="#curva"</a>&gt;Meu portfólio
+      &lt;animate <a alt="animação da posição do texto">attributeName="startOffset"</a> from="-150" to="5" dur="5s" begin="0s" fill="freeze" /&gt;
   &lt;/textpath&gt;
 &lt;/text&gt;</code></pre></figcaption>
 		   </li>
