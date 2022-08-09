@@ -2274,19 +2274,19 @@
 <pre><code id="cod79">&lt;style&gt;
 	body {font-size:25px; margin: auto; width:85%;}
 	td {background-color: rgba(0,150,0,0.1) color:grey; font-size:0.8em; 
-	padding:5px; border:none;}
+	  padding:5px; border:none;}
 	table {width:85%; font-family:Tahoma; border:1px solid rgba(0,130,0,0.3); 
-	text-align:center; border-spacing:8px;}
+	  text-align:center; border-spacing:8px;}
 	
 	<a alt="classe do banner, com 10% da altura do navegador">.banner</a> {height:10vh; background:url(imagens/banner.jpg); font-size:2em; font-weight:bold;
-	color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0,130,0);}
+	  color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0,130,0);}
 	<a alt="classe do ícone da loja">.icone</a> {font-size:5em; border-bottom:1px solid rgba(0,130,0,0.3);}
 	
 	<a alt="classe da barra lateral com informações de contato">.barra</a> {vertical-align:top; border-right: 1px solid rgba(0,130,0,0.3)}
 	.barra img {width:40%; margin:20px;}
 
-	<a alt="configurações básicas do menu">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
-	flex-direction:row; border-bottom:1px solid rgba(0,130,0,0.3)}
+	<a alt="configurações básicas do menu">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center;
+	  flex-direction:row; border-bottom:1px solid rgba(0,130,0,0.3)}
 	.menu li {padding:0px; border-right:1px solid rgba(0,130,0,0.3); width:150px; 
 	  text-align:center;}
 	.menu li:last-child {border-right:none;}
@@ -2438,7 +2438,7 @@
 	<a alt="propriedades das tags svg">svg</a> {width:100%;}
 	<a alt="propriedades das figuras, que começam invisíveis">circle, rect, polyline</a> {fill-opacity: 0;}
 	<a alt="as figuras que mapeiam o menu só aparecem com hover">rect:hover, circle:hover, polyline:hover</a> {fill:blue; stroke:pink; stroke-width:5; 
-	fill-opacity:0.1; stroke-opacity:0.2}
+	  fill-opacity:0.1; stroke-opacity:0.2}
 &lt;/style&gt;</code></pre>
 <div class="tooltip"><button type="button" onclick="copyEvent('cod82', 'cd82')" onmouseout="outFunc('cd82')"><span class="tooltiptext" id="cd82">Copiar o código</span></button></div>Trecho da estrutura HTML do mapeamento:
 <pre><code id="cod82">&lt;svg viewBox="0,0, 1334,282"&gt;
@@ -2505,11 +2505,11 @@
 	body {width:80%; margin:auto; box-shadow:0px 0px 5px grey;}
 	svg {width:100%;}
 	rect {width:193px; height:190px; rx:40px; fill:blue; stroke:pink; stroke-width:5; 
-	fill-opacity: 0.1; stroke-opacity: 0.2;}
+	  fill-opacity: 0.1; stroke-opacity: 0.2;}
 	<a alt="retângulos e textos começam invisíveis">rect, text</a> {opacity:0;}
 	<a alt="só aparecem quando o visitante passar o cursor do mouse sobre os itens">a:hover > text, a:hover > rect</a> {opacity:1; transition:0.5s;}
 	text {font-family:Tahoma; font-weight:bold; fill:rgb(180,250,180); stroke:green; 
-	stroke-width:1; font-size:22px; opacity:0;}
+	  stroke-width:1; font-size:22px; opacity:0;}
 &lt;/style&gt;</code></pre>
 <div class="tooltip"><button type="button" onclick="copyEvent('cod84', 'cd84')" onmouseout="outFunc('cd84')"><span class="tooltiptext" id="cd84">Copiar o código</span></button></div>Trecho da estrutura HTML do mapeamento:
 <pre><code id="cod84">&lt;svg viewBox="0,0, 1287,220"&gt;
