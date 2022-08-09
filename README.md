@@ -1759,8 +1759,8 @@
 			   <label for="131a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod70', 'cd70')" onmouseout="outFunc('cd70')"><span class="tooltiptext" id="cd70">Copiar o código</span></button></div>Estrutura CSS do conteúdo da Atividade 4:
 <pre><code id="cod70">&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; 
-	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
+	body {width:85%; text-align:center; margin:auto; background: url(imagens/fundo.jpg); 
+	  font-size:16px; background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
@@ -1847,8 +1847,8 @@
 			   <label for="138a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod72', 'cd72')" onmouseout="outFunc('cd72')"><span class="tooltiptext" id="cd72">Copiar o código</span></button></div>Estrutura CSS do contato e do rodapé da Atividade 4:
 <pre><code id="cod72">&lt;style type="text/css"&gt;
-	body {width:85%; text-align:center; margin:auto; font-size:16px; 
-	background-size: cover; background-attachment: fixed; background: url(imagens/fundo.jpg)}
+	body {width:85%; text-align:center; margin:auto; background: url(imagens/fundo.jpg); 
+	  font-size:16px; background-size:cover; background-attachment:fixed;}
 	.banner {font-size:35px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:green;}
 	td {background-color: rgba(204,255,204,0.9); padding:10px; }
 	table {width:100%; font-family:Tahoma; border-spacing: 8px; color: #606060;}
@@ -1960,7 +1960,7 @@
 <pre><code id="cod73">&lt;style type="text/css"&gt;
 	body {width:85%; text-align:left; margin:auto; font-size:18px;}
 	<a alt="propriedades dos rótulos do formulário">label</a> {display: block; margin-bottom: 8px; margin-top: 8px;}
-	<a alt="propriedades da classe formulario">.formulario</a> {width:70%; background: rgba(10,10,200,0.05); padding: 15px; font-family: Arial;}
+	<a alt="propriedades da classe formulario">.formulario</a> {width:70%; background:rgba(10,10,200,0.05); padding:15px; font-family:Arial;}
 	<a alt="propriedades das tags de caixas de texto">input, textarea</a> {background-color: #ddd; border: none; padding: 8px; 
 	  border-radius: 8px; width: 60%; box-shadow: 0px 0px 2px #aad187; font-size: 0.9em; }
 	textarea {width: 97%; max-width: 97%;}
