@@ -399,8 +399,8 @@
 	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 30% e alinhamento à esquerda&#10;align: left | right | middle | top | bottom">&lt;img src="imagens/figura1.jpg" width="30%" align="left"&gt;</a> está alinhada 
 	  à esquerda do texto.&lt;/p&gt;
 	
-	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 80% e alinhada no meio do texto&#10;margens: horizontal 30 e vertical 60">&lt;img src="imagens/figura2.jpg" width="80%" align="middle" 
-	  hspace="30" vspace="60"&gt;</a> está alinhada no meio do texto.&lt;/p&gt; 
+	&lt;p&gt;Esta imagem <a alt="tag de imagem &lt;img&gt; com largura de 80% e alinhada no meio do texto&#10;margens: horizontal 30 e vertical 60">&lt;img src="imagens/figura2.jpg"</a> width="80%" align="middle" 
+	  hspace="30" vspace="60"&gt; está alinhada no meio do texto.&lt;/p&gt; 
 	
 	<a alt="tag &lt;figure&gt; para organizar imagens e legendas&#10;align: left | right | center">&lt;figure align="center"&gt;</a>     
 		<a alt="tag de imagem &lt;img&gt;">&lt;img src="imagens/figura3.jpg" width="100%"&gt;</a>     
