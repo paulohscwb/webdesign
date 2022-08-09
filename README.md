@@ -812,13 +812,13 @@
 	&lt;h3&gt;Galeria de Imagens&lt;/h3&gt;
 	<a alt="tag de tabela &lt;table&gt; com margens internas de 10px">&lt;table width="100%" cellpadding="10"&gt;</a>     
 		<a alt="tag de início da primeira linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
-			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg"</a> 
+			<a alt="primeira célula &lt;td&gt; com imagem salva na pasta imagens">&lt;td width="25%"&gt;&lt;a href="imagens/imagem1.jpg"&gt;&lt;img src="imagens/imagem1.jpg"</a>
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png" 
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem2.png"&gt;&lt;img src="imagens/imagem2.png"
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png" 
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem3.png"&gt;&lt;img src="imagens/imagem3.png"
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
-			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg" 
+			&lt;td width="25%"&gt;&lt;a href="imagens/imagem4.jpg"&gt;&lt;img src="imagens/imagem4.jpg"
 			  width="100%"&gt;&lt;/a&gt;&lt;/td&gt;
 		&lt;/tr&gt; 
 		<a alt="tag de início da segunda linha &lt;tr&gt; da tabela">&lt;tr&gt;</a>
@@ -1333,8 +1333,8 @@
 			&lt;/td&gt;
 			<a alt="tag de célula &lt;td&gt; com a barra lateral da página&#10;esta célula pode ter a largura menor, por exemplo, de 35%&#10;use o atributo valign: top para deixar o conteúdo alinhado no topo">&lt;td width="35%" valign="top"&gt;</a>
 				&lt;h3&gt;Localização&lt;/h3&gt;
-				<a alt="coloque a tag de iframe do mapa do ponto turístico">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr" 
-				  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;</a>
+				<a alt="coloque a tag de iframe do mapa do ponto turístico">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29617.819699874955!2d35.47338365738947!3d38.713451127311586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6025c679e1679%3A0xf9178b7341dc5e49!2sCappadocia%2C%20Turquia!5e0!3m2!1spt-BR!2sbr!4v1598441515867!5m2!1spt-BR!2sbr"</a> 
+				  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 		<a alt="tag de linha &lt;tr&gt; com o rodapé">&lt;tr align="center" bgcolor="#eff6f4"&gt;</a>
