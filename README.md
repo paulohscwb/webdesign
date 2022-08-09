@@ -3855,17 +3855,17 @@ padding:20px; color:black;}
 &lt;/head&gt;
 &lt;body&gt;
   &lt;div class="boxSite"&gt;
-	&lt;div class="barra"&gt;
-		&lt;div class="logo"&gt;
-			&lt;svg viewBox="0 0 200 200"&gt;
+	<a alt="barra que contém logo, banner e medu">&lt;div class="barra"&gt;</a>
+		<a alt="div que contém o desenho SVG">&lt;div class="logo"&gt;</a>
+			<a alt="tag dos desenhos e animações SVG, com tamanho 200 x 200 pixels">&lt;svg viewBox="0 0 200 200"&gt;</a>
 				DESENHOS SVG
 			&lt;/svg&gt;
 		&lt;/div&gt;
-		&lt;div class="banner"&gt;
+		<a alt="banner somente com texto">&lt;div class="banner"&gt;</a>
 			Vip Turismo
 		&lt;/div&gt;
-		&lt;input type="checkbox" id="checkbox1"&gt;
-		&lt;label for="checkbox1"&gt;
+		<a alt="estrutura do menu responsivo">&lt;input type="checkbox"</a> id="checkbox1"&gt;
+		<a alt="tag mãe do menu">&lt;label for=</a>"checkbox1"&gt;
 			&lt;nav class="menu"&gt;
 				&lt;ul&gt;
 					&lt;li&gt;&lt;a href="index.htm"&gt;Página 1&lt;/a&gt;&lt;/li&gt;
@@ -3889,17 +3889,16 @@ body {width:95%; margin:auto;}
 
 .boxSite {box-shadow:0 0 8px black;}
 
-.barra {display:flex; align-items:flex-start; width:100%; z-index:10; background-position: 0% 80%;}
-
-.barra:nth-child(1){background:url(imagens/banner.jpg);background-size:cover;}
+<a alt="alinhamentos dos itens da barra">.barra</a> {display:flex; align-items:flex-start; width:100%; z-index:10; background-position: 0% 80%;}
+<a alt="imagens de fundo de cada banner">.barra:nth-child(1)</a>{background:url(imagens/banner.jpg);background-size:cover;}
 .barra:nth-child(2){background:url(imagens/banner2.jpg);background-size:cover;}
 .barra:nth-child(3){background:url(imagens/banner3.jpg);background-size:cover;}
 
-.logo {display:flex; flex:1; justify-content:flex-start;}
+<a alt="tamanhos e alinhamentos dos desenhos SVG">.logo</a> {display:flex; flex:1; justify-content:flex-start;}
 
-.banner {display:flex; flex:2; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
+<a alt="tamanhos, propriedades do texto e alinhamento do banner">.banner</a> {display:flex; flex:2; min-height:250px; align-items:center; overflow:auto; justify-content:center; width:100%; font-size:3em; text-shadow:1px 1px 2px white; color:rgb(40,40,40);}
 
-label {padding:15px; flex:1.5; width:100%;}
+<a alt="tag mãe do menu">label</a> {padding:15px; flex:1.5; width:100%;}
 .menu ul {margin:0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-end;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
@@ -3908,7 +3907,7 @@ label {padding:15px; flex:1.5; width:100%;}
 
 #checkbox1, .toggle {display:none;}
 
-@media screen and (max-width:800px) {
+<a alt="propriedades das classes em telas menores">@media screen</a> and (max-width:800px) {
 	.barra {flex-direction:column; align-items:stretch;  text-align:center;}
 	.banner {flex:1;}
 	.logo {flex:1;}
@@ -3982,12 +3981,12 @@ label {padding:15px; flex:1.5; width:100%;}
 			   <label for="302a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod44', 'cd44')" onmouseout="outFunc('cd44')"><span class="tooltiptext" id="cd44">Copiar o código</span></button></div>Estrutura HTML do primeiro desenho de banner da Atividade 9:
 <pre><code id="cod44">&lt;div class="logo"&gt;
-	&lt;svg viewBox="0 0 200 200"&gt;
-		&lt;g stroke="orange" stroke-width="1" name="sol"&gt;
-			&lt;circle r="50" cx="100" cy="100" fill="rgb(100%, 90%, 0%)" /&gt;
-			&lt;line x1="100" y1="10" x2="100" y2="40"/&gt;
-			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(30,100,100)"/&gt;
-			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(60,100,100)"/&gt;
+	&lt;svg <a alt="janela de 200 x 200 pixels">viewBox="0 0 200 200"</a>&gt;
+		<a alt="tag de grupo: definimos a cor e espessura das linhas">&lt;g stroke="orange" stroke-width="1"</a> name="sol"&gt;
+			<a alt="círculo com centro em (100,100) e raio 50">&lt;circle r="50" cx="100" cy="100"</a> fill="rgb(100%, 90%, 0%)" /&gt;
+			<a alt="primeiro raio entre os pontos (100,10) e (100,40)">&lt;line x1="100" y1="10" x2="100" y2="40"</a>/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" <a alt="12 raios: repetir a tag e rotacionar em torno do centro com 30&deg;">transform="rotate(30,100,100)"</a>/&gt;
+			&lt;line x1="100" y1="10" x2="100" y2="40" <a alt="no próximo raio, rotacionamos com 60&deg;">transform="rotate(60,100,100)"</a>/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(90,100,100)"/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(120,100,100)"/&gt;
 			&lt;line x1="100" y1="10" x2="100" y2="40" transform="rotate(150,100,100)"/&gt;
@@ -4052,11 +4051,11 @@ label {padding:15px; flex:1.5; width:100%;}
 			   <label for="309"></label>
 			   <img src="css4/41_02_06.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod43', 'cd43')" onmouseout="outFunc('cd43')"><span class="tooltiptext" id="cd43">Copiar o código</span></button></div>Ótimo, o nosso banner fica com este layout. Veja a estrutura SVG deste banner:
-<pre><code id="cod43">&lt;svg viewBox="0 0 100 100"&gt;
-	&lt;circle r="30" cx="50" cy="50" stroke="red" stroke-width="5" fill="none" /&gt;
+<pre><code id="cod43"><a alt="janela de visualização de 100 x 100 pixels">&lt;svg viewBox="0 0 100 100"</a>&gt;
+	<a alt="círculo com centro em (50,50) e raio 30">&lt;circle r="30" cx="50" cy="50"</a> stroke="red" <a alt="espessura das linhas de 5px">stroke-width="5"</a> fill="none" /&gt;
 	&lt;g stroke-width="0" fill="red" name="roda"&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;
-		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(30,50,50)"/&gt;
+		<a alt="primeiro trapézio, com a sequência de vértices">&lt;polygon points="40,20 60,20 55,10 45,10"/&gt;</a>
+		&lt;polygon points="40,20 60,20 55,10 45,10" <a alt="depois, rotacionamos este trapézio com 30&deg;, depois 60&deg;...">transform="rotate(30,50,50)"</a>/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(60,50,50)"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(90,50,50)"/&gt;
 		&lt;polygon points="40,20 60,20 55,10 45,10" transform="rotate(120,50,50)"/&gt;
