@@ -5633,13 +5633,13 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 	&lt;!-- fotos ampliadas, escondidas pelo CSS --&gt;
 	&lt;div <a alt="classe das imagens ampliadas">class=</a>"maior" <a alt="identificação da primeira imagem ampliada">id=</a>"img1"&gt;
 		&lt;div <a alt="bloco com imagem e botões">class=</a>"bloco"&gt;
-			&lt;a <a alt="link da imagem anterior">href=</a>"#img12" <a alt="botão da imagem anterior">class=</a>"botao anterior"&gt;&#38;lt;&lt;/a&gt;
+			&lt;a <a alt="link da imagem anterior">href=</a>"#img12" <a alt="botão da imagem anterior">class=</a>"botao anterior"&gt;<a alt="símbolo do botão anterior">&#38;lt;</a>&lt;/a&gt;
 			<a alt="bloco da imagem e da legenda">&lt;figure&gt;</a>
 				&lt;img src="imagens/projeto1.jpg"&gt;
 				&lt;figcaption&gt;Meu projeto 1&lt;/figcaption&gt;
 			&lt;/figure&gt;
-			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;&#38;gt;&lt;/a&gt;
-			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;x&lt;/a&gt;
+			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;<a alt="símbolo do botão de próxima">&#38;gt;</a>&lt;/a&gt;
+			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;<a alt="símbolo do botão fechar">x</a>&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="maior" id="img2"&gt;
@@ -5738,11 +5738,13 @@ html,body {height:100%;}
 .boxSite {box-shadow: 0 0 5px grey; margin-top:10px;}
 .barra {display:flex; background: linear-gradient(to bottom, lightblue, white); font-size:15pt;}
 .logo {flex:1;}
-.rodape {display:flex; background: linear-gradient(to bottom, white,lightblue); padding:15px; justify-content:center;}
+.rodape {display:flex; background: linear-gradient(to bottom, white,lightblue); 
+padding:15px; justify-content:center;}
 svg {width:100%;}
 .galeria {display:flex; flex-wrap:wrap; padding:10px; justify-content:center;}
 
-.maior {display:none; opacity:0; z-index:2; width:100vw; height:100vh; text-align:center; color:white; text-decoration:none; position: fixed; top:0; left:0; background:rgba(50,50,70,0.7);} 
+.maior {display:none; opacity:0; z-index:2; width:100vw; height:100vh; text-align:center; 
+color:white; text-decoration:none; position: fixed; top:0; left:0; background:rgba(50,50,70,0.7);} 
 .maior img {max-width:75vw; max-height:75vh; min-width:50vw; min-height:50vh; border-radius:10px;} 
 .maior:target {outline:none; display:block; opacity:1;}
 .bloco {height:100vh; display:flex; align-items:center; justify-content:center;}
@@ -5764,7 +5766,8 @@ figcaption {text-align: left;}
   100% {transform:translate(0,0); opacity:1;}
 }
 
-.botao {color:#fafafa; font-size:2.5em; background-color:rgba(50,50,50,0.4); padding:5px 20px 0 20px; border-radius:4px; text-decoration:none; cursor:pointer; z-index:3;}
+.botao {color:#fafafa; font-size:2.5em; background-color:rgba(50,50,50,0.4); 
+padding:5px 20px 0 20px; border-radius:4px; text-decoration:none; cursor:pointer; z-index:3;}
 .botao:hover {background-color:rgba(50,50,50,0.6);}
 .fechar {position:absolute; right:2%; top:2%;}
 .fechar:hover {background-color:rgba(50,50,50,0.6);}</code></pre></figcaption>
@@ -5773,7 +5776,8 @@ figcaption {text-align: left;}
 			   <input type="radio" id="437b" name="sl">
 			   <label for="437b"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod15', 'cd15')" onmouseout="outFunc('cd15')"><span class="tooltiptext" id="cd15">Copiar o código</span></button></div>2&ordf; parte da estrutura CSS da galeria da Atividade 10:
-<pre><code id="cod15">.mini {margin:20px 10px; padding:7px; text-align:center; text-decoration:none; background:linear-gradient(-45deg,#FFF,#CCC); border-radius:5px; border: 0.1px solid #999;}
+<pre><code id="cod15">.mini {margin:20px 10px; padding:7px; text-align:center; text-decoration:none; 
+background:linear-gradient(-45deg,#FFF,#CCC); border-radius:5px; border: 0.1px solid #999;}
 .mini img {width:150px; height:100px; margin:10px 10px -5px 10px; transition:0.4s; z-index:1;}
 .mini img:hover {transform:scale(1.1);}
 .mini:after {content:attr(title); display:block; font-size:1.1em;}
@@ -5785,10 +5789,13 @@ figcaption {text-align: left;}
 .mini:nth-child(5n+5){color:green; transform:rotate(-10deg);}
 
 label {padding:0px; flex:1; width:100%;}
-.menu ul {margin:10px 0 10px 0; padding:8px; list-style-type:none; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:center;}
+.menu ul {margin:10px 0 10px 0; padding:8px; list-style-type:none; display:flex; 
+flex-direction:row; flex-wrap:wrap; justify-content:center;}
 .menu li {padding: 0; min-width: 100px; text-align:center;}
 .menu li:last-child {border-right:none;}
-.menu li a {padding: 5px 15px 5px 15px; margin-left: 15px; color: white; text-decoration:none; font-weight: bold; transition: 0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1)); border-radius:7px; text-shadow:1px 1px 2px black;}
+.menu li a {padding: 5px 15px 5px 15px; margin-left: 15px; color: white; text-decoration:none; 
+font-weight: bold; transition: 0.5s; border-radius:7px; text-shadow:1px 1px 2px black; 
+background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 .menu li a:hover {transition:0.5s; background:linear-gradient(-40deg, rgba(0,0,130,0.2), rgba(0,0,130,0.25));}
 
 #checkbox1, .toggle {display:none;}
