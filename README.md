@@ -4782,7 +4782,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <label for="376b"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod27', 'cd27')" onmouseout="outFunc('cd27')"><span class="tooltiptext" id="cd27">Copiar o código</span></button></div>2&ordf; parte da estrutura SVG do 9&ordm; banner:
 <pre><code id="cod27">		&lt;g name="ceu"&gt;
-			&lt;rect x="0" y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
+			<a alt="retângulo com gradiente do céu">&lt;rect x="0"</a> y="0" width="150" height="76" stroke="none" fill="url(#linear2)"/&gt;
 		&lt;/g&gt;
 		&lt;g name="perfil" filter="url(#filtro)"&gt;
 			<a alt="desenho do perfil arquitetônico">&lt;path d=</a>"M5,75 h5 v-25 l12,-8 v24 h3 v-5 h2 v-1 h5 v3 h3 v-10 h5 v-10 
@@ -4818,7 +4818,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/svg&gt;
-	&lt;input type="checkbox" id="checkbox1"&gt;
+	<a alt="estrutura do menu responsivo">&lt;input type="checkbox"</a> id="checkbox1"&gt;
 	&lt;label for="checkbox1"&gt;
 	&lt;nav class="menu"&gt;
 		&lt;ul&gt;
@@ -4878,18 +4878,29 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 <pre><code id="cod26">&lt;svg viewBox="0 0 60 60"&gt;
 	&lt;g stroke-width="0" fill="red" id="simbolo"&gt;
 		&lt;rect x="28" y="5" width="4" rx="1" height="10"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(36,30,30)" opacity="0.9"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(72,30,30)" opacity="0.8"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(108,30,30)" opacity="0.7"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(144,30,30)" opacity="0.6"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(180,30,30)" opacity="0.5"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(216,30,30)" opacity="0.4"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(252,30,30)" opacity="0.3"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(288,30,30)" opacity="0.2"/&gt;
-		&lt;rect x="28" y="5" width="4" rx="1" height="10" transform="rotate(324,30,30)" opacity="0.1"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(36,30,30)" <a alt="opacidade variando">opacity="0.9"/&gt;</a>
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(72,30,30)" opacity="0.8"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(108,30,30)" opacity="0.7"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(144,30,30)" opacity="0.6"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(180,30,30)" opacity="0.5"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(216,30,30)" opacity="0.4"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(252,30,30)" opacity="0.3"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(288,30,30)" opacity="0.2"/&gt;
+		&lt;rect x="28" y="5" width="4" rx="1" height="10" 
+		  transform="rotate(324,30,30)" opacity="0.1"/&gt;
 		&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0,30,30;360,30,30;0,30,30" dur="15s" begin="1s" fill="freeze" /&gt;
-		&lt;animateTransform attributeType="xml" attributeName="transform" type="scale" values="1;0.9;1" dur="15s" begin="1s" fill="freeze" additive="sum"/&gt;
-		&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" values="0,0;15,0;0,0" dur="15s" begin="1s" fill="freeze" additive="sum"/&gt;
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="scale" 
+		  <a alt="variação da escala">values="1;0.9;1"</a> dur="15s" begin="1s" fill="freeze" <a alt="soma de efeitos">additive="sum"/&gt;</a>
+		&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" 
+		  <a alt="variação da translação">values="0,0;15,0;0,0"</a> dur="15s" begin="1s" fill="freeze" <a alt="soma de efeitos">additive="sum"/&gt;</a>
 	&lt;/g&gt;
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>		   
@@ -4903,7 +4914,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 	<img src="css4/53_01_00.png" loading="lazy"/>
 <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod25', 'cd25')" onmouseout="outFunc('cd25')"><span class="tooltiptext" id="cd25">Copiar o código</span></button></div>Estrutura SVG do 11&ordm; banner:
 <pre><code id="cod25">&lt;svg viewBox="0 0 200 200"&gt;
-	&lt;g id="lapis" stroke-width="1" stroke="black"&gt;
+	<a alt="tags do desenho do lápis">&lt;g id="lapis"</a> stroke-width="1" stroke="black"&gt;
 		&lt;rect x="30" y="10" width="56" height="5" fill="white"/&gt;
 		&lt;rect x="30" y="15" width="14" height="100" fill="rgba(0,0,255,1)"/&gt;
 		&lt;rect x="44" y="15" width="28" height="100" fill="rgba(0,0,255,0.6)"/&gt;
@@ -4911,13 +4922,16 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;path d="M30,115 l14,24 h28 l14,-24z" fill="brown"/&gt;
 		&lt;path d="M30,115 l14,24 h28 l14,-24z" fill="rgb(200,200,100)"/&gt;
 		&lt;path d="M44,139 l14,24 l14,-24z" fill="blue"/&gt;
-		&lt;animateTransform attributeName="transform" attributeType="xml" type="rotate" from="20,30,30"
-				to="0,30,30" begin="2s" dur="5s" /&gt;
-		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" from="0.7" to="1" begin="2s" dur="5s" additive="sum" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="rotate" 
+		  <a alt="variação da rotação">from="20,30,30" to="0,30,30"</a> begin="2s" dur="5s" /&gt;
+		&lt;animateTransform attributeName="transform" attributeType="xml" type="scale" 
+		  <a alt="variação da escala">from="0.7" to="1"</a> begin="2s" dur="5s" additive="sum" /&gt;
 	&lt;/g&gt;
 	&lt;text class="texto" x="100" y="150" fill="none" stroke="rgba(100,85,190,1)" stroke-width="1" stroke-dasharray="200"&gt;SVG
-		&lt;animate attributeName="stroke-dashoffset" from="200" to="0" dur="5s" begin="2s" fill="freeze" /&gt;
-		&lt;animate attributeName="fill" from="rgba(0,0,0,0.1)" to="rgba(100,85,190,0.6)" dur="5s" begin="2s" fill="freeze" /&gt;
+		&lt;animate <a alt="variação do desenho do contorno">attributeName=</a>"stroke-dashoffset" from="200" to="0" dur="5s" 
+		  begin="2s" fill="freeze" /&gt;
+		&lt;animate <a alt="variação do preenchimento">attributeName="fill"</a> from="rgba(0,0,0,0.1)" to="rgba(100,85,190,0.6)" 
+		  dur="5s" begin="2s" fill="freeze" /&gt;
 	&lt;/text&gt;
 &lt;/svg&gt;</code></pre></figcaption>
   </details>
