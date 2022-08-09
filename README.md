@@ -2989,7 +2989,7 @@ body {width:85%; margin:auto;}
 <a alt="configurações básicas dos itens do menu.">.menu ul</a> {margin:0; padding:8px; list-style-type:none; display:flex; justify-content:center; 
   flex-direction:row; flex-wrap:wrap;}
 .menu li {padding: 0; border-right: 1px solid rgba(0,0,130,0.3); min-width: 150px; 
-text-align:center;}
+  text-align:center;}
 .menu li:last-child {border-right:none;}
 .menu li a {padding: 5px 15px 5px 15px; color: rgba(0,0,130,0.7); text-decoration:none; 
   font-weight: bold; transition: 0.5s;}
@@ -3721,7 +3721,7 @@ body {width:100%; margin:auto;}
 			   <label for="284a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod102', 'cd102')" onmouseout="outFunc('cd102')">
 			   <span class="tooltiptext" id="cd102">Copiar o código</span></button></div>Trecho da estrutura CSS da Atividade 8:
-<pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%;	min-height:100%; z-index:-1;}
+<pre><code id="cod102"><a alt="propriedades do vídeo de fundo da página">#VideoFundo </a>{position:fixed; top:0; left:0; min-width:100%; min-height:100%; z-index:-1;}
 <a alt="botão de interação com o usuário e o vídeo de fundo">#botao</a> {position:fixed; right:0; bottom:0; width:200px; font-size:18px; padding:10px; border:none; 
   background:red; color:#fff; cursor:pointer;}
 #botao:hover {background:cyan; color:black;} 
@@ -3766,7 +3766,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 	.box img {width:50vw;}
 	.box:hover {transform:scale(1.1);}
 	.toggle {display:block; width:95%; text-align:right; font-size:35px; 
-	cursor:pointer; color:yellow;}
+	  cursor:pointer; color:yellow;}
 	#checkbox1:checked + label .menu li {visibility:visible;}
 	#checkbox1:checked + label .menu {max-height:50vh; transition: 0.3s; opacity:1;}
 	.menu ul{display:flex; flex-direction:column; align-content:flex-end;}
