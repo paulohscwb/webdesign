@@ -5639,7 +5639,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 				&lt;figcaption&gt;Meu projeto 1&lt;/figcaption&gt;
 			&lt;/figure&gt;
 			&lt;a <a alt="link da próxima imagem">href=</a>"#img2" <a alt="botão de próxima imagem">class=</a>"botao proxima"&gt;&gt;&lt;/a&gt;
-			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;<a alt="X usado para fechar o bloco">x</a>&lt;/a&gt;
+			&lt;a <a alt="link para fechar o bloco">href=</a>"#_" <a alt="botão para fechar">class=</a>"botao fechar"&gt;x&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="maior" id="img2"&gt;
