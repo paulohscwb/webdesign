@@ -5275,11 +5275,11 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod20', 'cd20')" onmouseout="outFunc('cd20')"><span class="tooltiptext" id="cd20">Copiar o código</span></button></div>Estrutura HTML da galeria da Atividade 10:
 <pre><code id="cod20">&lt;div class="boxSite"&gt;
 	&lt;div class="barra"&gt;
-		&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
+		<a alt="banner com desenho SVG: ajuste o tamanho da janela de visualização">&lt;svg viewbox="0 0 1200 200"</a> name="banner"&gt;
 			BANNER SVG
 		&lt;/svg&gt;	
 	&lt;/div&gt;
-	&lt;div class="barra"&gt;
+	<a alt="barra com o menu">&lt;div class="barra"&gt;</a>
 		&lt;input type="checkbox" id="checkbox1"&gt;
 		&lt;label for="checkbox1"&gt;
 			&lt;nav class="menu"&gt;
@@ -5292,7 +5292,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;span class="toggle"&gt;&amp;#9776;&lt;/span&gt;
 		&lt;/label&gt;
 	&lt;/div&gt;
-	&lt;div class="galeria"&gt;
+	<a alt="galeria de imagens">&lt;div class="galeria"&gt;</a>
 		GALERIA
 	&lt;/div&gt;
 	&lt;div class="rodape"&gt;
@@ -5387,7 +5387,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <br>1&ordf; parte da estrutura SVG do banner da Atividade 10:
 <pre><code id="cod19">&lt;svg viewbox="0 0 1200 200" name="banner"&gt;
 	&lt;defs&gt;
-		&lt;linearGradient id="azul" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
+		<a alt="tags com os efeitos gradientes e de filtros usados no banner">&lt;linearGradient id=</a>"azul" x1="0%" y1="0%" x2="0%" y2="100%"&gt;
 			&lt;stop offset="0%" stop-color="skyblue"/&gt;
 			&lt;stop offset="100%" stop-color="lightskyblue" /&gt;
 		&lt;/linearGradient&gt;
@@ -5442,18 +5442,22 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <input type="radio" id="422a" name="sl">
 			   <label for="422a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod18', 'cd18')" onmouseout="outFunc('cd18')"><span class="tooltiptext" id="cd18">Copiar o código</span></button></div>2&ordf; parte da estrutura SVG do banner da Atividade 10:
-<pre><code id="cod18">	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" fill="url(#azul)" /&gt;
-	&lt;g id="montanha1" filter="url(#filtro2)" stroke-linecap="round"&gt;
-		&lt;path d="M800,120 l80,-80 h60 l80,80z" fill="url(#verde)" /&gt;
-		&lt;path d="M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 l-10,10 l-10,-10z" fill="white"/&gt;
+<pre><code id="cod18">	&lt;rect name="ceu" x="0" y="0" width="1200" height="250" <a alt="céu com o gradiente #azul">fill="url(#azul)"</a> /&gt;
+	&lt;g id="montanha1" <a alt="primeira montanha com o efeito #filtro2">filter="url(#filtro2)"</a> stroke-linecap="round"&gt;
+		&lt;path <a alt="path triangular">d=</a>"M800,120 l80,-80 h60 l80,80z" fill="url(#verde)" /&gt;
+		&lt;path <a alt="topo com neve">d=</a>"M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 
+		  l-10,10 l-10,-10z" fill="white"/&gt;
 	&lt;/g&gt;
-	&lt;g id="montanha2" transform="scale(1.15) translate(-2,-5)" filter="url(#filtro2)"&gt;
+	&lt;g id="montanha2" <a alt="segunda montanha com translação e escala">transform="scale(1.15) translate(-2,-5)"</a> filter="url(#filtro2)"&gt;
 		&lt;path d="M800,120 l80,-80 h60 l80,80z" fill="url(#verde)" /&gt;
-		&lt;path d="M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 l-10,10 l-10,-10z" fill="white"/&gt;
+		&lt;path d="M880,40 l30,-30 l30,30 l-10,10 l-10,-10 l-10,20 l-10,-20 l-10,10 
+		  l-10,-10z" fill="white"/&gt;
 	&lt;/g&gt;
-	&lt;path name="grama1" d="M0,100 a1500,700 0 0,1 900,50 v50 h-900z" fill="url(#verde1)" filter="url(#filtro2)" /&gt;
-	&lt;path name="grama2" d="M400,200 a1000,500 0 0,1 800,-120 v120 h-1200z" fill="url(#verde1)" filter="url(#filtro2)" /&gt;
-	&lt;g id="sol"&gt;
+	&lt;path name="grama1" <a alt="gramados com caminhos de arcos e #filtro2">d=</a>"M0,100 a1500,700 0 0,1 900,50 v50 h-900z" fill="url(#verde1)" 
+	  filter="url(#filtro2)"/&gt;
+	&lt;path name="grama2" d="M400,200 a1000,500 0 0,1 800,-120 v120 h-1200z" fill="url(#verde1)" 
+	  filter="url(#filtro2)"/&gt;
+	&lt;g <a alt="sol com efeitos já usados anteriormente">id="sol"&gt;</a>
 		&lt;circle r="25" cx="50" cy="50" fill="url(#laranja)" stroke="none" filter="url(#filtro2)"/&gt;
 		&lt;g stroke-dasharray="15" stroke="grey" stroke-width="1"&gt;
 			&lt;path d="M50,20 v-15" /&gt;
@@ -5468,21 +5472,27 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			&lt;path d="M50,20 v-15" transform="rotate(270,50,50)"/&gt;
 			&lt;path d="M50,20 v-15" transform="rotate(300,50,50)"/&gt;
 			&lt;path d="M50,20 v-15" transform="rotate(330,50,50)"/&gt;
-			&lt;animate attributeName="stroke-dashoffset" from="30" to="0" dur="4s" begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
-			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,50,50" to="360,50,50"  begin="0s" dur="30s" repeatCount="indefinite"/&gt;
+			&lt;animate attributeName="stroke-dashoffset" from="30" to="0" dur="4s" 
+			  begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,50,50" to="360,50,50" 
+			  begin="0s" dur="30s" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/g&gt;
-	&lt;g id="nuvem1" transform="scale(0.4) translate(1700,0)" filter="url(#filtro3)"&gt;
-		&lt;path d="M30,150 a20,20 0 0,1 0,-40 a20,20 0 0,1 30,-30 a40,40 0 0,1 100,-10 a30,30 0 0,1 40,40 a20,20 0 0,1 0,40z" fill="white" stroke="none" &gt;
-			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values=" 0 0; 50 0; 0 0" begin="0s" dur="4s" repeatCount="indefinite"/&gt;
+	&lt;g <a alt="nuvens com efeitos já usados anteriormente">id="nuvem1"</a> transform="scale(0.4) translate(1700,0)" filter="url(#filtro3)"&gt;
+		&lt;path d="M30,150 a20,20 0 0,1 0,-40 a20,20 0 0,1 30,-30 a40,40 0 0,1 100,-10 
+		  a30,30 0 0,1 40,40 a20,20 0 0,1 0,40z" fill="white" stroke="none" &gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" 
+			  keytimes="0;0.5;1" values=" 0 0; 50 0; 0 0" begin="0s" dur="4s" repeatCount="indefinite"/&gt;
 		&lt;/path&gt;
 	&lt;/g&gt;
 	&lt;g id="nuvem2" transform="scale(1.5) translate(200,0)" filter="url(#filtro1)"&gt;
-		&lt;path  d="M10,15 a11,11 0 0,1 20,-5 a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 a9,9 0 0,1 -15,10 a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" stroke="none" fill="white"&gt;
-			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" keytimes="0;0.5;1" values="0,0;-15,0;0,0" begin="0s" dur="7s" repeatCount="indefinite"/&gt;
+		&lt;path  d="M10,15 a11,11 0 0,1 20,-5 a14,14 0 0,1 25,5 a6,6 0 0,1 10,10 a9,9 0 0,1 -15,10 
+		  a17,17 0 0,1 -25,0 a8,8 0 0,1 -15,-10 a5,5 0 0,1 0,-10" stroke="none" fill="white"&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" type="translate" 
+			  keytimes="0;0.5;1" values="0,0;-15,0;0,0" begin="0s" dur="7s" repeatCount="indefinite"/&gt;
 		&lt;/path&gt;
 	&lt;/g&gt;		
-	&lt;g id="casa" transform="scale(0.5) translate(260,60)" filter="url(#filtro3)"&gt;
+	&lt;g <a alt="casa menor com escala e translação">id="casa" </a>transform="scale(0.5) translate(260,60)" filter="url(#filtro3)"&gt;
 		&lt;path d="M100,200 h120 v-90 h-120z" fill="mediumturquoise"/&gt;
 		&lt;path d="M145,200 h30 v-70 h-30z" fill="url(#amarelo)"/&gt;
 		&lt;path d="M105,130 h30 v30 h-30z" fill="url(#amarelo1)"/&gt;
@@ -5490,7 +5500,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;path d="M100,100 v-45 h20 v45z" fill="url(#telhado)"/&gt;
 		&lt;path d="M80,110 l80,-80 l80,80z" fill="url(#telhado)"/&gt;
 	&lt;/g&gt;
-	&lt;g id="casa_maior" filter="url(#filtro3)" transform="scale(0.5) translate(560,60)"&gt;
+	&lt;g <a alt="casa maior com escala e translação">id="casa_maior"</a> filter="url(#filtro3)" transform="scale(0.5) translate(560,60)"&gt;
 		&lt;path d="M300,200 h160 v-90 h-160z" fill="mediumturquoise"/&gt;
 		&lt;path d="M345,200 h30 v-70 h-30z" fill="url(#amarelo)"/&gt;
 		&lt;path d="M305,130 h30 v30 h-30z" fill="url(#amarelo1)"/&gt;
@@ -5499,7 +5509,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;path d="M440,100 v-45 h20 v45z" fill="url(#telhado)"/&gt;
 		&lt;path d="M280,110 l50,-50 h100 l50,50z" fill="url(#telhado)"/&gt;
 	&lt;/g&gt;
-	&lt;g id="arvore1" transform="scale(0.7)"&gt;
+	&lt;g <a alt="tags das árvores">id="arvore1"</a> transform="scale(0.7)"&gt;
 		&lt;path d="M405,200 h20 v-30 h-20z" fill="brown"/&gt;
 		&lt;path d="M380,170 l35,-120 l35,120z" fill="url(#verde)" filter="url(#filtro3)"/&gt;
 	&lt;/g&gt; 
@@ -5507,53 +5517,66 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 		&lt;path d="M485,190 h20 v-30 h-20z" fill="brown"/&gt;
 		&lt;path d="M460,160 l35,-140 l35,140z" fill="url(#verde)" filter="url(#filtro3)"/&gt;
 	&lt;/g&gt; 
-	&lt;g id="moinho" transform="translate(600,70)" &gt;
-		&lt;path d="M20,100 h50 v-80 h-50z" fill="#bc8f8f" filter="url(#filtro3)"/&gt;
+	&lt;g <a alt="tags do moinho">id="moinho"</a> transform="translate(600,70)" &gt;
+		&lt;path <a alt="desenho da parte da 'casa'">d="M20,100</a> h50 v-80 h-50z" fill="#bc8f8f" filter="url(#filtro3)"/&gt;
 		&lt;path d="M35,100 h20 v-30 h-20z" fill="url(#amarelo)" /&gt;
 		&lt;circle r="10" cx="45" cy="40" fill="url(#amarelo1)" /&gt;
 		&lt;path d="M10,20 h70 l-35,-30z" fill="url(#telhado)" filter="url(#filtro3)"/&gt;
 		&lt;circle r="5" cx="45" cy="5" fill="#004953" /&gt;
-		&lt;g name="hastes"&gt;
+		&lt;g <a alt="tags das hastes">name="hastes"&gt;</a>
 			&lt;g stroke="#004953" stroke-width="1"&gt;
 				&lt;path d="M45,5 h70" /&gt;
-				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
+				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 
+				  v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
 			&lt;/g&gt;
 			&lt;g stroke="#004953" stroke-width="1" transform="rotate(90,45,5)"&gt;
 				&lt;path d="M45,5 h70" /&gt;
-				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
+				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 
+				  v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
 			&lt;/g&gt;
 			&lt;g stroke="#004953" stroke-width="1" transform="rotate(180,45,5)"&gt;
 				&lt;path d="M45,5 h70" /&gt;
-				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
+				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 
+				  v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
 			&lt;/g&gt;
 			&lt;g stroke="#004953" stroke-width="1" transform="rotate(270,45,5)"&gt;
 				&lt;path d="M45,5 h70" /&gt;
-				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
+				&lt;path d="M65,0 v10 M70,0 v10 M75,0 v10 M80,0 v10 M85,0 v10 M90,0 v10 M95,0 
+				  v10 M100,0 v10 M105,0 v10 M110,0 v10 M115,0 v10 M65,0 h50 M65,10 h50"/&gt;
 			&lt;/g&gt;
-			&lt;animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0,45,5" to="360,45,5" dur="10s" id="anima1" begin="1s" fill="freeze" repeatCount="indefinite"/&gt;
+			&lt;animateTransform attributeType="xml" attributeName="transform" 
+			  <a alt="animação de rotação das hastes">type="rotate"</a> from="0,45,5" to="360,45,5" dur="10s" id="anima1" 
+			  begin="1s" fill="freeze" repeatCount="indefinite"/&gt;
 		&lt;/g&gt;
 	&lt;/g&gt;
-	&lt;path id="curva2" fill="none" stroke="none" d="M250,200 a550,550 0 0,1 600,190"/&gt;
+	&lt;path <a alt="curva usada para deslizar o texto">id="curva2"</a> fill="none" stroke="none" d="M250,200 a550,550 0 0,1 600,190"/&gt;
 	&lt;text font-weight="bold" stroke="linen" stroke-width="0.3" stroke-dasharray="250"&gt;
 		&lt;textpath xlink:href="#curva2"&gt;Meu Portfólio
-			&lt;animate attributeName="startOffset" from="-300" to="10" dur="5s" begin="0s" fill="freeze" /&gt;
+			&lt;animate <a alt="animação da posição do texto">attributeName="startOffset"</a> from="-300" to="10" dur="5s" 
+			  begin="0s" fill="freeze" /&gt;
 		&lt;/textpath&gt;
-		&lt;animate attributeName="fill" from="rgba(180,45,10,0.2)" to="rgba(180,45,100,1)" dur="5s" begin="0s" fill="freeze" /&gt;
+		&lt;animate <a alt="animação do preenchimento do texto">attributeName="fill"</a> from="rgba(180,45,10,0.2)" to="rgba(180,45,100,1)" 
+		  dur="5s" begin="0s" fill="freeze" /&gt;
 	&lt;/text&gt;
-	&lt;a href="http://www.facebook.com/pages/UFPR"&gt;
-		&lt;image xlink:href="imagens/facebook.png" x="860" y="140" height="50px" width="50px" filter="url(#filtro2)"/&gt;
+	&lt;a <a alt="links no SVG, com imagens">href="http://www.facebook.com/pages/UFPR"&gt;</a>
+		&lt;image xlink:href="imagens/facebook.png" x="860" y="140" 
+		  height="50px" width="50px" filter="url(#filtro2)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="http://www.twitter.com/ufpr"&gt;
-		&lt;image xlink:href="imagens/twitter.png" x="930" y="140" height="50px" width="50px" filter="url(#filtro3)"/&gt;
+		&lt;image xlink:href="imagens/twitter.png" x="930" y="140" 
+		  height="50px" width="50px" filter="url(#filtro3)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="https://www.instagram.com/ufpr_oficial/"&gt;
-		&lt;image xlink:href="imagens/instagram.png" x="1000" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/instagram.png" x="1000" y="140" 
+		  height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="whatsapp://send?text=Meu portfolio - http://www.degraf.ufpr.br/docentes/paulo/webdesign/"&gt;
-		&lt;image xlink:href="imagens/whatsapp.png" x="1070" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/whatsapp.png" x="1070" y="140" 
+		  height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;
 	&lt;a href="mailto:seuemail@provedor.com.br"&gt;
-		&lt;image xlink:href="imagens/email.png" x="1130" y="140" height="50px" width="50px" filter="url(#filtro1)"/&gt;
+		&lt;image xlink:href="imagens/email.png" x="1130" y="140" 
+		  height="50px" width="50px" filter="url(#filtro1)"/&gt;
 	&lt;/a&gt;	
 &lt;/svg&gt;</code></pre></figcaption>
 		   </li>
