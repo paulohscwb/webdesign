@@ -5136,11 +5136,10 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 			   <input type="radio" id="397a" name="sl">
 			   <label for="397a"></label>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod22', 'cd22')" onmouseout="outFunc('cd22')"><span class="tooltiptext" id="cd22">Copiar o código</span></button></div>Trecho da estrutura SVG do 9&ordm; banner com animações:
-<pre><code id="cod22">
-&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
+<pre><code id="cod22">&lt;g name="nuvem" fill="url(#radial2)" filter="url(#filtro)"&gt;
 	&lt;path d="M15,20 a5,5 0 0,1 7,-7 a5,5 0 0,1 9,0 a5,5 0 0,1 7,7 a7,7 0 0,1 -12,6 
 	  a6,6 0 0,1 -11,-6" stroke="rgb(240,240,240)" stroke-width="0.5" stroke-dasharray="80"&gt;
-		&lt;animate attributeName="stroke-dashoffset" values="80;0;80" dur="20s" 
+		&lt;animate <a alt="animação do contorno da nuvem">attributeName="stroke-dashoffset"</a> values="80;0;80" dur="20s" 
 		  begin="0s" fill="freeze" repeatCount="indefinite"/&gt;
 		&lt;animateTransform attributeName="transform" attributeType="xml" type="translate"  
 		  <a alt="valores da translação">values="0,0;3,0;0,0;-3,0;0,0" </a>begin="0s" dur="5s" repeatCount="indefinite"/&gt;
