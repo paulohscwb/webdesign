@@ -4371,8 +4371,8 @@ fill="url(#efeito3)"
 			   <label for="342"></label>
 			   <img src="css4/43_01_07.png" loading="lazy"/>
 			   <figcaption><div class="tooltip"><button type="button" onclick="copyEvent('cod34', 'cd34')" onmouseout="outFunc('cd34')"><span class="tooltiptext" id="cd34">Copiar o código</span></button></div>O desenho com filtro fica desta forma. Ajuste valores e cores do filtro, e se necessário, crie outro filtro para este desenho. A estrutura SVG do efeito de filtro 10 é a seguinte:
-<pre><code id="cod34">&lt;filter <a alt="id usada como referência nos desenhos">id=</a>"efeito10" x="-20" y="-20" height="50" width="50"&gt;
-	&lt;feGaussianBlur <a alt="aplicação do filtro nos contornos do desenho">in=</a>"SourceAlpha" <a alt="desvio padrão">stdDeviation=</a>"0.5" <a alt="id do resultado do filtro">result=</a>"desfocado"&gt;&lt;/feGaussianBlur&gt;
+<pre><code id="cod34">&lt;filter <a alt="id usada como referência nos desenhos">id=</a>"efeito10" <a alt="distâncias máximas do efeito">x="-20" y="-20" height="50" width="50"&gt;</a>
+	&lt;feGaussianBlur <a alt="aplicação do filtro na sombra do desenho">in=</a>"SourceAlpha" <a alt="desvio padrão">stdDeviation=</a>"0.5" <a alt="id do resultado do filtro">result=</a>"desfocado"&gt;&lt;/feGaussianBlur&gt;
 	&lt;feOffset in="desfocado" <a alt="sombra de 1px à direita e 1px abaixo do desenho">dx="1" dy=</a>"1" <a alt="id do resultado do filtro">result=</a>"sombra"&gt;&lt;/feOffset&gt;
 	<a alt="mistura dos efeitos: sombra, desfocado e o desenho">&lt;feMerge&gt;</a>
 		&lt;feMergeNode in="sombra"/&gt;
