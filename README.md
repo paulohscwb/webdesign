@@ -2849,7 +2849,7 @@
 	<p class="topop"><a href="#css2" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css3" open><summary>4. CSS e Animações</summary>
+<details id="css3"><summary>4. CSS e Animações</summary>
 	<p>Material da pág. 28 até a pág. 39</p>
 	<img src="css3/tags001_0028.png" loading="lazy"/>
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
@@ -3797,7 +3797,7 @@ hr {width:40%; margin: 30px auto; color:rgba(0,0,140,0.3);}
 	<p class="topop"><a href="#css3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css4"><summary>5. Imagens Vetoriais</summary>
+<details id="css4" open><summary>5. Imagens Vetoriais</summary>
 	<p>Material da pág. 40 até a pág. 55</p>
 	<img src="css4/tags001_0039.png" loading="lazy"/>
 	<details class="sub"><summary>&#x1f4c3; Estrutura em HTML e CSS</summary>
