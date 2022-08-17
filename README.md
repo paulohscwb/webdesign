@@ -4526,6 +4526,7 @@ filter="url(#efeito10)"
 	<p class="topop" id="atv8b"><a href="#css4" class="topo">voltar ao topo</a></p>
 	<img src="css4/tags001_0047.png" loading="lazy"/>
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
+<p><a href="https://svgeditoronline.com/editor/" target="_blank">&#x1f517; SVG Editor online</a></p>	
 	<img src="css4/tags001_0048.png" loading="lazy"/>
 	<details class="sub"><summary>&#x1f4c3; 8&deg; banner</summary>
 	<p>Vamos desenhar uma xícara neste exercício. Escolha uma imagem de fundo e salve-a em <code>imagens/banner8.jpg</code>. Não esqueça de atualizar o arquivo CSS com o atributo <code>.barra: nth-child(8) {background: url(imagens/banner8.jpg);}</code>.</p>
