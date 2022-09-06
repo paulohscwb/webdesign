@@ -5257,7 +5257,7 @@ label {padding:15px; flex:1; width:100%;}</code></pre><div class="tooltip"><butt
 	<p class="topop"><a href="#css4" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="css5" style="border-bottom: 1px solid #a2dec0;" open><summary>6. Galeria de Imagens</summary>
+<details id="css5" style="border-bottom: 1px solid #a2dec0;"><summary>6. Galeria de Imagens</summary>
 	<p>Material da pág. 56 até a pág. 61</p>
 	<img src="css5/tags001_0055.png" loading="lazy"/>
 	<details class="sub"><summary>&#x1f4c3; Atividade 10: HTML</summary>
