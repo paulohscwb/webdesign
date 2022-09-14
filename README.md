@@ -2,7 +2,7 @@
 
 <h2 id="inicio">Construção de páginas com HTML</h2>
 
-<p>Esta página site contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
+<p>Esta página contém os procedimentos e dicas para construção de páginas e sites em HTML, foco da disciplina Fundamentos do Webdesign</p>
 <p>A apostila está disponível no link: <a href="basico/tags001.pdf" target="_blank">apostila de Webdesign</a></p>
 <p>Os materiais usados estão indicados nos links dos tópicos das atividades.</p>
 
