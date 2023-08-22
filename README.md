@@ -5952,7 +5952,7 @@ background:linear-gradient(-40deg, rgba(0,0,130,0.15), rgba(0,0,130,0.1));}
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Fundamentos do Webdesign". Disponível em: <https://paulohscwb.github.io/webdesign/>, Setembro de 2020.</p>
 
-<br><a href="https://zenodo.org/badge/latestdoi/289264870"><img src="https://zenodo.org/badge/289264870.svg" alt="DOI"></a>
+<br><a target="_blank" href="https://zenodo.org/badge/latestdoi/289264870"><img src="https://zenodo.org/badge/289264870.svg" alt="DOI"></a>
 
 <h4>Referências:</h4>
 <ol>
